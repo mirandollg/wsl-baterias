@@ -57,28 +57,38 @@ def traduz(txt):
     return txt
 
 
-# ---------- 1) descobre a etapa em andamento ----------
+# ---------- 1) descobre a etapa em andamento (por data) ----------
+CALENDARIO = {
+    "436": ("rip-curl-pro-bells-beach",             (4, 1),   (4, 11)),
+    "437": ("western-australia-margaret-river-pro", (4, 16),  (4, 26)),
+    "438": ("bonsoy-gold-coast-pro",                (5, 2),   (5, 12)),
+    "494": ("corona-cero-new-zealand-pro",          (5, 15),  (5, 25)),
+    "439": ("surf-city-el-salvador-pro",            (6, 5),   (6, 15)),
+    "440": ("vivo-rio-pro",                         (6, 19),  (6, 27)),
+    "441": ("outerknown-tahiti-pro",                (8, 8),   (8, 18)),
+    "442": ("fiji-pro",                             (8, 25),  (9, 4)),
+    "443": ("lexus-trestles-pro",                   (9, 11),  (9, 20)),
+    "445": ("meo-rip-curl-pro-portugal",            (10, 16), (10, 25)),
+    "543": ("philippines-pro",                      (10, 31), (11, 10)),
+    "446": ("lexus-pipe-masters",                   (12, 8),  (12, 20)),
+}
+
+
 def etapa_atual():
-    html = busca(f"{BASE}/events/{ANO}/ct?all=1")
-    eventos = []
-    for m in re.finditer(r"/events/%d/ct/(\d+)/([a-z0-9\-]+)" % ANO, html):
-        par = (m.group(1), m.group(2))
-        if par not in eventos:
-            eventos.append(par)
-    soup = BeautifulSoup(html, "html.parser")
-    for tag in soup.select("[class*='status']"):
-        t = tag.get_text(strip=True).lower()
-        if any(p in t for p in ("in progress", "standby", "live")):
-            pai = tag.find_parent("a") or tag.find_parent("div")
-            if pai:
-                link = pai.get("href") or ""
-                if not link:
-                    a = pai.find("a")
-                    link = a.get("href", "") if a else ""
-                m = re.search(r"/events/%d/ct/(\d+)/([a-z0-9\-]+)" % ANO, link)
-                if m:
-                    return m.group(1), m.group(2)
-    return eventos[0] if eventos else (None, None)
+    hoje = datetime.now(BR).date()
+    proximas = []
+    for eid, (slug, ini, fim) in CALENDARIO.items():
+        d_ini = datetime(hoje.year, ini[0], ini[1]).date()
+        d_fim = datetime(hoje.year, fim[0], fim[1]).date()
+        if d_ini <= hoje <= d_fim:
+            return eid, slug
+        if hoje < d_ini:
+            proximas.append((d_ini, eid, slug))
+    if proximas:
+        proximas.sort()
+        return proximas[0][1], proximas[0][2]
+    ultima = max(CALENDARIO.items(), key=lambda x: x[1][2])
+    return ultima[0], ultima[1][0]
 
 
 # ---------- 2) coleta as baterias ----------
