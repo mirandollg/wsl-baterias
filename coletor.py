@@ -47,6 +47,45 @@ NOMES = {
 }
 
 
+# pais de cada surfista do CT 2026 (a WSL nao expoe isso no HTML)
+PAISES = {
+    "Yago Dora": "BRA", "Griffin Colapinto": "USA", "Jordy Smith": "RSA",
+    "Italo Ferreira": "BRA", "Jack Robinson": "AUS", "Ethan Ewing": "AUS",
+    "Kanoa Igarashi": "JPN", "Filipe Toledo": "BRA", "Leonardo Fioravanti": "ITA",
+    "Cole Houshmand": "USA", "Barron Mamiya": "HAW", "Connor O'Leary": "JPN",
+    "Miguel Pupo": "BRA", "Jake Marshall": "USA", "Crosby Colapinto": "USA",
+    "Marco Mignot": "FRA", "Joao Chianca": "BRA", "Joel Vaughan": "AUS",
+    "Alan Cleland": "MEX", "Rio Waida": "INA", "Seth Moniz": "HAW",
+    "Alejo Muniz": "BRA", "Kauli Vaast": "FRA", "Eli Hanneman": "HAW",
+    "Morgan Cibilic": "AUS", "George Pittar": "AUS", "Samuel Pupo": "BRA",
+    "Callum Robson": "AUS", "Luke Thompson": "RSA", "Oscar Berry": "AUS",
+    "Mateus Herdy": "BRA", "Liam O'Brien": "AUS", "Gabriel Medina": "BRA",
+    "Ramzi Boukhiam": "MAR", "Matthew McGillivray": "RSA",
+    "Hayden Rodgers": "AUS", "Taj Lindblad": "USA",
+    "Molly Picklum": "AUS", "Caroline Marks": "USA", "Gabriela Bryan": "HAW",
+    "Caitlin Simmers": "USA", "Bettylou Sakura Johnson": "HAW",
+    "Isabella Nichols": "AUS", "Tyler Wright": "AUS", "Erin Brooks": "CAN",
+    "Lakey Peterson": "USA", "Luana Silva": "BRA", "Sawyer Lindblad": "USA",
+    "Vahine Fierro": "FRA", "Bella Kenworthy": "USA", "Brisa Hennessy": "CRC",
+    "Tya Zebrowski": "FRA", "Yolanda Hopkins": "POR", "Sally Fitzgibbons": "AUS",
+    "Alyssa Spencer": "USA", "Francisca Veselko": "POR", "Nadia Erostarbe": "ESP",
+    "Anat Lelior": "ISR", "Carissa Moore": "HAW", "Stephanie Gilmore": "AUS",
+    "Annette Gonzalez Etxabarri": "ESP", "Kirra Pinkerton": "USA", "Eden Walla": "USA",
+}
+
+
+def pais_de(nome):
+    if not nome or re.search(r"vencedor", nome, re.I):
+        return None
+    if nome in PAISES:
+        return PAISES[nome]
+    sobren = nome.split()[-1].lower()
+    for k, v in PAISES.items():
+        if k.split()[-1].lower() == sobren:
+            return v
+    return None
+
+
 def busca(url):
     r = requests.get(url, headers=HEADERS, timeout=45)
     r.raise_for_status()
@@ -121,8 +160,10 @@ def coleta(eid, slug, stat_id, genero):
             n = a.select_one(".hot-heat-athlete__name--full")
             nt = a.select_one(".hot-heat-athlete__score")
             nt = nt.get_text(strip=True) if nt else ""
+            nome_lim = traduz(n.get_text(strip=True)) if n else "?"
             surfistas.append({
-                "nome": traduz(n.get_text(strip=True)) if n else "?",
+                "nome": nome_lim,
+                "pais": pais_de(nome_lim),
                 "nota": None if nt in ("", "\u2013\u2013", "--") else nt,
                 "colete": classe(a, "hot-heat-athlete--singlet-"),
                 "avancou": "advance-winner" in cls,
@@ -169,13 +210,15 @@ def carrega_estado():
             return json.load(open("estado.json", encoding="utf-8"))
         except Exception:
             pass
-    return {"encerramentos": {}, "duracoes": []}
+    return {"encerramentos": {}, "duracoes": [], "datas": {}}
 
 
 def atualiza_estado(estado, baterias, agora):
+    estado.setdefault("datas", {})
     for b in baterias:
         if b["status"] == "encerrada" and b["id"] not in estado["encerramentos"]:
             estado["encerramentos"][b["id"]] = agora.isoformat()
+            estado["datas"][b["id"]] = agora.strftime("%Y-%m-%d")
     marcos = sorted(datetime.fromisoformat(v) for v in estado["encerramentos"].values())
     dur = [(b - a).total_seconds() / 60 for a, b in zip(marcos, marcos[1:])
            if 10 <= (b - a).total_seconds() / 60 <= 90]
@@ -189,7 +232,7 @@ def duracao_real(estado):
 
 
 # ---------- distribuicao por dia ----------
-def distribui(baterias, call, passo, hoje, d_fim, tz_evento, agora):
+def distribui(baterias, call, passo, hoje, d_fim, tz_evento, agora, datas_reg=None):
     """Marca cada bateria pendente com data e horario."""
     tz = ZoneInfo(tz_evento)
     pend = [b for b in baterias if b["status"] != "encerrada"]
@@ -246,8 +289,9 @@ def distribui(baterias, call, passo, hoje, d_fim, tz_evento, agora):
 
     for b in baterias:
         if b["status"] == "encerrada":
-            b["data"] = None
-            b["dia_rotulo"] = None
+            d = (datas_reg or {}).get(b["id"])
+            b["data"] = d
+            b["dia_rotulo"] = datetime.strptime(d, "%Y-%m-%d").strftime("%d/%m") if d else None
             b["horario"] = None
             b["quando"] = "encerrada"
             b["estado"] = "encerrada"
@@ -308,7 +352,8 @@ def main():
     passo = duracao_real(estado)
     print("passo (min):", passo, "| amostras:", len(estado["duracoes"]))
 
-    baterias = distribui(baterias, call, passo, hoje, d_fim, tz_evento, agora)
+    baterias = distribui(baterias, call, passo, hoje, d_fim, tz_evento, agora,
+                         estado.get("datas"))
     baterias.sort(key=lambda b: (ORDEM.index(b["rodada"]), b["numero"], b["genero"]))
     barra = monta_barra(baterias, call, hoje, nome_evento)
 
