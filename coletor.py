@@ -21,20 +21,20 @@ ORDEM = ["Rodada 1", "Rodada 2", "Oitavas de final",
          "Quartas de final", "Semifinal", "Final", "?"]
 SEMANA = ["Seg", "Ter", "Qua", "Qui", "Sex", "Sab", "Dom"]
 
-# etapa: (slug, inicio, fim, fuso do local)
+# etapa: (slug, inicio, fim, fuso, local, pais)
 CALENDARIO = {
-    "436": ("rip-curl-pro-bells-beach",             (4, 1),   (4, 11),  "Australia/Melbourne"),
-    "437": ("western-australia-margaret-river-pro", (4, 16),  (4, 26),  "Australia/Perth"),
-    "438": ("bonsoy-gold-coast-pro",                (5, 2),   (5, 12),  "Australia/Brisbane"),
-    "494": ("corona-cero-new-zealand-pro",          (5, 15),  (5, 25),  "Pacific/Auckland"),
-    "439": ("surf-city-el-salvador-pro",            (6, 5),   (6, 15),  "America/El_Salvador"),
-    "440": ("vivo-rio-pro",                         (6, 19),  (6, 27),  "America/Sao_Paulo"),
-    "441": ("outerknown-tahiti-pro",                (8, 8),   (8, 18),  "Pacific/Tahiti"),
-    "442": ("fiji-pro",                             (8, 25),  (9, 4),   "Pacific/Fiji"),
-    "443": ("lexus-trestles-pro",                   (9, 11),  (9, 20),  "America/Los_Angeles"),
-    "445": ("meo-rip-curl-pro-portugal",            (10, 16), (10, 25), "Europe/Lisbon"),
-    "543": ("philippines-pro",                      (10, 31), (11, 10), "Asia/Manila"),
-    "446": ("lexus-pipe-masters",                   (12, 8),  (12, 20), "Pacific/Honolulu"),
+    "436": ("rip-curl-pro-bells-beach",             (4, 1),   (4, 11),  "Australia/Melbourne",  "Bells Beach, Victoria",        "AUS"),
+    "437": ("western-australia-margaret-river-pro", (4, 16),  (4, 26),  "Australia/Perth",      "Margaret River",               "AUS"),
+    "438": ("bonsoy-gold-coast-pro",                (5, 2),   (5, 12),  "Australia/Brisbane",   "Gold Coast, Queensland",       "AUS"),
+    "494": ("corona-cero-new-zealand-pro",          (5, 15),  (5, 25),  "Pacific/Auckland",     "Raglan",                       "NZL"),
+    "439": ("surf-city-el-salvador-pro",            (6, 5),   (6, 15),  "America/El_Salvador",  "Punta Roca, La Libertad",      "ESA"),
+    "440": ("vivo-rio-pro",                         (6, 19),  (6, 27),  "America/Sao_Paulo",    "Saquarema, Rio de Janeiro",    "BRA"),
+    "441": ("outerknown-tahiti-pro",                (8, 8),   (8, 18),  "Pacific/Tahiti",       "Teahupo'o, Taiti",             "PYF"),
+    "442": ("fiji-pro",                             (8, 25),  (9, 4),   "Pacific/Fiji",         "Cloudbreak, Tavarua",          "FJI"),
+    "443": ("lexus-trestles-pro",                   (9, 11),  (9, 20),  "America/Los_Angeles",  "Lower Trestles, California",   "USA"),
+    "445": ("meo-rip-curl-pro-portugal",            (10, 16), (10, 25), "Europe/Lisbon",        "Supertubos, Peniche",          "POR"),
+    "543": ("philippines-pro",                      (10, 31), (11, 10), "Asia/Manila",          "Cloud 9, Siargao",             "PHI"),
+    "446": ("lexus-pipe-masters",                   (12, 8),  (12, 20), "Pacific/Honolulu",     "Banzai Pipeline, Oahu",        "HAW"),
 }
 
 NOMES = {
@@ -127,7 +127,7 @@ def traduz(txt):
 def etapa_atual():
     hoje = datetime.now(BR).date()
     proximas = []
-    for eid, (slug, ini, fim, tz) in CALENDARIO.items():
+    for eid, (slug, ini, fim, tz, loc, pais) in CALENDARIO.items():
         d_ini = date(hoje.year, ini[0], ini[1])
         d_fim = date(hoje.year, fim[0], fim[1])
         if d_ini <= hoje <= d_fim:
@@ -139,7 +139,7 @@ def etapa_atual():
         d_ini, eid, slug, d_fim, tz = proximas[0]
         return eid, slug, d_ini, d_fim, tz
     eid = max(CALENDARIO, key=lambda k: CALENDARIO[k][2])
-    slug, ini, fim, tz = CALENDARIO[eid]
+    slug, ini, fim, tz = CALENDARIO[eid][:4]
     return eid, slug, date(hoje.year, *ini), date(hoje.year, *fim), tz
 
 
@@ -328,6 +328,32 @@ def monta_barra(baterias, call, hoje, nome_evento):
     return barra
 
 
+MESES = ["jan", "fev", "mar", "abr", "mai", "jun",
+         "jul", "ago", "set", "out", "nov", "dez"]
+
+
+def proximas_etapas(hoje, eid_atual):
+    """Lista as etapas que ainda vao acontecer, com local e bandeira."""
+    out = []
+    for eid, (slug, ini, fim, tz, local, pais) in CALENDARIO.items():
+        d_ini = date(hoje.year, ini[0], ini[1])
+        d_fim = date(hoje.year, fim[0], fim[1])
+        if d_fim < hoje:
+            continue
+        out.append({
+            "id": eid,
+            "nome": NOMES.get(eid, slug.replace("-", " ").title()),
+            "local": local,
+            "pais": pais,
+            "inicio": d_ini.strftime("%Y-%m-%d"),
+            "fim": d_fim.strftime("%Y-%m-%d"),
+            "periodo": f"{d_ini.day} {MESES[d_ini.month - 1]} a {d_fim.day} {MESES[d_fim.month - 1]}",
+            "em_andamento": eid == eid_atual and d_ini <= hoje <= d_fim,
+        })
+    out.sort(key=lambda e: e["inicio"])
+    return out
+
+
 # ---------- principal ----------
 def main():
     agora = datetime.now(BR)
@@ -374,6 +400,7 @@ def main():
         "call_data": call.strftime("%Y-%m-%d") if call else None,
         "passo_estimado_min": passo,
         "dias": barra,
+        "proximas_etapas": proximas_etapas(hoje, eid),
         "ao_vivo": ao_vivo,
         "proxima": proxima,
         "baterias": baterias,
