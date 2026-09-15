@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "14/09/2026 23:17",
+  "atualizado_em": "14/09/2026 23:24",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -171,12 +171,14 @@
     "surfistas": [
       {
         "nome": "Yolanda Hopkins",
+        "pais": "POR",
         "nota": null,
         "colete": "red",
         "avancou": false
       },
       {
         "nome": "Sally Fitzgibbons",
+        "pais": "AUS",
         "nota": null,
         "colete": "blue",
         "avancou": false
@@ -199,12 +201,14 @@
       "surfistas": [
         {
           "nome": "Stephanie Gilmore",
+          "pais": "AUS",
           "nota": "10.10",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Brisa Hennessy",
+          "pais": "CRC",
           "nota": "10.90",
           "colete": "blue",
           "avancou": true
@@ -226,12 +230,14 @@
       "surfistas": [
         {
           "nome": "Luke Thompson",
+          "pais": "RSA",
           "nota": "10.16",
           "colete": "red",
           "avancou": true
         },
         {
           "nome": "Matthew McGillivray",
+          "pais": "RSA",
           "nota": "9.34",
           "colete": "blue",
           "avancou": false
@@ -253,12 +259,14 @@
       "surfistas": [
         {
           "nome": "Alyssa Spencer",
+          "pais": "USA",
           "nota": "12.23",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Tya Zebrowski",
+          "pais": "FRA",
           "nota": "13.33",
           "colete": "blue",
           "avancou": true
@@ -280,12 +288,14 @@
       "surfistas": [
         {
           "nome": "Eli Hanneman",
+          "pais": "HAW",
           "nota": "9.73",
           "colete": "red",
           "avancou": true
         },
         {
           "nome": "Hayden Rodgers",
+          "pais": "AUS",
           "nota": "9.67",
           "colete": "blue",
           "avancou": false
@@ -307,12 +317,14 @@
       "surfistas": [
         {
           "nome": "Anat Lelior",
+          "pais": "ISR",
           "nota": "11.50",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Vahine Fierro",
+          "pais": "FRA",
           "nota": "12.16",
           "colete": "blue",
           "avancou": true
@@ -334,12 +346,14 @@
       "surfistas": [
         {
           "nome": "Joel Vaughan",
+          "pais": "AUS",
           "nota": "11.26",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Oscar Berry",
+          "pais": "AUS",
           "nota": "12.73",
           "colete": "blue",
           "avancou": true
@@ -361,12 +375,14 @@
       "surfistas": [
         {
           "nome": "Yolanda Hopkins",
+          "pais": "POR",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Sally Fitzgibbons",
+          "pais": "AUS",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -388,12 +404,14 @@
       "surfistas": [
         {
           "nome": "Mateus Herdy",
+          "pais": "BRA",
           "nota": "11.40",
           "colete": "red",
           "avancou": true
         },
         {
           "nome": "Taj Lindblad",
+          "pais": "USA",
           "nota": "11.27",
           "colete": "blue",
           "avancou": false
@@ -415,12 +433,14 @@
       "surfistas": [
         {
           "nome": "Tyler Wright",
+          "pais": "AUS",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Francisca Veselko",
+          "pais": "POR",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -442,12 +462,14 @@
       "surfistas": [
         {
           "nome": "Bettylou Sakura Johnson",
+          "pais": "HAW",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Bella Kenworthy",
+          "pais": "USA",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -469,12 +491,14 @@
       "surfistas": [
         {
           "nome": "Nadia Erostarbe",
+          "pais": "ESP",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Eden Walla",
+          "pais": "USA",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -496,12 +520,14 @@
       "surfistas": [
         {
           "nome": "Caroline Marks",
+          "pais": "USA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Kirra Pinkerton",
+          "pais": "USA",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -523,12 +549,14 @@
       "surfistas": [
         {
           "nome": "Connor O'Leary",
+          "pais": "JPN",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Callum Robson",
+          "pais": "AUS",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -550,12 +578,14 @@
       "surfistas": [
         {
           "nome": "Griffin Colapinto",
+          "pais": "USA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Rio Waida",
+          "pais": "INA",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -577,12 +607,14 @@
       "surfistas": [
         {
           "nome": "Yago Dora",
+          "pais": "BRA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Oscar Berry",
+          "pais": "AUS",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -604,12 +636,14 @@
       "surfistas": [
         {
           "nome": "Kauli Vaast",
+          "pais": "FRA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Barron Mamiya",
+          "pais": "HAW",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -631,12 +665,14 @@
       "surfistas": [
         {
           "nome": "Marco Mignot",
+          "pais": "FRA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Joao Chianca",
+          "pais": "BRA",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -658,12 +694,14 @@
       "surfistas": [
         {
           "nome": "Italo Ferreira",
+          "pais": "BRA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Eli Hanneman",
+          "pais": "HAW",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -685,12 +723,14 @@
       "surfistas": [
         {
           "nome": "Kanoa Igarashi",
+          "pais": "JPN",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Crosby Colapinto",
+          "pais": "USA",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -712,12 +752,14 @@
       "surfistas": [
         {
           "nome": "Ethan Ewing",
+          "pais": "AUS",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Alejo Muniz",
+          "pais": "BRA",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -739,12 +781,14 @@
       "surfistas": [
         {
           "nome": "Leonardo Fioravanti",
+          "pais": "ITA",
           "nota": null,
           "colete": "yellow",
           "avancou": false
         },
         {
           "nome": "Luke Thompson",
+          "pais": "RSA",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -766,12 +810,14 @@
       "surfistas": [
         {
           "nome": "Morgan Cibilic",
+          "pais": "AUS",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Cole Houshmand",
+          "pais": "USA",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -793,12 +839,14 @@
       "surfistas": [
         {
           "nome": "George Pittar",
+          "pais": "AUS",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Alan Cleland",
+          "pais": "MEX",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -820,12 +868,14 @@
       "surfistas": [
         {
           "nome": "Samuel Pupo",
+          "pais": "BRA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Jake Marshall",
+          "pais": "USA",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -847,12 +897,14 @@
       "surfistas": [
         {
           "nome": "Gabriel Medina",
+          "pais": "BRA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Mateus Herdy",
+          "pais": "BRA",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -874,12 +926,14 @@
       "surfistas": [
         {
           "nome": "Jack Robinson",
+          "pais": "AUS",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Seth Moniz",
+          "pais": "HAW",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -901,12 +955,14 @@
       "surfistas": [
         {
           "nome": "Liam O'Brien",
+          "pais": "AUS",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Filipe Toledo",
+          "pais": "BRA",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -928,12 +984,14 @@
       "surfistas": [
         {
           "nome": "Miguel Pupo",
+          "pais": "BRA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Ramzi Boukhiam",
+          "pais": "MAR",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -955,12 +1013,14 @@
       "surfistas": [
         {
           "nome": "Gabriela Bryan",
+          "pais": "HAW",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Tya Zebrowski",
+          "pais": "FRA",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -982,12 +1042,14 @@
       "surfistas": [
         {
           "nome": "vencedor da R2H1",
+          "pais": null,
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da R2H2",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1009,12 +1071,14 @@
       "surfistas": [
         {
           "nome": "Luana Silva",
+          "pais": "BRA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da R1H5",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1036,12 +1100,14 @@
       "surfistas": [
         {
           "nome": "vencedor da R2H3",
+          "pais": null,
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da R2H4",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1063,12 +1129,14 @@
       "surfistas": [
         {
           "nome": "Sawyer Lindblad",
+          "pais": "USA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Vahine Fierro",
+          "pais": "FRA",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1090,12 +1158,14 @@
       "surfistas": [
         {
           "nome": "vencedor da R2H5",
+          "pais": null,
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da R2H6",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1117,12 +1187,14 @@
       "surfistas": [
         {
           "nome": "Lakey Peterson",
+          "pais": "USA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da R1H7",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1144,12 +1216,14 @@
       "surfistas": [
         {
           "nome": "vencedor da R2H7",
+          "pais": null,
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da R2H8",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1171,12 +1245,14 @@
       "surfistas": [
         {
           "nome": "Carissa Moore",
+          "pais": "HAW",
           "nota": null,
           "colete": "yellow",
           "avancou": false
         },
         {
           "nome": "Brisa Hennessy",
+          "pais": "CRC",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1198,12 +1274,14 @@
       "surfistas": [
         {
           "nome": "vencedor da R2H9",
+          "pais": null,
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da R2H10",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1225,12 +1303,14 @@
       "surfistas": [
         {
           "nome": "Erin Brooks",
+          "pais": "CAN",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da R1H8",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1252,12 +1332,14 @@
       "surfistas": [
         {
           "nome": "vencedor da R2H11",
+          "pais": null,
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da R2H12",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1279,12 +1361,14 @@
       "surfistas": [
         {
           "nome": "Molly Picklum",
+          "pais": "AUS",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da R1H4",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1306,12 +1390,14 @@
       "surfistas": [
         {
           "nome": "vencedor da R2H13",
+          "pais": null,
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da R2H14",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1333,12 +1419,14 @@
       "surfistas": [
         {
           "nome": "Caitlin Simmers",
+          "pais": "USA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da R1H6",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1360,12 +1448,14 @@
       "surfistas": [
         {
           "nome": "vencedor da R2H15",
+          "pais": null,
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da R2H16",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1387,12 +1477,14 @@
       "surfistas": [
         {
           "nome": "vencedor da R2H1",
+          "pais": null,
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da R2H2",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1414,12 +1506,14 @@
       "surfistas": [
         {
           "nome": "vencedor da R3H1",
+          "pais": null,
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da R3H2",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1441,12 +1535,14 @@
       "surfistas": [
         {
           "nome": "vencedor da R2H3",
+          "pais": null,
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da R2H4",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1468,12 +1564,14 @@
       "surfistas": [
         {
           "nome": "vencedor da R3H3",
+          "pais": null,
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da R3H4",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1495,12 +1593,14 @@
       "surfistas": [
         {
           "nome": "vencedor da R2H5",
+          "pais": null,
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da R2H6",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1522,12 +1622,14 @@
       "surfistas": [
         {
           "nome": "vencedor da R3H5",
+          "pais": null,
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da R3H6",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1549,12 +1651,14 @@
       "surfistas": [
         {
           "nome": "vencedor da R2H7",
+          "pais": null,
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da R2H8",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1576,12 +1680,14 @@
       "surfistas": [
         {
           "nome": "vencedor da R3H7",
+          "pais": null,
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da R3H8",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1603,12 +1709,14 @@
       "surfistas": [
         {
           "nome": "vencedor da QFH1",
+          "pais": null,
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da QFH2",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1630,12 +1738,14 @@
       "surfistas": [
         {
           "nome": "vencedor da QFH1",
+          "pais": null,
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da QFH2",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1657,12 +1767,14 @@
       "surfistas": [
         {
           "nome": "vencedor da QFH3",
+          "pais": null,
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da QFH4",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1684,12 +1796,14 @@
       "surfistas": [
         {
           "nome": "vencedor da QFH3",
+          "pais": null,
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da QFH4",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1711,12 +1825,14 @@
       "surfistas": [
         {
           "nome": "vencedor da SFH1",
+          "pais": null,
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da SFH2",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1738,12 +1854,14 @@
       "surfistas": [
         {
           "nome": "vencedor da SFH1",
+          "pais": null,
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "vencedor da SFH2",
+          "pais": null,
           "nota": null,
           "colete": "blue",
           "avancou": false
