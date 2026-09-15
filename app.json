@@ -1,307 +1,56 @@
 {
-  "atualizado_em": "14/09/2026 22:58",
+  "atualizado_em": "14/09/2026 23:02",
   "evento": {
-    "nome": "Rip Curl Pro Bells Beach",
-    "id": "436"
+    "nome": "Lexus Trestles Pro",
+    "id": "443"
   },
-  "call": null,
+  "call": "16/09 às 11:00",
   "passo_estimado_min": 35,
   "ao_vivo": null,
-  "proxima": null,
+  "proxima": {
+    "id": "114874",
+    "genero": "F",
+    "rodada": "Rodada 1",
+    "numero": 4,
+    "status": "aguardando",
+    "surfistas": [
+      {
+        "nome": "Yolanda Hopkins",
+        "nota": null,
+        "colete": "red",
+        "avancou": false
+      },
+      {
+        "nome": "Sally Fitzgibbons",
+        "nota": null,
+        "colete": "blue",
+        "avancou": false
+      }
+    ],
+    "definida": true,
+    "dia_competicao": 1,
+    "quando": "aguardando call",
+    "estado": "aguardando_call"
+  },
   "baterias": [
     {
-      "id": "111767",
+      "id": "114871",
       "genero": "F",
       "rodada": "Rodada 1",
       "numero": 1,
       "status": "encerrada",
       "surfistas": [
-        {
-          "nome": "Yolanda Hopkins",
-          "nota": "9.60",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Sally Fitzgibbons",
-          "nota": "11.84",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111732",
-      "genero": "M",
-      "rodada": "Rodada 1",
-      "numero": 1,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Mateus Herdy",
-          "nota": "13.80",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Liam O'Brien",
-          "nota": "13.24",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111768",
-      "genero": "F",
-      "rodada": "Rodada 1",
-      "numero": 2,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Tya Zebrowski",
-          "nota": "12.16",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Alyssa Spencer",
-          "nota": "13.76",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111733",
-      "genero": "M",
-      "rodada": "Rodada 1",
-      "numero": 2,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Oscar Berry",
-          "nota": "6.30",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Dane Henry",
-          "nota": "13.66",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111769",
-      "genero": "F",
-      "rodada": "Rodada 1",
-      "numero": 3,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Brisa Hennessy",
-          "nota": "9.10",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Francisca Veselko",
-          "nota": "12.67",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111734",
-      "genero": "M",
-      "rodada": "Rodada 1",
-      "numero": 3,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Luke Thompson",
-          "nota": "14.67",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Ramzi Boukhiam",
-          "nota": "12.00",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111770",
-      "genero": "F",
-      "rodada": "Rodada 1",
-      "numero": 4,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Bella Kenworthy",
-          "nota": "10.67",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Nadia Erostarbe",
-          "nota": "11.40",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111735",
-      "genero": "M",
-      "rodada": "Rodada 1",
-      "numero": 4,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Callum Robson",
-          "nota": "10.27",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Xavier Huxtable",
-          "nota": "12.94",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111771",
-      "genero": "F",
-      "rodada": "Rodada 1",
-      "numero": 5,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Vahine Fierro",
-          "nota": "13.50",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Anat Lelior",
-          "nota": "13.83",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111772",
-      "genero": "F",
-      "rodada": "Rodada 1",
-      "numero": 6,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Sawyer Lindblad",
-          "nota": "8.00",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Carissa Moore",
-          "nota": "11.50",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111773",
-      "genero": "F",
-      "rodada": "Rodada 1",
-      "numero": 7,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Luana Silva",
-          "nota": "11.83",
-          "colete": "red",
-          "avancou": true
-        },
         {
           "nome": "Stephanie Gilmore",
-          "nota": "6.10",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111774",
-      "genero": "F",
-      "rodada": "Rodada 1",
-      "numero": 8,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Lakey Peterson",
-          "nota": "11.73",
+          "nota": "10.10",
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
         {
-          "nome": "Ellie Harrison",
-          "nota": "9.60",
+          "nome": "Brisa Hennessy",
+          "nota": "10.90",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         }
       ],
       "definida": true,
@@ -310,96 +59,21 @@
       "dia_competicao": 0
     },
     {
-      "id": "111736",
+      "id": "114330",
       "genero": "M",
-      "rodada": "Rodada 2",
+      "rodada": "Rodada 1",
       "numero": 1,
       "status": "encerrada",
       "surfistas": [
-        {
-          "nome": "Miguel Pupo",
-          "nota": "14.17",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Joel Vaughan",
-          "nota": "12.07",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111737",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 2,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Ethan Ewing",
-          "nota": "12.34",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "George Pittar",
-          "nota": "14.57",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111738",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 3,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Jordy Smith",
-          "nota": "14.80",
-          "colete": "red",
-          "avancou": true
-        },
         {
           "nome": "Luke Thompson",
-          "nota": "12.33",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111739",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 4,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Barron Mamiya",
-          "nota": "11.16",
+          "nota": "10.16",
           "colete": "red",
           "avancou": true
         },
         {
-          "nome": "Seth Moniz",
-          "nota": "9.93",
+          "nome": "Matthew McGillivray",
+          "nota": "9.34",
           "colete": "blue",
           "avancou": false
         }
@@ -410,870 +84,20 @@
       "dia_competicao": 0
     },
     {
-      "id": "111740",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 5,
+      "id": "114872",
+      "genero": "F",
+      "rodada": "Rodada 1",
+      "numero": 2,
       "status": "encerrada",
       "surfistas": [
         {
-          "nome": "Jake Marshall",
-          "nota": "10.83",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Joao Chianca",
-          "nota": "10.64",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111741",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 6,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Griffin Colapinto",
-          "nota": "15.26",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Dane Henry",
-          "nota": "15.00",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111742",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 7,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Cole Houshmand",
-          "nota": "7.63",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Alejo Muniz",
-          "nota": "11.56",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111743",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 8,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Kanoa Igarashi",
+          "nome": "Alyssa Spencer",
           "nota": "12.23",
           "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Morgan Cibilic",
-          "nota": "11.17",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111744",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 9,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Yago Dora",
-          "nota": "13.34",
-          "colete": "yellow",
-          "avancou": true
-        },
-        {
-          "nome": "Mateus Herdy",
-          "nota": "10.66",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111745",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 10,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Crosby Colapinto",
-          "nota": "10.53",
-          "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Marco Mignot",
-          "nota": "11.83",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111746",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 11,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Leonardo Fioravanti",
-          "nota": "11.67",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Kauli Vaast",
-          "nota": "11.60",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111747",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 12,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Filipe Toledo",
-          "nota": "14.00",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Eli Hanneman",
-          "nota": "10.10",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111748",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 13,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Italo Ferreira",
-          "nota": "12.83",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Xavier Huxtable",
-          "nota": "12.73",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111749",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 14,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Gabriel Medina",
-          "nota": "12.10",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Alan Cleland",
-          "nota": "3.67",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111750",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 15,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Connor O'Leary",
-          "nota": "11.97",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Rio Waida",
-          "nota": "13.96",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111751",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 16,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Jack Robinson",
-          "nota": "5.67",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Samuel Pupo",
-          "nota": "13.77",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111775",
-      "genero": "F",
-      "rodada": "Oitavas de final",
-      "numero": 1,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Caroline Marks",
-          "nota": "11.20",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Alyssa Spencer",
-          "nota": "14.00",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111752",
-      "genero": "M",
-      "rodada": "Oitavas de final",
-      "numero": 1,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Miguel Pupo",
-          "nota": "16.77",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "George Pittar",
-          "nota": "15.60",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111776",
-      "genero": "F",
-      "rodada": "Oitavas de final",
-      "numero": 2,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Bettylou Sakura Johnson",
-          "nota": "10.93",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Anat Lelior",
-          "nota": "6.76",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111753",
-      "genero": "M",
-      "rodada": "Oitavas de final",
-      "numero": 2,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Jordy Smith",
-          "nota": "12.17",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Barron Mamiya",
-          "nota": "14.00",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111777",
-      "genero": "F",
-      "rodada": "Oitavas de final",
-      "numero": 3,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Gabriela Bryan",
-          "nota": "15.66",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Francisca Veselko",
-          "nota": "6.00",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111754",
-      "genero": "M",
-      "rodada": "Oitavas de final",
-      "numero": 3,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Jake Marshall",
-          "nota": "11.66",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Griffin Colapinto",
-          "nota": "13.43",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111778",
-      "genero": "F",
-      "rodada": "Oitavas de final",
-      "numero": 4,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Tyler Wright",
-          "nota": "13.76",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Luana Silva",
-          "nota": "15.26",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111755",
-      "genero": "M",
-      "rodada": "Oitavas de final",
-      "numero": 4,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Alejo Muniz",
-          "nota": "7.00",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Kanoa Igarashi",
-          "nota": "12.67",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111779",
-      "genero": "F",
-      "rodada": "Oitavas de final",
-      "numero": 5,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Molly Picklum",
-          "nota": "16.50",
-          "colete": "yellow",
-          "avancou": true
-        },
-        {
-          "nome": "Sally Fitzgibbons",
-          "nota": "7.34",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111756",
-      "genero": "M",
-      "rodada": "Oitavas de final",
-      "numero": 5,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Yago Dora",
-          "nota": "12.67",
-          "colete": "yellow",
-          "avancou": true
-        },
-        {
-          "nome": "Marco Mignot",
-          "nota": "12.33",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111780",
-      "genero": "F",
-      "rodada": "Oitavas de final",
-      "numero": 6,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Erin Brooks",
-          "nota": "15.23",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Lakey Peterson",
-          "nota": "15.83",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111757",
-      "genero": "M",
-      "rodada": "Oitavas de final",
-      "numero": 6,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Leonardo Fioravanti",
-          "nota": "15.27",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Filipe Toledo",
-          "nota": "14.67",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111781",
-      "genero": "F",
-      "rodada": "Oitavas de final",
-      "numero": 7,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Caitlin Simmers",
-          "nota": "11.20",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Nadia Erostarbe",
-          "nota": "10.56",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111758",
-      "genero": "M",
-      "rodada": "Oitavas de final",
-      "numero": 7,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Italo Ferreira",
-          "nota": "14.66",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Gabriel Medina",
-          "nota": "15.60",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111782",
-      "genero": "F",
-      "rodada": "Oitavas de final",
-      "numero": 8,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Isabella Nichols",
-          "nota": "16.27",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Carissa Moore",
-          "nota": "15.07",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111759",
-      "genero": "M",
-      "rodada": "Oitavas de final",
-      "numero": 8,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Rio Waida",
-          "nota": "12.80",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Samuel Pupo",
-          "nota": "15.33",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111783",
-      "genero": "F",
-      "rodada": "Quartas de final",
-      "numero": 1,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Alyssa Spencer",
-          "nota": "15.17",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Bettylou Sakura Johnson",
-          "nota": "10.27",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111760",
-      "genero": "M",
-      "rodada": "Quartas de final",
-      "numero": 1,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Miguel Pupo",
-          "nota": "12.50",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Barron Mamiya",
-          "nota": "11.10",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111784",
-      "genero": "F",
-      "rodada": "Quartas de final",
-      "numero": 2,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Gabriela Bryan",
-          "nota": "15.50",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Luana Silva",
-          "nota": "7.67",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111761",
-      "genero": "M",
-      "rodada": "Quartas de final",
-      "numero": 2,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Griffin Colapinto",
-          "nota": "15.00",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Kanoa Igarashi",
-          "nota": "13.03",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111785",
-      "genero": "F",
-      "rodada": "Quartas de final",
-      "numero": 3,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Molly Picklum",
-          "nota": "11.33",
-          "colete": "yellow",
-          "avancou": true
-        },
-        {
-          "nome": "Lakey Peterson",
-          "nota": "5.00",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111762",
-      "genero": "M",
-      "rodada": "Quartas de final",
-      "numero": 3,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Yago Dora",
-          "nota": "13.00",
-          "colete": "yellow",
-          "avancou": true
-        },
-        {
-          "nome": "Leonardo Fioravanti",
-          "nota": "9.00",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111786",
-      "genero": "F",
-      "rodada": "Quartas de final",
-      "numero": 4,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Caitlin Simmers",
-          "nota": "12.43",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Isabella Nichols",
+          "nome": "Tya Zebrowski",
           "nota": "13.33",
           "colete": "blue",
           "avancou": true
@@ -1285,21 +109,121 @@
       "dia_competicao": 0
     },
     {
-      "id": "111763",
+      "id": "114331",
       "genero": "M",
-      "rodada": "Quartas de final",
+      "rodada": "Rodada 1",
+      "numero": 2,
+      "status": "encerrada",
+      "surfistas": [
+        {
+          "nome": "Eli Hanneman",
+          "nota": "9.73",
+          "colete": "red",
+          "avancou": true
+        },
+        {
+          "nome": "Hayden Rodgers",
+          "nota": "9.67",
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": true,
+      "quando": "encerrada",
+      "estado": "encerrada",
+      "dia_competicao": 0
+    },
+    {
+      "id": "114873",
+      "genero": "F",
+      "rodada": "Rodada 1",
+      "numero": 3,
+      "status": "encerrada",
+      "surfistas": [
+        {
+          "nome": "Anat Lelior",
+          "nota": "11.50",
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Vahine Fierro",
+          "nota": "12.16",
+          "colete": "blue",
+          "avancou": true
+        }
+      ],
+      "definida": true,
+      "quando": "encerrada",
+      "estado": "encerrada",
+      "dia_competicao": 0
+    },
+    {
+      "id": "114332",
+      "genero": "M",
+      "rodada": "Rodada 1",
+      "numero": 3,
+      "status": "encerrada",
+      "surfistas": [
+        {
+          "nome": "Joel Vaughan",
+          "nota": "11.26",
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Oscar Berry",
+          "nota": "12.73",
+          "colete": "blue",
+          "avancou": true
+        }
+      ],
+      "definida": true,
+      "quando": "encerrada",
+      "estado": "encerrada",
+      "dia_competicao": 0
+    },
+    {
+      "id": "114874",
+      "genero": "F",
+      "rodada": "Rodada 1",
+      "numero": 4,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Yolanda Hopkins",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Sally Fitzgibbons",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": true,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114333",
+      "genero": "M",
+      "rodada": "Rodada 1",
       "numero": 4,
       "status": "encerrada",
       "surfistas": [
         {
-          "nome": "Gabriel Medina",
-          "nota": "17.40",
+          "nome": "Mateus Herdy",
+          "nota": "11.40",
           "colete": "red",
           "avancou": true
         },
         {
-          "nome": "Samuel Pupo",
-          "nota": "13.93",
+          "nome": "Taj Lindblad",
+          "nota": "11.27",
           "colete": "blue",
           "avancou": false
         }
@@ -1310,154 +234,1254 @@
       "dia_competicao": 0
     },
     {
-      "id": "111787",
+      "id": "114875",
       "genero": "F",
-      "rodada": "Semifinal",
-      "numero": 1,
-      "status": "encerrada",
+      "rodada": "Rodada 1",
+      "numero": 5,
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Alyssa Spencer",
-          "nota": "14.67",
+          "nome": "Tyler Wright",
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Gabriela Bryan",
-          "nota": "15.44",
+          "nome": "Francisca Veselko",
+          "nota": null,
           "colete": "blue",
-          "avancou": true
+          "avancou": false
         }
       ],
       "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "111764",
-      "genero": "M",
-      "rodada": "Semifinal",
-      "numero": 1,
-      "status": "encerrada",
+      "id": "114876",
+      "genero": "F",
+      "rodada": "Rodada 1",
+      "numero": 6,
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Miguel Pupo",
-          "nota": "13.67",
+          "nome": "Bettylou Sakura Johnson",
+          "nota": null,
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
+        {
+          "nome": "Bella Kenworthy",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": true,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114877",
+      "genero": "F",
+      "rodada": "Rodada 1",
+      "numero": 7,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Nadia Erostarbe",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Eden Walla",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": true,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114878",
+      "genero": "F",
+      "rodada": "Rodada 1",
+      "numero": 8,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Caroline Marks",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Kirra Pinkerton",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": true,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114334",
+      "genero": "M",
+      "rodada": "Rodada 2",
+      "numero": 1,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Connor O'Leary",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Callum Robson",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": true,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114335",
+      "genero": "M",
+      "rodada": "Rodada 2",
+      "numero": 2,
+      "status": "aguardando",
+      "surfistas": [
         {
           "nome": "Griffin Colapinto",
-          "nota": "7.50",
-          "colete": "blue",
+          "nota": null,
+          "colete": "red",
           "avancou": false
-        }
-      ],
-      "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
-    },
-    {
-      "id": "111788",
-      "genero": "F",
-      "rodada": "Semifinal",
-      "numero": 2,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Molly Picklum",
-          "nota": "14.84",
-          "colete": "yellow",
-          "avancou": true
         },
         {
-          "nome": "Isabella Nichols",
-          "nota": "14.27",
+          "nome": "Rio Waida",
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
       "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "111765",
+      "id": "114336",
       "genero": "M",
-      "rodada": "Semifinal",
-      "numero": 2,
-      "status": "encerrada",
+      "rodada": "Rodada 2",
+      "numero": 3,
+      "status": "aguardando",
       "surfistas": [
         {
           "nome": "Yago Dora",
-          "nota": "16.33",
-          "colete": "yellow",
-          "avancou": true
+          "nota": null,
+          "colete": "red",
+          "avancou": false
         },
         {
-          "nome": "Gabriel Medina",
-          "nota": "16.17",
+          "nome": "Oscar Berry",
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
       "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "111789",
-      "genero": "F",
-      "rodada": "Final",
-      "numero": 1,
-      "status": "encerrada",
+      "id": "114337",
+      "genero": "M",
+      "rodada": "Rodada 2",
+      "numero": 4,
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Gabriela Bryan",
-          "nota": "14.83",
-          "colete": "blue",
+          "nome": "Kauli Vaast",
+          "nota": null,
+          "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Molly Picklum",
-          "nota": "8.33",
-          "colete": "yellow",
+          "nome": "Barron Mamiya",
+          "nota": null,
+          "colete": "blue",
           "avancou": false
         }
       ],
       "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "111766",
+      "id": "114338",
       "genero": "M",
-      "rodada": "Final",
-      "numero": 1,
-      "status": "encerrada",
+      "rodada": "Rodada 2",
+      "numero": 5,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Marco Mignot",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Joao Chianca",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": true,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114339",
+      "genero": "M",
+      "rodada": "Rodada 2",
+      "numero": 6,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Italo Ferreira",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Eli Hanneman",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": true,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114340",
+      "genero": "M",
+      "rodada": "Rodada 2",
+      "numero": 7,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Kanoa Igarashi",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Crosby Colapinto",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": true,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114341",
+      "genero": "M",
+      "rodada": "Rodada 2",
+      "numero": 8,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Ethan Ewing",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Alejo Muniz",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": true,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114342",
+      "genero": "M",
+      "rodada": "Rodada 2",
+      "numero": 9,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Leonardo Fioravanti",
+          "nota": null,
+          "colete": "yellow",
+          "avancou": false
+        },
+        {
+          "nome": "Luke Thompson",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": true,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114343",
+      "genero": "M",
+      "rodada": "Rodada 2",
+      "numero": 10,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Morgan Cibilic",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Cole Houshmand",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": true,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114344",
+      "genero": "M",
+      "rodada": "Rodada 2",
+      "numero": 11,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "George Pittar",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Alan Cleland",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": true,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114345",
+      "genero": "M",
+      "rodada": "Rodada 2",
+      "numero": 12,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Samuel Pupo",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Jake Marshall",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": true,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114346",
+      "genero": "M",
+      "rodada": "Rodada 2",
+      "numero": 13,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Gabriel Medina",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Mateus Herdy",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": true,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114347",
+      "genero": "M",
+      "rodada": "Rodada 2",
+      "numero": 14,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Jack Robinson",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Seth Moniz",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": true,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114348",
+      "genero": "M",
+      "rodada": "Rodada 2",
+      "numero": 15,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Liam O'Brien",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Filipe Toledo",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": true,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114349",
+      "genero": "M",
+      "rodada": "Rodada 2",
+      "numero": 16,
+      "status": "aguardando",
       "surfistas": [
         {
           "nome": "Miguel Pupo",
-          "nota": "15.60",
-          "colete": "blue",
+          "nota": null,
+          "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Yago Dora",
-          "nota": "13.90",
-          "colete": "yellow",
+          "nome": "Ramzi Boukhiam",
+          "nota": null,
+          "colete": "blue",
           "avancou": false
         }
       ],
       "definida": true,
-      "quando": "encerrada",
-      "estado": "encerrada",
-      "dia_competicao": 0
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114879",
+      "genero": "F",
+      "rodada": "Oitavas de final",
+      "numero": 1,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Gabriela Bryan",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Tya Zebrowski",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": true,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114350",
+      "genero": "M",
+      "rodada": "Oitavas de final",
+      "numero": 1,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R2H1",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H2",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114880",
+      "genero": "F",
+      "rodada": "Oitavas de final",
+      "numero": 2,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Luana Silva",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R1H5",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114351",
+      "genero": "M",
+      "rodada": "Oitavas de final",
+      "numero": 2,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R2H3",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H4",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114881",
+      "genero": "F",
+      "rodada": "Oitavas de final",
+      "numero": 3,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Sawyer Lindblad",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Vahine Fierro",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": true,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114352",
+      "genero": "M",
+      "rodada": "Oitavas de final",
+      "numero": 3,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R2H5",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H6",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114882",
+      "genero": "F",
+      "rodada": "Oitavas de final",
+      "numero": 4,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Lakey Peterson",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R1H7",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114353",
+      "genero": "M",
+      "rodada": "Oitavas de final",
+      "numero": 4,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R2H7",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H8",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114883",
+      "genero": "F",
+      "rodada": "Oitavas de final",
+      "numero": 5,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Carissa Moore",
+          "nota": null,
+          "colete": "yellow",
+          "avancou": false
+        },
+        {
+          "nome": "Brisa Hennessy",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": true,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114354",
+      "genero": "M",
+      "rodada": "Oitavas de final",
+      "numero": 5,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R2H9",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H10",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114884",
+      "genero": "F",
+      "rodada": "Oitavas de final",
+      "numero": 6,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Erin Brooks",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R1H8",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114355",
+      "genero": "M",
+      "rodada": "Oitavas de final",
+      "numero": 6,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R2H11",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H12",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114885",
+      "genero": "F",
+      "rodada": "Oitavas de final",
+      "numero": 7,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Molly Picklum",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R1H4",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114356",
+      "genero": "M",
+      "rodada": "Oitavas de final",
+      "numero": 7,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R2H13",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H14",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114886",
+      "genero": "F",
+      "rodada": "Oitavas de final",
+      "numero": 8,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Caitlin Simmers",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R1H6",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114357",
+      "genero": "M",
+      "rodada": "Oitavas de final",
+      "numero": 8,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R2H15",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H16",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114887",
+      "genero": "F",
+      "rodada": "Quartas de final",
+      "numero": 1,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R2H1",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H2",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114358",
+      "genero": "M",
+      "rodada": "Quartas de final",
+      "numero": 1,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R3H1",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R3H2",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114888",
+      "genero": "F",
+      "rodada": "Quartas de final",
+      "numero": 2,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R2H3",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H4",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114359",
+      "genero": "M",
+      "rodada": "Quartas de final",
+      "numero": 2,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R3H3",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R3H4",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114889",
+      "genero": "F",
+      "rodada": "Quartas de final",
+      "numero": 3,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R2H5",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H6",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114360",
+      "genero": "M",
+      "rodada": "Quartas de final",
+      "numero": 3,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R3H5",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R3H6",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114890",
+      "genero": "F",
+      "rodada": "Quartas de final",
+      "numero": 4,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R2H7",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H8",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114361",
+      "genero": "M",
+      "rodada": "Quartas de final",
+      "numero": 4,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R3H7",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R3H8",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114891",
+      "genero": "F",
+      "rodada": "Semifinal",
+      "numero": 1,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da QFH1",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da QFH2",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114362",
+      "genero": "M",
+      "rodada": "Semifinal",
+      "numero": 1,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da QFH1",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da QFH2",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114892",
+      "genero": "F",
+      "rodada": "Semifinal",
+      "numero": 2,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da QFH3",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da QFH4",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114363",
+      "genero": "M",
+      "rodada": "Semifinal",
+      "numero": 2,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da QFH3",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da QFH4",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114893",
+      "genero": "F",
+      "rodada": "Final",
+      "numero": 1,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da SFH1",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da SFH2",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114364",
+      "genero": "M",
+      "rodada": "Final",
+      "numero": 1,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da SFH1",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da SFH2",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "definida": false,
+      "dia_competicao": 1,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     }
   ]
 }
