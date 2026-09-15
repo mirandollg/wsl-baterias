@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "14/09/2026 23:42",
+  "atualizado_em": "14/09/2026 23:43",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -159,6 +159,48 @@
       "qtd": 0,
       "evento": null,
       "hoje": false
+    }
+  ],
+  "proximas_etapas": [
+    {
+      "id": "443",
+      "nome": "Lexus Trestles Pro",
+      "local": "Lower Trestles, California",
+      "pais": "USA",
+      "inicio": "2026-09-11",
+      "fim": "2026-09-20",
+      "periodo": "11 set a 20 set",
+      "em_andamento": true
+    },
+    {
+      "id": "445",
+      "nome": "MEO Rip Curl Pro Portugal",
+      "local": "Supertubos, Peniche",
+      "pais": "POR",
+      "inicio": "2026-10-16",
+      "fim": "2026-10-25",
+      "periodo": "16 out a 25 out",
+      "em_andamento": false
+    },
+    {
+      "id": "543",
+      "nome": "Philippines Pro",
+      "local": "Cloud 9, Siargao",
+      "pais": "PHI",
+      "inicio": "2026-10-31",
+      "fim": "2026-11-10",
+      "periodo": "31 out a 10 nov",
+      "em_andamento": false
+    },
+    {
+      "id": "446",
+      "nome": "Lexus Pipe Masters",
+      "local": "Banzai Pipeline, Oahu",
+      "pais": "HAW",
+      "inicio": "2026-12-08",
+      "fim": "2026-12-20",
+      "periodo": "8 dez a 20 dez",
+      "em_andamento": false
     }
   ],
   "ao_vivo": null,
