@@ -2,7 +2,7 @@
 """Coletor de baterias da WSL - roda no GitHub Actions."""
 import requests, re, json, os
 from bs4 import BeautifulSoup
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, date
 from zoneinfo import ZoneInfo
 
 BR = ZoneInfo("America/Sao_Paulo")
@@ -13,10 +13,38 @@ HEADERS = {
 }
 BASE = "https://www.worldsurfleague.com"
 ANO = datetime.now(BR).year
-DUR_PADRAO, INTERVALO, HORA_FIM = 30, 5, 17
+DIAS_BARRA = 15
+DUR_PADRAO, INTERVALO = 30, 5
+HORA_INI_LOCAL, HORA_FIM_LOCAL = 7, 17          # janela de surf no fuso do evento
 
 ORDEM = ["Rodada 1", "Rodada 2", "Oitavas de final",
          "Quartas de final", "Semifinal", "Final", "?"]
+SEMANA = ["Seg", "Ter", "Qua", "Qui", "Sex", "Sab", "Dom"]
+
+# etapa: (slug, inicio, fim, fuso do local)
+CALENDARIO = {
+    "436": ("rip-curl-pro-bells-beach",             (4, 1),   (4, 11),  "Australia/Melbourne"),
+    "437": ("western-australia-margaret-river-pro", (4, 16),  (4, 26),  "Australia/Perth"),
+    "438": ("bonsoy-gold-coast-pro",                (5, 2),   (5, 12),  "Australia/Brisbane"),
+    "494": ("corona-cero-new-zealand-pro",          (5, 15),  (5, 25),  "Pacific/Auckland"),
+    "439": ("surf-city-el-salvador-pro",            (6, 5),   (6, 15),  "America/El_Salvador"),
+    "440": ("vivo-rio-pro",                         (6, 19),  (6, 27),  "America/Sao_Paulo"),
+    "441": ("outerknown-tahiti-pro",                (8, 8),   (8, 18),  "Pacific/Tahiti"),
+    "442": ("fiji-pro",                             (8, 25),  (9, 4),   "Pacific/Fiji"),
+    "443": ("lexus-trestles-pro",                   (9, 11),  (9, 20),  "America/Los_Angeles"),
+    "445": ("meo-rip-curl-pro-portugal",            (10, 16), (10, 25), "Europe/Lisbon"),
+    "543": ("philippines-pro",                      (10, 31), (11, 10), "Asia/Manila"),
+    "446": ("lexus-pipe-masters",                   (12, 8),  (12, 20), "Pacific/Honolulu"),
+}
+
+NOMES = {
+    "436": "Rip Curl Pro Bells Beach", "437": "Margaret River Pro",
+    "438": "Bonsoy Gold Coast Pro", "494": "Corona Cero New Zealand Pro",
+    "439": "Surf City El Salvador Pro", "440": "VIVO Rio Pro",
+    "441": "Outerknown Tahiti Pro", "442": "Fiji Pro",
+    "443": "Lexus Trestles Pro", "445": "MEO Rip Curl Pro Portugal",
+    "543": "Philippines Pro", "446": "Lexus Pipe Masters",
+}
 
 
 def busca(url):
@@ -44,7 +72,6 @@ def rodada_de(avanco, nome):
 
 
 def traduz(txt):
-    """'Round 2, Heat 5 winner' -> 'vencedor da R2H5'"""
     if not txt:
         return txt
     m = re.match(r"Round (\d+), Heat (\d+) winner", txt, re.I)
@@ -57,41 +84,27 @@ def traduz(txt):
     return txt
 
 
-# ---------- 1) descobre a etapa em andamento (por data) ----------
-CALENDARIO = {
-    "436": ("rip-curl-pro-bells-beach",             (4, 1),   (4, 11)),
-    "437": ("western-australia-margaret-river-pro", (4, 16),  (4, 26)),
-    "438": ("bonsoy-gold-coast-pro",                (5, 2),   (5, 12)),
-    "494": ("corona-cero-new-zealand-pro",          (5, 15),  (5, 25)),
-    "439": ("surf-city-el-salvador-pro",            (6, 5),   (6, 15)),
-    "440": ("vivo-rio-pro",                         (6, 19),  (6, 27)),
-    "441": ("outerknown-tahiti-pro",                (8, 8),   (8, 18)),
-    "442": ("fiji-pro",                             (8, 25),  (9, 4)),
-    "443": ("lexus-trestles-pro",                   (9, 11),  (9, 20)),
-    "445": ("meo-rip-curl-pro-portugal",            (10, 16), (10, 25)),
-    "543": ("philippines-pro",                      (10, 31), (11, 10)),
-    "446": ("lexus-pipe-masters",                   (12, 8),  (12, 20)),
-}
-
-
+# ---------- etapa em andamento (por data) ----------
 def etapa_atual():
     hoje = datetime.now(BR).date()
     proximas = []
-    for eid, (slug, ini, fim) in CALENDARIO.items():
-        d_ini = datetime(hoje.year, ini[0], ini[1]).date()
-        d_fim = datetime(hoje.year, fim[0], fim[1]).date()
+    for eid, (slug, ini, fim, tz) in CALENDARIO.items():
+        d_ini = date(hoje.year, ini[0], ini[1])
+        d_fim = date(hoje.year, fim[0], fim[1])
         if d_ini <= hoje <= d_fim:
-            return eid, slug
+            return eid, slug, d_ini, d_fim, tz
         if hoje < d_ini:
-            proximas.append((d_ini, eid, slug))
+            proximas.append((d_ini, eid, slug, d_fim, tz))
     if proximas:
         proximas.sort()
-        return proximas[0][1], proximas[0][2]
-    ultima = max(CALENDARIO.items(), key=lambda x: x[1][2])
-    return ultima[0], ultima[1][0]
+        d_ini, eid, slug, d_fim, tz = proximas[0]
+        return eid, slug, d_ini, d_fim, tz
+    eid = max(CALENDARIO, key=lambda k: CALENDARIO[k][2])
+    slug, ini, fim, tz = CALENDARIO[eid]
+    return eid, slug, date(hoje.year, *ini), date(hoje.year, *fim), tz
 
 
-# ---------- 2) coleta as baterias ----------
+# ---------- coleta ----------
 def coleta(eid, slug, stat_id, genero):
     url = f"{BASE}/events/{ANO}/ct/{eid}/{slug}/results?showAll=1&statEventId={stat_id}"
     soup = BeautifulSoup(busca(url), "html.parser")
@@ -130,18 +143,14 @@ def coleta(eid, slug, stat_id, genero):
     return out
 
 
-# ---------- 3) descobre os IDs das divisoes ----------
 def stat_ids(eid, slug):
     html = busca(f"{BASE}/events/{ANO}/ct/{eid}/{slug}/results")
     ids = sorted(set(re.findall(r"statEventId=(\d+)", html)))
     if len(ids) >= 2:
         return {"M": ids[0], "F": ids[1]}
-    if ids:
-        return {"M": ids[0]}
-    return {}
+    return {"M": ids[0]} if ids else {}
 
 
-# ---------- 4) call do dia ----------
 def pega_call(eid, slug):
     soup = BeautifulSoup(busca(f"{BASE}/events/{ANO}/ct/{eid}/{slug}/main"), "html.parser")
     for el in soup.select("[data-timestamp]"):
@@ -153,7 +162,7 @@ def pega_call(eid, slug):
     return None
 
 
-# ---------- 5) estado (aprende o ritmo real) ----------
+# ---------- estado ----------
 def carrega_estado():
     if os.path.exists("estado.json"):
         try:
@@ -168,68 +177,120 @@ def atualiza_estado(estado, baterias, agora):
         if b["status"] == "encerrada" and b["id"] not in estado["encerramentos"]:
             estado["encerramentos"][b["id"]] = agora.isoformat()
     marcos = sorted(datetime.fromisoformat(v) for v in estado["encerramentos"].values())
-    dur = []
-    for a, b in zip(marcos, marcos[1:]):
-        delta = (b - a).total_seconds() / 60
-        if 10 <= delta <= 90:
-            dur.append(delta)
+    dur = [(b - a).total_seconds() / 60 for a, b in zip(marcos, marcos[1:])
+           if 10 <= (b - a).total_seconds() / 60 <= 90]
     estado["duracoes"] = dur[-12:]
     return estado
 
 
 def duracao_real(estado):
     d = estado.get("duracoes") or []
-    if len(d) >= 3:
-        return round(sum(d) / len(d))
-    return DUR_PADRAO + INTERVALO
+    return round(sum(d) / len(d)) if len(d) >= 3 else DUR_PADRAO + INTERVALO
 
 
-# ---------- 6) monta os horarios ----------
-def monta(baterias, call, passo, agora):
+# ---------- distribuicao por dia ----------
+def distribui(baterias, call, passo, hoje, d_fim, tz_evento, agora):
+    """Marca cada bateria pendente com data e horario."""
+    tz = ZoneInfo(tz_evento)
     pend = [b for b in baterias if b["status"] != "encerrada"]
     pend.sort(key=lambda b: (ORDEM.index(b["rodada"]), b["numero"], b["genero"]))
 
-    tem_call = bool(call and call.date() <= agora.date() + timedelta(days=1))
-    t = call if tem_call else None
-    if t and t < agora:
-        t = agora
-    fim = t.replace(hour=HORA_FIM + 4, minute=0) if t else None
-    dia = 1
+    # dias candidatos: do dia da call (ou hoje) ate o fim da etapa
+    inicio = call.date() if call else hoje
+    if inicio < hoje:
+        inicio = hoje
+    dias = []
+    d = inicio
+    while d <= d_fim:
+        dias.append(d)
+        d += timedelta(days=1)
+    if not dias:
+        dias = [hoje]
 
-    for b in pend:
-        if not t:
-            b["dia_competicao"] = dia
-            b["quando"] = "aguardando call" if dia == 1 else f"Dia {dia} \u00b7 aguardando call"
-            b["estado"] = "aguardando_call"
-            continue
-        if t + timedelta(minutes=passo) > fim:
-            dia += 1
-            t = None
-            b["dia_competicao"] = dia
-            b["quando"] = f"Dia {dia} \u00b7 aguardando call"
-            b["estado"] = "aguardando_call"
-            continue
-        b["dia_competicao"] = dia
-        b["quando"] = f"{t.strftime('%d/%m')} \u00b7 {t.strftime('%H:%M')}"
-        b["estado"] = "com_horario"
-        t += timedelta(minutes=passo)
+    idx = 0
+    for dia in dias:
+        if idx >= len(pend):
+            break
+        tem_call = bool(call and call.date() == dia)
+        # janela do dia no fuso do evento
+        ini_dia = datetime.combine(dia, datetime.min.time(), tz).replace(hour=HORA_INI_LOCAL)
+        if tem_call:
+            ini_dia = call.astimezone(tz)
+            if ini_dia < agora.astimezone(tz):
+                ini_dia = agora.astimezone(tz)
+        fim_dia = datetime.combine(dia, datetime.min.time(), tz).replace(hour=HORA_FIM_LOCAL)
+        t = ini_dia
+        while idx < len(pend) and t + timedelta(minutes=passo) <= fim_dia:
+            b = pend[idx]
+            br = t.astimezone(BR)
+            b["data"] = br.strftime("%Y-%m-%d")
+            b["dia_rotulo"] = br.strftime("%d/%m")
+            if tem_call:
+                b["horario"] = br.strftime("%H:%M")
+                b["quando"] = br.strftime("%H:%M")
+                b["estado"] = "com_horario"
+            else:
+                b["horario"] = None
+                b["quando"] = "aguardando call"
+                b["estado"] = "aguardando_call"
+            t += timedelta(minutes=passo)
+            idx += 1
+
+    # sobras (nao couberam na etapa): sem data
+    for b in pend[idx:]:
+        b["data"] = None
+        b["dia_rotulo"] = None
+        b["horario"] = None
+        b["quando"] = "aguardando call"
+        b["estado"] = "aguardando_call"
 
     for b in baterias:
         if b["status"] == "encerrada":
-            b["quando"], b["estado"], b["dia_competicao"] = "encerrada", "encerrada", 0
-        b.setdefault("dia_competicao", 9)
-        b.setdefault("quando", "aguardando call")
-        b.setdefault("estado", "aguardando_call")
+            b["data"] = None
+            b["dia_rotulo"] = None
+            b["horario"] = None
+            b["quando"] = "encerrada"
+            b["estado"] = "encerrada"
     return baterias
+
+
+def monta_barra(baterias, call, hoje, nome_evento):
+    """15 dias: vazio / previsto (prancha apagada) / call (prancha cheia)."""
+    conta = {}
+    for b in baterias:
+        if b.get("data"):
+            conta[b["data"]] = conta.get(b["data"], 0) + 1
+    barra = []
+    for i in range(DIAS_BARRA):
+        d = hoje + timedelta(days=i)
+        chave = d.strftime("%Y-%m-%d")
+        qtd = conta.get(chave, 0)
+        if qtd == 0:
+            estado = "vazio"
+        elif call and call.date() == d:
+            estado = "call"
+        else:
+            estado = "previsto"
+        barra.append({
+            "data": chave,
+            "dia": d.strftime("%d"),
+            "mes": d.strftime("%m"),
+            "semana": SEMANA[d.weekday()],
+            "estado": estado,
+            "qtd": qtd,
+            "evento": nome_evento if qtd else None,
+            "hoje": i == 0,
+        })
+    return barra
 
 
 # ---------- principal ----------
 def main():
     agora = datetime.now(BR)
-    eid, slug = etapa_atual()
-    print("etapa:", eid, slug)
-    if not eid:
-        raise SystemExit("nao encontrei nenhuma etapa")
+    hoje = agora.date()
+    eid, slug, d_ini, d_fim, tz_evento = etapa_atual()
+    nome_evento = NOMES.get(eid, slug.replace("-", " ").title())
+    print("etapa:", eid, slug, f"({d_ini} a {d_fim})")
 
     ids = stat_ids(eid, slug)
     print("divisoes:", ids)
@@ -247,24 +308,34 @@ def main():
     passo = duracao_real(estado)
     print("passo (min):", passo, "| amostras:", len(estado["duracoes"]))
 
-    baterias = monta(baterias, call, passo, agora)
+    baterias = distribui(baterias, call, passo, hoje, d_fim, tz_evento, agora)
     baterias.sort(key=lambda b: (ORDEM.index(b["rodada"]), b["numero"], b["genero"]))
+    barra = monta_barra(baterias, call, hoje, nome_evento)
+
+    print("\nBARRA DE DIAS:")
+    for d in barra:
+        marca = {"call": "[prancha cheia]", "previsto": "[prancha vazia]", "vazio": ""}[d["estado"]]
+        print(f"  {d['semana']} {d['dia']}/{d['mes']}  {marca} {d['qtd'] or ''}")
 
     ao_vivo = next((b for b in baterias if b["status"] == "ao_vivo"), None)
     proxima = next((b for b in baterias if b["status"] == "aguardando"), None)
 
     app = {
         "atualizado_em": agora.strftime("%d/%m/%Y %H:%M"),
-        "evento": {"nome": slug.replace("-", " ").title(), "id": eid},
+        "evento": {"nome": nome_evento, "id": eid,
+                   "inicio": d_ini.strftime("%Y-%m-%d"),
+                   "fim": d_fim.strftime("%Y-%m-%d")},
         "call": call.strftime("%d/%m \u00e0s %H:%M") if call else None,
+        "call_data": call.strftime("%Y-%m-%d") if call else None,
         "passo_estimado_min": passo,
+        "dias": barra,
         "ao_vivo": ao_vivo,
         "proxima": proxima,
         "baterias": baterias,
     }
     json.dump(app, open("app.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     json.dump(estado, open("estado.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-    print(f"OK - {len(baterias)} baterias salvas")
+    print(f"\nOK - {len(baterias)} baterias salvas")
 
 
 if __name__ == "__main__":
