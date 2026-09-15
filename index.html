@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Baterias WSL</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --azul:#3BA7E8; --azul-esc:#1B6FA8; --azul-claro:#E3F2FC;
+  --cinza-900:#1E2A33; --cinza-700:#41525F; --cinza-500:#7A8B98;
+  --cinza-200:#DDE4EA; --cinza-100:#EFF3F6; --bg:#F7FAFC;
+  --verde:#2FAE73; --vermelho:#E5554E;
+}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{font-family:'Outfit',system-ui,sans-serif;background:var(--bg);color:var(--cinza-900);
+  padding-bottom:40px}
+
+/* ---------- topo ---------- */
+.hd{background:linear-gradient(135deg,var(--azul-esc),var(--azul));color:#fff;
+  padding:18px 18px 14px;border-radius:0 0 22px 22px;box-shadow:0 4px 18px rgba(27,111,168,.18)}
+.hd h1{font-size:12px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+.hd h2{font-size:22px;font-weight:600;margin-top:2px;line-height:1.15}
+.hd .meta{margin-top:8px;font-size:12.5px;font-weight:300;opacity:.9;display:flex;gap:14px;flex-wrap:wrap}
+
+/* ---------- barra de dias ---------- */
+.dias{display:flex;gap:8px;overflow-x:auto;padding:14px 14px 10px;scrollbar-width:none}
+.dias::-webkit-scrollbar{display:none}
+.dia{flex:0 0 auto;width:58px;background:#fff;border:1.5px solid var(--cinza-200);
+  border-radius:15px;padding:9px 0 7px;text-align:center;cursor:pointer;
+  transition:.18s;position:relative}
+.dia .sem{font-size:10.5px;font-weight:500;color:var(--cinza-500);text-transform:uppercase;letter-spacing:.06em}
+.dia .num{font-size:20px;font-weight:600;line-height:1.1;margin-top:1px}
+.dia .ico{height:17px;margin-top:3px;display:flex;align-items:center;justify-content:center}
+.dia.sel{background:var(--azul);border-color:var(--azul);color:#fff;
+  box-shadow:0 5px 14px rgba(59,167,232,.35);transform:translateY(-2px)}
+.dia.sel .sem{color:rgba(255,255,255,.85)}
+.dia.hoje::after{content:'';position:absolute;bottom:4px;left:50%;transform:translateX(-50%);
+  width:4px;height:4px;border-radius:50%;background:var(--azul)}
+.dia.sel.hoje::after{background:#fff}
+
+/* ---------- lista ---------- */
+.lista{padding:4px 14px}
+.grupo{font-size:11.5px;font-weight:600;letter-spacing:.11em;text-transform:uppercase;
+  color:var(--cinza-500);margin:18px 0 9px 3px}
+.card{background:#fff;border-radius:16px;padding:13px 14px;margin-bottom:9px;
+  box-shadow:0 1px 3px rgba(30,42,51,.07)}
+.card.live{border:1.5px solid var(--azul);box-shadow:0 3px 14px rgba(59,167,232,.2)}
+.card-hd{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+.tag{font-size:11px;font-weight:600;padding:2.5px 8px;border-radius:7px;
+  background:var(--azul-claro);color:var(--azul-esc)}
+.tag.f{background:#FCE7F3;color:#9D3B6B}
+.heat{font-size:12.5px;font-weight:300;color:var(--cinza-500);min-width:0;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.heat b{font-weight:600;color:var(--cinza-700)}
+.quando{margin-left:auto;font-size:13px;font-weight:600;color:var(--azul-esc)}
+.quando.espera{font-size:11px;font-weight:400;color:var(--cinza-500)}
+.quando.fim{color:var(--cinza-500);font-weight:400;font-size:11.5px}
+.pill{font-size:10px;font-weight:700;letter-spacing:.06em;background:var(--vermelho);
+  color:#fff;padding:2px 7px;border-radius:6px;animation:pulse 1.6s infinite}
+@keyframes pulse{50%{opacity:.55}}
+
+.surf{display:flex;align-items:center;gap:9px;padding:6px 0}
+.surf+.surf{border-top:1px solid var(--cinza-100)}
+.colete{width:5px;height:26px;border-radius:3px;flex:0 0 auto}
+.flag{width:21px;height:14px;border-radius:2.5px;object-fit:cover;flex:0 0 auto;
+  background:var(--cinza-200)}
+.flag-txt{width:21px;height:14px;border-radius:2.5px;flex:0 0 auto;font-size:7.5px;
+  font-weight:700;display:flex;align-items:center;justify-content:center;
+  background:var(--cinza-700);color:#fff}
+.nome{font-size:14.5px;font-weight:400;flex:1;min-width:0;overflow:hidden;
+  text-overflow:ellipsis;white-space:nowrap}
+.nome.venceu{font-weight:600}
+.nome.aberto{color:var(--cinza-500);font-style:italic;font-size:13.5px}
+.nota{font-size:15px;font-weight:600;font-variant-numeric:tabular-nums}
+.nota.venceu{color:var(--verde)}
+.nota.perdeu{color:var(--cinza-500);font-weight:400}
+.nota.vazio{color:var(--cinza-200)}
+
+.dia.etapas{width:auto;padding:9px 14px 7px;display:flex;flex-direction:column;
+  justify-content:center;gap:2px}
+.dia.etapas .sem{font-size:10.5px}
+.dia.etapas .lbl{font-size:13.5px;font-weight:600;line-height:1.1}
+
+.etapa{background:#fff;border-radius:16px;padding:14px;margin-bottom:10px;
+  display:flex;align-items:center;gap:12px;box-shadow:0 1px 3px rgba(30,42,51,.07)}
+.etapa.agora{border:1.5px solid var(--azul);box-shadow:0 3px 14px rgba(59,167,232,.18)}
+.etapa .flag-big{width:38px;height:26px;border-radius:5px;object-fit:cover;
+  flex:0 0 auto;background:var(--cinza-200)}
+.etapa .flag-big-txt{width:38px;height:26px;border-radius:5px;flex:0 0 auto;
+  font-size:10px;font-weight:700;display:flex;align-items:center;justify-content:center;
+  background:var(--cinza-700);color:#fff}
+.etapa .txt{flex:1;min-width:0}
+.etapa .nm{font-size:15px;font-weight:600;line-height:1.2}
+.etapa .lc{font-size:12.5px;font-weight:300;color:var(--cinza-500);margin-top:2px}
+.etapa .dt{font-size:12.5px;font-weight:600;color:var(--azul-esc);
+  text-align:right;flex:0 0 auto;line-height:1.3}
+.etapa .agora-tag{font-size:9.5px;font-weight:700;letter-spacing:.06em;
+  background:var(--azul);color:#fff;padding:2px 7px;border-radius:6px;
+  display:inline-block;margin-top:4px}
+
+.vazio-msg{text-align:center;padding:52px 26px;color:var(--cinza-500)}
+.vazio-msg .big{font-size:38px;margin-bottom:10px;opacity:.35}
+.vazio-msg p{font-size:14px;font-weight:300;line-height:1.5}
+.rodape{text-align:center;font-size:11px;color:var(--cinza-500);
+  font-weight:300;padding:22px 16px 6px}
+</style>
+</head>
+<body>
+
+<div class="hd">
+  <h1>Championship Tour</h1>
+  <h2 id="evento">carregando...</h2>
+  <div class="meta">
+    <span id="call"></span>
+    <span id="atualizado"></span>
+  </div>
+</div>
+
+<div class="dias" id="dias"></div>
+<div class="lista" id="lista"></div>
+<div class="rodape" id="rodape"></div>
+
+<script>
+const URL_JSON = "https://mirandollg.github.io/wsl-baterias/app.json";
+
+const ISO = {BRA:'br',USA:'us',AUS:'au',JPN:'jp',FRA:'fr',ITA:'it',RSA:'za',MEX:'mx',
+             INA:'id',MAR:'ma',CAN:'ca',CRC:'cr',ESP:'es',POR:'pt',ISR:'il',
+             NZL:'nz',ESA:'sv',PYF:'pf',FJI:'fj',PHI:'ph'};
+const CORES = {red:'#E5554E',blue:'#3B7DE8',yellow:'#F2C037',white:'#C9D3DB',
+               black:'#2B3A45',green:'#2FAE73',orange:'#F08A34',pink:'#E86AA8'};
+
+const prancha = (cheia) => `<svg width="11" height="17" viewBox="0 0 11 17">
+  <path d="M5.5 1C7.6 3.4 9 6.6 9 9.6c0 3.4-1.6 6-3.5 6.4C3.6 15.6 2 13 2 9.6 2 6.6 3.4 3.4 5.5 1z"
+    fill="${cheia?'currentColor':'none'}" stroke="currentColor" stroke-width="1.3"
+    opacity="${cheia?'1':'.55'}"/></svg>`;
+
+const bandeira = (p) => {
+  if(!p) return '<span style="width:21px;flex:0 0 auto"></span>';
+  if(ISO[p]) return `<img class="flag" src="https://flagcdn.com/w40/${ISO[p]}.png" alt="${p}"
+     onerror="this.outerHTML='<span class=flag-txt>${p}</span>'">`;
+  return `<span class="flag-txt">${p}</span>`;
+};
+
+let DADOS = null, SEL = null;
+
+function render(){
+  const d = DADOS;
+  document.getElementById('evento').textContent = d.evento.nome;
+  document.getElementById('call').textContent = d.call ? '📣 Call ' + d.call : '📣 Aguardando call';
+  document.getElementById('atualizado').textContent = '🕐 ' + d.atualizado_em;
+  document.getElementById('rodape').textContent =
+    'Horários estimados a partir da call · atualiza a cada 10 min';
+
+  // barra de dias
+  const bar = document.getElementById('dias');
+  bar.innerHTML = '';
+  (d.dias||[]).forEach(dia => {
+    const el = document.createElement('div');
+    el.className = 'dia' + (dia.data===SEL?' sel':'') + (dia.hoje?' hoje':'');
+    el.innerHTML = `<div class="sem">${dia.semana}</div>
+                    <div class="num">${dia.dia}</div>
+                    <div class="ico">${dia.estado!=='vazio' ? prancha(dia.estado==='call') : ''}</div>`;
+    el.onclick = () => { SEL = dia.data; render(); };
+    bar.appendChild(el);
+  });
+
+  // aba "Proximas etapas" no fim da barra
+  const ab = document.createElement('div');
+  ab.className = 'dia etapas' + (SEL === 'ETAPAS' ? ' sel' : '');
+  ab.innerHTML = `<div class="sem">Calendário</div><div class="lbl">Próximas etapas ›</div>`;
+  ab.onclick = () => { SEL = 'ETAPAS'; render(); };
+  bar.appendChild(ab);
+
+  const lista = document.getElementById('lista');
+
+  // tela de proximas etapas
+  if(SEL === 'ETAPAS'){
+    const et = d.proximas_etapas || [];
+    if(!et.length){
+      lista.innerHTML = `<div class="vazio-msg"><div class="big">🏁</div>
+        <p>Temporada encerrada</p></div>`;
+      return;
+    }
+    lista.innerHTML = '<div class="grupo">Calendário do Championship Tour</div>' +
+      et.map(e => {
+        const f = ISO[e.pais]
+          ? `<img class="flag-big" src="https://flagcdn.com/w80/${ISO[e.pais]}.png" alt="${e.pais}"
+               onerror="this.outerHTML='<span class=flag-big-txt>${e.pais}</span>'">`
+          : `<span class="flag-big-txt">${e.pais}</span>`;
+        return `<div class="etapa${e.em_andamento?' agora':''}">
+          ${f}
+          <div class="txt">
+            <div class="nm">${e.nome}</div>
+            <div class="lc">${e.local}</div>
+            ${e.em_andamento?'<span class="agora-tag">ACONTECENDO</span>':''}
+          </div>
+          <div class="dt">${e.periodo.replace(' a ','<br>a ')}</div>
+        </div>`;
+      }).join('');
+    return;
+  }
+
+  // lista do dia
+  const bats = (d.baterias||[]).filter(b => b.data === SEL);
+  if(!bats.length){
+    lista.innerHTML = `<div class="vazio-msg"><div class="big">🌊</div>
+      <p>Nenhuma bateria prevista<br>para este dia</p></div>`;
+    return;
+  }
+  let html = '', rodada = null;
+  bats.forEach(b => {
+    if(b.rodada !== rodada){ rodada = b.rodada; html += `<div class="grupo">${rodada}</div>`; }
+    const live = b.status === 'ao_vivo';
+    let quando;
+    if(live) quando = '<span class="pill">AO VIVO</span>';
+    else if(b.status === 'encerrada') quando = '<span class="quando fim">encerrada</span>';
+    else if(b.estado === 'com_horario') quando = `<span class="quando">${b.horario}</span>`;
+    else quando = '<span class="quando espera">aguardando call</span>';
+
+    const venc = b.surfistas.some(s => s.avancou);
+    const linhas = b.surfistas.map(s => {
+      const aberto = /vencedor/i.test(s.nome);
+      const cls = s.avancou ? ' venceu' : '';
+      const nota = s.nota
+        ? `<div class="nota ${s.avancou?'venceu':(venc?'perdeu':'')}">${s.nota}</div>`
+        : `<div class="nota vazio">--</div>`;
+      return `<div class="surf">
+        <div class="colete" style="background:${CORES[s.colete]||'#C9D3DB'}"></div>
+        ${bandeira(s.pais)}
+        <div class="nome${cls}${aberto?' aberto':''}">${s.nome}</div>
+        ${nota}</div>`;
+    }).join('');
+
+    html += `<div class="card${live?' live':''}">
+      <div class="card-hd">
+        <span class="tag ${b.genero==='F'?'f':''}">${b.genero==='F'?'FEM':'MASC'}</span>
+        <span class="heat"><b>${b.rodada}</b> · Bateria ${b.numero}</span>
+        ${quando}
+      </div>${linhas}</div>`;
+  });
+  lista.innerHTML = html;
+}
+
+fetch(URL_JSON + '?t=' + Date.now())
+  .then(r => r.json())
+  .then(j => {
+    DADOS = j;
+    const comBat = (j.dias||[]).find(d => d.estado !== 'vazio');
+    SEL = comBat ? comBat.data : (j.dias?.[0]?.data);
+    render();
+  })
+  .catch(e => {
+    document.getElementById('evento').textContent = 'Erro ao carregar';
+    document.getElementById('lista').innerHTML =
+      `<div class="vazio-msg"><div class="big">⚠️</div>
+       <p>Não consegui buscar os dados.<br>Confere se o link está no ar.</p></div>`;
+  });
+</script>
+</body>
+</html>
