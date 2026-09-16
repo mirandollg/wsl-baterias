@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 20:30",
+  "atualizado_em": "16/09/2026 20:45",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -16,7 +16,7 @@
       "mes": "09",
       "semana": "Qua",
       "estado": "previsto",
-      "qtd": 30,
+      "qtd": 31,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -36,7 +36,7 @@
       "mes": "09",
       "semana": "Sex",
       "estado": "previsto",
-      "qtd": 5,
+      "qtd": 4,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -204,23 +204,23 @@
     }
   ],
   "ao_vivo": {
-    "id": "114343",
+    "id": "114344",
     "genero": "M",
     "rodada": "Rodada 2",
-    "numero": 10,
+    "numero": 11,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Morgan Cibilic",
+        "nome": "George Pittar",
         "pais": "AUS",
-        "nota": "0.97",
+        "nota": null,
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Cole Houshmand",
-        "pais": "USA",
-        "nota": "12.33",
+        "nome": "Alan Cleland",
+        "pais": "MEX",
+        "nota": null,
         "colete": "blue",
         "avancou": false
       }
@@ -233,22 +233,22 @@
     "estado": "aguardando_call"
   },
   "proxima": {
-    "id": "114344",
+    "id": "114345",
     "genero": "M",
     "rodada": "Rodada 2",
-    "numero": 11,
+    "numero": 12,
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "George Pittar",
-        "pais": "AUS",
+        "nome": "Samuel Pupo",
+        "pais": "BRA",
         "nota": null,
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Alan Cleland",
-        "pais": "MEX",
+        "nome": "Jake Marshall",
+        "pais": "USA",
         "nota": null,
         "colete": "blue",
         "avancou": false
@@ -876,36 +876,36 @@
       "genero": "M",
       "rodada": "Rodada 2",
       "numero": 10,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Morgan Cibilic",
           "pais": "AUS",
-          "nota": "0.97",
+          "nota": "5.40",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Cole Houshmand",
           "pais": "USA",
-          "nota": "12.33",
+          "nota": "14.00",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         }
       ],
       "definida": true,
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114344",
       "genero": "M",
       "rodada": "Rodada 2",
       "numero": 11,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "George Pittar",
@@ -1350,16 +1350,16 @@
           "avancou": false
         },
         {
-          "nome": "vencedor da R2H10",
-          "pais": null,
+          "nome": "Cole Houshmand",
+          "pais": "USA",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "definida": false,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "definida": true,
+      "data": "2026-09-16",
+      "dia_rotulo": "16/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1822,8 +1822,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
