@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 17:13",
+  "atualizado_em": "16/09/2026 17:32",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -213,14 +213,14 @@
       {
         "nome": "Marco Mignot",
         "pais": "FRA",
-        "nota": "5.17",
+        "nota": "14.43",
         "colete": "red",
         "avancou": false
       },
       {
         "nome": "Joao Chianca",
         "pais": "BRA",
-        "nota": "5.27",
+        "nota": "11.17",
         "colete": "blue",
         "avancou": false
       }
@@ -736,14 +736,14 @@
         {
           "nome": "Marco Mignot",
           "pais": "FRA",
-          "nota": "5.17",
+          "nota": "14.43",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Joao Chianca",
           "pais": "BRA",
-          "nota": "5.27",
+          "nota": "11.17",
           "colete": "blue",
           "avancou": false
         }
