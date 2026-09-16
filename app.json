@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 12:31",
+  "atualizado_em": "16/09/2026 12:49",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -16,7 +16,7 @@
       "mes": "09",
       "semana": "Qua",
       "estado": "previsto",
-      "qtd": 18,
+      "qtd": 19,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -36,7 +36,7 @@
       "mes": "09",
       "semana": "Sex",
       "estado": "previsto",
-      "qtd": 16,
+      "qtd": 15,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -204,23 +204,23 @@
     }
   ],
   "ao_vivo": {
-    "id": "114875",
+    "id": "114876",
     "genero": "F",
     "rodada": "Rodada 1",
-    "numero": 5,
+    "numero": 6,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Tyler Wright",
-        "pais": "AUS",
-        "nota": "7.67",
+        "nome": "Bettylou Sakura Johnson",
+        "pais": "HAW",
+        "nota": null,
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Francisca Veselko",
-        "pais": "POR",
-        "nota": "7.17",
+        "nome": "Bella Kenworthy",
+        "pais": "USA",
+        "nota": "6.50",
         "colete": "blue",
         "avancou": false
       }
@@ -233,21 +233,21 @@
     "estado": "aguardando_call"
   },
   "proxima": {
-    "id": "114876",
+    "id": "114877",
     "genero": "F",
     "rodada": "Rodada 1",
-    "numero": 6,
+    "numero": 7,
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "Bettylou Sakura Johnson",
-        "pais": "HAW",
+        "nome": "Nadia Erostarbe",
+        "pais": "ESP",
         "nota": null,
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Bella Kenworthy",
+        "nome": "Eden Walla",
         "pais": "USA",
         "nota": null,
         "colete": "blue",
@@ -499,14 +499,14 @@
       "genero": "F",
       "rodada": "Rodada 1",
       "numero": 5,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Tyler Wright",
           "pais": "AUS",
-          "nota": "7.67",
+          "nota": "10.67",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Francisca Veselko",
@@ -520,15 +520,15 @@
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114876",
       "genero": "F",
       "rodada": "Rodada 1",
       "numero": 6,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Bettylou Sakura Johnson",
@@ -540,7 +540,7 @@
         {
           "nome": "Bella Kenworthy",
           "pais": "USA",
-          "nota": null,
+          "nota": "6.50",
           "colete": "blue",
           "avancou": false
         }
@@ -1010,8 +1010,8 @@
         }
       ],
       "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-16",
+      "dia_rotulo": "16/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1147,14 +1147,14 @@
           "avancou": false
         },
         {
-          "nome": "vencedor da R1H5",
-          "pais": null,
+          "nome": "Tyler Wright",
+          "pais": "AUS",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "definida": false,
+      "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
       "horario": null,
@@ -1503,8 +1503,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
