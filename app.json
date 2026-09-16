@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 13:40",
+  "atualizado_em": "16/09/2026 13:57",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -16,7 +16,7 @@
       "mes": "09",
       "semana": "Qua",
       "estado": "previsto",
-      "qtd": 20,
+      "qtd": 21,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -36,7 +36,7 @@
       "mes": "09",
       "semana": "Sex",
       "estado": "previsto",
-      "qtd": 14,
+      "qtd": 13,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -204,23 +204,23 @@
     }
   ],
   "ao_vivo": {
-    "id": "114877",
+    "id": "114878",
     "genero": "F",
     "rodada": "Rodada 1",
-    "numero": 7,
+    "numero": 8,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Nadia Erostarbe",
-        "pais": "ESP",
-        "nota": "7.33",
+        "nome": "Caroline Marks",
+        "pais": "USA",
+        "nota": null,
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Eden Walla",
+        "nome": "Kirra Pinkerton",
         "pais": "USA",
-        "nota": "11.83",
+        "nota": null,
         "colete": "blue",
         "avancou": false
       }
@@ -233,22 +233,22 @@
     "estado": "aguardando_call"
   },
   "proxima": {
-    "id": "114878",
-    "genero": "F",
-    "rodada": "Rodada 1",
-    "numero": 8,
+    "id": "114334",
+    "genero": "M",
+    "rodada": "Rodada 2",
+    "numero": 1,
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "Caroline Marks",
-        "pais": "USA",
+        "nome": "Connor O'Leary",
+        "pais": "JPN",
         "nota": null,
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Kirra Pinkerton",
-        "pais": "USA",
+        "nome": "Callum Robson",
+        "pais": "AUS",
         "nota": null,
         "colete": "blue",
         "avancou": false
@@ -557,12 +557,12 @@
       "genero": "F",
       "rodada": "Rodada 1",
       "numero": 7,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Nadia Erostarbe",
           "pais": "ESP",
-          "nota": "7.33",
+          "nota": "8.73",
           "colete": "red",
           "avancou": false
         },
@@ -571,22 +571,22 @@
           "pais": "USA",
           "nota": "11.83",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         }
       ],
       "definida": true,
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114878",
       "genero": "F",
       "rodada": "Rodada 1",
       "numero": 8,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Caroline Marks",
@@ -1068,8 +1068,8 @@
         }
       ],
       "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-16",
+      "dia_rotulo": "16/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1263,14 +1263,14 @@
           "avancou": false
         },
         {
-          "nome": "vencedor da R1H7",
-          "pais": null,
+          "nome": "Eden Walla",
+          "pais": "USA",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "definida": false,
+      "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
       "horario": null,
@@ -1561,8 +1561,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
