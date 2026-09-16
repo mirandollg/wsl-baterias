@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 11:34",
+  "atualizado_em": "16/09/2026 11:50",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -213,14 +213,14 @@
       {
         "nome": "Yolanda Hopkins",
         "pais": "POR",
-        "nota": "2.50",
+        "nota": "10.33",
         "colete": "red",
         "avancou": false
       },
       {
         "nome": "Sally Fitzgibbons",
         "pais": "AUS",
-        "nota": null,
+        "nota": "10.00",
         "colete": "blue",
         "avancou": false
       }
@@ -446,14 +446,14 @@
         {
           "nome": "Yolanda Hopkins",
           "pais": "POR",
-          "nota": "2.50",
+          "nota": "10.33",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Sally Fitzgibbons",
           "pais": "AUS",
-          "nota": null,
+          "nota": "10.00",
           "colete": "blue",
           "avancou": false
         }
