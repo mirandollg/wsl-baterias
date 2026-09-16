@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 15:16",
+  "atualizado_em": "16/09/2026 15:35",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -8,7 +8,7 @@
   },
   "call": null,
   "call_data": null,
-  "passo_estimado_min": 35,
+  "passo_estimado_min": 41,
   "dias": [
     {
       "data": "2026-09-16",
@@ -16,7 +16,7 @@
       "mes": "09",
       "semana": "Qua",
       "estado": "previsto",
-      "qtd": 22,
+      "qtd": 20,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -26,7 +26,7 @@
       "mes": "09",
       "semana": "Qui",
       "estado": "previsto",
-      "qtd": 17,
+      "qtd": 14,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -36,7 +36,7 @@
       "mes": "09",
       "semana": "Sex",
       "estado": "previsto",
-      "qtd": 12,
+      "qtd": 14,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -45,9 +45,9 @@
       "dia": "19",
       "mes": "09",
       "semana": "Sab",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
+      "estado": "previsto",
+      "qtd": 3,
+      "evento": "Lexus Trestles Pro",
       "hoje": false
     },
     {
@@ -204,23 +204,23 @@
     }
   ],
   "ao_vivo": {
-    "id": "114334",
+    "id": "114335",
     "genero": "M",
     "rodada": "Rodada 2",
-    "numero": 1,
+    "numero": 2,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Connor O'Leary",
-        "pais": "JPN",
-        "nota": "8.83",
+        "nome": "Griffin Colapinto",
+        "pais": "USA",
+        "nota": "4.37",
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Callum Robson",
-        "pais": "AUS",
-        "nota": "12.27",
+        "nome": "Rio Waida",
+        "pais": "INA",
+        "nota": "12.43",
         "colete": "blue",
         "avancou": false
       }
@@ -233,22 +233,22 @@
     "estado": "aguardando_call"
   },
   "proxima": {
-    "id": "114335",
+    "id": "114336",
     "genero": "M",
     "rodada": "Rodada 2",
-    "numero": 2,
+    "numero": 3,
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "Griffin Colapinto",
-        "pais": "USA",
+        "nome": "Yago Dora",
+        "pais": "BRA",
         "nota": null,
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Rio Waida",
-        "pais": "INA",
+        "nome": "Oscar Berry",
+        "pais": "AUS",
         "nota": null,
         "colete": "blue",
         "avancou": false
@@ -615,7 +615,7 @@
       "genero": "M",
       "rodada": "Rodada 2",
       "numero": 1,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Connor O'Leary",
@@ -629,34 +629,34 @@
           "pais": "AUS",
           "nota": "12.27",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         }
       ],
       "definida": true,
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114335",
       "genero": "M",
       "rodada": "Rodada 2",
       "numero": 2,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Griffin Colapinto",
           "pais": "USA",
-          "nota": null,
+          "nota": "4.37",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Rio Waida",
           "pais": "INA",
-          "nota": null,
+          "nota": "12.43",
           "colete": "blue",
           "avancou": false
         }
@@ -1068,8 +1068,8 @@
         }
       ],
       "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1097,8 +1097,8 @@
         }
       ],
       "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1111,8 +1111,8 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da R2H1",
-          "pais": null,
+          "nome": "Callum Robson",
+          "pais": "AUS",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -1474,8 +1474,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1503,8 +1503,8 @@
         }
       ],
       "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1532,8 +1532,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1561,8 +1561,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1590,8 +1590,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1880,8 +1880,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-19",
+      "dia_rotulo": "19/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1909,8 +1909,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-19",
+      "dia_rotulo": "19/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1938,8 +1938,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-19",
+      "dia_rotulo": "19/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
