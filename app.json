@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 18:58",
+  "atualizado_em": "16/09/2026 19:16",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -213,14 +213,14 @@
       {
         "nome": "Ethan Ewing",
         "pais": "AUS",
-        "nota": null,
+        "nota": "7.23",
         "colete": "red",
         "avancou": false
       },
       {
         "nome": "Alejo Muniz",
         "pais": "BRA",
-        "nota": null,
+        "nota": "7.17",
         "colete": "blue",
         "avancou": false
       }
@@ -823,14 +823,14 @@
         {
           "nome": "Ethan Ewing",
           "pais": "AUS",
-          "nota": null,
+          "nota": "7.23",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Alejo Muniz",
           "pais": "BRA",
-          "nota": null,
+          "nota": "7.17",
           "colete": "blue",
           "avancou": false
         }
