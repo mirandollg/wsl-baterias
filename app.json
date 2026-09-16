@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 16:10",
+  "atualizado_em": "16/09/2026 16:29",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -213,14 +213,14 @@
       {
         "nome": "Yago Dora",
         "pais": "BRA",
-        "nota": "11.17",
+        "nota": "14.33",
         "colete": "red",
         "avancou": false
       },
       {
         "nome": "Oscar Berry",
         "pais": "AUS",
-        "nota": null,
+        "nota": "11.83",
         "colete": "blue",
         "avancou": false
       }
@@ -678,14 +678,14 @@
         {
           "nome": "Yago Dora",
           "pais": "BRA",
-          "nota": "11.17",
+          "nota": "14.33",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Oscar Berry",
           "pais": "AUS",
-          "nota": null,
+          "nota": "11.83",
           "colete": "blue",
           "avancou": false
         }
