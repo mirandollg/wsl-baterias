@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 17:49",
+  "atualizado_em": "16/09/2026 18:00",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -213,14 +213,14 @@
       {
         "nome": "Italo Ferreira",
         "pais": "BRA",
-        "nota": "5.74",
+        "nota": "12.00",
         "colete": "red",
         "avancou": false
       },
       {
         "nome": "Eli Hanneman",
         "pais": "HAW",
-        "nota": "6.30",
+        "nota": "6.40",
         "colete": "blue",
         "avancou": false
       }
@@ -765,14 +765,14 @@
         {
           "nome": "Italo Ferreira",
           "pais": "BRA",
-          "nota": "5.74",
+          "nota": "12.00",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Eli Hanneman",
           "pais": "HAW",
-          "nota": "6.30",
+          "nota": "6.40",
           "colete": "blue",
           "avancou": false
         }
