@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 19:16",
+  "atualizado_em": "16/09/2026 19:31",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -16,7 +16,7 @@
       "mes": "09",
       "semana": "Qua",
       "estado": "previsto",
-      "qtd": 28,
+      "qtd": 29,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -36,7 +36,7 @@
       "mes": "09",
       "semana": "Sex",
       "estado": "previsto",
-      "qtd": 7,
+      "qtd": 6,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -204,23 +204,23 @@
     }
   ],
   "ao_vivo": {
-    "id": "114341",
+    "id": "114342",
     "genero": "M",
     "rodada": "Rodada 2",
-    "numero": 8,
+    "numero": 9,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Ethan Ewing",
-        "pais": "AUS",
-        "nota": "7.23",
-        "colete": "red",
+        "nome": "Leonardo Fioravanti",
+        "pais": "ITA",
+        "nota": null,
+        "colete": "yellow",
         "avancou": false
       },
       {
-        "nome": "Alejo Muniz",
-        "pais": "BRA",
-        "nota": "7.17",
+        "nome": "Luke Thompson",
+        "pais": "RSA",
+        "nota": null,
         "colete": "blue",
         "avancou": false
       }
@@ -233,22 +233,22 @@
     "estado": "aguardando_call"
   },
   "proxima": {
-    "id": "114342",
+    "id": "114343",
     "genero": "M",
     "rodada": "Rodada 2",
-    "numero": 9,
+    "numero": 10,
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "Leonardo Fioravanti",
-        "pais": "ITA",
+        "nome": "Morgan Cibilic",
+        "pais": "AUS",
         "nota": null,
-        "colete": "yellow",
+        "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Luke Thompson",
-        "pais": "RSA",
+        "nome": "Cole Houshmand",
+        "pais": "USA",
         "nota": null,
         "colete": "blue",
         "avancou": false
@@ -818,19 +818,19 @@
       "genero": "M",
       "rodada": "Rodada 2",
       "numero": 8,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Ethan Ewing",
           "pais": "AUS",
-          "nota": "7.23",
+          "nota": "12.37",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Alejo Muniz",
           "pais": "BRA",
-          "nota": "7.17",
+          "nota": "11.50",
           "colete": "blue",
           "avancou": false
         }
@@ -839,15 +839,15 @@
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114342",
       "genero": "M",
       "rodada": "Rodada 2",
       "numero": 9,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Leonardo Fioravanti",
@@ -1292,16 +1292,16 @@
           "avancou": false
         },
         {
-          "nome": "vencedor da R2H8",
-          "pais": null,
+          "nome": "Ethan Ewing",
+          "pais": "AUS",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "definida": false,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "definida": true,
+      "data": "2026-09-16",
+      "dia_rotulo": "16/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1764,8 +1764,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
