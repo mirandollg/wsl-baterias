@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 14:56",
+  "atualizado_em": "16/09/2026 15:16",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -213,14 +213,14 @@
       {
         "nome": "Connor O'Leary",
         "pais": "JPN",
-        "nota": null,
+        "nota": "8.83",
         "colete": "red",
         "avancou": false
       },
       {
         "nome": "Callum Robson",
         "pais": "AUS",
-        "nota": null,
+        "nota": "12.27",
         "colete": "blue",
         "avancou": false
       }
@@ -620,14 +620,14 @@
         {
           "nome": "Connor O'Leary",
           "pais": "JPN",
-          "nota": null,
+          "nota": "8.83",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Callum Robson",
           "pais": "AUS",
-          "nota": null,
+          "nota": "12.27",
           "colete": "blue",
           "avancou": false
         }
