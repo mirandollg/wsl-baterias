@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 13:23",
+  "atualizado_em": "16/09/2026 13:40",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -213,14 +213,14 @@
       {
         "nome": "Nadia Erostarbe",
         "pais": "ESP",
-        "nota": "4.33",
+        "nota": "7.33",
         "colete": "red",
         "avancou": false
       },
       {
         "nome": "Eden Walla",
         "pais": "USA",
-        "nota": null,
+        "nota": "11.83",
         "colete": "blue",
         "avancou": false
       }
@@ -562,14 +562,14 @@
         {
           "nome": "Nadia Erostarbe",
           "pais": "ESP",
-          "nota": "4.33",
+          "nota": "7.33",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Eden Walla",
           "pais": "USA",
-          "nota": null,
+          "nota": "11.83",
           "colete": "blue",
           "avancou": false
         }
