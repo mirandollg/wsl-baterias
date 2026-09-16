@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 16:42",
+  "atualizado_em": "16/09/2026 16:55",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -213,14 +213,14 @@
       {
         "nome": "Kauli Vaast",
         "pais": "FRA",
-        "nota": "7.17",
+        "nota": "10.67",
         "colete": "red",
         "avancou": false
       },
       {
         "nome": "Barron Mamiya",
         "pais": "HAW",
-        "nota": "7.83",
+        "nota": "9.03",
         "colete": "blue",
         "avancou": false
       }
@@ -707,14 +707,14 @@
         {
           "nome": "Kauli Vaast",
           "pais": "FRA",
-          "nota": "7.17",
+          "nota": "10.67",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Barron Mamiya",
           "pais": "HAW",
-          "nota": "7.83",
+          "nota": "9.03",
           "colete": "blue",
           "avancou": false
         }
