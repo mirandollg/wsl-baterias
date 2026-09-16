@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 16:55",
+  "atualizado_em": "16/09/2026 17:13",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -8,7 +8,7 @@
   },
   "call": null,
   "call_data": null,
-  "passo_estimado_min": 39,
+  "passo_estimado_min": 38,
   "dias": [
     {
       "data": "2026-09-16",
@@ -16,7 +16,7 @@
       "mes": "09",
       "semana": "Qua",
       "estado": "previsto",
-      "qtd": 23,
+      "qtd": 24,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -36,7 +36,7 @@
       "mes": "09",
       "semana": "Sex",
       "estado": "previsto",
-      "qtd": 13,
+      "qtd": 12,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -204,23 +204,23 @@
     }
   ],
   "ao_vivo": {
-    "id": "114337",
+    "id": "114338",
     "genero": "M",
     "rodada": "Rodada 2",
-    "numero": 4,
+    "numero": 5,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Kauli Vaast",
+        "nome": "Marco Mignot",
         "pais": "FRA",
-        "nota": "10.67",
+        "nota": "5.17",
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Barron Mamiya",
-        "pais": "HAW",
-        "nota": "9.03",
+        "nome": "Joao Chianca",
+        "pais": "BRA",
+        "nota": "5.27",
         "colete": "blue",
         "avancou": false
       }
@@ -233,22 +233,22 @@
     "estado": "aguardando_call"
   },
   "proxima": {
-    "id": "114338",
+    "id": "114339",
     "genero": "M",
     "rodada": "Rodada 2",
-    "numero": 5,
+    "numero": 6,
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "Marco Mignot",
-        "pais": "FRA",
+        "nome": "Italo Ferreira",
+        "pais": "BRA",
         "nota": null,
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Joao Chianca",
-        "pais": "BRA",
+        "nome": "Eli Hanneman",
+        "pais": "HAW",
         "nota": null,
         "colete": "blue",
         "avancou": false
@@ -702,19 +702,19 @@
       "genero": "M",
       "rodada": "Rodada 2",
       "numero": 4,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Kauli Vaast",
           "pais": "FRA",
-          "nota": "10.67",
+          "nota": "12.20",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Barron Mamiya",
           "pais": "HAW",
-          "nota": "9.03",
+          "nota": "10.53",
           "colete": "blue",
           "avancou": false
         }
@@ -723,27 +723,27 @@
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114338",
       "genero": "M",
       "rodada": "Rodada 2",
       "numero": 5,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Marco Mignot",
           "pais": "FRA",
-          "nota": null,
+          "nota": "5.17",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Joao Chianca",
           "pais": "BRA",
-          "nota": null,
+          "nota": "5.27",
           "colete": "blue",
           "avancou": false
         }
@@ -1155,8 +1155,8 @@
         }
       ],
       "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-16",
+      "dia_rotulo": "16/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1176,14 +1176,14 @@
           "avancou": false
         },
         {
-          "nome": "vencedor da R2H4",
-          "pais": null,
+          "nome": "Kauli Vaast",
+          "pais": "FRA",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "definida": false,
+      "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
       "horario": null,
@@ -1590,8 +1590,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
