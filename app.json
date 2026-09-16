@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 17:32",
+  "atualizado_em": "16/09/2026 17:49",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -8,7 +8,7 @@
   },
   "call": null,
   "call_data": null,
-  "passo_estimado_min": 38,
+  "passo_estimado_min": 37,
   "dias": [
     {
       "data": "2026-09-16",
@@ -16,7 +16,7 @@
       "mes": "09",
       "semana": "Qua",
       "estado": "previsto",
-      "qtd": 24,
+      "qtd": 26,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -26,7 +26,7 @@
       "mes": "09",
       "semana": "Qui",
       "estado": "previsto",
-      "qtd": 15,
+      "qtd": 16,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -36,7 +36,7 @@
       "mes": "09",
       "semana": "Sex",
       "estado": "previsto",
-      "qtd": 12,
+      "qtd": 9,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -204,23 +204,23 @@
     }
   ],
   "ao_vivo": {
-    "id": "114338",
+    "id": "114339",
     "genero": "M",
     "rodada": "Rodada 2",
-    "numero": 5,
+    "numero": 6,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Marco Mignot",
-        "pais": "FRA",
-        "nota": "14.43",
+        "nome": "Italo Ferreira",
+        "pais": "BRA",
+        "nota": "5.74",
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Joao Chianca",
-        "pais": "BRA",
-        "nota": "11.17",
+        "nome": "Eli Hanneman",
+        "pais": "HAW",
+        "nota": "6.30",
         "colete": "blue",
         "avancou": false
       }
@@ -233,22 +233,22 @@
     "estado": "aguardando_call"
   },
   "proxima": {
-    "id": "114339",
+    "id": "114340",
     "genero": "M",
     "rodada": "Rodada 2",
-    "numero": 6,
+    "numero": 7,
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "Italo Ferreira",
-        "pais": "BRA",
+        "nome": "Kanoa Igarashi",
+        "pais": "JPN",
         "nota": null,
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Eli Hanneman",
-        "pais": "HAW",
+        "nome": "Crosby Colapinto",
+        "pais": "USA",
         "nota": null,
         "colete": "blue",
         "avancou": false
@@ -731,19 +731,19 @@
       "genero": "M",
       "rodada": "Rodada 2",
       "numero": 5,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Marco Mignot",
           "pais": "FRA",
           "nota": "14.43",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Joao Chianca",
           "pais": "BRA",
-          "nota": "11.17",
+          "nota": "11.77",
           "colete": "blue",
           "avancou": false
         }
@@ -752,27 +752,27 @@
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114339",
       "genero": "M",
       "rodada": "Rodada 2",
       "numero": 6,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Italo Ferreira",
           "pais": "BRA",
-          "nota": null,
+          "nota": "5.74",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Eli Hanneman",
           "pais": "HAW",
-          "nota": null,
+          "nota": "6.30",
           "colete": "blue",
           "avancou": false
         }
@@ -1184,8 +1184,8 @@
         }
       ],
       "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-16",
+      "dia_rotulo": "16/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1213,8 +1213,8 @@
         }
       ],
       "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-16",
+      "dia_rotulo": "16/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1227,8 +1227,8 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da R2H5",
-          "pais": null,
+          "nome": "Marco Mignot",
+          "pais": "FRA",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -1619,8 +1619,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1648,8 +1648,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1677,8 +1677,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
