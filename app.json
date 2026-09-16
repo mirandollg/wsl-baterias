@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 18:00",
+  "atualizado_em": "16/09/2026 18:19",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -16,7 +16,7 @@
       "mes": "09",
       "semana": "Qua",
       "estado": "previsto",
-      "qtd": 26,
+      "qtd": 27,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -36,7 +36,7 @@
       "mes": "09",
       "semana": "Sex",
       "estado": "previsto",
-      "qtd": 9,
+      "qtd": 8,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -204,23 +204,23 @@
     }
   ],
   "ao_vivo": {
-    "id": "114339",
+    "id": "114340",
     "genero": "M",
     "rodada": "Rodada 2",
-    "numero": 6,
+    "numero": 7,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Italo Ferreira",
-        "pais": "BRA",
-        "nota": "12.00",
+        "nome": "Kanoa Igarashi",
+        "pais": "JPN",
+        "nota": "0.30",
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Eli Hanneman",
-        "pais": "HAW",
-        "nota": "6.40",
+        "nome": "Crosby Colapinto",
+        "pais": "USA",
+        "nota": null,
         "colete": "blue",
         "avancou": false
       }
@@ -233,22 +233,22 @@
     "estado": "aguardando_call"
   },
   "proxima": {
-    "id": "114340",
+    "id": "114341",
     "genero": "M",
     "rodada": "Rodada 2",
-    "numero": 7,
+    "numero": 8,
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "Kanoa Igarashi",
-        "pais": "JPN",
+        "nome": "Ethan Ewing",
+        "pais": "AUS",
         "nota": null,
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Crosby Colapinto",
-        "pais": "USA",
+        "nome": "Alejo Muniz",
+        "pais": "BRA",
         "nota": null,
         "colete": "blue",
         "avancou": false
@@ -760,19 +760,19 @@
       "genero": "M",
       "rodada": "Rodada 2",
       "numero": 6,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Italo Ferreira",
           "pais": "BRA",
-          "nota": "12.00",
+          "nota": "14.26",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Eli Hanneman",
           "pais": "HAW",
-          "nota": "6.40",
+          "nota": "12.40",
           "colete": "blue",
           "avancou": false
         }
@@ -781,20 +781,20 @@
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114340",
       "genero": "M",
       "rodada": "Rodada 2",
       "numero": 7,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Kanoa Igarashi",
           "pais": "JPN",
-          "nota": null,
+          "nota": "0.30",
           "colete": "red",
           "avancou": false
         },
@@ -1234,16 +1234,16 @@
           "avancou": false
         },
         {
-          "nome": "vencedor da R2H6",
-          "pais": null,
+          "nome": "Italo Ferreira",
+          "pais": "BRA",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "definida": false,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "definida": true,
+      "data": "2026-09-16",
+      "dia_rotulo": "16/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1706,8 +1706,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
