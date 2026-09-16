@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 19:31",
+  "atualizado_em": "16/09/2026 19:47",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -213,14 +213,14 @@
       {
         "nome": "Leonardo Fioravanti",
         "pais": "ITA",
-        "nota": null,
+        "nota": "2.67",
         "colete": "yellow",
         "avancou": false
       },
       {
         "nome": "Luke Thompson",
         "pais": "RSA",
-        "nota": null,
+        "nota": "11.67",
         "colete": "blue",
         "avancou": false
       }
@@ -852,14 +852,14 @@
         {
           "nome": "Leonardo Fioravanti",
           "pais": "ITA",
-          "nota": null,
+          "nota": "2.67",
           "colete": "yellow",
           "avancou": false
         },
         {
           "nome": "Luke Thompson",
           "pais": "RSA",
-          "nota": null,
+          "nota": "11.67",
           "colete": "blue",
           "avancou": false
         }
