@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 12:49",
+  "atualizado_em": "16/09/2026 13:00",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -213,14 +213,14 @@
       {
         "nome": "Bettylou Sakura Johnson",
         "pais": "HAW",
-        "nota": null,
+        "nota": "0.37",
         "colete": "red",
         "avancou": false
       },
       {
         "nome": "Bella Kenworthy",
         "pais": "USA",
-        "nota": "6.50",
+        "nota": "13.33",
         "colete": "blue",
         "avancou": false
       }
@@ -533,14 +533,14 @@
         {
           "nome": "Bettylou Sakura Johnson",
           "pais": "HAW",
-          "nota": null,
+          "nota": "0.37",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Bella Kenworthy",
           "pais": "USA",
-          "nota": "6.50",
+          "nota": "13.33",
           "colete": "blue",
           "avancou": false
         }
