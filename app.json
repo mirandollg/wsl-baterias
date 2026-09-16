@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 14:30",
+  "atualizado_em": "16/09/2026 14:44",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -203,13 +203,12 @@
       "em_andamento": false
     }
   ],
-  "ao_vivo": null,
-  "proxima": {
+  "ao_vivo": {
     "id": "114334",
     "genero": "M",
     "rodada": "Rodada 2",
     "numero": 1,
-    "status": "aguardando",
+    "status": "ao_vivo",
     "surfistas": [
       {
         "nome": "Connor O'Leary",
@@ -221,6 +220,35 @@
       {
         "nome": "Callum Robson",
         "pais": "AUS",
+        "nota": null,
+        "colete": "blue",
+        "avancou": false
+      }
+    ],
+    "definida": true,
+    "data": "2026-09-16",
+    "dia_rotulo": "16/09",
+    "horario": null,
+    "quando": "aguardando call",
+    "estado": "aguardando_call"
+  },
+  "proxima": {
+    "id": "114335",
+    "genero": "M",
+    "rodada": "Rodada 2",
+    "numero": 2,
+    "status": "aguardando",
+    "surfistas": [
+      {
+        "nome": "Griffin Colapinto",
+        "pais": "USA",
+        "nota": null,
+        "colete": "red",
+        "avancou": false
+      },
+      {
+        "nome": "Rio Waida",
+        "pais": "INA",
         "nota": null,
         "colete": "blue",
         "avancou": false
@@ -587,7 +615,7 @@
       "genero": "M",
       "rodada": "Rodada 2",
       "numero": 1,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Connor O'Leary",
