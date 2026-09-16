@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 12:11",
+  "atualizado_em": "16/09/2026 12:31",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -213,14 +213,14 @@
       {
         "nome": "Tyler Wright",
         "pais": "AUS",
-        "nota": "0.50",
+        "nota": "7.67",
         "colete": "red",
         "avancou": false
       },
       {
         "nome": "Francisca Veselko",
         "pais": "POR",
-        "nota": null,
+        "nota": "7.17",
         "colete": "blue",
         "avancou": false
       }
@@ -504,14 +504,14 @@
         {
           "nome": "Tyler Wright",
           "pais": "AUS",
-          "nota": "0.50",
+          "nota": "7.67",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Francisca Veselko",
           "pais": "POR",
-          "nota": null,
+          "nota": "7.17",
           "colete": "blue",
           "avancou": false
         }
