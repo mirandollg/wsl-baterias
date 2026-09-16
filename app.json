@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 20:45",
+  "atualizado_em": "16/09/2026 20:57",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -213,14 +213,14 @@
       {
         "nome": "George Pittar",
         "pais": "AUS",
-        "nota": null,
+        "nota": "9.50",
         "colete": "red",
         "avancou": false
       },
       {
         "nome": "Alan Cleland",
         "pais": "MEX",
-        "nota": null,
+        "nota": "6.83",
         "colete": "blue",
         "avancou": false
       }
@@ -910,14 +910,14 @@
         {
           "nome": "George Pittar",
           "pais": "AUS",
-          "nota": null,
+          "nota": "9.50",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Alan Cleland",
           "pais": "MEX",
-          "nota": null,
+          "nota": "6.83",
           "colete": "blue",
           "avancou": false
         }
