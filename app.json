@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 11:50",
+  "atualizado_em": "16/09/2026 12:11",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -16,7 +16,7 @@
       "mes": "09",
       "semana": "Qua",
       "estado": "previsto",
-      "qtd": 17,
+      "qtd": 18,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -36,7 +36,7 @@
       "mes": "09",
       "semana": "Sex",
       "estado": "previsto",
-      "qtd": 17,
+      "qtd": 16,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -204,23 +204,23 @@
     }
   ],
   "ao_vivo": {
-    "id": "114874",
+    "id": "114875",
     "genero": "F",
     "rodada": "Rodada 1",
-    "numero": 4,
+    "numero": 5,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Yolanda Hopkins",
-        "pais": "POR",
-        "nota": "10.33",
+        "nome": "Tyler Wright",
+        "pais": "AUS",
+        "nota": "0.50",
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Sally Fitzgibbons",
-        "pais": "AUS",
-        "nota": "10.00",
+        "nome": "Francisca Veselko",
+        "pais": "POR",
+        "nota": null,
         "colete": "blue",
         "avancou": false
       }
@@ -233,22 +233,22 @@
     "estado": "aguardando_call"
   },
   "proxima": {
-    "id": "114875",
+    "id": "114876",
     "genero": "F",
     "rodada": "Rodada 1",
-    "numero": 5,
+    "numero": 6,
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "Tyler Wright",
-        "pais": "AUS",
+        "nome": "Bettylou Sakura Johnson",
+        "pais": "HAW",
         "nota": null,
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Francisca Veselko",
-        "pais": "POR",
+        "nome": "Bella Kenworthy",
+        "pais": "USA",
         "nota": null,
         "colete": "blue",
         "avancou": false
@@ -441,19 +441,19 @@
       "genero": "F",
       "rodada": "Rodada 1",
       "numero": 4,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Yolanda Hopkins",
           "pais": "POR",
-          "nota": "10.33",
+          "nota": "11.96",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Sally Fitzgibbons",
           "pais": "AUS",
-          "nota": "10.00",
+          "nota": "11.37",
           "colete": "blue",
           "avancou": false
         }
@@ -462,8 +462,8 @@
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114333",
@@ -499,12 +499,12 @@
       "genero": "F",
       "rodada": "Rodada 1",
       "numero": 5,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Tyler Wright",
           "pais": "AUS",
-          "nota": null,
+          "nota": "0.50",
           "colete": "red",
           "avancou": false
         },
@@ -981,8 +981,8 @@
         }
       ],
       "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-16",
+      "dia_rotulo": "16/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1437,14 +1437,14 @@
           "avancou": false
         },
         {
-          "nome": "vencedor da R1H4",
-          "pais": null,
+          "nome": "Yolanda Hopkins",
+          "pais": "POR",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "definida": false,
+      "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
       "horario": null,
@@ -1474,8 +1474,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
