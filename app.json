@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/09/2026 15:51",
+  "atualizado_em": "16/09/2026 16:10",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -8,7 +8,7 @@
   },
   "call": null,
   "call_data": null,
-  "passo_estimado_min": 41,
+  "passo_estimado_min": 40,
   "dias": [
     {
       "data": "2026-09-16",
@@ -16,7 +16,7 @@
       "mes": "09",
       "semana": "Qua",
       "estado": "previsto",
-      "qtd": 20,
+      "qtd": 22,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -26,7 +26,7 @@
       "mes": "09",
       "semana": "Qui",
       "estado": "previsto",
-      "qtd": 14,
+      "qtd": 15,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -45,9 +45,9 @@
       "dia": "19",
       "mes": "09",
       "semana": "Sab",
-      "estado": "previsto",
-      "qtd": 3,
-      "evento": "Lexus Trestles Pro",
+      "estado": "vazio",
+      "qtd": 0,
+      "evento": null,
       "hoje": false
     },
     {
@@ -204,23 +204,23 @@
     }
   ],
   "ao_vivo": {
-    "id": "114335",
+    "id": "114336",
     "genero": "M",
     "rodada": "Rodada 2",
-    "numero": 2,
+    "numero": 3,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Griffin Colapinto",
-        "pais": "USA",
-        "nota": "12.63",
+        "nome": "Yago Dora",
+        "pais": "BRA",
+        "nota": "11.17",
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Rio Waida",
-        "pais": "INA",
-        "nota": "12.43",
+        "nome": "Oscar Berry",
+        "pais": "AUS",
+        "nota": null,
         "colete": "blue",
         "avancou": false
       }
@@ -233,22 +233,22 @@
     "estado": "aguardando_call"
   },
   "proxima": {
-    "id": "114336",
+    "id": "114337",
     "genero": "M",
     "rodada": "Rodada 2",
-    "numero": 3,
+    "numero": 4,
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "Yago Dora",
-        "pais": "BRA",
+        "nome": "Kauli Vaast",
+        "pais": "FRA",
         "nota": null,
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Oscar Berry",
-        "pais": "AUS",
+        "nome": "Barron Mamiya",
+        "pais": "HAW",
         "nota": null,
         "colete": "blue",
         "avancou": false
@@ -644,19 +644,19 @@
       "genero": "M",
       "rodada": "Rodada 2",
       "numero": 2,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Griffin Colapinto",
           "pais": "USA",
-          "nota": "12.63",
+          "nota": "14.50",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Rio Waida",
           "pais": "INA",
-          "nota": "12.43",
+          "nota": "12.87",
           "colete": "blue",
           "avancou": false
         }
@@ -665,20 +665,20 @@
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114336",
       "genero": "M",
       "rodada": "Rodada 2",
       "numero": 3,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Yago Dora",
           "pais": "BRA",
-          "nota": null,
+          "nota": "11.17",
           "colete": "red",
           "avancou": false
         },
@@ -1068,8 +1068,8 @@
         }
       ],
       "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-16",
+      "dia_rotulo": "16/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1097,8 +1097,8 @@
         }
       ],
       "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-16",
+      "dia_rotulo": "16/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1118,14 +1118,14 @@
           "avancou": false
         },
         {
-          "nome": "vencedor da R2H2",
-          "pais": null,
+          "nome": "Griffin Colapinto",
+          "pais": "USA",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "definida": false,
+      "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
       "horario": null,
@@ -1474,8 +1474,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1503,8 +1503,8 @@
         }
       ],
       "definida": true,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1532,8 +1532,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1880,8 +1880,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-19",
-      "dia_rotulo": "19/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1909,8 +1909,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-19",
-      "dia_rotulo": "19/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1938,8 +1938,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-19",
-      "dia_rotulo": "19/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
