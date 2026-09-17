@@ -135,6 +135,21 @@ body{font-family:'Outfit',system-ui,sans-serif;background:var(--bg);color:var(--
 .rk .pts{font-size:14px;font-weight:700;color:var(--azul-esc);
   font-variant-numeric:tabular-nums;text-align:right}
 
+.expl{background:#fff;border-radius:16px;padding:15px;margin-top:16px;
+  box-shadow:0 1px 3px rgba(30,42,51,.07)}
+.expl h3{font-size:14px;font-weight:600;margin-bottom:3px}
+.expl .sub{font-size:12px;font-weight:300;color:var(--cinza-500);margin-bottom:12px}
+.expl table{width:100%;border-collapse:collapse;font-size:13px}
+.expl td{padding:7px 0;border-bottom:1px solid var(--cinza-100)}
+.expl tr:last-child td{border:0}
+.expl td:first-child{font-weight:500}
+.expl td:last-child{text-align:right;font-weight:700;color:var(--azul-esc);
+  font-variant-numeric:tabular-nums}
+.expl .nota{font-size:11.5px;font-weight:300;color:var(--cinza-500);
+  line-height:1.55;margin-top:12px;padding-top:11px;border-top:1px solid var(--cinza-100)}
+.expl .destaque{background:var(--azul-claro);border-radius:10px;padding:10px 12px;
+  margin-top:11px;font-size:12.5px;color:var(--azul-esc);line-height:1.5}
+
 .vazio-msg{text-align:center;padding:52px 26px;color:var(--cinza-500)}
 .vazio-msg .big{font-size:38px;margin-bottom:10px;opacity:.35}
 .vazio-msg p{font-size:14px;font-weight:300;line-height:1.5}
@@ -246,6 +261,32 @@ function render(){
         </div>`;
       }).join('');
     }
+    h2 += `<div class="expl">
+      <h3>Como funciona a pontuação</h3>
+      <div class="sub">Pontos por colocação em cada etapa</div>
+      <table>
+        <tr><td>1º lugar (campeão)</td><td>10.000</td></tr>
+        <tr><td>2º lugar (vice)</td><td>7.800</td></tr>
+        <tr><td>3º lugar (semifinal)</td><td>6.085</td></tr>
+        <tr><td>5º lugar (quartas)</td><td>4.745</td></tr>
+        <tr><td>9º lugar (oitavas)</td><td>3.320</td></tr>
+        <tr><td>17º lugar</td><td>1.330</td></tr>
+        <tr><td>33º lugar</td><td>265</td></tr>
+        <tr><td>Lesionado / desistência</td><td>265</td></tr>
+        <tr><td>Não competiu</td><td>0</td></tr>
+      </table>
+      <div class="destaque">
+        <b>Pipe Masters vale 1,5x.</b> A última etapa do ano, em Pipeline,
+        paga 15.000 pontos ao campeão em vez de 10.000. As outras 11 etapas
+        seguem a tabela acima.
+      </div>
+      <div class="nota">
+        Em 2026 as Finals deixaram de existir: o título vai para quem somar
+        mais pontos ao longo do ano, e não mais para o vencedor de um dia
+        decisivo. Como todas as baterias são mata-mata desde a estreia,
+        a colocação na etapa é definida pela rodada em que o surfista caiu.
+      </div>
+    </div>`;
     lista.innerHTML = h2;
     return;
   }
