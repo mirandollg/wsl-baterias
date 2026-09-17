@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 17:31",
+  "atualizado_em": "17/09/2026 17:46",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -213,7 +213,7 @@
       {
         "nome": "Gabriela Bryan",
         "pais": "HAW",
-        "nota": "8.50",
+        "nota": "12.50",
         "colete": "red",
         "avancou": false
       },
@@ -233,24 +233,24 @@
     "estado": "aguardando_call"
   },
   "proxima": {
-    "id": "114880",
+    "id": "114881",
     "genero": "F",
     "rodada": "Oitavas de final",
-    "numero": 2,
+    "numero": 3,
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "Luana Silva",
-        "pais": "BRA",
+        "nome": "Sawyer Lindblad",
+        "pais": "USA",
         "nota": null,
-        "colete": "blue",
+        "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Tyler Wright",
-        "pais": "AUS",
+        "nome": "Vahine Fierro",
+        "pais": "FRA",
         "nota": null,
-        "colete": "white",
+        "colete": "green",
         "avancou": false
       }
     ],
@@ -1084,7 +1084,7 @@
         {
           "nome": "Gabriela Bryan",
           "pais": "HAW",
-          "nota": "8.50",
+          "nota": "12.50",
           "colete": "red",
           "avancou": false
         },
@@ -1137,19 +1137,19 @@
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 2,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Luana Silva",
           "pais": "BRA",
-          "nota": null,
+          "nota": "4.57",
           "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Tyler Wright",
           "pais": "AUS",
-          "nota": null,
+          "nota": "4.00",
           "colete": "white",
           "avancou": false
         }
