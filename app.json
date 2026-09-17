@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 12:56",
+  "atualizado_em": "17/09/2026 13:16",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -8,7 +8,7 @@
   },
   "call": null,
   "call_data": null,
-  "passo_estimado_min": 37,
+  "passo_estimado_min": 33,
   "dias": [
     {
       "data": "2026-09-17",
@@ -16,7 +16,7 @@
       "mes": "09",
       "semana": "Qui",
       "estado": "previsto",
-      "qtd": 18,
+      "qtd": 21,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -26,7 +26,7 @@
       "mes": "09",
       "semana": "Sex",
       "estado": "previsto",
-      "qtd": 16,
+      "qtd": 14,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -35,9 +35,9 @@
       "dia": "19",
       "mes": "09",
       "semana": "Sab",
-      "estado": "previsto",
-      "qtd": 1,
-      "evento": "Lexus Trestles Pro",
+      "estado": "vazio",
+      "qtd": 0,
+      "evento": null,
       "hoje": false
     },
     {
@@ -204,24 +204,24 @@
     }
   ],
   "ao_vivo": {
-    "id": "114347",
+    "id": "114348",
     "genero": "M",
     "rodada": "Rodada 2",
-    "numero": 14,
+    "numero": 15,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Jack Robinson",
+        "nome": "Liam O'Brien",
         "pais": "AUS",
-        "nota": "11.93",
-        "colete": "blue",
+        "nota": "14.17",
+        "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Seth Moniz",
-        "pais": "HAW",
-        "nota": "10.13",
-        "colete": "white",
+        "nome": "Filipe Toledo",
+        "pais": "BRA",
+        "nota": "13.33",
+        "colete": "green",
         "avancou": false
       }
     ],
@@ -233,24 +233,24 @@
     "estado": "aguardando_call"
   },
   "proxima": {
-    "id": "114349",
-    "genero": "M",
-    "rodada": "Rodada 2",
-    "numero": 16,
+    "id": "114879",
+    "genero": "F",
+    "rodada": "Oitavas de final",
+    "numero": 1,
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "Miguel Pupo",
-        "pais": "BRA",
+        "nome": "Gabriela Bryan",
+        "pais": "HAW",
         "nota": null,
-        "colete": "blue",
+        "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Ramzi Boukhiam",
-        "pais": "MAR",
+        "nome": "Tya Zebrowski",
+        "pais": "FRA",
         "nota": null,
-        "colete": "white",
+        "colete": "green",
         "avancou": false
       }
     ],
@@ -992,14 +992,14 @@
       "genero": "M",
       "rodada": "Rodada 2",
       "numero": 14,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Jack Robinson",
           "pais": "AUS",
-          "nota": "11.93",
+          "nota": "12.97",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Seth Moniz",
@@ -1013,8 +1013,8 @@
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114348",
@@ -1026,14 +1026,14 @@
         {
           "nome": "Liam O'Brien",
           "pais": "AUS",
-          "nota": "6.17",
+          "nota": "14.17",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Filipe Toledo",
           "pais": "BRA",
-          "nota": "9.50",
+          "nota": "13.33",
           "colete": "green",
           "avancou": false
         }
@@ -1050,19 +1050,19 @@
       "genero": "M",
       "rodada": "Rodada 2",
       "numero": 16,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Miguel Pupo",
           "pais": "BRA",
-          "nota": null,
+          "nota": "3.50",
           "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Ramzi Boukhiam",
           "pais": "MAR",
-          "nota": null,
+          "nota": "11.00",
           "colete": "white",
           "avancou": false
         }
@@ -1466,16 +1466,16 @@
           "avancou": false
         },
         {
-          "nome": "vencedor da R2H14",
-          "pais": null,
+          "nome": "Jack Robinson",
+          "pais": "AUS",
           "nota": null,
           "colete": "green",
           "avancou": false
         }
       ],
-      "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "definida": true,
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1503,8 +1503,8 @@
         }
       ],
       "definida": true,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1532,8 +1532,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1938,8 +1938,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-19",
-      "dia_rotulo": "19/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
