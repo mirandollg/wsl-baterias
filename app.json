@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 18:11",
+  "atualizado_em": "17/09/2026 18:15",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -22,7 +22,7 @@
       "mes": "09",
       "semana": "Qui",
       "estado": "call",
-      "qtd": 21,
+      "qtd": 20,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -32,7 +32,7 @@
       "mes": "09",
       "semana": "Sex",
       "estado": "previsto",
-      "qtd": 14,
+      "qtd": 15,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -235,7 +235,7 @@
     "definida": true,
     "data": "2026-09-17",
     "dia_rotulo": "17/09",
-    "horario": "18:11",
+    "horario": "18:15",
     "quando": "agora",
     "estado": "com_horario"
   },
@@ -265,8 +265,8 @@
     "definida": true,
     "data": "2026-09-17",
     "dia_rotulo": "17/09",
-    "horario": "18:59",
-    "quando": "18:59",
+    "horario": "19:03",
+    "quando": "19:03",
     "estado": "com_horario"
   },
   "baterias": [
@@ -1196,7 +1196,7 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "18:11",
+      "horario": "18:15",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -1256,7 +1256,7 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "18:35",
+      "horario": "18:39",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -1316,8 +1316,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "18:59",
-      "quando": "18:59",
+      "horario": "19:03",
+      "quando": "19:03",
       "estado": "com_horario"
     },
     {
@@ -1376,8 +1376,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:23",
-      "quando": "19:23",
+      "horario": "19:27",
+      "quando": "19:27",
       "estado": "com_horario"
     },
     {
@@ -1436,8 +1436,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:47",
-      "quando": "19:47",
+      "horario": "19:51",
+      "quando": "19:51",
       "estado": "com_horario"
     },
     {
@@ -1496,8 +1496,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "20:11",
-      "quando": "20:11",
+      "horario": "20:15",
+      "quando": "20:15",
       "estado": "com_horario"
     },
     {
@@ -1554,11 +1554,11 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
-      "horario": "20:35",
-      "quando": "20:35",
-      "estado": "com_horario"
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114357",
