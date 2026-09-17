@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 14:30",
+  "atualizado_em": "17/09/2026 14:48",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -8,7 +8,7 @@
   },
   "call": null,
   "call_data": null,
-  "passo_estimado_min": 31,
+  "passo_estimado_min": 30,
   "dias": [
     {
       "data": "2026-09-17",
@@ -16,7 +16,7 @@
       "mes": "09",
       "semana": "Qui",
       "estado": "previsto",
-      "qtd": 25,
+      "qtd": 27,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -26,7 +26,7 @@
       "mes": "09",
       "semana": "Sex",
       "estado": "previsto",
-      "qtd": 10,
+      "qtd": 8,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -204,24 +204,24 @@
     }
   ],
   "ao_vivo": {
-    "id": "114351",
+    "id": "114352",
     "genero": "M",
     "rodada": "Oitavas de final",
-    "numero": 2,
+    "numero": 3,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Yago Dora",
-        "pais": "BRA",
-        "nota": "12.50",
-        "colete": "blue",
+        "nome": "Marco Mignot",
+        "pais": "FRA",
+        "nota": "10.40",
+        "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Kauli Vaast",
-        "pais": "FRA",
-        "nota": "10.97",
-        "colete": "white",
+        "nome": "Italo Ferreira",
+        "pais": "BRA",
+        "nota": "12.67",
+        "colete": "green",
         "avancou": false
       }
     ],
@@ -1166,14 +1166,14 @@
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 2,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Yago Dora",
           "pais": "BRA",
           "nota": "12.50",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Kauli Vaast",
@@ -1187,8 +1187,8 @@
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114881",
@@ -1229,14 +1229,14 @@
         {
           "nome": "Marco Mignot",
           "pais": "FRA",
-          "nota": "9.67",
+          "nota": "10.40",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Italo Ferreira",
           "pais": "BRA",
-          "nota": "9.00",
+          "nota": "12.67",
           "colete": "green",
           "avancou": false
         }
@@ -1282,12 +1282,12 @@
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 4,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Kanoa Igarashi",
           "pais": "JPN",
-          "nota": null,
+          "nota": "5.00",
           "colete": "blue",
           "avancou": false
         },
@@ -1582,14 +1582,14 @@
           "avancou": false
         },
         {
-          "nome": "vencedor da R3H2",
-          "pais": null,
+          "nome": "Yago Dora",
+          "pais": "BRA",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "definida": false,
+      "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
       "horario": null,
@@ -1677,8 +1677,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1706,8 +1706,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
