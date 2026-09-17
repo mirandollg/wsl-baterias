@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "17/09/2026 11:17",
+  "atualizado_em": "17/09/2026 11:33",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
     "inicio": "2026-09-11",
     "fim": "2026-09-20"
   },
-  "call": "17/09 às 11:30",
-  "call_data": "2026-09-17",
+  "call": null,
+  "call_data": null,
   "passo_estimado_min": 37,
   "dias": [
     {
@@ -15,8 +15,8 @@
       "dia": "17",
       "mes": "09",
       "semana": "Qui",
-      "estado": "call",
-      "qtd": 15,
+      "estado": "previsto",
+      "qtd": 16,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -36,7 +36,7 @@
       "mes": "09",
       "semana": "Sab",
       "estado": "previsto",
-      "qtd": 4,
+      "qtd": 3,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -203,13 +203,12 @@
       "em_andamento": false
     }
   ],
-  "ao_vivo": null,
-  "proxima": {
+  "ao_vivo": {
     "id": "114345",
     "genero": "M",
     "rodada": "Rodada 2",
     "numero": 12,
-    "status": "aguardando",
+    "status": "ao_vivo",
     "surfistas": [
       {
         "nome": "Samuel Pupo",
@@ -229,9 +228,38 @@
     "definida": true,
     "data": "2026-09-17",
     "dia_rotulo": "17/09",
-    "horario": "11:30",
-    "quando": "11:30",
-    "estado": "com_horario"
+    "horario": null,
+    "quando": "aguardando call",
+    "estado": "aguardando_call"
+  },
+  "proxima": {
+    "id": "114346",
+    "genero": "M",
+    "rodada": "Rodada 2",
+    "numero": 13,
+    "status": "aguardando",
+    "surfistas": [
+      {
+        "nome": "Gabriel Medina",
+        "pais": "BRA",
+        "nota": null,
+        "colete": "red",
+        "avancou": false
+      },
+      {
+        "nome": "Mateus Herdy",
+        "pais": "BRA",
+        "nota": null,
+        "colete": "green",
+        "avancou": false
+      }
+    ],
+    "definida": true,
+    "data": "2026-09-17",
+    "dia_rotulo": "17/09",
+    "horario": null,
+    "quando": "aguardando call",
+    "estado": "aguardando_call"
   },
   "baterias": [
     {
@@ -906,7 +934,7 @@
       "genero": "M",
       "rodada": "Rodada 2",
       "numero": 12,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Samuel Pupo",
@@ -926,9 +954,9 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "11:30",
-      "quando": "11:30",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114346",
@@ -955,9 +983,9 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "12:07",
-      "quando": "12:07",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114347",
@@ -984,9 +1012,9 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "12:44",
-      "quando": "12:44",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114348",
@@ -1013,9 +1041,9 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "13:21",
-      "quando": "13:21",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114349",
@@ -1042,9 +1070,9 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "13:58",
-      "quando": "13:58",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114879",
@@ -1071,9 +1099,9 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "14:35",
-      "quando": "14:35",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114350",
@@ -1100,9 +1128,9 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "15:12",
-      "quando": "15:12",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114880",
@@ -1129,9 +1157,9 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "15:49",
-      "quando": "15:49",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114351",
@@ -1158,9 +1186,9 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "16:26",
-      "quando": "16:26",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114881",
@@ -1187,9 +1215,9 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "17:03",
-      "quando": "17:03",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114352",
@@ -1216,9 +1244,9 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "17:40",
-      "quando": "17:40",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114882",
@@ -1245,9 +1273,9 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "18:17",
-      "quando": "18:17",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114353",
@@ -1274,9 +1302,9 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "18:54",
-      "quando": "18:54",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114883",
@@ -1303,9 +1331,9 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:31",
-      "quando": "19:31",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114354",
@@ -1332,9 +1360,9 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "20:08",
-      "quando": "20:08",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114884",
@@ -1359,8 +1387,8 @@
         }
       ],
       "definida": true,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1383,7 +1411,7 @@
           "nome": "vencedor da R2H12",
           "pais": null,
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
@@ -1441,7 +1469,7 @@
           "nome": "vencedor da R2H14",
           "pais": null,
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
@@ -1499,7 +1527,7 @@
           "nome": "vencedor da R2H16",
           "pais": null,
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
@@ -1823,8 +1851,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-19",
-      "dia_rotulo": "19/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
