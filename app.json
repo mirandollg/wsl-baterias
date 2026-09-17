@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 15:43",
+  "atualizado_em": "17/09/2026 15:58",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -8,7 +8,7 @@
   },
   "call": null,
   "call_data": null,
-  "passo_estimado_min": 28,
+  "passo_estimado_min": 27,
   "dias": [
     {
       "data": "2026-09-17",
@@ -16,7 +16,7 @@
       "mes": "09",
       "semana": "Qui",
       "estado": "previsto",
-      "qtd": 30,
+      "qtd": 32,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -26,7 +26,7 @@
       "mes": "09",
       "semana": "Sex",
       "estado": "previsto",
-      "qtd": 5,
+      "qtd": 3,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -204,24 +204,24 @@
     }
   ],
   "ao_vivo": {
-    "id": "114354",
+    "id": "114355",
     "genero": "M",
     "rodada": "Oitavas de final",
-    "numero": 5,
+    "numero": 6,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Luke Thompson",
-        "pais": "RSA",
-        "nota": "7.90",
-        "colete": "red",
+        "nome": "Alan Cleland",
+        "pais": "MEX",
+        "nota": "3.90",
+        "colete": "blue",
         "avancou": false
       },
       {
-        "nome": "Cole Houshmand",
+        "nome": "Jake Marshall",
         "pais": "USA",
-        "nota": "11.57",
-        "colete": "green",
+        "nota": "12.20",
+        "colete": "white",
         "avancou": false
       }
     ],
@@ -1340,29 +1340,29 @@
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 5,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Luke Thompson",
           "pais": "RSA",
-          "nota": "7.90",
+          "nota": "10.93",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Cole Houshmand",
           "pais": "USA",
-          "nota": "11.57",
+          "nota": "13.33",
           "colete": "green",
-          "avancou": false
+          "avancou": true
         }
       ],
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114884",
@@ -1403,14 +1403,14 @@
         {
           "nome": "Alan Cleland",
           "pais": "MEX",
-          "nota": null,
+          "nota": "3.90",
           "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Jake Marshall",
           "pais": "USA",
-          "nota": null,
+          "nota": "12.20",
           "colete": "white",
           "avancou": false
         }
@@ -1456,7 +1456,7 @@
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 7,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Mateus Herdy",
@@ -1691,8 +1691,8 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da R3H5",
-          "pais": null,
+          "nome": "Cole Houshmand",
+          "pais": "USA",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -1822,8 +1822,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1851,8 +1851,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
