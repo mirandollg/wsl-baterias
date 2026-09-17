@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 18:42",
+  "atualizado_em": "17/09/2026 18:55",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -14,7 +14,7 @@
   },
   "situacao": "ao_vivo",
   "call_data": null,
-  "passo_estimado_min": 22,
+  "passo_estimado_min": 24,
   "dias": [
     {
       "data": "2026-09-17",
@@ -474,16 +474,16 @@
       },
       {
         "posicao": 3,
-        "nome": "Luana Silva",
-        "pais": "BRA",
-        "pontos": "36,580",
-        "variacao": "2"
+        "nome": "Sawyer Lindblad",
+        "pais": "USA",
+        "pontos": "38,715",
+        "variacao": "-"
       },
       {
         "posicao": 4,
-        "nome": "Sawyer Lindblad",
-        "pais": "USA",
-        "pontos": "35,970",
+        "nome": "Luana Silva",
+        "pais": "BRA",
+        "pontos": "36,580",
         "variacao": "1"
       },
       {
@@ -622,24 +622,24 @@
     ]
   },
   "ao_vivo": {
-    "id": "114881",
+    "id": "114882",
     "genero": "F",
     "rodada": "Oitavas de final",
-    "numero": 3,
+    "numero": 4,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Sawyer Lindblad",
+        "nome": "Lakey Peterson",
         "pais": "USA",
-        "nota": "15.34",
-        "colete": "red",
+        "nota": "10.50",
+        "colete": "blue",
         "avancou": false
       },
       {
-        "nome": "Vahine Fierro",
-        "pais": "FRA",
-        "nota": "8.74",
-        "colete": "green",
+        "nome": "Eden Walla",
+        "pais": "USA",
+        "nota": "12.00",
+        "colete": "white",
         "avancou": false
       }
     ],
@@ -647,29 +647,29 @@
     "definida": true,
     "data": "2026-09-17",
     "dia_rotulo": "17/09",
-    "horario": "18:42",
+    "horario": "18:55",
     "quando": "agora",
     "estado": "com_horario"
   },
   "proxima": {
-    "id": "114883",
+    "id": "114884",
     "genero": "F",
     "rodada": "Oitavas de final",
-    "numero": 5,
+    "numero": 6,
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "Carissa Moore",
-        "pais": "HAW",
+        "nome": "Erin Brooks",
+        "pais": "CAN",
         "nota": null,
-        "colete": "yellow",
+        "colete": "blue",
         "avancou": false
       },
       {
-        "nome": "Brisa Hennessy",
-        "pais": "CRC",
+        "nome": "Caroline Marks",
+        "pais": "USA",
         "nota": null,
-        "colete": "green",
+        "colete": "white",
         "avancou": false
       }
     ],
@@ -677,8 +677,8 @@
     "definida": true,
     "data": "2026-09-17",
     "dia_rotulo": "17/09",
-    "horario": "19:26",
-    "quando": "19:26",
+    "horario": "19:43",
+    "quando": "19:43",
     "estado": "com_horario"
   },
   "baterias": [
@@ -1647,14 +1647,14 @@
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 3,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Sawyer Lindblad",
           "pais": "USA",
           "nota": "15.34",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Vahine Fierro",
@@ -1664,13 +1664,13 @@
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-day-4-of-the-lexus-trestles-pro?jointEventId=443",
+      "replay": null,
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "18:42",
-      "quando": "agora",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114352",
@@ -1719,7 +1719,7 @@
         {
           "nome": "Eden Walla",
           "pais": "USA",
-          "nota": "9.16",
+          "nota": "12.00",
           "colete": "white",
           "avancou": false
         }
@@ -1728,7 +1728,7 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:04",
+      "horario": "18:55",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -1767,29 +1767,29 @@
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 5,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Carissa Moore",
           "pais": "HAW",
-          "nota": null,
+          "nota": "10.84",
           "colete": "yellow",
           "avancou": false
         },
         {
           "nome": "Brisa Hennessy",
           "pais": "CRC",
-          "nota": null,
+          "nota": "3.50",
           "colete": "green",
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-day-4-of-the-lexus-trestles-pro?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:26",
-      "quando": "19:26",
+      "horario": "19:19",
+      "quando": "agora",
       "estado": "com_horario"
     },
     {
@@ -1848,8 +1848,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:48",
-      "quando": "19:48",
+      "horario": "19:43",
+      "quando": "19:43",
       "estado": "com_horario"
     },
     {
@@ -1908,8 +1908,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "20:10",
-      "quando": "20:10",
+      "horario": "20:07",
+      "quando": "20:07",
       "estado": "com_horario"
     },
     {
@@ -1968,8 +1968,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "20:32",
-      "quando": "20:32",
+      "horario": "20:31",
+      "quando": "20:31",
       "estado": "com_horario"
     },
     {
@@ -2070,8 +2070,8 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da R2H3",
-          "pais": null,
+          "nome": "Sawyer Lindblad",
+          "pais": "USA",
           "nota": null,
           "colete": "red",
           "avancou": false
