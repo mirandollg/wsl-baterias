@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 20:10",
+  "atualizado_em": "17/09/2026 20:27",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -14,7 +14,7 @@
   },
   "situacao": "ao_vivo",
   "call_data": null,
-  "passo_estimado_min": 24,
+  "passo_estimado_min": 23,
   "dias": [
     {
       "data": "2026-09-17",
@@ -481,17 +481,17 @@
       },
       {
         "posicao": 4,
-        "nome": "Luana Silva",
-        "pais": "BRA",
-        "pontos": "36,580",
-        "variacao": "1"
+        "nome": "Molly Picklum",
+        "pais": "AUS",
+        "pontos": "37,610",
+        "variacao": "-"
       },
       {
         "posicao": 5,
-        "nome": "Molly Picklum",
-        "pais": "AUS",
-        "pontos": "34,865",
-        "variacao": "1"
+        "nome": "Luana Silva",
+        "pais": "BRA",
+        "pontos": "36,580",
+        "variacao": "-"
       },
       {
         "posicao": 6,
@@ -622,24 +622,24 @@
     ]
   },
   "ao_vivo": {
-    "id": "114885",
+    "id": "114886",
     "genero": "F",
     "rodada": "Oitavas de final",
-    "numero": 7,
+    "numero": 8,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Molly Picklum",
-        "pais": "AUS",
-        "nota": "13.33",
-        "colete": "red",
+        "nome": "Caitlin Simmers",
+        "pais": "USA",
+        "nota": "10.67",
+        "colete": "blue",
         "avancou": false
       },
       {
-        "nome": "Yolanda Hopkins",
-        "pais": "POR",
-        "nota": "9.50",
-        "colete": "green",
+        "nome": "Bella Kenworthy",
+        "pais": "USA",
+        "nota": "11.17",
+        "colete": "white",
         "avancou": false
       }
     ],
@@ -647,7 +647,7 @@
     "definida": true,
     "data": "2026-09-17",
     "dia_rotulo": "17/09",
-    "horario": "20:10",
+    "horario": "20:27",
     "quando": "agora",
     "estado": "com_horario"
   },
@@ -1887,14 +1887,14 @@
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 7,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Molly Picklum",
           "pais": "AUS",
           "nota": "13.33",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Yolanda Hopkins",
@@ -1904,13 +1904,13 @@
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-day-4-of-the-lexus-trestles-pro?jointEventId=443",
+      "replay": null,
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "20:10",
-      "quando": "agora",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114356",
@@ -1952,7 +1952,7 @@
         {
           "nome": "Caitlin Simmers",
           "pais": "USA",
-          "nota": "5.00",
+          "nota": "10.67",
           "colete": "blue",
           "avancou": false
         },
@@ -1968,7 +1968,7 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "20:34",
+      "horario": "20:27",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -2190,8 +2190,8 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da R2H7",
-          "pais": null,
+          "nome": "Molly Picklum",
+          "pais": "AUS",
           "nota": null,
           "colete": "red",
           "avancou": false
