@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 16:29",
+  "atualizado_em": "17/09/2026 16:43",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -213,7 +213,7 @@
       {
         "nome": "Mateus Herdy",
         "pais": "BRA",
-        "nota": "11.77",
+        "nota": "14.10",
         "colete": "red",
         "avancou": false
       },
@@ -1461,7 +1461,7 @@
         {
           "nome": "Mateus Herdy",
           "pais": "BRA",
-          "nota": "11.77",
+          "nota": "14.10",
           "colete": "red",
           "avancou": false
         },
@@ -1519,14 +1519,14 @@
         {
           "nome": "Liam O'Brien",
           "pais": "AUS",
-          "nota": "5.00",
+          "nota": "10.13",
           "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Miguel Pupo",
           "pais": "BRA",
-          "nota": "12.83",
+          "nota": "13.40",
           "colete": "white",
           "avancou": false
         }
