@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 17:50",
+  "atualizado_em": "17/09/2026 17:57",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -7,6 +7,11 @@
     "fim": "2026-09-20"
   },
   "call": null,
+  "transmissao": {
+    "youtube": "https://www.youtube.com/@wsl/live",
+    "site": "https://www.worldsurfleague.com/watch",
+    "tv": "sportv4"
+  },
   "situacao": "ao_vivo",
   "call_data": null,
   "passo_estimado_min": 24,
@@ -214,22 +219,23 @@
       {
         "nome": "Gabriela Bryan",
         "pais": "HAW",
-        "nota": "12.50",
+        "nota": "14.07",
         "colete": "red",
         "avancou": false
       },
       {
         "nome": "Tya Zebrowski",
         "pais": "FRA",
-        "nota": "12.17",
+        "nota": "13.50",
         "colete": "green",
         "avancou": false
       }
     ],
+    "replay": "https://www.worldsurfleague.com/posts/557328/its-on-day-4-of-the-lexus-trestles-pro?jointEventId=443",
     "definida": true,
     "data": "2026-09-17",
     "dia_rotulo": "17/09",
-    "horario": "17:50",
+    "horario": "17:57",
     "quando": "agora",
     "estado": "com_horario"
   },
@@ -255,11 +261,12 @@
         "avancou": false
       }
     ],
+    "replay": null,
     "definida": true,
     "data": "2026-09-17",
     "dia_rotulo": "17/09",
-    "horario": "18:38",
-    "quando": "18:38",
+    "horario": "18:45",
+    "quando": "18:45",
     "estado": "com_horario"
   },
   "baterias": [
@@ -285,6 +292,7 @@
           "avancou": true
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/559940/lexus-trestles-pro-womens-round-1-heat-1-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": null,
       "dia_rotulo": null,
@@ -314,6 +322,7 @@
           "avancou": false
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/559919/lexus-trestles-pro-mens-round-1-heat-1-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": null,
       "dia_rotulo": null,
@@ -343,6 +352,7 @@
           "avancou": true
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/559943/lexus-trestles-pro-womens-round-1-heat-2-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": null,
       "dia_rotulo": null,
@@ -372,6 +382,7 @@
           "avancou": false
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/559922/lexus-trestles-pro-mens-round-1-heat-2-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": null,
       "dia_rotulo": null,
@@ -401,6 +412,7 @@
           "avancou": true
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/559947/lexus-trestles-pro-womens-round-1-heat-3-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": null,
       "dia_rotulo": null,
@@ -430,6 +442,7 @@
           "avancou": true
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/559933/lexus-trestles-pro-mens-round-1-heat-3-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": null,
       "dia_rotulo": null,
@@ -459,6 +472,7 @@
           "avancou": false
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/559995/lexus-trestles-pro-womens-round-1-heat-4-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
@@ -488,6 +502,7 @@
           "avancou": false
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/559936/lexus-trestles-pro-mens-round-1-heat-4-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": null,
       "dia_rotulo": null,
@@ -517,6 +532,7 @@
           "avancou": false
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/559997/lexus-trestles-pro-womens-round-1-heat-5-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
@@ -546,6 +562,7 @@
           "avancou": true
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560001/lexus-trestles-pro-womens-round-1-heat-6-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
@@ -575,6 +592,7 @@
           "avancou": true
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560004/lexus-trestles-pro-womens-round-1-heat-7-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
@@ -604,6 +622,7 @@
           "avancou": false
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560008/lexus-trestles-pro-womens-round-1-heat-8-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
@@ -633,6 +652,7 @@
           "avancou": true
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560017/lexus-trestles-pro-mens-round-2-heat-1-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
@@ -662,6 +682,7 @@
           "avancou": false
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560018/lexus-trestles-pro-mens-round-2-heat-2-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
@@ -691,6 +712,7 @@
           "avancou": false
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560021/lexus-trestles-pro-mens-round-2-heat-3-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
@@ -720,6 +742,7 @@
           "avancou": false
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560026/lexus-trestles-pro-mens-round-2-heat-4-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
@@ -749,6 +772,7 @@
           "avancou": false
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560027/lexus-trestles-pro-mens-round-2-heat-5-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
@@ -778,6 +802,7 @@
           "avancou": false
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560033/lexus-trestles-pro-mens-round-2-heat-6-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
@@ -807,6 +832,7 @@
           "avancou": false
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560040/lexus-trestles-pro-mens-round-2-heat-7-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
@@ -836,6 +862,7 @@
           "avancou": false
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560043/lexus-trestles-pro-mens-round-2-heat-8-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
@@ -865,6 +892,7 @@
           "avancou": true
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560048/lexus-trestles-pro-mens-round-2-heat-9-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
@@ -894,6 +922,7 @@
           "avancou": true
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560051/lexus-trestles-pro-mens-round-2-heat-10-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
@@ -923,6 +952,7 @@
           "avancou": true
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560060/lexus-trestles-pro-mens-round-2-heat-11-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
@@ -952,6 +982,7 @@
           "avancou": true
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560069/lexus-trestles-pro-mens-round-2-heat-12-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
@@ -981,6 +1012,7 @@
           "avancou": true
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560073/lexus-trestles-pro-mens-round-2-heat-13-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
@@ -1010,6 +1042,7 @@
           "avancou": false
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560075/lexus-trestles-pro-mens-round-2-heat-14-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
@@ -1039,6 +1072,7 @@
           "avancou": false
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560081/lexus-trestles-pro-mens-round-2-heat-15-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
@@ -1068,6 +1102,7 @@
           "avancou": false
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560085/lexus-trestles-pro-mens-round-2-heat-16-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
@@ -1085,22 +1120,23 @@
         {
           "nome": "Gabriela Bryan",
           "pais": "HAW",
-          "nota": "12.50",
+          "nota": "14.07",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Tya Zebrowski",
           "pais": "FRA",
-          "nota": "12.17",
+          "nota": "13.50",
           "colete": "green",
           "avancou": false
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-day-4-of-the-lexus-trestles-pro?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "17:50",
+      "horario": "17:57",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -1126,6 +1162,7 @@
           "avancou": false
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560086/lexus-trestles-pro-mens-round-3-heat-1-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
@@ -1150,15 +1187,16 @@
         {
           "nome": "Tyler Wright",
           "pais": "AUS",
-          "nota": "4.00",
+          "nota": "6.00",
           "colete": "white",
           "avancou": false
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-day-4-of-the-lexus-trestles-pro?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "18:14",
+      "horario": "18:21",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -1184,6 +1222,7 @@
           "avancou": false
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560090/lexus-trestles-pro-mens-round-3-heat-2-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
@@ -1213,11 +1252,12 @@
           "avancou": false
         }
       ],
+      "replay": null,
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "18:38",
-      "quando": "18:38",
+      "horario": "18:45",
+      "quando": "18:45",
       "estado": "com_horario"
     },
     {
@@ -1242,6 +1282,7 @@
           "avancou": false
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560098/lexus-trestles-pro-mens-round-3-heat-3-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
@@ -1271,11 +1312,12 @@
           "avancou": false
         }
       ],
+      "replay": null,
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:02",
-      "quando": "19:02",
+      "horario": "19:09",
+      "quando": "19:09",
       "estado": "com_horario"
     },
     {
@@ -1300,6 +1342,7 @@
           "avancou": false
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560099/lexus-trestles-pro-mens-round-3-heat-4-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
@@ -1329,11 +1372,12 @@
           "avancou": false
         }
       ],
+      "replay": null,
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:26",
-      "quando": "19:26",
+      "horario": "19:33",
+      "quando": "19:33",
       "estado": "com_horario"
     },
     {
@@ -1358,6 +1402,7 @@
           "avancou": true
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560103/lexus-trestles-pro-mens-round-3-heat-5-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
@@ -1387,11 +1432,12 @@
           "avancou": false
         }
       ],
+      "replay": null,
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:50",
-      "quando": "19:50",
+      "horario": "19:57",
+      "quando": "19:57",
       "estado": "com_horario"
     },
     {
@@ -1416,6 +1462,7 @@
           "avancou": true
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560105/lexus-trestles-pro-mens-round-3-heat-6-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
@@ -1445,11 +1492,12 @@
           "avancou": false
         }
       ],
+      "replay": null,
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "20:14",
-      "quando": "20:14",
+      "horario": "20:21",
+      "quando": "20:21",
       "estado": "com_horario"
     },
     {
@@ -1474,6 +1522,7 @@
           "avancou": false
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560108/lexus-trestles-pro-mens-round-3-heat-7-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
@@ -1503,6 +1552,7 @@
           "avancou": false
         }
       ],
+      "replay": null,
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
@@ -1532,6 +1582,7 @@
           "avancou": true
         }
       ],
+      "replay": "https://www.worldsurfleague.com/posts/560115/lexus-trestles-pro-mens-round-3-heat-8-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
@@ -1561,6 +1612,7 @@
           "avancou": false
         }
       ],
+      "replay": null,
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
@@ -1590,6 +1642,7 @@
           "avancou": false
         }
       ],
+      "replay": null,
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
@@ -1619,6 +1672,7 @@
           "avancou": false
         }
       ],
+      "replay": null,
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
@@ -1648,6 +1702,7 @@
           "avancou": false
         }
       ],
+      "replay": null,
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
@@ -1677,6 +1732,7 @@
           "avancou": false
         }
       ],
+      "replay": null,
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
@@ -1706,6 +1762,7 @@
           "avancou": false
         }
       ],
+      "replay": null,
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
@@ -1735,6 +1792,7 @@
           "avancou": false
         }
       ],
+      "replay": null,
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
@@ -1764,6 +1822,7 @@
           "avancou": false
         }
       ],
+      "replay": null,
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
@@ -1793,6 +1852,7 @@
           "avancou": false
         }
       ],
+      "replay": null,
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
@@ -1822,6 +1882,7 @@
           "avancou": false
         }
       ],
+      "replay": null,
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
@@ -1851,6 +1912,7 @@
           "avancou": false
         }
       ],
+      "replay": null,
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
@@ -1880,6 +1942,7 @@
           "avancou": false
         }
       ],
+      "replay": null,
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
@@ -1909,6 +1972,7 @@
           "avancou": false
         }
       ],
+      "replay": null,
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
@@ -1938,6 +2002,7 @@
           "avancou": false
         }
       ],
+      "replay": null,
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
