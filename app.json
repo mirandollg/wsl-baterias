@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 19:28",
+  "atualizado_em": "17/09/2026 19:40",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -22,7 +22,7 @@
       "mes": "09",
       "semana": "Qui",
       "estado": "call",
-      "qtd": 20,
+      "qtd": 21,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -32,7 +32,7 @@
       "mes": "09",
       "semana": "Sex",
       "estado": "previsto",
-      "qtd": 15,
+      "qtd": 14,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -460,17 +460,17 @@
     "feminino": [
       {
         "posicao": 1,
-        "nome": "Gabriela Bryan",
+        "nome": "Carissa Moore",
         "pais": "HAW",
-        "pontos": "39,810",
-        "variacao": "1"
+        "pontos": "42,320",
+        "variacao": "-"
       },
       {
         "posicao": 2,
-        "nome": "Carissa Moore",
+        "nome": "Gabriela Bryan",
         "pais": "HAW",
-        "pontos": "39,575",
-        "variacao": "1"
+        "pontos": "39,810",
+        "variacao": "-"
       },
       {
         "posicao": 3,
@@ -622,24 +622,24 @@
     ]
   },
   "ao_vivo": {
-    "id": "114883",
+    "id": "114884",
     "genero": "F",
     "rodada": "Oitavas de final",
-    "numero": 5,
+    "numero": 6,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Carissa Moore",
-        "pais": "HAW",
-        "nota": "10.84",
-        "colete": "yellow",
+        "nome": "Erin Brooks",
+        "pais": "CAN",
+        "nota": "9.96",
+        "colete": "blue",
         "avancou": false
       },
       {
-        "nome": "Brisa Hennessy",
-        "pais": "CRC",
-        "nota": "11.30",
-        "colete": "green",
+        "nome": "Caroline Marks",
+        "pais": "USA",
+        "nota": "11.70",
+        "colete": "white",
         "avancou": false
       }
     ],
@@ -647,29 +647,29 @@
     "definida": true,
     "data": "2026-09-17",
     "dia_rotulo": "17/09",
-    "horario": "19:28",
+    "horario": "19:40",
     "quando": "agora",
     "estado": "com_horario"
   },
   "proxima": {
-    "id": "114885",
+    "id": "114886",
     "genero": "F",
     "rodada": "Oitavas de final",
-    "numero": 7,
+    "numero": 8,
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "Molly Picklum",
-        "pais": "AUS",
+        "nome": "Caitlin Simmers",
+        "pais": "USA",
         "nota": null,
-        "colete": "red",
+        "colete": "blue",
         "avancou": false
       },
       {
-        "nome": "Yolanda Hopkins",
-        "pais": "POR",
+        "nome": "Bella Kenworthy",
+        "pais": "USA",
         "nota": null,
-        "colete": "green",
+        "colete": "white",
         "avancou": false
       }
     ],
@@ -677,8 +677,8 @@
     "definida": true,
     "data": "2026-09-17",
     "dia_rotulo": "17/09",
-    "horario": "20:16",
-    "quando": "20:16",
+    "horario": "20:28",
+    "quando": "20:28",
     "estado": "com_horario"
   },
   "baterias": [
@@ -1664,7 +1664,7 @@
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560122/lexus-trestles-pro-womens-round-2-heat-3-condensed?jointEventId=443",
+      "replay": "https://www.worldsurfleague.com/posts/560129/lexus-trestles-pro-womens-round-2-heat-3-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
@@ -1724,7 +1724,7 @@
           "avancou": true
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/560130/lexus-trestles-pro-womens-round-2-heat-4-condensed?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
@@ -1767,30 +1767,30 @@
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 5,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Carissa Moore",
           "pais": "HAW",
-          "nota": "10.84",
+          "nota": "12.90",
           "colete": "yellow",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Brisa Hennessy",
           "pais": "CRC",
-          "nota": "11.30",
+          "nota": "12.24",
           "colete": "green",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-day-4-of-the-lexus-trestles-pro?jointEventId=443",
+      "replay": null,
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:28",
-      "quando": "agora",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114354",
@@ -1832,14 +1832,14 @@
         {
           "nome": "Erin Brooks",
           "pais": "CAN",
-          "nota": "6.56",
+          "nota": "9.96",
           "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Caroline Marks",
           "pais": "USA",
-          "nota": "8.67",
+          "nota": "11.70",
           "colete": "white",
           "avancou": false
         }
@@ -1848,7 +1848,7 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:52",
+      "horario": "19:40",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -1887,7 +1887,7 @@
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 7,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Molly Picklum",
@@ -1904,12 +1904,12 @@
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-day-4-of-the-lexus-trestles-pro?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "20:16",
-      "quando": "20:16",
+      "horario": "20:04",
+      "quando": "agora",
       "estado": "com_horario"
     },
     {
@@ -1966,11 +1966,11 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
+      "horario": "20:28",
+      "quando": "20:28",
+      "estado": "com_horario"
     },
     {
       "id": "114357",
@@ -2130,10 +2130,10 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da R2H5",
-          "pais": null,
+          "nome": "Carissa Moore",
+          "pais": "HAW",
           "nota": null,
-          "colete": "red",
+          "colete": "yellow",
           "avancou": false
         },
         {
