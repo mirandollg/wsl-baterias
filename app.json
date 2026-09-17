@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 12:40",
+  "atualizado_em": "17/09/2026 12:56",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -16,7 +16,7 @@
       "mes": "09",
       "semana": "Qui",
       "estado": "previsto",
-      "qtd": 17,
+      "qtd": 18,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -36,7 +36,7 @@
       "mes": "09",
       "semana": "Sab",
       "estado": "previsto",
-      "qtd": 2,
+      "qtd": 1,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -204,24 +204,24 @@
     }
   ],
   "ao_vivo": {
-    "id": "114346",
+    "id": "114347",
     "genero": "M",
     "rodada": "Rodada 2",
-    "numero": 13,
+    "numero": 14,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Gabriel Medina",
-        "pais": "BRA",
-        "nota": "11.83",
-        "colete": "red",
+        "nome": "Jack Robinson",
+        "pais": "AUS",
+        "nota": "11.93",
+        "colete": "blue",
         "avancou": false
       },
       {
-        "nome": "Mateus Herdy",
-        "pais": "BRA",
-        "nota": "12.00",
-        "colete": "green",
+        "nome": "Seth Moniz",
+        "pais": "HAW",
+        "nota": "10.13",
+        "colete": "white",
         "avancou": false
       }
     ],
@@ -233,24 +233,24 @@
     "estado": "aguardando_call"
   },
   "proxima": {
-    "id": "114348",
+    "id": "114349",
     "genero": "M",
     "rodada": "Rodada 2",
-    "numero": 15,
+    "numero": 16,
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "Liam O'Brien",
-        "pais": "AUS",
+        "nome": "Miguel Pupo",
+        "pais": "BRA",
         "nota": null,
-        "colete": "red",
+        "colete": "blue",
         "avancou": false
       },
       {
-        "nome": "Filipe Toledo",
-        "pais": "BRA",
+        "nome": "Ramzi Boukhiam",
+        "pais": "MAR",
         "nota": null,
-        "colete": "green",
+        "colete": "white",
         "avancou": false
       }
     ],
@@ -963,7 +963,7 @@
       "genero": "M",
       "rodada": "Rodada 2",
       "numero": 13,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Gabriel Medina",
@@ -977,15 +977,15 @@
           "pais": "BRA",
           "nota": "12.00",
           "colete": "green",
-          "avancou": false
+          "avancou": true
         }
       ],
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114347",
@@ -997,14 +997,14 @@
         {
           "nome": "Jack Robinson",
           "pais": "AUS",
-          "nota": "8.66",
+          "nota": "11.93",
           "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Seth Moniz",
           "pais": "HAW",
-          "nota": "9.93",
+          "nota": "10.13",
           "colete": "white",
           "avancou": false
         }
@@ -1021,19 +1021,19 @@
       "genero": "M",
       "rodada": "Rodada 2",
       "numero": 15,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Liam O'Brien",
           "pais": "AUS",
-          "nota": null,
+          "nota": "6.17",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Filipe Toledo",
           "pais": "BRA",
-          "nota": null,
+          "nota": "9.50",
           "colete": "green",
           "avancou": false
         }
@@ -1445,8 +1445,8 @@
         }
       ],
       "definida": true,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1459,8 +1459,8 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da R2H13",
-          "pais": null,
+          "nome": "Mateus Herdy",
+          "pais": "BRA",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -1909,8 +1909,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-19",
-      "dia_rotulo": "19/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
