@@ -386,6 +386,39 @@ def proximas_etapas(hoje, eid_atual):
     return out
 
 
+# ---------- ranking do mundial ----------
+def ranking(genero):
+    """Le a tabela de classificacao do CT. genero: 'm' ou 'w'."""
+    url = f"{BASE}/athletes/tour/{genero}ct?year={ANO}"
+    soup = BeautifulSoup(busca(url), "html.parser")
+    linhas = []
+    for tr in soup.find_all("tr"):
+        rk = tr.select_one(".athlete-rank")
+        nm = tr.select_one(".athlete-name")
+        if not rk or not nm:
+            continue
+        nome = nm.get_text(strip=True)
+        if not nome:
+            continue
+        pt = (tr.select_one(".athlete-points") or tr.select_one(".tour-points"))
+        pais_el = tr.select_one(".athlete-country-name")
+        pais = pais_el.get_text(strip=True) if pais_el else None
+        var_el = tr.select_one(".athlete-rank-change")
+        var = var_el.get_text(strip=True) if var_el else ""
+        pos = re.sub(r"\D", "", rk.get_text(strip=True))
+        linhas.append({
+            "posicao": int(pos) if pos else None,
+            "nome": nome,
+            "pais": (PAISES.get(nome) or pais_de(nome) or
+                     (pais[:3].upper() if pais else None)),
+            "pontos": (pt.get_text(strip=True).replace("\n", " ") if pt else None),
+            "variacao": var,
+        })
+    linhas = [l for l in linhas if l["posicao"]]
+    linhas.sort(key=lambda l: l["posicao"])
+    return linhas
+
+
 # ---------- principal ----------
 def main():
     agora = datetime.now(BR)
@@ -413,6 +446,15 @@ def main():
     baterias = distribui(baterias, call, passo, hoje, d_fim, tz_evento, agora,
                          estado.get("datas"))
     baterias.sort(key=lambda b: (ORDEM.index(b["rodada"]), b["numero"], b["genero"]))
+    try:
+        rank = {"masculino": ranking("m"), "feminino": ranking("w")}
+        print("ranking: M=%d  F=%d" % (len(rank["masculino"]), len(rank["feminino"])))
+        if rank["masculino"][:1]:
+            print("  lider M:", rank["masculino"][0])
+    except Exception as e:
+        print("ranking falhou:", e)
+        rank = {"masculino": [], "feminino": []}
+
     rolando = any(b["status"] == "ao_vivo" for b in baterias)
     barra = monta_barra(baterias, call, hoje, nome_evento, rolando)
 
@@ -440,6 +482,7 @@ def main():
         "passo_estimado_min": passo,
         "dias": barra,
         "proximas_etapas": proximas_etapas(hoje, eid),
+        "ranking": rank,
         "ao_vivo": ao_vivo,
         "proxima": proxima,
         "baterias": baterias,
