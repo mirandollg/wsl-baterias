@@ -134,9 +134,6 @@ body{font-family:'Outfit',system-ui,sans-serif;background:var(--bg);color:var(--
   text-overflow:ellipsis;white-space:nowrap}
 .rk .pts{font-size:14px;font-weight:700;color:var(--azul-esc);
   font-variant-numeric:tabular-nums;text-align:right}
-.rk .var{font-size:10.5px;font-weight:600;width:26px;text-align:center}
-.rk .var.up{color:var(--verde)}
-.rk .var.down{color:var(--vermelho)}
 
 .vazio-msg{text-align:center;padding:52px 26px;color:var(--cinza-500)}
 .vazio-msg .big{font-size:38px;margin-bottom:10px;opacity:.35}
@@ -241,13 +238,10 @@ function render(){
              <p>Classificação indisponível</p></div>`;
     } else {
       h2 += rk.map(a => {
-        const v = (a.variacao||'').trim();
-        const cls = /^\+|▲|up/i.test(v) ? 'up' : (/^-|▼|down/i.test(v) ? 'down' : '');
         return `<div class="rk${a.posicao<=3?' top3':''}">
           <div class="pos">${a.posicao}</div>
           ${bandeira(a.pais)}
           <div class="nm">${a.nome}</div>
-          <div class="var ${cls}">${v||''}</div>
           <div class="pts">${a.pontos||'-'}</div>
         </div>`;
       }).join('');
