@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 16:15",
+  "atualizado_em": "17/09/2026 16:29",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -8,7 +8,7 @@
   },
   "call": null,
   "call_data": null,
-  "passo_estimado_min": 27,
+  "passo_estimado_min": 26,
   "dias": [
     {
       "data": "2026-09-17",
@@ -16,7 +16,7 @@
       "mes": "09",
       "semana": "Qui",
       "estado": "previsto",
-      "qtd": 32,
+      "qtd": 34,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -26,7 +26,7 @@
       "mes": "09",
       "semana": "Sex",
       "estado": "previsto",
-      "qtd": 3,
+      "qtd": 1,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -204,24 +204,24 @@
     }
   ],
   "ao_vivo": {
-    "id": "114355",
+    "id": "114356",
     "genero": "M",
     "rodada": "Oitavas de final",
-    "numero": 6,
+    "numero": 7,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Alan Cleland",
-        "pais": "MEX",
-        "nota": "3.90",
-        "colete": "blue",
+        "nome": "Mateus Herdy",
+        "pais": "BRA",
+        "nota": "11.77",
+        "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Jake Marshall",
-        "pais": "USA",
-        "nota": "12.44",
-        "colete": "white",
+        "nome": "Jack Robinson",
+        "pais": "AUS",
+        "nota": "9.84",
+        "colete": "green",
         "avancou": false
       }
     ],
@@ -1398,12 +1398,12 @@
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 6,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Alan Cleland",
           "pais": "MEX",
-          "nota": "3.90",
+          "nota": "5.93",
           "colete": "blue",
           "avancou": false
         },
@@ -1412,15 +1412,15 @@
           "pais": "USA",
           "nota": "12.44",
           "colete": "white",
-          "avancou": false
+          "avancou": true
         }
       ],
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114885",
@@ -1468,7 +1468,7 @@
         {
           "nome": "Jack Robinson",
           "pais": "AUS",
-          "nota": "4.17",
+          "nota": "9.84",
           "colete": "green",
           "avancou": false
         }
@@ -1514,19 +1514,19 @@
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 8,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Liam O'Brien",
           "pais": "AUS",
-          "nota": null,
+          "nota": "5.00",
           "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Miguel Pupo",
           "pais": "BRA",
-          "nota": null,
+          "nota": "12.83",
           "colete": "white",
           "avancou": false
         }
@@ -1698,14 +1698,14 @@
           "avancou": false
         },
         {
-          "nome": "vencedor da R3H6",
-          "pais": null,
+          "nome": "Jake Marshall",
+          "pais": "USA",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "definida": false,
+      "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
       "horario": null,
@@ -1880,8 +1880,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1909,8 +1909,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
