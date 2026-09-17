@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 11:49",
+  "atualizado_em": "17/09/2026 12:01",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -213,7 +213,7 @@
       {
         "nome": "Samuel Pupo",
         "pais": "BRA",
-        "nota": "3.50",
+        "nota": "7.90",
         "colete": "blue",
         "avancou": false
       },
@@ -233,24 +233,24 @@
     "estado": "aguardando_call"
   },
   "proxima": {
-    "id": "114346",
+    "id": "114347",
     "genero": "M",
     "rodada": "Rodada 2",
-    "numero": 13,
+    "numero": 14,
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "Gabriel Medina",
-        "pais": "BRA",
+        "nome": "Jack Robinson",
+        "pais": "AUS",
         "nota": null,
-        "colete": "red",
+        "colete": "blue",
         "avancou": false
       },
       {
-        "nome": "Mateus Herdy",
-        "pais": "BRA",
+        "nome": "Seth Moniz",
+        "pais": "HAW",
         "nota": null,
-        "colete": "green",
+        "colete": "white",
         "avancou": false
       }
     ],
@@ -939,7 +939,7 @@
         {
           "nome": "Samuel Pupo",
           "pais": "BRA",
-          "nota": "3.50",
+          "nota": "7.90",
           "colete": "blue",
           "avancou": false
         },
@@ -963,19 +963,19 @@
       "genero": "M",
       "rodada": "Rodada 2",
       "numero": 13,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Gabriel Medina",
           "pais": "BRA",
-          "nota": null,
+          "nota": "0.80",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Mateus Herdy",
           "pais": "BRA",
-          "nota": null,
+          "nota": "4.00",
           "colete": "green",
           "avancou": false
         }
