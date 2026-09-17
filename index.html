@@ -99,6 +99,13 @@ body{font-family:'Outfit',system-ui,sans-serif;background:var(--bg);color:var(--
   background:var(--azul);color:#fff;padding:2px 7px;border-radius:6px;
   display:inline-block;margin-top:4px}
 
+.assistir{display:flex;align-items:center;gap:5px;margin-top:9px;padding-top:9px;
+  border-top:1px solid var(--cinza-100)}
+.assistir a{font-size:12px;font-weight:600;color:var(--azul-esc);text-decoration:none;
+  background:var(--azul-claro);padding:5px 11px;border-radius:9px;display:inline-block}
+.assistir a.live{background:var(--vermelho);color:#fff}
+.assistir .tv{font-size:11px;font-weight:300;color:var(--cinza-500);margin-left:auto}
+
 .vazio-msg{text-align:center;padding:52px 26px;color:var(--cinza-500)}
 .vazio-msg .big{font-size:38px;margin-bottom:10px;opacity:.35}
 .vazio-msg p{font-size:14px;font-weight:300;line-height:1.5}
@@ -147,7 +154,10 @@ let DADOS = null, SEL = null;
 function render(){
   const d = DADOS;
   document.getElementById('evento').textContent = d.evento.nome;
-  document.getElementById('call').textContent = d.call ? '📣 Call ' + d.call : '📣 Aguardando call';
+  const sit = d.situacao || (d.call ? 'call' : 'aguardando');
+  document.getElementById('call').textContent =
+      sit === 'ao_vivo' ? '🔴 Baterias rolando agora'
+    : (d.call ? '📣 Call ' + d.call : '📣 Aguardando call');
   document.getElementById('atualizado').textContent = '🕐 ' + d.atualizado_em;
   document.getElementById('rodape').textContent =
     'Horários estimados a partir da call · atualiza a cada 10 min';
@@ -215,7 +225,7 @@ function render(){
     let quando;
     if(live) quando = '<span class="pill">AO VIVO</span>';
     else if(b.status === 'encerrada') quando = '<span class="quando fim">encerrada</span>';
-    else if(b.estado === 'com_horario') quando = `<span class="quando">${b.horario}</span>`;
+    else if(b.estado === 'com_horario') quando = `<span class="quando">~${b.horario}</span>`;
     else quando = '<span class="quando espera">aguardando call</span>';
 
     const venc = b.surfistas.some(s => s.avancou);
@@ -232,12 +242,20 @@ function render(){
         ${nota}</div>`;
     }).join('');
 
+    let assistir = '';
+    if(b.status === 'encerrada' && b.replay){
+      assistir = `<div class="assistir"><a href="${b.replay}" target="_blank">▶ Replay da bateria</a></div>`;
+    } else if(live){
+      assistir = `<div class="assistir">
+        <a class="live" href="${(d.transmissao||{}).youtube||'https://www.youtube.com/@wsl/live'}" target="_blank">▶ Assistir ao vivo</a>
+        <span class="tv">tambem no ${(d.transmissao||{}).tv||'sportv4'}</span></div>`;
+    }
     html += `<div class="card${live?' live':''}">
       <div class="card-hd">
         <span class="tag ${b.genero==='F'?'f':''}">${b.genero==='F'?'FEM':'MASC'}</span>
         <span class="heat"><b>${b.rodada}</b> · Bateria ${b.numero}</span>
         ${quando}
-      </div>${linhas}</div>`;
+      </div>${linhas}${assistir}</div>`;
   });
   lista.innerHTML = html;
 }
