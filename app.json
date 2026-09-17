@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 16:43",
+  "atualizado_em": "17/09/2026 16:56",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -16,7 +16,7 @@
       "mes": "09",
       "semana": "Qui",
       "estado": "previsto",
-      "qtd": 34,
+      "qtd": 35,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -25,9 +25,9 @@
       "dia": "18",
       "mes": "09",
       "semana": "Sex",
-      "estado": "previsto",
-      "qtd": 1,
-      "evento": "Lexus Trestles Pro",
+      "estado": "vazio",
+      "qtd": 0,
+      "evento": null,
       "hoje": false
     },
     {
@@ -204,24 +204,24 @@
     }
   ],
   "ao_vivo": {
-    "id": "114356",
+    "id": "114357",
     "genero": "M",
     "rodada": "Oitavas de final",
-    "numero": 7,
+    "numero": 8,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Mateus Herdy",
-        "pais": "BRA",
-        "nota": "14.10",
-        "colete": "red",
+        "nome": "Liam O'Brien",
+        "pais": "AUS",
+        "nota": "10.13",
+        "colete": "blue",
         "avancou": false
       },
       {
-        "nome": "Jack Robinson",
-        "pais": "AUS",
-        "nota": "9.84",
-        "colete": "green",
+        "nome": "Miguel Pupo",
+        "pais": "BRA",
+        "nota": "13.40",
+        "colete": "white",
         "avancou": false
       }
     ],
@@ -1456,14 +1456,14 @@
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 7,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Mateus Herdy",
           "pais": "BRA",
           "nota": "14.10",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Jack Robinson",
@@ -1477,8 +1477,8 @@
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114886",
@@ -1749,8 +1749,8 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da R3H7",
-          "pais": null,
+          "nome": "Mateus Herdy",
+          "pais": "BRA",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -1938,8 +1938,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
