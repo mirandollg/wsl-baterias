@@ -24,9 +24,15 @@ body{font-family:'Outfit',system-ui,sans-serif;background:var(--bg);color:var(--
 .hd .meta{margin-top:8px;font-size:12.5px;font-weight:300;opacity:.9;display:flex;gap:14px;flex-wrap:wrap}
 
 /* ---------- barra de dias ---------- */
-.dias{display:flex;gap:8px;overflow-x:auto;padding:14px 14px 10px;scrollbar-width:none;
-  position:sticky;top:0;z-index:20;background:var(--bg);
+.topo{position:sticky;top:0;z-index:20;background:var(--bg);
   box-shadow:0 6px 14px -8px rgba(30,42,51,.28)}
+.dias{display:flex;gap:8px;overflow-x:auto;padding:14px 14px 8px;scrollbar-width:none}
+.btn-rank-wrap{padding:0 14px 10px}
+.btn-rank{background:#fff;border:1.5px solid var(--cinza-200);border-radius:13px;
+  padding:9px;text-align:center;font-size:13px;font-weight:600;color:var(--cinza-700);
+  cursor:pointer;transition:.15s}
+.btn-rank.ativo{background:var(--azul);border-color:var(--azul);color:#fff;
+  box-shadow:0 4px 12px rgba(59,167,232,.3)}
 .dias::-webkit-scrollbar{display:none}
 .dia{flex:0 0 auto;width:58px;background:#fff;border:1.5px solid var(--cinza-200);
   border-radius:15px;padding:9px 0 7px;text-align:center;cursor:pointer;
@@ -113,6 +119,25 @@ body{font-family:'Outfit',system-ui,sans-serif;background:var(--bg);color:var(--
   background:var(--vermelho);animation:pulse 1.6s infinite}
 .card.live{position:relative}
 
+.gen-tabs{display:flex;gap:8px;margin:6px 0 12px}
+.gen-tabs div{flex:1;text-align:center;padding:9px;border-radius:12px;font-size:13px;
+  font-weight:600;background:#fff;border:1.5px solid var(--cinza-200);
+  color:var(--cinza-500);cursor:pointer}
+.gen-tabs div.on{background:var(--azul-esc);border-color:var(--azul-esc);color:#fff}
+.rk{background:#fff;border-radius:13px;padding:10px 13px;margin-bottom:6px;
+  display:flex;align-items:center;gap:10px;box-shadow:0 1px 3px rgba(30,42,51,.06)}
+.rk.top3{border-left:4px solid var(--azul)}
+.rk .pos{font-size:16px;font-weight:700;width:26px;color:var(--cinza-700);
+  font-variant-numeric:tabular-nums}
+.rk.top3 .pos{color:var(--azul-esc)}
+.rk .nm{flex:1;font-size:14.5px;font-weight:500;overflow:hidden;
+  text-overflow:ellipsis;white-space:nowrap}
+.rk .pts{font-size:14px;font-weight:700;color:var(--azul-esc);
+  font-variant-numeric:tabular-nums;text-align:right}
+.rk .var{font-size:10.5px;font-weight:600;width:26px;text-align:center}
+.rk .var.up{color:var(--verde)}
+.rk .var.down{color:var(--vermelho)}
+
 .vazio-msg{text-align:center;padding:52px 26px;color:var(--cinza-500)}
 .vazio-msg .big{font-size:38px;margin-bottom:10px;opacity:.35}
 .vazio-msg p{font-size:14px;font-weight:300;line-height:1.5}
@@ -131,7 +156,12 @@ body{font-family:'Outfit',system-ui,sans-serif;background:var(--bg);color:var(--
   </div>
 </div>
 
-<div class="dias" id="dias"></div>
+<div class="topo">
+  <div class="dias" id="dias"></div>
+  <div class="btn-rank-wrap">
+    <div class="btn-rank" id="btnRank">🏆 Tabelas de classificação</div>
+  </div>
+</div>
 <div class="lista" id="lista"></div>
 <div class="rodape" id="rodape"></div>
 
@@ -156,7 +186,13 @@ const bandeira = (p) => {
   return `<span class="flag-txt">${p}</span>`;
 };
 
-let DADOS = null, SEL = null;
+let DADOS = null, SEL = null, GEN = 'masculino';
+
+document.getElementById('btnRank').onclick = () => {
+  SEL = (SEL === 'RANKING') ? (DADOS.dias.find(x => x.estado !== 'vazio') || DADOS.dias[0]).data
+                            : 'RANKING';
+  render();
+};
 
 function render(){
   const d = DADOS;
@@ -190,6 +226,35 @@ function render(){
   bar.appendChild(ab);
 
   const lista = document.getElementById('lista');
+  document.getElementById('btnRank').className =
+      'btn-rank' + (SEL === 'RANKING' ? ' ativo' : '');
+
+  // tela de ranking
+  if(SEL === 'RANKING'){
+    const rk = (d.ranking || {})[GEN] || [];
+    let h2 = `<div class="gen-tabs">
+      <div class="${GEN==='masculino'?'on':''}" onclick="GEN='masculino';render()">Masculino</div>
+      <div class="${GEN==='feminino'?'on':''}" onclick="GEN='feminino';render()">Feminino</div>
+    </div>`;
+    if(!rk.length){
+      h2 += `<div class="vazio-msg"><div class="big">🏆</div>
+             <p>Classificação indisponível</p></div>`;
+    } else {
+      h2 += rk.map(a => {
+        const v = (a.variacao||'').trim();
+        const cls = /^\+|▲|up/i.test(v) ? 'up' : (/^-|▼|down/i.test(v) ? 'down' : '');
+        return `<div class="rk${a.posicao<=3?' top3':''}">
+          <div class="pos">${a.posicao}</div>
+          ${bandeira(a.pais)}
+          <div class="nm">${a.nome}</div>
+          <div class="var ${cls}">${v||''}</div>
+          <div class="pts">${a.pontos||'-'}</div>
+        </div>`;
+      }).join('');
+    }
+    lista.innerHTML = h2;
+    return;
+  }
 
   // tela de proximas etapas
   if(SEL === 'ETAPAS'){
