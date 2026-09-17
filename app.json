@@ -1,12 +1,12 @@
 {
-  "atualizado_em": "17/09/2026 10:41",
+  "atualizado_em": "17/09/2026 10:57",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
     "inicio": "2026-09-11",
     "fim": "2026-09-20"
   },
-  "call": "17/09 às 11:00",
+  "call": "17/09 às 11:30",
   "call_data": "2026-09-17",
   "passo_estimado_min": 37,
   "dias": [
@@ -16,7 +16,7 @@
       "mes": "09",
       "semana": "Qui",
       "estado": "call",
-      "qtd": 16,
+      "qtd": 15,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -36,7 +36,7 @@
       "mes": "09",
       "semana": "Sab",
       "estado": "previsto",
-      "qtd": 3,
+      "qtd": 4,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -229,8 +229,8 @@
     "definida": true,
     "data": "2026-09-17",
     "dia_rotulo": "17/09",
-    "horario": "11:00",
-    "quando": "11:00",
+    "horario": "11:30",
+    "quando": "11:30",
     "estado": "com_horario"
   },
   "baterias": [
@@ -926,8 +926,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "11:00",
-      "quando": "11:00",
+      "horario": "11:30",
+      "quando": "11:30",
       "estado": "com_horario"
     },
     {
@@ -955,8 +955,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "11:37",
-      "quando": "11:37",
+      "horario": "12:07",
+      "quando": "12:07",
       "estado": "com_horario"
     },
     {
@@ -984,8 +984,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "12:14",
-      "quando": "12:14",
+      "horario": "12:44",
+      "quando": "12:44",
       "estado": "com_horario"
     },
     {
@@ -1013,8 +1013,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "12:51",
-      "quando": "12:51",
+      "horario": "13:21",
+      "quando": "13:21",
       "estado": "com_horario"
     },
     {
@@ -1042,8 +1042,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "13:28",
-      "quando": "13:28",
+      "horario": "13:58",
+      "quando": "13:58",
       "estado": "com_horario"
     },
     {
@@ -1071,8 +1071,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "14:05",
-      "quando": "14:05",
+      "horario": "14:35",
+      "quando": "14:35",
       "estado": "com_horario"
     },
     {
@@ -1100,8 +1100,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "14:42",
-      "quando": "14:42",
+      "horario": "15:12",
+      "quando": "15:12",
       "estado": "com_horario"
     },
     {
@@ -1129,8 +1129,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "15:19",
-      "quando": "15:19",
+      "horario": "15:49",
+      "quando": "15:49",
       "estado": "com_horario"
     },
     {
@@ -1158,8 +1158,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "15:56",
-      "quando": "15:56",
+      "horario": "16:26",
+      "quando": "16:26",
       "estado": "com_horario"
     },
     {
@@ -1187,8 +1187,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "16:33",
-      "quando": "16:33",
+      "horario": "17:03",
+      "quando": "17:03",
       "estado": "com_horario"
     },
     {
@@ -1216,8 +1216,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "17:10",
-      "quando": "17:10",
+      "horario": "17:40",
+      "quando": "17:40",
       "estado": "com_horario"
     },
     {
@@ -1245,8 +1245,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "17:47",
-      "quando": "17:47",
+      "horario": "18:17",
+      "quando": "18:17",
       "estado": "com_horario"
     },
     {
@@ -1274,8 +1274,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "18:24",
-      "quando": "18:24",
+      "horario": "18:54",
+      "quando": "18:54",
       "estado": "com_horario"
     },
     {
@@ -1303,8 +1303,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:01",
-      "quando": "19:01",
+      "horario": "19:31",
+      "quando": "19:31",
       "estado": "com_horario"
     },
     {
@@ -1332,8 +1332,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:38",
-      "quando": "19:38",
+      "horario": "20:08",
+      "quando": "20:08",
       "estado": "com_horario"
     },
     {
@@ -1359,11 +1359,11 @@
         }
       ],
       "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
-      "horario": "20:15",
-      "quando": "20:15",
-      "estado": "com_horario"
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114355",
@@ -1823,8 +1823,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-19",
+      "dia_rotulo": "19/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
