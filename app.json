@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 19:12",
+  "atualizado_em": "17/09/2026 19:28",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -22,7 +22,7 @@
       "mes": "09",
       "semana": "Qui",
       "estado": "call",
-      "qtd": 21,
+      "qtd": 20,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -32,7 +32,7 @@
       "mes": "09",
       "semana": "Sex",
       "estado": "previsto",
-      "qtd": 14,
+      "qtd": 15,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -638,7 +638,7 @@
       {
         "nome": "Brisa Hennessy",
         "pais": "CRC",
-        "nota": "8.13",
+        "nota": "11.30",
         "colete": "green",
         "avancou": false
       }
@@ -647,7 +647,7 @@
     "definida": true,
     "data": "2026-09-17",
     "dia_rotulo": "17/09",
-    "horario": "19:12",
+    "horario": "19:28",
     "quando": "agora",
     "estado": "com_horario"
   },
@@ -677,8 +677,8 @@
     "definida": true,
     "data": "2026-09-17",
     "dia_rotulo": "17/09",
-    "horario": "20:00",
-    "quando": "20:00",
+    "horario": "20:16",
+    "quando": "20:16",
     "estado": "com_horario"
   },
   "baterias": [
@@ -1779,7 +1779,7 @@
         {
           "nome": "Brisa Hennessy",
           "pais": "CRC",
-          "nota": "8.13",
+          "nota": "11.30",
           "colete": "green",
           "avancou": false
         }
@@ -1788,7 +1788,7 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:12",
+      "horario": "19:28",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -1832,14 +1832,14 @@
         {
           "nome": "Erin Brooks",
           "pais": "CAN",
-          "nota": null,
+          "nota": "6.56",
           "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Caroline Marks",
           "pais": "USA",
-          "nota": null,
+          "nota": "8.67",
           "colete": "white",
           "avancou": false
         }
@@ -1848,7 +1848,7 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:36",
+      "horario": "19:52",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -1908,8 +1908,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "20:00",
-      "quando": "20:00",
+      "horario": "20:16",
+      "quando": "20:16",
       "estado": "com_horario"
     },
     {
@@ -1966,11 +1966,11 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
-      "horario": "20:24",
-      "quando": "20:24",
-      "estado": "com_horario"
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114357",
