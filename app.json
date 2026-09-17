@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 11:33",
+  "atualizado_em": "17/09/2026 11:49",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -213,14 +213,14 @@
       {
         "nome": "Samuel Pupo",
         "pais": "BRA",
-        "nota": null,
+        "nota": "3.50",
         "colete": "blue",
         "avancou": false
       },
       {
         "nome": "Jake Marshall",
         "pais": "USA",
-        "nota": null,
+        "nota": "12.33",
         "colete": "white",
         "avancou": false
       }
@@ -939,14 +939,14 @@
         {
           "nome": "Samuel Pupo",
           "pais": "BRA",
-          "nota": null,
+          "nota": "3.50",
           "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Jake Marshall",
           "pais": "USA",
-          "nota": null,
+          "nota": "12.33",
           "colete": "white",
           "avancou": false
         }
