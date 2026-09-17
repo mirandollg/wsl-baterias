@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 01:57",
+  "atualizado_em": "17/09/2026 02:16",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -222,7 +222,7 @@
         "nome": "Jake Marshall",
         "pais": "USA",
         "nota": null,
-        "colete": "blue",
+        "colete": "green",
         "avancou": false
       }
     ],
@@ -919,7 +919,7 @@
           "nome": "Jake Marshall",
           "pais": "USA",
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
@@ -941,14 +941,14 @@
           "nome": "Gabriel Medina",
           "pais": "BRA",
           "nota": null,
-          "colete": "red",
+          "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Mateus Herdy",
           "pais": "BRA",
           "nota": null,
-          "colete": "blue",
+          "colete": "white",
           "avancou": false
         }
       ],
@@ -977,7 +977,7 @@
           "nome": "Seth Moniz",
           "pais": "HAW",
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
@@ -999,14 +999,14 @@
           "nome": "Liam O'Brien",
           "pais": "AUS",
           "nota": null,
-          "colete": "red",
+          "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Filipe Toledo",
           "pais": "BRA",
           "nota": null,
-          "colete": "blue",
+          "colete": "white",
           "avancou": false
         }
       ],
@@ -1035,7 +1035,7 @@
           "nome": "Ramzi Boukhiam",
           "pais": "MAR",
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
