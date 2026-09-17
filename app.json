@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 13:32",
+  "atualizado_em": "17/09/2026 13:49",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -213,14 +213,14 @@
       {
         "nome": "Miguel Pupo",
         "pais": "BRA",
-        "nota": "8.70",
+        "nota": "13.20",
         "colete": "blue",
         "avancou": false
       },
       {
         "nome": "Ramzi Boukhiam",
         "pais": "MAR",
-        "nota": "11.00",
+        "nota": "11.40",
         "colete": "white",
         "avancou": false
       }
@@ -1055,14 +1055,14 @@
         {
           "nome": "Miguel Pupo",
           "pais": "BRA",
-          "nota": "8.70",
+          "nota": "13.20",
           "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Ramzi Boukhiam",
           "pais": "MAR",
-          "nota": "11.00",
+          "nota": "11.40",
           "colete": "white",
           "avancou": false
         }
@@ -1113,14 +1113,14 @@
         {
           "nome": "Callum Robson",
           "pais": "AUS",
-          "nota": null,
+          "nota": "7.73",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Griffin Colapinto",
           "pais": "USA",
-          "nota": null,
+          "nota": "7.66",
           "colete": "green",
           "avancou": false
         }
