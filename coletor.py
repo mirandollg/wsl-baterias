@@ -168,6 +168,13 @@ def coleta(eid, slug, stat_id, genero):
                 "colete": classe(a, "hot-heat-athlete--singlet-"),
                 "avancou": "advance-winner" in cls,
             })
+        replay = None
+        for a in h.select("a.hot-heat__action-link"):
+            href = a.get("href") or ""
+            if "/posts/" in href:
+                replay = BASE + href.split("&")[0]
+                break
+
         num = re.search(r"(\d+)", nome)
         rod = rodada_de(adv, nome)
         out.append({
@@ -178,6 +185,7 @@ def coleta(eid, slug, stat_id, genero):
             "status": "encerrada" if st == "over" else
                       ("ao_vivo" if st in ("live", "active", "in-progress") else "aguardando"),
             "surfistas": surfistas,
+            "replay": replay,
             "definida": not any(re.search(r"winner|vencedor", s["nome"], re.I)
                                 for s in surfistas),
         })
@@ -419,6 +427,11 @@ def main():
                    "inicio": d_ini.strftime("%Y-%m-%d"),
                    "fim": d_fim.strftime("%Y-%m-%d")},
         "call": call.strftime("%d/%m \u00e0s %H:%M") if call else None,
+        "transmissao": {
+            "youtube": "https://www.youtube.com/@wsl/live",
+            "site": "https://www.worldsurfleague.com/watch",
+            "tv": "sportv4",
+        },
         "situacao": "ao_vivo" if rolando else ("call" if call else "aguardando"),
         "call_data": call.strftime("%Y-%m-%d") if call else None,
         "passo_estimado_min": passo,
