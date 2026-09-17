@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 19:40",
+  "atualizado_em": "17/09/2026 19:56",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -22,7 +22,7 @@
       "mes": "09",
       "semana": "Qui",
       "estado": "call",
-      "qtd": 21,
+      "qtd": 20,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -32,7 +32,7 @@
       "mes": "09",
       "semana": "Sex",
       "estado": "previsto",
-      "qtd": 14,
+      "qtd": 15,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -631,7 +631,7 @@
       {
         "nome": "Erin Brooks",
         "pais": "CAN",
-        "nota": "9.96",
+        "nota": "11.13",
         "colete": "blue",
         "avancou": false
       },
@@ -647,7 +647,7 @@
     "definida": true,
     "data": "2026-09-17",
     "dia_rotulo": "17/09",
-    "horario": "19:40",
+    "horario": "19:56",
     "quando": "agora",
     "estado": "com_horario"
   },
@@ -675,11 +675,11 @@
     ],
     "replay": null,
     "definida": true,
-    "data": "2026-09-17",
-    "dia_rotulo": "17/09",
-    "horario": "20:28",
-    "quando": "20:28",
-    "estado": "com_horario"
+    "data": "2026-09-18",
+    "dia_rotulo": "18/09",
+    "horario": null,
+    "quando": "aguardando call",
+    "estado": "aguardando_call"
   },
   "baterias": [
     {
@@ -1724,7 +1724,7 @@
           "avancou": true
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560130/lexus-trestles-pro-womens-round-2-heat-4-condensed?jointEventId=443",
+      "replay": "https://www.worldsurfleague.com/posts/560131/lexus-trestles-pro-womens-round-2-heat-4-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
@@ -1832,7 +1832,7 @@
         {
           "nome": "Erin Brooks",
           "pais": "CAN",
-          "nota": "9.96",
+          "nota": "11.13",
           "colete": "blue",
           "avancou": false
         },
@@ -1848,7 +1848,7 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:40",
+      "horario": "19:56",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -1892,14 +1892,14 @@
         {
           "nome": "Molly Picklum",
           "pais": "AUS",
-          "nota": null,
+          "nota": "3.00",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Yolanda Hopkins",
           "pais": "POR",
-          "nota": null,
+          "nota": "6.80",
           "colete": "green",
           "avancou": false
         }
@@ -1908,7 +1908,7 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "20:04",
+      "horario": "20:20",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -1966,11 +1966,11 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
-      "horario": "20:28",
-      "quando": "20:28",
-      "estado": "com_horario"
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114357",
