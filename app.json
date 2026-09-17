@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 13:16",
+  "atualizado_em": "17/09/2026 13:32",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -8,7 +8,7 @@
   },
   "call": null,
   "call_data": null,
-  "passo_estimado_min": 33,
+  "passo_estimado_min": 32,
   "dias": [
     {
       "data": "2026-09-17",
@@ -16,7 +16,7 @@
       "mes": "09",
       "semana": "Qui",
       "estado": "previsto",
-      "qtd": 21,
+      "qtd": 22,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -26,7 +26,7 @@
       "mes": "09",
       "semana": "Sex",
       "estado": "previsto",
-      "qtd": 14,
+      "qtd": 13,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -204,24 +204,24 @@
     }
   ],
   "ao_vivo": {
-    "id": "114348",
+    "id": "114349",
     "genero": "M",
     "rodada": "Rodada 2",
-    "numero": 15,
+    "numero": 16,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Liam O'Brien",
-        "pais": "AUS",
-        "nota": "14.17",
-        "colete": "red",
+        "nome": "Miguel Pupo",
+        "pais": "BRA",
+        "nota": "8.70",
+        "colete": "blue",
         "avancou": false
       },
       {
-        "nome": "Filipe Toledo",
-        "pais": "BRA",
-        "nota": "13.33",
-        "colete": "green",
+        "nome": "Ramzi Boukhiam",
+        "pais": "MAR",
+        "nota": "11.00",
+        "colete": "white",
         "avancou": false
       }
     ],
@@ -1021,19 +1021,19 @@
       "genero": "M",
       "rodada": "Rodada 2",
       "numero": 15,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Liam O'Brien",
           "pais": "AUS",
-          "nota": "14.17",
+          "nota": "15.10",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Filipe Toledo",
           "pais": "BRA",
-          "nota": "13.33",
+          "nota": "14.43",
           "colete": "green",
           "avancou": false
         }
@@ -1042,8 +1042,8 @@
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114349",
@@ -1055,7 +1055,7 @@
         {
           "nome": "Miguel Pupo",
           "pais": "BRA",
-          "nota": "3.50",
+          "nota": "8.70",
           "colete": "blue",
           "avancou": false
         },
@@ -1108,7 +1108,7 @@
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 1,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Callum Robson",
@@ -1517,10 +1517,10 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da R2H15",
-          "pais": null,
+          "nome": "Liam O'Brien",
+          "pais": "AUS",
           "nota": null,
-          "colete": "red",
+          "colete": "blue",
           "avancou": false
         },
         {
@@ -1561,8 +1561,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
