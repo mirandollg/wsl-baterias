@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 15:58",
+  "atualizado_em": "17/09/2026 16:15",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -220,7 +220,7 @@
       {
         "nome": "Jake Marshall",
         "pais": "USA",
-        "nota": "12.20",
+        "nota": "12.44",
         "colete": "white",
         "avancou": false
       }
@@ -1410,7 +1410,7 @@
         {
           "nome": "Jake Marshall",
           "pais": "USA",
-          "nota": "12.20",
+          "nota": "12.44",
           "colete": "white",
           "avancou": false
         }
@@ -1461,14 +1461,14 @@
         {
           "nome": "Mateus Herdy",
           "pais": "BRA",
-          "nota": null,
+          "nota": "11.77",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Jack Robinson",
           "pais": "AUS",
-          "nota": null,
+          "nota": "4.17",
           "colete": "green",
           "avancou": false
         }
