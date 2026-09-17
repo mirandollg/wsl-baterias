@@ -229,7 +229,7 @@ def atualiza_estado(estado, baterias, agora):
             estado["datas"][b["id"]] = agora.strftime("%Y-%m-%d")
     marcos = sorted(datetime.fromisoformat(v) for v in estado["encerramentos"].values())
     dur = [(b - a).total_seconds() / 60 for a, b in zip(marcos, marcos[1:])
-           if 10 <= (b - a).total_seconds() / 60 <= 90]
+           if 8 <= (b - a).total_seconds() / 60 <= 45]
     estado["duracoes"] = dur[-12:]
     return estado
 
@@ -252,6 +252,9 @@ def distribui(baterias, call, passo, hoje, d_fim, tz_evento, agora, datas_reg=No
     pend = [b for b in baterias if b["status"] != "encerrada"]
     pend.sort(key=lambda b: (ORDEM.index(b["rodada"]), b["numero"], b["genero"]))
     tem_ao_vivo = any(b["status"] == "ao_vivo" for b in baterias)
+    # a bateria no mar e a ancora: ela e agora, o resto vem depois dela
+    pend = ([b for b in pend if b["status"] == "ao_vivo"] +
+            [b for b in pend if b["status"] != "ao_vivo"])
 
     inicio = hoje
     if call and call.date() > hoje:
