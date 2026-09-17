@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 18:15",
+  "atualizado_em": "17/09/2026 18:20",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -209,6 +209,418 @@
       "em_andamento": false
     }
   ],
+  "ranking": {
+    "masculino": [
+      {
+        "posicao": 1,
+        "nome": "Yago Dora",
+        "pais": "BRA",
+        "pontos": "41,440",
+        "variacao": "2"
+      },
+      {
+        "posicao": 2,
+        "nome": "Leonardo Fioravanti",
+        "pais": "ITA",
+        "pontos": "40,015",
+        "variacao": "1"
+      },
+      {
+        "posicao": 3,
+        "nome": "Italo Ferreira",
+        "pais": "BRA",
+        "pontos": "39,930",
+        "variacao": "1"
+      },
+      {
+        "posicao": 4,
+        "nome": "Gabriel Medina",
+        "pais": "BRA",
+        "pontos": "35,410",
+        "variacao": "-"
+      },
+      {
+        "posicao": 5,
+        "nome": "Miguel Pupo",
+        "pais": "BRA",
+        "pontos": "34,195",
+        "variacao": "-"
+      },
+      {
+        "posicao": 6,
+        "nome": "Griffin Colapinto",
+        "pais": "USA",
+        "pontos": "33,695",
+        "variacao": "-"
+      },
+      {
+        "posicao": 7,
+        "nome": "Ethan Ewing",
+        "pais": "AUS",
+        "pontos": "30,895",
+        "variacao": "-"
+      },
+      {
+        "posicao": 8,
+        "nome": "Kanoa Igarashi",
+        "pais": "JPN",
+        "pontos": "28,855",
+        "variacao": "2"
+      },
+      {
+        "posicao": 9,
+        "nome": "Samuel Pupo",
+        "pais": "BRA",
+        "pontos": "27,960",
+        "variacao": "1"
+      },
+      {
+        "posicao": 10,
+        "nome": "George Pittar",
+        "pais": "AUS",
+        "pontos": "26,705",
+        "variacao": "1"
+      },
+      {
+        "posicao": 11,
+        "nome": "Kauli Vaast",
+        "pais": "FRA",
+        "pontos": "26,620",
+        "variacao": "-"
+      },
+      {
+        "posicao": 12,
+        "nome": "Liam O'Brien",
+        "pais": "AUS",
+        "pontos": "26,005",
+        "variacao": "-"
+      },
+      {
+        "posicao": 13,
+        "nome": "Jack Robinson",
+        "pais": "AUS",
+        "pontos": "24,665",
+        "variacao": "-"
+      },
+      {
+        "posicao": 14,
+        "nome": "Marco Mignot",
+        "pais": "FRA",
+        "pontos": "23,770",
+        "variacao": "1"
+      },
+      {
+        "posicao": 15,
+        "nome": "Cole Houshmand",
+        "pais": "USA",
+        "pontos": "23,490",
+        "variacao": "2"
+      },
+      {
+        "posicao": 16,
+        "nome": "Callum Robson",
+        "pais": "AUS",
+        "pontos": "22,875",
+        "variacao": "3"
+      },
+      {
+        "posicao": 17,
+        "nome": "Connor O'Leary",
+        "pais": "JPN",
+        "pontos": "22,185",
+        "variacao": "3"
+      },
+      {
+        "posicao": 18,
+        "nome": "Morgan Cibilic",
+        "pais": "AUS",
+        "pontos": "19,865",
+        "variacao": "2"
+      },
+      {
+        "posicao": 19,
+        "nome": "Joao Chianca",
+        "pais": "BRA",
+        "pontos": "19,045",
+        "variacao": "1"
+      },
+      {
+        "posicao": 20,
+        "nome": "Seth Moniz",
+        "pais": "HAW",
+        "pontos": "18,320",
+        "variacao": "-"
+      },
+      {
+        "posicao": 21,
+        "nome": "Filipe Toledo",
+        "pais": "BRA",
+        "pontos": "18,150",
+        "variacao": "-"
+      },
+      {
+        "posicao": 22,
+        "nome": "Jake Marshall",
+        "pais": "USA",
+        "pontos": "17,705",
+        "variacao": "3"
+      },
+      {
+        "posicao": 23,
+        "nome": "Barron Mamiya",
+        "pais": "HAW",
+        "pontos": "17,705",
+        "variacao": "1"
+      },
+      {
+        "posicao": 24,
+        "nome": "Alan Cleland",
+        "pais": "MEX",
+        "pontos": "16,810",
+        "variacao": "-"
+      },
+      {
+        "posicao": 25,
+        "nome": "Crosby Colapinto",
+        "pais": "USA",
+        "pontos": "15,385",
+        "variacao": "2"
+      },
+      {
+        "posicao": 26,
+        "nome": "Mateus Herdy",
+        "pais": "BRA",
+        "pontos": "14,490",
+        "variacao": "3"
+      },
+      {
+        "posicao": 27,
+        "nome": "Alejo Muniz",
+        "pais": "BRA",
+        "pontos": "13,960",
+        "variacao": "1"
+      },
+      {
+        "posicao": 28,
+        "nome": "Rio Waida",
+        "pais": "INA",
+        "pontos": "13,065",
+        "variacao": "1"
+      },
+      {
+        "posicao": 29,
+        "nome": "Ramzi Boukhiam",
+        "pais": "MAR",
+        "pontos": "11,585",
+        "variacao": "1"
+      },
+      {
+        "posicao": 30,
+        "nome": "Joel Vaughan",
+        "pais": "AUS",
+        "pontos": "10,745",
+        "variacao": "-"
+      },
+      {
+        "posicao": 31,
+        "nome": "Eli Hanneman",
+        "pais": "HAW",
+        "pontos": "9,320",
+        "variacao": "-"
+      },
+      {
+        "posicao": 32,
+        "nome": "Luke Thompson",
+        "pais": "RSA",
+        "pontos": "8,820",
+        "variacao": "1"
+      },
+      {
+        "posicao": 33,
+        "nome": "Jordy Smith",
+        "pais": "RSA",
+        "pontos": "7,820",
+        "variacao": "1"
+      },
+      {
+        "posicao": 34,
+        "nome": "Matthew McGillivray",
+        "pais": "RSA",
+        "pontos": "5,820",
+        "variacao": "-"
+      },
+      {
+        "posicao": 35,
+        "nome": "Oscar Berry",
+        "pais": "AUS",
+        "pontos": "4,000",
+        "variacao": "-"
+      }
+    ],
+    "feminino": [
+      {
+        "posicao": 1,
+        "nome": "Gabriela Bryan",
+        "pais": "HAW",
+        "pontos": "39,810",
+        "variacao": "1"
+      },
+      {
+        "posicao": 2,
+        "nome": "Carissa Moore",
+        "pais": "HAW",
+        "pontos": "39,575",
+        "variacao": "1"
+      },
+      {
+        "posicao": 3,
+        "nome": "Sawyer Lindblad",
+        "pais": "USA",
+        "pontos": "35,970",
+        "variacao": "-"
+      },
+      {
+        "posicao": 4,
+        "nome": "Molly Picklum",
+        "pais": "AUS",
+        "pontos": "34,865",
+        "variacao": "-"
+      },
+      {
+        "posicao": 5,
+        "nome": "Luana Silva",
+        "pais": "BRA",
+        "pontos": "33,835",
+        "variacao": "-"
+      },
+      {
+        "posicao": 6,
+        "nome": "Caitlin Simmers",
+        "pais": "USA",
+        "pontos": "31,810",
+        "variacao": "-"
+      },
+      {
+        "posicao": 7,
+        "nome": "Lakey Peterson",
+        "pais": "USA",
+        "pontos": "30,235",
+        "variacao": "-"
+      },
+      {
+        "posicao": 8,
+        "nome": "Erin Brooks",
+        "pais": "CAN",
+        "pontos": "30,000",
+        "variacao": "-"
+      },
+      {
+        "posicao": 9,
+        "nome": "Isabella Nichols",
+        "pais": "AUS",
+        "pontos": "27,970",
+        "variacao": "-"
+      },
+      {
+        "posicao": 10,
+        "nome": "Caroline Marks",
+        "pais": "USA",
+        "pontos": "26,320",
+        "variacao": "-"
+      },
+      {
+        "posicao": 11,
+        "nome": "Nadia Erostarbe",
+        "pais": "ESP",
+        "pontos": "23,915",
+        "variacao": "-"
+      },
+      {
+        "posicao": 12,
+        "nome": "Bettylou Sakura Johnson",
+        "pais": "HAW",
+        "pontos": "22,575",
+        "variacao": "-"
+      },
+      {
+        "posicao": 13,
+        "nome": "Tyler Wright",
+        "pais": "AUS",
+        "pontos": "20,545",
+        "variacao": "-"
+      },
+      {
+        "posicao": 14,
+        "nome": "Yolanda Hopkins",
+        "pais": "POR",
+        "pontos": "19,830",
+        "variacao": "-"
+      },
+      {
+        "posicao": 15,
+        "nome": "Anat Lelior",
+        "pais": "ISR",
+        "pontos": "18,545",
+        "variacao": "-"
+      },
+      {
+        "posicao": 16,
+        "nome": "Alyssa Spencer",
+        "pais": "USA",
+        "pontos": "18,170",
+        "variacao": "-"
+      },
+      {
+        "posicao": 17,
+        "nome": "Stephanie Gilmore",
+        "pais": "AUS",
+        "pontos": "17,000",
+        "variacao": "-"
+      },
+      {
+        "posicao": 18,
+        "nome": "Brisa Hennessy",
+        "pais": "CRC",
+        "pontos": "16,085",
+        "variacao": "-"
+      },
+      {
+        "posicao": 19,
+        "nome": "Tya Zebrowski",
+        "pais": "FRA",
+        "pontos": "15,800",
+        "variacao": "-"
+      },
+      {
+        "posicao": 20,
+        "nome": "Vahine Fierro",
+        "pais": "FRA",
+        "pontos": "14,745",
+        "variacao": "-"
+      },
+      {
+        "posicao": 21,
+        "nome": "Sally Fitzgibbons",
+        "pais": "AUS",
+        "pontos": "13,000",
+        "variacao": "-"
+      },
+      {
+        "posicao": 22,
+        "nome": "Bella Kenworthy",
+        "pais": "USA",
+        "pontos": "10,000",
+        "variacao": "1"
+      },
+      {
+        "posicao": 23,
+        "nome": "Francisca Veselko",
+        "pais": "POR",
+        "pontos": "10,000",
+        "variacao": "1"
+      }
+    ]
+  },
   "ao_vivo": {
     "id": "114880",
     "genero": "F",
@@ -219,14 +631,14 @@
       {
         "nome": "Luana Silva",
         "pais": "BRA",
-        "nota": "10.90",
+        "nota": "13.03",
         "colete": "blue",
         "avancou": false
       },
       {
         "nome": "Tyler Wright",
         "pais": "AUS",
-        "nota": "9.83",
+        "nota": "10.93",
         "colete": "white",
         "avancou": false
       }
@@ -235,7 +647,7 @@
     "definida": true,
     "data": "2026-09-17",
     "dia_rotulo": "17/09",
-    "horario": "18:15",
+    "horario": "18:20",
     "quando": "agora",
     "estado": "com_horario"
   },
@@ -265,8 +677,8 @@
     "definida": true,
     "data": "2026-09-17",
     "dia_rotulo": "17/09",
-    "horario": "19:03",
-    "quando": "19:03",
+    "horario": "19:08",
+    "quando": "19:08",
     "estado": "com_horario"
   },
   "baterias": [
@@ -1180,14 +1592,14 @@
         {
           "nome": "Luana Silva",
           "pais": "BRA",
-          "nota": "10.90",
+          "nota": "13.03",
           "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Tyler Wright",
           "pais": "AUS",
-          "nota": "9.83",
+          "nota": "10.93",
           "colete": "white",
           "avancou": false
         }
@@ -1196,7 +1608,7 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "18:15",
+      "horario": "18:20",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -1240,14 +1652,14 @@
         {
           "nome": "Sawyer Lindblad",
           "pais": "USA",
-          "nota": "4.67",
+          "nota": "10.17",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Vahine Fierro",
           "pais": "FRA",
-          "nota": "4.17",
+          "nota": "8.74",
           "colete": "green",
           "avancou": false
         }
@@ -1256,7 +1668,7 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "18:39",
+      "horario": "18:44",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -1316,8 +1728,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:03",
-      "quando": "19:03",
+      "horario": "19:08",
+      "quando": "19:08",
       "estado": "com_horario"
     },
     {
@@ -1376,8 +1788,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:27",
-      "quando": "19:27",
+      "horario": "19:32",
+      "quando": "19:32",
       "estado": "com_horario"
     },
     {
@@ -1436,8 +1848,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:51",
-      "quando": "19:51",
+      "horario": "19:56",
+      "quando": "19:56",
       "estado": "com_horario"
     },
     {
@@ -1496,8 +1908,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "20:15",
-      "quando": "20:15",
+      "horario": "20:20",
+      "quando": "20:20",
       "estado": "com_horario"
     },
     {
