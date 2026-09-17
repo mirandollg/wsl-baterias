@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 18:29",
+  "atualizado_em": "17/09/2026 18:42",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -631,7 +631,7 @@
       {
         "nome": "Sawyer Lindblad",
         "pais": "USA",
-        "nota": "10.17",
+        "nota": "15.34",
         "colete": "red",
         "avancou": false
       },
@@ -647,7 +647,7 @@
     "definida": true,
     "data": "2026-09-17",
     "dia_rotulo": "17/09",
-    "horario": "18:29",
+    "horario": "18:42",
     "quando": "agora",
     "estado": "com_horario"
   },
@@ -677,8 +677,8 @@
     "definida": true,
     "data": "2026-09-17",
     "dia_rotulo": "17/09",
-    "horario": "19:13",
-    "quando": "19:13",
+    "horario": "19:26",
+    "quando": "19:26",
     "estado": "com_horario"
   },
   "baterias": [
@@ -1652,7 +1652,7 @@
         {
           "nome": "Sawyer Lindblad",
           "pais": "USA",
-          "nota": "10.17",
+          "nota": "15.34",
           "colete": "red",
           "avancou": false
         },
@@ -1668,7 +1668,7 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "18:29",
+      "horario": "18:42",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -1712,7 +1712,7 @@
         {
           "nome": "Lakey Peterson",
           "pais": "USA",
-          "nota": null,
+          "nota": "10.50",
           "colete": "blue",
           "avancou": false
         },
@@ -1728,7 +1728,7 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "18:51",
+      "horario": "19:04",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -1788,8 +1788,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:13",
-      "quando": "19:13",
+      "horario": "19:26",
+      "quando": "19:26",
       "estado": "com_horario"
     },
     {
@@ -1848,8 +1848,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:35",
-      "quando": "19:35",
+      "horario": "19:48",
+      "quando": "19:48",
       "estado": "com_horario"
     },
     {
@@ -1908,8 +1908,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:57",
-      "quando": "19:57",
+      "horario": "20:10",
+      "quando": "20:10",
       "estado": "com_horario"
     },
     {
@@ -1968,8 +1968,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "20:19",
-      "quando": "20:19",
+      "horario": "20:32",
+      "quando": "20:32",
       "estado": "com_horario"
     },
     {
