@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 18:22",
+  "atualizado_em": "17/09/2026 18:29",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -22,7 +22,7 @@
       "mes": "09",
       "semana": "Qui",
       "estado": "call",
-      "qtd": 22,
+      "qtd": 21,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -32,7 +32,7 @@
       "mes": "09",
       "semana": "Sex",
       "estado": "previsto",
-      "qtd": 13,
+      "qtd": 14,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -474,24 +474,24 @@
       },
       {
         "posicao": 3,
-        "nome": "Sawyer Lindblad",
-        "pais": "USA",
-        "pontos": "35,970",
-        "variacao": "-"
+        "nome": "Luana Silva",
+        "pais": "BRA",
+        "pontos": "36,580",
+        "variacao": "2"
       },
       {
         "posicao": 4,
-        "nome": "Molly Picklum",
-        "pais": "AUS",
-        "pontos": "34,865",
-        "variacao": "-"
+        "nome": "Sawyer Lindblad",
+        "pais": "USA",
+        "pontos": "35,970",
+        "variacao": "1"
       },
       {
         "posicao": 5,
-        "nome": "Luana Silva",
-        "pais": "BRA",
-        "pontos": "33,835",
-        "variacao": "-"
+        "nome": "Molly Picklum",
+        "pais": "AUS",
+        "pontos": "34,865",
+        "variacao": "1"
       },
       {
         "posicao": 6,
@@ -647,7 +647,7 @@
     "definida": true,
     "data": "2026-09-17",
     "dia_rotulo": "17/09",
-    "horario": "18:22",
+    "horario": "18:29",
     "quando": "agora",
     "estado": "com_horario"
   },
@@ -677,8 +677,8 @@
     "definida": true,
     "data": "2026-09-17",
     "dia_rotulo": "17/09",
-    "horario": "19:06",
-    "quando": "19:06",
+    "horario": "19:13",
+    "quando": "19:13",
     "estado": "com_horario"
   },
   "baterias": [
@@ -1668,7 +1668,7 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "18:22",
+      "horario": "18:29",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -1719,7 +1719,7 @@
         {
           "nome": "Eden Walla",
           "pais": "USA",
-          "nota": null,
+          "nota": "9.16",
           "colete": "white",
           "avancou": false
         }
@@ -1728,7 +1728,7 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "18:44",
+      "horario": "18:51",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -1788,8 +1788,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:06",
-      "quando": "19:06",
+      "horario": "19:13",
+      "quando": "19:13",
       "estado": "com_horario"
     },
     {
@@ -1848,8 +1848,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:28",
-      "quando": "19:28",
+      "horario": "19:35",
+      "quando": "19:35",
       "estado": "com_horario"
     },
     {
@@ -1908,8 +1908,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:50",
-      "quando": "19:50",
+      "horario": "19:57",
+      "quando": "19:57",
       "estado": "com_horario"
     },
     {
@@ -1968,8 +1968,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "20:12",
-      "quando": "20:12",
+      "horario": "20:19",
+      "quando": "20:19",
       "estado": "com_horario"
     },
     {
@@ -2026,11 +2026,11 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
-      "horario": "20:34",
-      "quando": "20:34",
-      "estado": "com_horario"
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114358",
