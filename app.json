@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 14:48",
+  "atualizado_em": "17/09/2026 14:59",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -213,7 +213,7 @@
       {
         "nome": "Marco Mignot",
         "pais": "FRA",
-        "nota": "10.40",
+        "nota": "13.70",
         "colete": "red",
         "avancou": false
       },
@@ -1229,7 +1229,7 @@
         {
           "nome": "Marco Mignot",
           "pais": "FRA",
-          "nota": "10.40",
+          "nota": "13.70",
           "colete": "red",
           "avancou": false
         },
@@ -1287,14 +1287,14 @@
         {
           "nome": "Kanoa Igarashi",
           "pais": "JPN",
-          "nota": "5.00",
+          "nota": "12.67",
           "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Ethan Ewing",
           "pais": "AUS",
-          "nota": null,
+          "nota": "6.00",
           "colete": "white",
           "avancou": false
         }
