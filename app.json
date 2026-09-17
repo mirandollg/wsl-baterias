@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "16/09/2026 20:57",
+  "atualizado_em": "16/09/2026 21:20",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
     "inicio": "2026-09-11",
     "fim": "2026-09-20"
   },
-  "call": null,
-  "call_data": null,
+  "call": "16/09 às 11:30",
+  "call_data": "2026-09-16",
   "passo_estimado_min": 37,
   "dias": [
     {
@@ -15,8 +15,8 @@
       "dia": "16",
       "mes": "09",
       "semana": "Qua",
-      "estado": "previsto",
-      "qtd": 31,
+      "estado": "call",
+      "qtd": 16,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -36,7 +36,7 @@
       "mes": "09",
       "semana": "Sex",
       "estado": "previsto",
-      "qtd": 4,
+      "qtd": 16,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -45,9 +45,9 @@
       "dia": "19",
       "mes": "09",
       "semana": "Sab",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
+      "estado": "previsto",
+      "qtd": 3,
+      "evento": "Lexus Trestles Pro",
       "hoje": false
     },
     {
@@ -203,35 +203,7 @@
       "em_andamento": false
     }
   ],
-  "ao_vivo": {
-    "id": "114344",
-    "genero": "M",
-    "rodada": "Rodada 2",
-    "numero": 11,
-    "status": "ao_vivo",
-    "surfistas": [
-      {
-        "nome": "George Pittar",
-        "pais": "AUS",
-        "nota": "9.50",
-        "colete": "red",
-        "avancou": false
-      },
-      {
-        "nome": "Alan Cleland",
-        "pais": "MEX",
-        "nota": "6.83",
-        "colete": "blue",
-        "avancou": false
-      }
-    ],
-    "definida": true,
-    "data": "2026-09-16",
-    "dia_rotulo": "16/09",
-    "horario": null,
-    "quando": "aguardando call",
-    "estado": "aguardando_call"
-  },
+  "ao_vivo": null,
   "proxima": {
     "id": "114345",
     "genero": "M",
@@ -255,8 +227,8 @@
       }
     ],
     "definida": true,
-    "data": "2026-09-16",
-    "dia_rotulo": "16/09",
+    "data": "2026-09-17",
+    "dia_rotulo": "17/09",
     "horario": null,
     "quando": "aguardando call",
     "estado": "aguardando_call"
@@ -905,29 +877,29 @@
       "genero": "M",
       "rodada": "Rodada 2",
       "numero": 11,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "George Pittar",
           "pais": "AUS",
-          "nota": "9.50",
+          "nota": "11.67",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Alan Cleland",
           "pais": "MEX",
-          "nota": "6.83",
+          "nota": "13.26",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         }
       ],
       "definida": true,
       "data": "2026-09-16",
       "dia_rotulo": "16/09",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114345",
@@ -952,8 +924,8 @@
         }
       ],
       "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -981,8 +953,8 @@
         }
       ],
       "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1010,8 +982,8 @@
         }
       ],
       "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1039,8 +1011,8 @@
         }
       ],
       "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1068,8 +1040,8 @@
         }
       ],
       "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1092,13 +1064,13 @@
           "nome": "Tya Zebrowski",
           "pais": "FRA",
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
       "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1126,8 +1098,8 @@
         }
       ],
       "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1143,20 +1115,20 @@
           "nome": "Luana Silva",
           "pais": "BRA",
           "nota": null,
-          "colete": "red",
+          "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Tyler Wright",
           "pais": "AUS",
           "nota": null,
-          "colete": "blue",
+          "colete": "white",
           "avancou": false
         }
       ],
       "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1184,8 +1156,8 @@
         }
       ],
       "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1208,13 +1180,13 @@
           "nome": "Vahine Fierro",
           "pais": "FRA",
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
       "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1242,8 +1214,8 @@
         }
       ],
       "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1259,20 +1231,20 @@
           "nome": "Lakey Peterson",
           "pais": "USA",
           "nota": null,
-          "colete": "red",
+          "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Eden Walla",
           "pais": "USA",
           "nota": null,
-          "colete": "blue",
+          "colete": "white",
           "avancou": false
         }
       ],
       "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1300,8 +1272,8 @@
         }
       ],
       "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1324,13 +1296,13 @@
           "nome": "Brisa Hennessy",
           "pais": "CRC",
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
       "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1358,8 +1330,8 @@
         }
       ],
       "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1375,14 +1347,14 @@
           "nome": "Erin Brooks",
           "pais": "CAN",
           "nota": null,
-          "colete": "red",
+          "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Caroline Marks",
           "pais": "USA",
           "nota": null,
-          "colete": "blue",
+          "colete": "white",
           "avancou": false
         }
       ],
@@ -1401,8 +1373,8 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da R2H11",
-          "pais": null,
+          "nome": "Alan Cleland",
+          "pais": "MEX",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -1416,8 +1388,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1440,13 +1412,13 @@
           "nome": "Yolanda Hopkins",
           "pais": "POR",
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
       "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1474,8 +1446,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1491,20 +1463,20 @@
           "nome": "Caitlin Simmers",
           "pais": "USA",
           "nota": null,
-          "colete": "red",
+          "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Bella Kenworthy",
           "pais": "USA",
           "nota": null,
-          "colete": "blue",
+          "colete": "white",
           "avancou": false
         }
       ],
       "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1532,8 +1504,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1561,8 +1533,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1590,8 +1562,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1619,8 +1591,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1648,8 +1620,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1677,8 +1649,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1706,8 +1678,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1735,8 +1707,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1764,8 +1736,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1793,8 +1765,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1822,8 +1794,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1880,8 +1852,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-19",
+      "dia_rotulo": "19/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1909,8 +1881,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-19",
+      "dia_rotulo": "19/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1938,8 +1910,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-19",
+      "dia_rotulo": "19/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
