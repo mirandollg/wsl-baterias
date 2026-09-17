@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 13:49",
+  "atualizado_em": "17/09/2026 14:00",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -8,7 +8,7 @@
   },
   "call": null,
   "call_data": null,
-  "passo_estimado_min": 32,
+  "passo_estimado_min": 31,
   "dias": [
     {
       "data": "2026-09-17",
@@ -16,7 +16,7 @@
       "mes": "09",
       "semana": "Qui",
       "estado": "previsto",
-      "qtd": 22,
+      "qtd": 24,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -26,7 +26,7 @@
       "mes": "09",
       "semana": "Sex",
       "estado": "previsto",
-      "qtd": 13,
+      "qtd": 11,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -204,24 +204,24 @@
     }
   ],
   "ao_vivo": {
-    "id": "114349",
+    "id": "114350",
     "genero": "M",
-    "rodada": "Rodada 2",
-    "numero": 16,
+    "rodada": "Oitavas de final",
+    "numero": 1,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Miguel Pupo",
-        "pais": "BRA",
-        "nota": "13.20",
-        "colete": "blue",
+        "nome": "Callum Robson",
+        "pais": "AUS",
+        "nota": "7.73",
+        "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Ramzi Boukhiam",
-        "pais": "MAR",
-        "nota": "11.40",
-        "colete": "white",
+        "nome": "Griffin Colapinto",
+        "pais": "USA",
+        "nota": "9.86",
+        "colete": "green",
         "avancou": false
       }
     ],
@@ -1050,19 +1050,19 @@
       "genero": "M",
       "rodada": "Rodada 2",
       "numero": 16,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Miguel Pupo",
           "pais": "BRA",
           "nota": "13.20",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Ramzi Boukhiam",
           "pais": "MAR",
-          "nota": "11.40",
+          "nota": "12.16",
           "colete": "white",
           "avancou": false
         }
@@ -1071,8 +1071,8 @@
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114879",
@@ -1120,7 +1120,7 @@
         {
           "nome": "Griffin Colapinto",
           "pais": "USA",
-          "nota": "7.66",
+          "nota": "9.86",
           "colete": "green",
           "avancou": false
         }
@@ -1166,7 +1166,7 @@
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 2,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Yago Dora",
@@ -1524,14 +1524,14 @@
           "avancou": false
         },
         {
-          "nome": "vencedor da R2H16",
-          "pais": null,
+          "nome": "Miguel Pupo",
+          "pais": "BRA",
           "nota": null,
-          "colete": "green",
+          "colete": "white",
           "avancou": false
         }
       ],
-      "definida": false,
+      "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
       "horario": null,
@@ -1590,8 +1590,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1619,8 +1619,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
