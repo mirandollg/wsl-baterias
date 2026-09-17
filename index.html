@@ -24,7 +24,9 @@ body{font-family:'Outfit',system-ui,sans-serif;background:var(--bg);color:var(--
 .hd .meta{margin-top:8px;font-size:12.5px;font-weight:300;opacity:.9;display:flex;gap:14px;flex-wrap:wrap}
 
 /* ---------- barra de dias ---------- */
-.dias{display:flex;gap:8px;overflow-x:auto;padding:14px 14px 10px;scrollbar-width:none}
+.dias{display:flex;gap:8px;overflow-x:auto;padding:14px 14px 10px;scrollbar-width:none;
+  position:sticky;top:0;z-index:20;background:var(--bg);
+  box-shadow:0 6px 14px -8px rgba(30,42,51,.28)}
 .dias::-webkit-scrollbar{display:none}
 .dia{flex:0 0 auto;width:58px;background:#fff;border:1.5px solid var(--cinza-200);
   border-radius:15px;padding:9px 0 7px;text-align:center;cursor:pointer;
@@ -105,6 +107,11 @@ body{font-family:'Outfit',system-ui,sans-serif;background:var(--bg);color:var(--
   background:var(--azul-claro);padding:5px 11px;border-radius:9px;display:inline-block}
 .assistir a.live{background:var(--vermelho);color:#fff}
 .assistir .tv{font-size:11px;font-weight:300;color:var(--cinza-500);margin-left:auto}
+
+.grupo.live-hd{color:var(--vermelho);display:flex;align-items:center;gap:7px;margin-top:10px}
+.grupo.live-hd::before{content:'';width:8px;height:8px;border-radius:50%;
+  background:var(--vermelho);animation:pulse 1.6s infinite}
+.card.live{position:relative}
 
 .vazio-msg{text-align:center;padding:52px 26px;color:var(--cinza-500)}
 .vazio-msg .big{font-size:38px;margin-bottom:10px;opacity:.35}
@@ -219,8 +226,20 @@ function render(){
     return;
   }
   let html = '', rodada = null;
-  bats.forEach(b => {
+  const aoVivo = bats.filter(b => b.status === 'ao_vivo');
+  const resto  = bats.filter(b => b.status !== 'ao_vivo');
+  if(aoVivo.length){
+    html += '<div class="grupo live-hd">Acontecendo agora</div>';
+    aoVivo.forEach(b => { html += cardHTML(b, d); });
+  }
+  resto.forEach(b => {
     if(b.rodada !== rodada){ rodada = b.rodada; html += `<div class="grupo">${rodada}</div>`; }
+    html += cardHTML(b, d);
+  });
+  lista.innerHTML = html;
+}
+
+function cardHTML(b, d){
     const live = b.status === 'ao_vivo';
     let quando;
     if(live) quando = '<span class="pill">AO VIVO</span>';
@@ -250,14 +269,12 @@ function render(){
         <a class="live" href="${(d.transmissao||{}).youtube||'https://www.youtube.com/@wsl/live'}" target="_blank">▶ Assistir ao vivo</a>
         <span class="tv">tambem no ${(d.transmissao||{}).tv||'sportv4'}</span></div>`;
     }
-    html += `<div class="card${live?' live':''}">
+    return `<div class="card${live?' live':''}">
       <div class="card-hd">
         <span class="tag ${b.genero==='F'?'f':''}">${b.genero==='F'?'FEM':'MASC'}</span>
         <span class="heat"><b>${b.rodada}</b> · Bateria ${b.numero}</span>
         ${quando}
       </div>${linhas}${assistir}</div>`;
-  });
-  lista.innerHTML = html;
 }
 
 fetch(URL_JSON + '?t=' + Date.now())
