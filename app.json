@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 14:16",
+  "atualizado_em": "17/09/2026 14:30",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -16,7 +16,7 @@
       "mes": "09",
       "semana": "Qui",
       "estado": "previsto",
-      "qtd": 24,
+      "qtd": 25,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -26,7 +26,7 @@
       "mes": "09",
       "semana": "Sex",
       "estado": "previsto",
-      "qtd": 11,
+      "qtd": 10,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -204,24 +204,24 @@
     }
   ],
   "ao_vivo": {
-    "id": "114350",
+    "id": "114351",
     "genero": "M",
     "rodada": "Oitavas de final",
-    "numero": 1,
+    "numero": 2,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Callum Robson",
-        "pais": "AUS",
-        "nota": "12.83",
-        "colete": "red",
+        "nome": "Yago Dora",
+        "pais": "BRA",
+        "nota": "12.50",
+        "colete": "blue",
         "avancou": false
       },
       {
-        "nome": "Griffin Colapinto",
-        "pais": "USA",
-        "nota": "11.03",
-        "colete": "green",
+        "nome": "Kauli Vaast",
+        "pais": "FRA",
+        "nota": "10.97",
+        "colete": "white",
         "avancou": false
       }
     ],
@@ -1108,14 +1108,14 @@
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 1,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Callum Robson",
           "pais": "AUS",
           "nota": "12.83",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Griffin Colapinto",
@@ -1129,8 +1129,8 @@
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114880",
@@ -1178,7 +1178,7 @@
         {
           "nome": "Kauli Vaast",
           "pais": "FRA",
-          "nota": "10.53",
+          "nota": "10.97",
           "colete": "white",
           "avancou": false
         }
@@ -1224,19 +1224,19 @@
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 3,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Marco Mignot",
           "pais": "FRA",
-          "nota": null,
+          "nota": "9.67",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Italo Ferreira",
           "pais": "BRA",
-          "nota": null,
+          "nota": "9.00",
           "colete": "green",
           "avancou": false
         }
@@ -1575,8 +1575,8 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da R3H1",
-          "pais": null,
+          "nome": "Callum Robson",
+          "pais": "AUS",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -1648,8 +1648,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
