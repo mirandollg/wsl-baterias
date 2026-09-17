@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 10:57",
+  "atualizado_em": "17/09/2026 11:17",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -215,14 +215,14 @@
         "nome": "Samuel Pupo",
         "pais": "BRA",
         "nota": null,
-        "colete": "red",
+        "colete": "blue",
         "avancou": false
       },
       {
         "nome": "Jake Marshall",
         "pais": "USA",
         "nota": null,
-        "colete": "green",
+        "colete": "white",
         "avancou": false
       }
     ],
@@ -912,14 +912,14 @@
           "nome": "Samuel Pupo",
           "pais": "BRA",
           "nota": null,
-          "colete": "red",
+          "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Jake Marshall",
           "pais": "USA",
           "nota": null,
-          "colete": "green",
+          "colete": "white",
           "avancou": false
         }
       ],
@@ -941,14 +941,14 @@
           "nome": "Gabriel Medina",
           "pais": "BRA",
           "nota": null,
-          "colete": "blue",
+          "colete": "red",
           "avancou": false
         },
         {
           "nome": "Mateus Herdy",
           "pais": "BRA",
           "nota": null,
-          "colete": "white",
+          "colete": "green",
           "avancou": false
         }
       ],
@@ -970,14 +970,14 @@
           "nome": "Jack Robinson",
           "pais": "AUS",
           "nota": null,
-          "colete": "red",
+          "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Seth Moniz",
           "pais": "HAW",
           "nota": null,
-          "colete": "green",
+          "colete": "white",
           "avancou": false
         }
       ],
@@ -999,14 +999,14 @@
           "nome": "Liam O'Brien",
           "pais": "AUS",
           "nota": null,
-          "colete": "blue",
+          "colete": "red",
           "avancou": false
         },
         {
           "nome": "Filipe Toledo",
           "pais": "BRA",
           "nota": null,
-          "colete": "white",
+          "colete": "green",
           "avancou": false
         }
       ],
@@ -1028,14 +1028,14 @@
           "nome": "Miguel Pupo",
           "pais": "BRA",
           "nota": null,
-          "colete": "red",
+          "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Ramzi Boukhiam",
           "pais": "MAR",
           "nota": null,
-          "colete": "green",
+          "colete": "white",
           "avancou": false
         }
       ],
@@ -1093,7 +1093,7 @@
           "nome": "Griffin Colapinto",
           "pais": "USA",
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
@@ -1144,14 +1144,14 @@
           "nome": "Yago Dora",
           "pais": "BRA",
           "nota": null,
-          "colete": "red",
+          "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Kauli Vaast",
           "pais": "FRA",
           "nota": null,
-          "colete": "blue",
+          "colete": "white",
           "avancou": false
         }
       ],
@@ -1209,7 +1209,7 @@
           "nome": "Italo Ferreira",
           "pais": "BRA",
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
@@ -1260,14 +1260,14 @@
           "nome": "Kanoa Igarashi",
           "pais": "JPN",
           "nota": null,
-          "colete": "red",
+          "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Ethan Ewing",
           "pais": "AUS",
           "nota": null,
-          "colete": "blue",
+          "colete": "white",
           "avancou": false
         }
       ],
@@ -1325,7 +1325,7 @@
           "nome": "Cole Houshmand",
           "pais": "USA",
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
@@ -1376,7 +1376,7 @@
           "nome": "Alan Cleland",
           "pais": "MEX",
           "nota": null,
-          "colete": "red",
+          "colete": "blue",
           "avancou": false
         },
         {
