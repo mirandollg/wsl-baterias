@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 18:20",
+  "atualizado_em": "17/09/2026 18:22",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -14,7 +14,7 @@
   },
   "situacao": "ao_vivo",
   "call_data": null,
-  "passo_estimado_min": 24,
+  "passo_estimado_min": 22,
   "dias": [
     {
       "data": "2026-09-17",
@@ -22,7 +22,7 @@
       "mes": "09",
       "semana": "Qui",
       "estado": "call",
-      "qtd": 20,
+      "qtd": 22,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -32,7 +32,7 @@
       "mes": "09",
       "semana": "Sex",
       "estado": "previsto",
-      "qtd": 15,
+      "qtd": 13,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -622,24 +622,24 @@
     ]
   },
   "ao_vivo": {
-    "id": "114880",
+    "id": "114881",
     "genero": "F",
     "rodada": "Oitavas de final",
-    "numero": 2,
+    "numero": 3,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Luana Silva",
-        "pais": "BRA",
-        "nota": "13.03",
-        "colete": "blue",
+        "nome": "Sawyer Lindblad",
+        "pais": "USA",
+        "nota": "10.17",
+        "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Tyler Wright",
-        "pais": "AUS",
-        "nota": "10.93",
-        "colete": "white",
+        "nome": "Vahine Fierro",
+        "pais": "FRA",
+        "nota": "8.74",
+        "colete": "green",
         "avancou": false
       }
     ],
@@ -647,29 +647,29 @@
     "definida": true,
     "data": "2026-09-17",
     "dia_rotulo": "17/09",
-    "horario": "18:20",
+    "horario": "18:22",
     "quando": "agora",
     "estado": "com_horario"
   },
   "proxima": {
-    "id": "114882",
+    "id": "114883",
     "genero": "F",
     "rodada": "Oitavas de final",
-    "numero": 4,
+    "numero": 5,
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "Lakey Peterson",
-        "pais": "USA",
+        "nome": "Carissa Moore",
+        "pais": "HAW",
         "nota": null,
-        "colete": "blue",
+        "colete": "yellow",
         "avancou": false
       },
       {
-        "nome": "Eden Walla",
-        "pais": "USA",
+        "nome": "Brisa Hennessy",
+        "pais": "CRC",
         "nota": null,
-        "colete": "white",
+        "colete": "green",
         "avancou": false
       }
     ],
@@ -677,8 +677,8 @@
     "definida": true,
     "data": "2026-09-17",
     "dia_rotulo": "17/09",
-    "horario": "19:08",
-    "quando": "19:08",
+    "horario": "19:06",
+    "quando": "19:06",
     "estado": "com_horario"
   },
   "baterias": [
@@ -1544,7 +1544,7 @@
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/560117/lexus-trestles-pro-womens-round-2-heat-1-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
@@ -1587,14 +1587,14 @@
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 2,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Luana Silva",
           "pais": "BRA",
           "nota": "13.03",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Tyler Wright",
@@ -1604,13 +1604,13 @@
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-day-4-of-the-lexus-trestles-pro?jointEventId=443",
+      "replay": null,
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "18:20",
-      "quando": "agora",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114351",
@@ -1668,7 +1668,7 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "18:44",
+      "horario": "18:22",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -1707,7 +1707,7 @@
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 4,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Lakey Peterson",
@@ -1724,12 +1724,12 @@
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-day-4-of-the-lexus-trestles-pro?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:08",
-      "quando": "19:08",
+      "horario": "18:44",
+      "quando": "agora",
       "estado": "com_horario"
     },
     {
@@ -1788,8 +1788,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:32",
-      "quando": "19:32",
+      "horario": "19:06",
+      "quando": "19:06",
       "estado": "com_horario"
     },
     {
@@ -1848,8 +1848,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "19:56",
-      "quando": "19:56",
+      "horario": "19:28",
+      "quando": "19:28",
       "estado": "com_horario"
     },
     {
@@ -1908,8 +1908,8 @@
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
-      "horario": "20:20",
-      "quando": "20:20",
+      "horario": "19:50",
+      "quando": "19:50",
       "estado": "com_horario"
     },
     {
@@ -1966,11 +1966,11 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
+      "horario": "20:12",
+      "quando": "20:12",
+      "estado": "com_horario"
     },
     {
       "id": "114357",
@@ -2017,20 +2017,20 @@
           "avancou": false
         },
         {
-          "nome": "vencedor da R2H2",
-          "pais": null,
+          "nome": "Luana Silva",
+          "pais": "BRA",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
       "replay": null,
-      "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "definida": true,
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
+      "horario": "20:34",
+      "quando": "20:34",
+      "estado": "com_horario"
     },
     {
       "id": "114358",
