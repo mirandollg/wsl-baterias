@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 16:56",
+  "atualizado_em": "17/09/2026 17:14",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -8,7 +8,7 @@
   },
   "call": null,
   "call_data": null,
-  "passo_estimado_min": 26,
+  "passo_estimado_min": 24,
   "dias": [
     {
       "data": "2026-09-17",
@@ -204,40 +204,11 @@
     }
   ],
   "ao_vivo": {
-    "id": "114357",
-    "genero": "M",
-    "rodada": "Oitavas de final",
-    "numero": 8,
-    "status": "ao_vivo",
-    "surfistas": [
-      {
-        "nome": "Liam O'Brien",
-        "pais": "AUS",
-        "nota": "10.13",
-        "colete": "blue",
-        "avancou": false
-      },
-      {
-        "nome": "Miguel Pupo",
-        "pais": "BRA",
-        "nota": "13.40",
-        "colete": "white",
-        "avancou": false
-      }
-    ],
-    "definida": true,
-    "data": "2026-09-17",
-    "dia_rotulo": "17/09",
-    "horario": null,
-    "quando": "aguardando call",
-    "estado": "aguardando_call"
-  },
-  "proxima": {
     "id": "114879",
     "genero": "F",
     "rodada": "Oitavas de final",
     "numero": 1,
-    "status": "aguardando",
+    "status": "ao_vivo",
     "surfistas": [
       {
         "nome": "Gabriela Bryan",
@@ -249,8 +220,37 @@
       {
         "nome": "Tya Zebrowski",
         "pais": "FRA",
-        "nota": null,
+        "nota": "0.93",
         "colete": "green",
+        "avancou": false
+      }
+    ],
+    "definida": true,
+    "data": "2026-09-17",
+    "dia_rotulo": "17/09",
+    "horario": null,
+    "quando": "aguardando call",
+    "estado": "aguardando_call"
+  },
+  "proxima": {
+    "id": "114880",
+    "genero": "F",
+    "rodada": "Oitavas de final",
+    "numero": 2,
+    "status": "aguardando",
+    "surfistas": [
+      {
+        "nome": "Luana Silva",
+        "pais": "BRA",
+        "nota": null,
+        "colete": "blue",
+        "avancou": false
+      },
+      {
+        "nome": "Tyler Wright",
+        "pais": "AUS",
+        "nota": null,
+        "colete": "white",
         "avancou": false
       }
     ],
@@ -1079,7 +1079,7 @@
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 1,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Gabriela Bryan",
@@ -1091,7 +1091,7 @@
         {
           "nome": "Tya Zebrowski",
           "pais": "FRA",
-          "nota": null,
+          "nota": "0.93",
           "colete": "green",
           "avancou": false
         }
@@ -1514,7 +1514,7 @@
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 8,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Liam O'Brien",
@@ -1528,15 +1528,15 @@
           "pais": "BRA",
           "nota": "13.40",
           "colete": "white",
-          "avancou": false
+          "avancou": true
         }
       ],
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114887",
@@ -1756,14 +1756,14 @@
           "avancou": false
         },
         {
-          "nome": "vencedor da R3H8",
-          "pais": null,
+          "nome": "Miguel Pupo",
+          "pais": "BRA",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "definida": false,
+      "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
       "horario": null,
