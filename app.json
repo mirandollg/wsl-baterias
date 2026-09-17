@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 15:21",
+  "atualizado_em": "17/09/2026 15:43",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -8,7 +8,7 @@
   },
   "call": null,
   "call_data": null,
-  "passo_estimado_min": 30,
+  "passo_estimado_min": 28,
   "dias": [
     {
       "data": "2026-09-17",
@@ -16,7 +16,7 @@
       "mes": "09",
       "semana": "Qui",
       "estado": "previsto",
-      "qtd": 28,
+      "qtd": 30,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -26,7 +26,7 @@
       "mes": "09",
       "semana": "Sex",
       "estado": "previsto",
-      "qtd": 7,
+      "qtd": 5,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -204,24 +204,24 @@
     }
   ],
   "ao_vivo": {
-    "id": "114353",
+    "id": "114354",
     "genero": "M",
     "rodada": "Oitavas de final",
-    "numero": 4,
+    "numero": 5,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Kanoa Igarashi",
-        "pais": "JPN",
-        "nota": "13.67",
-        "colete": "blue",
+        "nome": "Luke Thompson",
+        "pais": "RSA",
+        "nota": "7.90",
+        "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Ethan Ewing",
-        "pais": "AUS",
-        "nota": "12.00",
-        "colete": "white",
+        "nome": "Cole Houshmand",
+        "pais": "USA",
+        "nota": "11.57",
+        "colete": "green",
         "avancou": false
       }
     ],
@@ -1282,14 +1282,14 @@
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 4,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Kanoa Igarashi",
           "pais": "JPN",
           "nota": "13.67",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Ethan Ewing",
@@ -1303,8 +1303,8 @@
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114883",
@@ -1345,14 +1345,14 @@
         {
           "nome": "Luke Thompson",
           "pais": "RSA",
-          "nota": "2.67",
+          "nota": "7.90",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Cole Houshmand",
           "pais": "USA",
-          "nota": "5.83",
+          "nota": "11.57",
           "colete": "green",
           "avancou": false
         }
@@ -1398,7 +1398,7 @@
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 6,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Alan Cleland",
@@ -1640,14 +1640,14 @@
           "avancou": false
         },
         {
-          "nome": "vencedor da R3H4",
-          "pais": null,
+          "nome": "Kanoa Igarashi",
+          "pais": "JPN",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "definida": false,
+      "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
       "horario": null,
@@ -1764,8 +1764,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1793,8 +1793,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
