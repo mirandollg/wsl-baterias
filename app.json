@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 20:39",
+  "atualizado_em": "17/09/2026 20:50",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -12,7 +12,7 @@
     "site": "https://www.worldsurfleague.com/watch",
     "tv": "sportv4"
   },
-  "situacao": "ao_vivo",
+  "situacao": "aguardando",
   "call_data": null,
   "passo_estimado_min": 23,
   "dias": [
@@ -21,8 +21,8 @@
       "dia": "17",
       "mes": "09",
       "semana": "Qui",
-      "estado": "call",
-      "qtd": 20,
+      "estado": "previsto",
+      "qtd": 21,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -32,7 +32,7 @@
       "mes": "09",
       "semana": "Sex",
       "estado": "previsto",
-      "qtd": 15,
+      "qtd": 14,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -609,7 +609,7 @@
         "posicao": 22,
         "nome": "Bella Kenworthy",
         "pais": "USA",
-        "pontos": "10,000",
+        "pontos": "12,745",
         "variacao": "1"
       },
       {
@@ -621,36 +621,7 @@
       }
     ]
   },
-  "ao_vivo": {
-    "id": "114886",
-    "genero": "F",
-    "rodada": "Oitavas de final",
-    "numero": 8,
-    "status": "ao_vivo",
-    "surfistas": [
-      {
-        "nome": "Caitlin Simmers",
-        "pais": "USA",
-        "nota": "10.67",
-        "colete": "blue",
-        "avancou": false
-      },
-      {
-        "nome": "Bella Kenworthy",
-        "pais": "USA",
-        "nota": "13.33",
-        "colete": "white",
-        "avancou": false
-      }
-    ],
-    "replay": "https://www.worldsurfleague.com/posts/557328/its-on-day-4-of-the-lexus-trestles-pro?jointEventId=443",
-    "definida": true,
-    "data": "2026-09-18",
-    "dia_rotulo": "18/09",
-    "horario": null,
-    "quando": "aguardando call",
-    "estado": "aguardando_call"
-  },
+  "ao_vivo": null,
   "proxima": {
     "id": "114887",
     "genero": "F",
@@ -673,7 +644,7 @@
         "avancou": false
       }
     ],
-    "replay": null,
+    "replay": "https://www.worldsurfleague.com/posts/557328/its-on-day-4-of-the-lexus-trestles-pro?jointEventId=443",
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
@@ -1784,7 +1755,7 @@
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560134/lexus-trestles-pro-womens-round-2-heat-5-condensed?jointEventId=443",
+      "replay": "https://www.worldsurfleague.com/posts/560137/lexus-trestles-pro-womens-round-2-heat-5-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
@@ -1904,7 +1875,7 @@
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/560139/lexus-trestles-pro-womens-round-2-heat-7-condensed?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
@@ -1947,30 +1918,30 @@
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 8,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Caitlin Simmers",
           "pais": "USA",
-          "nota": "10.67",
+          "nota": "12.64",
           "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Bella Kenworthy",
           "pais": "USA",
-          "nota": "13.33",
+          "nota": "13.87",
           "colete": "white",
-          "avancou": false
+          "avancou": true
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-day-4-of-the-lexus-trestles-pro?jointEventId=443",
+      "replay": null,
       "definida": true,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114357",
@@ -2024,7 +1995,7 @@
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-day-4-of-the-lexus-trestles-pro?jointEventId=443",
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
@@ -2197,15 +2168,15 @@
           "avancou": false
         },
         {
-          "nome": "vencedor da R2H8",
-          "pais": null,
+          "nome": "Bella Kenworthy",
+          "pais": "USA",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
       "replay": null,
-      "definida": false,
+      "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
       "horario": null,
