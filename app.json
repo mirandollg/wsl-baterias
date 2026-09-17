@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 12:01",
+  "atualizado_em": "17/09/2026 12:23",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -16,7 +16,7 @@
       "mes": "09",
       "semana": "Qui",
       "estado": "previsto",
-      "qtd": 16,
+      "qtd": 17,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -36,7 +36,7 @@
       "mes": "09",
       "semana": "Sab",
       "estado": "previsto",
-      "qtd": 3,
+      "qtd": 2,
       "evento": "Lexus Trestles Pro",
       "hoje": false
     },
@@ -204,24 +204,24 @@
     }
   ],
   "ao_vivo": {
-    "id": "114345",
+    "id": "114346",
     "genero": "M",
     "rodada": "Rodada 2",
-    "numero": 12,
+    "numero": 13,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Samuel Pupo",
+        "nome": "Gabriel Medina",
         "pais": "BRA",
-        "nota": "7.90",
-        "colete": "blue",
+        "nota": "9.93",
+        "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Jake Marshall",
-        "pais": "USA",
-        "nota": "12.33",
-        "colete": "white",
+        "nome": "Mateus Herdy",
+        "pais": "BRA",
+        "nota": "10.00",
+        "colete": "green",
         "avancou": false
       }
     ],
@@ -233,24 +233,24 @@
     "estado": "aguardando_call"
   },
   "proxima": {
-    "id": "114347",
+    "id": "114348",
     "genero": "M",
     "rodada": "Rodada 2",
-    "numero": 14,
+    "numero": 15,
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "Jack Robinson",
+        "nome": "Liam O'Brien",
         "pais": "AUS",
         "nota": null,
-        "colete": "blue",
+        "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Seth Moniz",
-        "pais": "HAW",
+        "nome": "Filipe Toledo",
+        "pais": "BRA",
         "nota": null,
-        "colete": "white",
+        "colete": "green",
         "avancou": false
       }
     ],
@@ -934,29 +934,29 @@
       "genero": "M",
       "rodada": "Rodada 2",
       "numero": 12,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Samuel Pupo",
           "pais": "BRA",
-          "nota": "7.90",
+          "nota": "12.83",
           "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Jake Marshall",
           "pais": "USA",
-          "nota": "12.33",
+          "nota": "13.53",
           "colete": "white",
-          "avancou": false
+          "avancou": true
         }
       ],
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114346",
@@ -968,14 +968,14 @@
         {
           "nome": "Gabriel Medina",
           "pais": "BRA",
-          "nota": "0.80",
+          "nota": "9.93",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Mateus Herdy",
           "pais": "BRA",
-          "nota": "4.00",
+          "nota": "10.00",
           "colete": "green",
           "avancou": false
         }
@@ -992,7 +992,7 @@
       "genero": "M",
       "rodada": "Rodada 2",
       "numero": 14,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Jack Robinson",
@@ -1408,16 +1408,16 @@
           "avancou": false
         },
         {
-          "nome": "vencedor da R2H12",
-          "pais": null,
+          "nome": "Jake Marshall",
+          "pais": "USA",
           "nota": null,
-          "colete": "green",
+          "colete": "white",
           "avancou": false
         }
       ],
-      "definida": false,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "definida": true,
+      "data": "2026-09-17",
+      "dia_rotulo": "17/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1880,8 +1880,8 @@
         }
       ],
       "definida": false,
-      "data": "2026-09-19",
-      "dia_rotulo": "19/09",
+      "data": "2026-09-18",
+      "dia_rotulo": "18/09",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
