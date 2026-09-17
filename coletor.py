@@ -233,15 +233,21 @@ def duracao_real(estado):
 
 # ---------- distribuicao por dia ----------
 def distribui(baterias, call, passo, hoje, d_fim, tz_evento, agora, datas_reg=None):
-    """Marca cada bateria pendente com data e horario."""
+    """Marca cada bateria pendente com data e horario.
+
+    Ancora do dia, em ordem de prioridade:
+      1) bateria ao vivo  -> o dia esta rolando, comeca de agora
+      2) call anunciada   -> comeca no horario da call
+      3) nada             -> dia sem horario ("aguardando call")
+    """
     tz = ZoneInfo(tz_evento)
     pend = [b for b in baterias if b["status"] != "encerrada"]
     pend.sort(key=lambda b: (ORDEM.index(b["rodada"]), b["numero"], b["genero"]))
+    tem_ao_vivo = any(b["status"] == "ao_vivo" for b in baterias)
 
-    # dias candidatos: do dia da call (ou hoje) ate o fim da etapa
-    inicio = call.date() if call else hoje
-    if inicio < hoje:
-        inicio = hoje
+    inicio = hoje
+    if call and call.date() > hoje:
+        inicio = call.date()
     dias = []
     d = inicio
     while d <= d_fim:
@@ -250,27 +256,40 @@ def distribui(baterias, call, passo, hoje, d_fim, tz_evento, agora, datas_reg=No
     if not dias:
         dias = [hoje]
 
+    agora_tz = agora.astimezone(tz)
     idx = 0
     for dia in dias:
         if idx >= len(pend):
             break
+        abre = datetime.combine(dia, datetime.min.time(), tz).replace(hour=HORA_INI_LOCAL)
+        fecha = datetime.combine(dia, datetime.min.time(), tz).replace(hour=HORA_FIM_LOCAL)
+
+        eh_hoje = (dia == hoje)
         tem_call = bool(call and call.date() == dia)
-        # janela do dia no fuso do evento
-        ini_dia = datetime.combine(dia, datetime.min.time(), tz).replace(hour=HORA_INI_LOCAL)
         if tem_call:
-            ini_dia = call.astimezone(tz)
-            if ini_dia < agora.astimezone(tz):
-                ini_dia = agora.astimezone(tz)
-        fim_dia = datetime.combine(dia, datetime.min.time(), tz).replace(hour=HORA_FIM_LOCAL)
-        t = ini_dia
-        while idx < len(pend) and t + timedelta(minutes=passo) <= fim_dia:
+            abre = max(abre, call.astimezone(tz))
+        # dia em andamento: nunca marcar horario no passado
+        if eh_hoje and agora_tz > abre:
+            abre = agora_tz
+
+        # so tem horario se o dia esta confirmado: call marcada ou mar rolando
+        confirmado = tem_call or (eh_hoje and tem_ao_vivo)
+        if abre >= fecha:
+            confirmado = False
+
+        t = abre
+        while idx < len(pend) and t + timedelta(minutes=passo) <= fecha:
             b = pend[idx]
             br = t.astimezone(BR)
             b["data"] = br.strftime("%Y-%m-%d")
             b["dia_rotulo"] = br.strftime("%d/%m")
-            if tem_call:
-                b["horario"] = br.strftime("%H:%M")
-                b["quando"] = br.strftime("%H:%M")
+            if confirmado:
+                if b["status"] == "ao_vivo":
+                    b["horario"] = br.strftime("%H:%M")
+                    b["quando"] = "agora"
+                else:
+                    b["horario"] = br.strftime("%H:%M")
+                    b["quando"] = br.strftime("%H:%M")
                 b["estado"] = "com_horario"
             else:
                 b["horario"] = None
@@ -278,8 +297,10 @@ def distribui(baterias, call, passo, hoje, d_fim, tz_evento, agora, datas_reg=No
                 b["estado"] = "aguardando_call"
             t += timedelta(minutes=passo)
             idx += 1
+        if not confirmado and idx < len(pend):
+            # dia sem horario: nao empilha o resto do calendario aqui
+            continue
 
-    # sobras (nao couberam na etapa): sem data
     for b in pend[idx:]:
         b["data"] = None
         b["dia_rotulo"] = None
@@ -298,7 +319,7 @@ def distribui(baterias, call, passo, hoje, d_fim, tz_evento, agora, datas_reg=No
     return baterias
 
 
-def monta_barra(baterias, call, hoje, nome_evento):
+def monta_barra(baterias, call, hoje, nome_evento, ao_vivo=False):
     """15 dias: vazio / previsto (prancha apagada) / call (prancha cheia)."""
     conta = {}
     for b in baterias:
@@ -311,7 +332,7 @@ def monta_barra(baterias, call, hoje, nome_evento):
         qtd = conta.get(chave, 0)
         if qtd == 0:
             estado = "vazio"
-        elif call and call.date() == d:
+        elif (call and call.date() == d) or (ao_vivo and d == hoje):
             estado = "call"
         else:
             estado = "previsto"
@@ -381,7 +402,8 @@ def main():
     baterias = distribui(baterias, call, passo, hoje, d_fim, tz_evento, agora,
                          estado.get("datas"))
     baterias.sort(key=lambda b: (ORDEM.index(b["rodada"]), b["numero"], b["genero"]))
-    barra = monta_barra(baterias, call, hoje, nome_evento)
+    rolando = any(b["status"] == "ao_vivo" for b in baterias)
+    barra = monta_barra(baterias, call, hoje, nome_evento, rolando)
 
     print("\nBARRA DE DIAS:")
     for d in barra:
@@ -397,6 +419,7 @@ def main():
                    "inicio": d_ini.strftime("%Y-%m-%d"),
                    "fim": d_fim.strftime("%Y-%m-%d")},
         "call": call.strftime("%d/%m \u00e0s %H:%M") if call else None,
+        "situacao": "ao_vivo" if rolando else ("call" if call else "aguardando"),
         "call_data": call.strftime("%Y-%m-%d") if call else None,
         "passo_estimado_min": passo,
         "dias": barra,
