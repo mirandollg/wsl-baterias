@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 18:29",
+  "atualizado_em": "18/09/2026 18:42",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -649,7 +649,7 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "18:29",
+    "horario": "18:42",
     "quando": "agora",
     "estado": "com_horario"
   },
@@ -679,8 +679,8 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "19:37",
-    "quando": "19:37",
+    "horario": "19:50",
+    "quando": "19:50",
     "estado": "com_horario"
   },
   "baterias": [
@@ -2296,7 +2296,7 @@
           "avancou": true
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/560206/lexus-trestles-pro-mens-semifinals-heat-1-condensed?jointEventId=443",
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
@@ -2360,7 +2360,7 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "18:29",
+      "horario": "18:42",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -2390,8 +2390,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "19:37",
-      "quando": "19:37",
+      "horario": "19:50",
+      "quando": "19:50",
       "estado": "com_horario"
     },
     {
@@ -2420,8 +2420,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "19:03",
-      "quando": "19:03",
+      "horario": "19:16",
+      "quando": "19:16",
       "estado": "com_horario"
     }
   ]
