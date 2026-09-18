@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 11:49",
+  "atualizado_em": "18/09/2026 11:59",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -647,7 +647,7 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "11:49",
+    "horario": "11:59",
     "quando": "agora",
     "estado": "com_horario"
   },
@@ -677,8 +677,8 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "12:12",
-    "quando": "12:12",
+    "horario": "12:22",
+    "quando": "12:22",
     "estado": "com_horario"
   },
   "baterias": [
@@ -2028,7 +2028,7 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "11:49",
+      "horario": "11:59",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -2058,8 +2058,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "12:12",
-      "quando": "12:12",
+      "horario": "12:22",
+      "quando": "12:22",
       "estado": "com_horario"
     },
     {
@@ -2088,8 +2088,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "12:35",
-      "quando": "12:35",
+      "horario": "12:45",
+      "quando": "12:45",
       "estado": "com_horario"
     },
     {
@@ -2118,8 +2118,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "12:58",
-      "quando": "12:58",
+      "horario": "13:08",
+      "quando": "13:08",
       "estado": "com_horario"
     },
     {
@@ -2148,8 +2148,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "13:21",
-      "quando": "13:21",
+      "horario": "13:31",
+      "quando": "13:31",
       "estado": "com_horario"
     },
     {
@@ -2178,8 +2178,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "13:44",
-      "quando": "13:44",
+      "horario": "13:54",
+      "quando": "13:54",
       "estado": "com_horario"
     },
     {
@@ -2208,8 +2208,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "14:07",
-      "quando": "14:07",
+      "horario": "14:17",
+      "quando": "14:17",
       "estado": "com_horario"
     },
     {
@@ -2238,8 +2238,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "14:30",
-      "quando": "14:30",
+      "horario": "14:40",
+      "quando": "14:40",
       "estado": "com_horario"
     },
     {
@@ -2268,8 +2268,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "14:53",
-      "quando": "14:53",
+      "horario": "15:03",
+      "quando": "15:03",
       "estado": "com_horario"
     },
     {
@@ -2298,8 +2298,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "15:16",
-      "quando": "15:16",
+      "horario": "15:26",
+      "quando": "15:26",
       "estado": "com_horario"
     },
     {
@@ -2328,8 +2328,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "15:39",
-      "quando": "15:39",
+      "horario": "15:49",
+      "quando": "15:49",
       "estado": "com_horario"
     },
     {
@@ -2358,8 +2358,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "16:02",
-      "quando": "16:02",
+      "horario": "16:12",
+      "quando": "16:12",
       "estado": "com_horario"
     },
     {
@@ -2388,8 +2388,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "16:25",
-      "quando": "16:25",
+      "horario": "16:35",
+      "quando": "16:35",
       "estado": "com_horario"
     },
     {
@@ -2418,8 +2418,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "16:48",
-      "quando": "16:48",
+      "horario": "16:58",
+      "quando": "16:58",
       "estado": "com_horario"
     }
   ]
