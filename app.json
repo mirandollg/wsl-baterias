@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 16:41",
+  "atualizado_em": "18/09/2026 16:55",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -633,7 +633,7 @@
       {
         "nome": "Gabriela Bryan",
         "pais": "HAW",
-        "nota": "9.83",
+        "nota": "14.33",
         "colete": "red",
         "avancou": false
       },
@@ -649,7 +649,7 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "16:41",
+    "horario": "16:55",
     "quando": "agora",
     "estado": "com_horario"
   },
@@ -679,8 +679,8 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "17:39",
-    "quando": "17:39",
+    "horario": "17:53",
+    "quando": "17:53",
     "estado": "com_horario"
   },
   "baterias": [
@@ -2236,7 +2236,7 @@
           "avancou": true
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/560199/lexus-trestles-pro-mens-quarterfinals-heat-4-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
@@ -2254,7 +2254,7 @@
         {
           "nome": "Gabriela Bryan",
           "pais": "HAW",
-          "nota": "9.83",
+          "nota": "14.33",
           "colete": "red",
           "avancou": false
         },
@@ -2270,7 +2270,7 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "16:41",
+      "horario": "16:55",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -2300,8 +2300,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "17:39",
-      "quando": "17:39",
+      "horario": "17:53",
+      "quando": "17:53",
       "estado": "com_horario"
     },
     {
@@ -2330,8 +2330,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "17:10",
-      "quando": "17:10",
+      "horario": "17:24",
+      "quando": "17:24",
       "estado": "com_horario"
     },
     {
@@ -2360,8 +2360,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "18:08",
-      "quando": "18:08",
+      "horario": "18:22",
+      "quando": "18:22",
       "estado": "com_horario"
     },
     {
@@ -2390,8 +2390,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "18:37",
-      "quando": "18:37",
+      "horario": "18:51",
+      "quando": "18:51",
       "estado": "com_horario"
     },
     {
@@ -2420,8 +2420,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "19:06",
-      "quando": "19:06",
+      "horario": "19:20",
+      "quando": "19:20",
       "estado": "com_horario"
     }
   ]
