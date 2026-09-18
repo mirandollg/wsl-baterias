@@ -114,6 +114,7 @@ body{font-family:'Outfit',system-ui,sans-serif;background:var(--bg);color:var(--
 .assistir a.live{background:var(--vermelho);color:#fff}
 .assistir .tv{font-size:11px;font-weight:300;color:var(--cinza-500);margin-left:auto}
 
+.grupo.fim-hd{margin-top:22px;padding-top:16px;border-top:1px solid var(--cinza-200)}
 .grupo.live-hd{color:var(--vermelho);display:flex;align-items:center;gap:7px;margin-top:10px}
 .grupo.live-hd::before{content:'';width:8px;height:8px;border-radius:50%;
   background:var(--vermelho);animation:pulse 1.6s infinite}
@@ -267,11 +268,11 @@ function render(){
       <table>
         <tr><td>1º lugar (campeão)</td><td>10.000</td></tr>
         <tr><td>2º lugar (vice)</td><td>7.800</td></tr>
-        <tr><td>3º lugar (semifinal)</td><td>6.085</td></tr>
-        <tr><td>5º lugar (quartas)</td><td>4.745</td></tr>
-        <tr><td>9º lugar (oitavas)</td><td>3.320</td></tr>
-        <tr><td>17º lugar</td><td>1.330</td></tr>
-        <tr><td>33º lugar</td><td>265</td></tr>
+        <tr><td>3º e 4º (semifinal)</td><td>6.085</td></tr>
+        <tr><td>5º ao 8º (quartas)</td><td>4.745</td></tr>
+        <tr><td>9º ao 16º (oitavas)</td><td>3.320</td></tr>
+        <tr><td>17º ao 32º</td><td>1.330</td></tr>
+        <tr><td>33º ao 36º</td><td>265</td></tr>
         <tr><td>Lesionado / desistência</td><td>265</td></tr>
         <tr><td>Não competiu</td><td>0</td></tr>
       </table>
@@ -326,16 +327,26 @@ function render(){
     return;
   }
   let html = '', rodada = null;
-  const aoVivo = bats.filter(b => b.status === 'ao_vivo');
-  const resto  = bats.filter(b => b.status !== 'ao_vivo');
+  const aoVivo    = bats.filter(b => b.status === 'ao_vivo');
+  const proximas  = bats.filter(b => b.status === 'aguardando');
+  const passadas  = bats.filter(b => b.status === 'encerrada');
+
   if(aoVivo.length){
     html += '<div class="grupo live-hd">Acontecendo agora</div>';
     aoVivo.forEach(b => { html += cardHTML(b, d); });
   }
-  resto.forEach(b => {
-    if(b.rodada !== rodada){ rodada = b.rodada; html += `<div class="grupo">${rodada}</div>`; }
-    html += cardHTML(b, d);
-  });
+  if(proximas.length){
+    rodada = null;
+    proximas.forEach(b => {
+      if(b.rodada !== rodada){ rodada = b.rodada; html += `<div class="grupo">${rodada}</div>`; }
+      html += cardHTML(b, d);
+    });
+  }
+  if(passadas.length){
+    html += '<div class="grupo fim-hd">Baterias encerradas</div>';
+    rodada = null;
+    passadas.forEach(b => { html += cardHTML(b, d); });
+  }
   lista.innerHTML = html;
 }
 
