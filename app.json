@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 15:48",
+  "atualizado_em": "18/09/2026 15:58",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -13,7 +13,7 @@
     "tv": "sportv4"
   },
   "status_wsl": "Live",
-  "status_msg": "Heat in the Water • Men's Quarterfinals • Heat 3",
+  "status_msg": "Heat in the Water • Men's Quarterfinals • Heat 4",
   "situacao": "ao_vivo",
   "call_data": null,
   "passo_estimado_min": 29,
@@ -299,24 +299,24 @@
       },
       {
         "posicao": 13,
-        "nome": "Jack Robinson",
-        "pais": "AUS",
-        "pontos": "24,665",
-        "variacao": "-"
+        "nome": "Cole Houshmand",
+        "pais": "USA",
+        "pontos": "24,830",
+        "variacao": "4"
       },
       {
         "posicao": 14,
-        "nome": "Marco Mignot",
-        "pais": "FRA",
-        "pontos": "23,770",
+        "nome": "Jack Robinson",
+        "pais": "AUS",
+        "pontos": "24,665",
         "variacao": "1"
       },
       {
         "posicao": 15,
-        "nome": "Cole Houshmand",
-        "pais": "USA",
-        "pontos": "23,490",
-        "variacao": "2"
+        "nome": "Marco Mignot",
+        "pais": "FRA",
+        "pontos": "23,770",
+        "variacao": "-"
       },
       {
         "posicao": 16,
@@ -624,41 +624,11 @@
     ]
   },
   "ao_vivo": {
-    "id": "114360",
-    "genero": "M",
-    "rodada": "Quartas de final",
-    "numero": 3,
-    "status": "ao_vivo",
-    "surfistas": [
-      {
-        "nome": "Cole Houshmand",
-        "pais": "USA",
-        "nota": "18.50",
-        "colete": "red",
-        "avancou": false
-      },
-      {
-        "nome": "Jake Marshall",
-        "pais": "USA",
-        "nota": "10.00",
-        "colete": "blue",
-        "avancou": false
-      }
-    ],
-    "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
-    "definida": true,
-    "data": "2026-09-18",
-    "dia_rotulo": "18/09",
-    "horario": "15:48",
-    "quando": "agora",
-    "estado": "com_horario"
-  },
-  "proxima": {
     "id": "114361",
     "genero": "M",
     "rodada": "Quartas de final",
     "numero": 4,
-    "status": "aguardando",
+    "status": "ao_vivo",
     "surfistas": [
       {
         "nome": "Mateus Herdy",
@@ -675,12 +645,42 @@
         "avancou": false
       }
     ],
+    "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
+    "definida": true,
+    "data": "2026-09-18",
+    "dia_rotulo": "18/09",
+    "horario": "15:58",
+    "quando": "agora",
+    "estado": "com_horario"
+  },
+  "proxima": {
+    "id": "114891",
+    "genero": "F",
+    "rodada": "Semifinal",
+    "numero": 1,
+    "status": "aguardando",
+    "surfistas": [
+      {
+        "nome": "Gabriela Bryan",
+        "pais": "HAW",
+        "nota": null,
+        "colete": "red",
+        "avancou": false
+      },
+      {
+        "nome": "Sawyer Lindblad",
+        "pais": "USA",
+        "nota": null,
+        "colete": "blue",
+        "avancou": false
+      }
+    ],
     "replay": null,
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "16:17",
-    "quando": "16:17",
+    "horario": "17:25",
+    "quando": "17:25",
     "estado": "com_horario"
   },
   "baterias": [
@@ -2159,14 +2159,14 @@
       "genero": "M",
       "rodada": "Quartas de final",
       "numero": 3,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Cole Houshmand",
           "pais": "USA",
           "nota": "18.50",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Jake Marshall",
@@ -2176,13 +2176,13 @@
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
+      "replay": null,
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "15:48",
-      "quando": "agora",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114890",
@@ -2219,7 +2219,7 @@
       "genero": "M",
       "rodada": "Quartas de final",
       "numero": 4,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Mateus Herdy",
@@ -2236,12 +2236,12 @@
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "16:17",
-      "quando": "16:17",
+      "horario": "15:58",
+      "quando": "agora",
       "estado": "com_horario"
     },
     {
@@ -2270,8 +2270,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "17:44",
-      "quando": "17:44",
+      "horario": "17:25",
+      "quando": "17:25",
       "estado": "com_horario"
     },
     {
@@ -2300,8 +2300,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "16:46",
-      "quando": "16:46",
+      "horario": "16:27",
+      "quando": "16:27",
       "estado": "com_horario"
     },
     {
@@ -2330,8 +2330,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "18:13",
-      "quando": "18:13",
+      "horario": "17:54",
+      "quando": "17:54",
       "estado": "com_horario"
     },
     {
@@ -2342,8 +2342,8 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da QFH3",
-          "pais": null,
+          "nome": "Cole Houshmand",
+          "pais": "USA",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -2360,8 +2360,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "17:15",
-      "quando": "17:15",
+      "horario": "16:56",
+      "quando": "16:56",
       "estado": "com_horario"
     },
     {
@@ -2390,8 +2390,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "19:11",
-      "quando": "19:11",
+      "horario": "18:52",
+      "quando": "18:52",
       "estado": "com_horario"
     },
     {
@@ -2420,8 +2420,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "18:42",
-      "quando": "18:42",
+      "horario": "18:23",
+      "quando": "18:23",
       "estado": "com_horario"
     }
   ]
