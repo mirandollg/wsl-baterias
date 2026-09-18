@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 13:17",
+  "atualizado_em": "18/09/2026 13:32",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -13,10 +13,10 @@
     "tv": "sportv4"
   },
   "status_wsl": "Live",
-  "status_msg": "Heat in the Water • Women's Quarterfinals • Heat 3",
+  "status_msg": "Heat in the Water • Women's Quarterfinals • Heat 4",
   "situacao": "ao_vivo",
   "call_data": null,
-  "passo_estimado_min": 25,
+  "passo_estimado_min": 26,
   "dias": [
     {
       "data": "2026-09-18",
@@ -499,7 +499,7 @@
         "posicao": 6,
         "nome": "Erin Brooks",
         "pais": "CAN",
-        "pontos": "32,745",
+        "pontos": "34,085",
         "variacao": "2"
       },
       {
@@ -624,23 +624,23 @@
     ]
   },
   "ao_vivo": {
-    "id": "114889",
+    "id": "114890",
     "genero": "F",
     "rodada": "Quartas de final",
-    "numero": 3,
+    "numero": 4,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Carissa Moore",
-        "pais": "HAW",
-        "nota": "13.10",
-        "colete": "yellow",
+        "nome": "Molly Picklum",
+        "pais": "AUS",
+        "nota": null,
+        "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Erin Brooks",
-        "pais": "CAN",
-        "nota": "15.33",
+        "nome": "Bella Kenworthy",
+        "pais": "USA",
+        "nota": null,
         "colete": "blue",
         "avancou": false
       }
@@ -649,7 +649,7 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "13:17",
+    "horario": "13:32",
     "quando": "agora",
     "estado": "com_horario"
   },
@@ -679,8 +679,8 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "14:07",
-    "quando": "14:07",
+    "horario": "13:58",
+    "quando": "13:58",
     "estado": "com_horario"
   },
   "baterias": [
@@ -2060,8 +2060,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "14:07",
-      "quando": "14:07",
+      "horario": "13:58",
+      "quando": "13:58",
       "estado": "com_horario"
     },
     {
@@ -2120,8 +2120,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "14:32",
-      "quando": "14:32",
+      "horario": "14:24",
+      "quando": "14:24",
       "estado": "com_horario"
     },
     {
@@ -2129,7 +2129,7 @@
       "genero": "F",
       "rodada": "Quartas de final",
       "numero": 3,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Carissa Moore",
@@ -2143,16 +2143,16 @@
           "pais": "CAN",
           "nota": "15.33",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
+      "replay": null,
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "13:17",
-      "quando": "agora",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114360",
@@ -2180,8 +2180,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "14:57",
-      "quando": "14:57",
+      "horario": "14:50",
+      "quando": "14:50",
       "estado": "com_horario"
     },
     {
@@ -2189,7 +2189,7 @@
       "genero": "F",
       "rodada": "Quartas de final",
       "numero": 4,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Molly Picklum",
@@ -2206,12 +2206,12 @@
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "13:42",
-      "quando": "13:42",
+      "horario": "13:32",
+      "quando": "agora",
       "estado": "com_horario"
     },
     {
@@ -2240,8 +2240,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "15:22",
-      "quando": "15:22",
+      "horario": "15:16",
+      "quando": "15:16",
       "estado": "com_horario"
     },
     {
@@ -2270,8 +2270,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "15:47",
-      "quando": "15:47",
+      "horario": "15:42",
+      "quando": "15:42",
       "estado": "com_horario"
     },
     {
@@ -2300,8 +2300,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "16:37",
-      "quando": "16:37",
+      "horario": "16:34",
+      "quando": "16:34",
       "estado": "com_horario"
     },
     {
@@ -2312,8 +2312,8 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da QFH3",
-          "pais": null,
+          "nome": "Erin Brooks",
+          "pais": "CAN",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -2330,8 +2330,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "16:12",
-      "quando": "16:12",
+      "horario": "16:08",
+      "quando": "16:08",
       "estado": "com_horario"
     },
     {
@@ -2360,8 +2360,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "17:02",
-      "quando": "17:02",
+      "horario": "17:00",
+      "quando": "17:00",
       "estado": "com_horario"
     },
     {
@@ -2390,8 +2390,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "17:27",
-      "quando": "17:27",
+      "horario": "17:26",
+      "quando": "17:26",
       "estado": "com_horario"
     },
     {
