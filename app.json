@@ -1,12 +1,12 @@
 {
-  "atualizado_em": "18/09/2026 10:59",
+  "atualizado_em": "18/09/2026 11:18",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
     "inicio": "2026-09-11",
     "fim": "2026-09-20"
   },
-  "call": "18/09 às 11:00",
+  "call": "18/09 às 11:30",
   "transmissao": {
     "youtube": "https://www.youtube.com/@wsl/live",
     "site": "https://www.worldsurfleague.com/watch",
@@ -644,12 +644,12 @@
         "avancou": false
       }
     ],
-    "replay": null,
+    "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "11:00",
-    "quando": "11:00",
+    "horario": "11:30",
+    "quando": "11:30",
     "estado": "com_horario"
   },
   "baterias": [
@@ -1995,12 +1995,12 @@
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "11:00",
-      "quando": "11:00",
+      "horario": "11:30",
+      "quando": "11:30",
       "estado": "com_horario"
     },
     {
@@ -2029,8 +2029,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "11:23",
-      "quando": "11:23",
+      "horario": "11:53",
+      "quando": "11:53",
       "estado": "com_horario"
     },
     {
@@ -2059,8 +2059,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "11:46",
-      "quando": "11:46",
+      "horario": "12:16",
+      "quando": "12:16",
       "estado": "com_horario"
     },
     {
@@ -2089,8 +2089,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "12:09",
-      "quando": "12:09",
+      "horario": "12:39",
+      "quando": "12:39",
       "estado": "com_horario"
     },
     {
@@ -2119,8 +2119,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "12:32",
-      "quando": "12:32",
+      "horario": "13:02",
+      "quando": "13:02",
       "estado": "com_horario"
     },
     {
@@ -2149,8 +2149,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "12:55",
-      "quando": "12:55",
+      "horario": "13:25",
+      "quando": "13:25",
       "estado": "com_horario"
     },
     {
@@ -2179,8 +2179,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "13:18",
-      "quando": "13:18",
+      "horario": "13:48",
+      "quando": "13:48",
       "estado": "com_horario"
     },
     {
@@ -2209,8 +2209,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "13:41",
-      "quando": "13:41",
+      "horario": "14:11",
+      "quando": "14:11",
       "estado": "com_horario"
     },
     {
@@ -2239,8 +2239,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "14:04",
-      "quando": "14:04",
+      "horario": "14:34",
+      "quando": "14:34",
       "estado": "com_horario"
     },
     {
@@ -2269,8 +2269,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "14:27",
-      "quando": "14:27",
+      "horario": "14:57",
+      "quando": "14:57",
       "estado": "com_horario"
     },
     {
@@ -2299,8 +2299,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "14:50",
-      "quando": "14:50",
+      "horario": "15:20",
+      "quando": "15:20",
       "estado": "com_horario"
     },
     {
@@ -2329,8 +2329,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "15:13",
-      "quando": "15:13",
+      "horario": "15:43",
+      "quando": "15:43",
       "estado": "com_horario"
     },
     {
@@ -2359,8 +2359,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "15:36",
-      "quando": "15:36",
+      "horario": "16:06",
+      "quando": "16:06",
       "estado": "com_horario"
     },
     {
@@ -2389,8 +2389,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "15:59",
-      "quando": "15:59",
+      "horario": "16:29",
+      "quando": "16:29",
       "estado": "com_horario"
     }
   ]
