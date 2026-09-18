@@ -1,19 +1,19 @@
 {
-  "atualizado_em": "17/09/2026 20:50",
+  "atualizado_em": "17/09/2026 21:15",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
     "inicio": "2026-09-11",
     "fim": "2026-09-20"
   },
-  "call": null,
+  "call": "18/09 às 11:00",
   "transmissao": {
     "youtube": "https://www.youtube.com/@wsl/live",
     "site": "https://www.worldsurfleague.com/watch",
     "tv": "sportv4"
   },
-  "situacao": "aguardando",
-  "call_data": null,
+  "situacao": "call",
+  "call_data": "2026-09-18",
   "passo_estimado_min": 23,
   "dias": [
     {
@@ -31,7 +31,7 @@
       "dia": "18",
       "mes": "09",
       "semana": "Sex",
-      "estado": "previsto",
+      "estado": "call",
       "qtd": 14,
       "evento": "Lexus Trestles Pro",
       "hoje": false
@@ -644,13 +644,13 @@
         "avancou": false
       }
     ],
-    "replay": "https://www.worldsurfleague.com/posts/557328/its-on-day-4-of-the-lexus-trestles-pro?jointEventId=443",
+    "replay": null,
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": null,
-    "quando": "aguardando call",
-    "estado": "aguardando_call"
+    "horario": "11:00",
+    "quando": "11:00",
+    "estado": "com_horario"
   },
   "baterias": [
     {
@@ -1815,7 +1815,7 @@
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/560141/lexus-trestles-pro-womens-round-2-heat-6-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
@@ -1875,7 +1875,7 @@
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560139/lexus-trestles-pro-womens-round-2-heat-7-condensed?jointEventId=443",
+      "replay": "https://www.worldsurfleague.com/posts/560148/lexus-trestles-pro-womens-round-2-heat-7-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
@@ -1935,7 +1935,7 @@
           "avancou": true
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/560149/lexus-trestles-pro-womens-round-2-heat-8-condensed?jointEventId=443",
       "definida": true,
       "data": "2026-09-17",
       "dia_rotulo": "17/09",
@@ -1995,13 +1995,13 @@
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-day-4-of-the-lexus-trestles-pro?jointEventId=443",
+      "replay": null,
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "11:00",
+      "quando": "11:00",
+      "estado": "com_horario"
     },
     {
       "id": "114358",
@@ -2029,9 +2029,9 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "11:23",
+      "quando": "11:23",
+      "estado": "com_horario"
     },
     {
       "id": "114888",
@@ -2059,9 +2059,9 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "11:46",
+      "quando": "11:46",
+      "estado": "com_horario"
     },
     {
       "id": "114359",
@@ -2089,9 +2089,9 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "12:09",
+      "quando": "12:09",
+      "estado": "com_horario"
     },
     {
       "id": "114889",
@@ -2119,9 +2119,9 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "12:32",
+      "quando": "12:32",
+      "estado": "com_horario"
     },
     {
       "id": "114360",
@@ -2149,9 +2149,9 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "12:55",
+      "quando": "12:55",
+      "estado": "com_horario"
     },
     {
       "id": "114890",
@@ -2179,9 +2179,9 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "13:18",
+      "quando": "13:18",
+      "estado": "com_horario"
     },
     {
       "id": "114361",
@@ -2209,9 +2209,9 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "13:41",
+      "quando": "13:41",
+      "estado": "com_horario"
     },
     {
       "id": "114891",
@@ -2239,9 +2239,9 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "14:04",
+      "quando": "14:04",
+      "estado": "com_horario"
     },
     {
       "id": "114362",
@@ -2269,9 +2269,9 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "14:27",
+      "quando": "14:27",
+      "estado": "com_horario"
     },
     {
       "id": "114892",
@@ -2299,9 +2299,9 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "14:50",
+      "quando": "14:50",
+      "estado": "com_horario"
     },
     {
       "id": "114363",
@@ -2329,9 +2329,9 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "15:13",
+      "quando": "15:13",
+      "estado": "com_horario"
     },
     {
       "id": "114893",
@@ -2359,9 +2359,9 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "15:36",
+      "quando": "15:36",
+      "estado": "com_horario"
     },
     {
       "id": "114364",
@@ -2389,9 +2389,9 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "15:59",
+      "quando": "15:59",
+      "estado": "com_horario"
     }
   ]
 }
