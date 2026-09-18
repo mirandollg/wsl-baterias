@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 19:29",
+  "atualizado_em": "18/09/2026 19:42",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -640,7 +640,7 @@
       {
         "nome": "Erin Brooks",
         "pais": "CAN",
-        "nota": "12.17",
+        "nota": "13.00",
         "colete": "blue",
         "avancou": false
       }
@@ -649,7 +649,7 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "19:29",
+    "horario": "19:42",
     "quando": "agora",
     "estado": "com_horario"
   },
@@ -679,8 +679,8 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "20:03",
-    "quando": "20:03",
+    "horario": "20:16",
+    "quando": "20:16",
     "estado": "com_horario"
   },
   "baterias": [
@@ -2356,7 +2356,7 @@
           "avancou": true
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560212/lexus-trestles-pro-mens-semifinals-heat-2-condensed?jointEventId=443",
+      "replay": "https://www.worldsurfleague.com/posts/560214/lexus-trestles-pro-mens-semifinals-heat-2-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
@@ -2381,7 +2381,7 @@
         {
           "nome": "Erin Brooks",
           "pais": "CAN",
-          "nota": "12.17",
+          "nota": "13.00",
           "colete": "blue",
           "avancou": false
         }
@@ -2390,7 +2390,7 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "19:29",
+      "horario": "19:42",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -2420,8 +2420,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "20:03",
-      "quando": "20:03",
+      "horario": "20:16",
+      "quando": "20:16",
       "estado": "com_horario"
     }
   ]
