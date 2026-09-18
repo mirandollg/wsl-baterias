@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 19:11",
+  "atualizado_em": "18/09/2026 19:29",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -633,14 +633,14 @@
       {
         "nome": "Gabriela Bryan",
         "pais": "HAW",
-        "nota": "6.33",
+        "nota": "11.90",
         "colete": "red",
         "avancou": false
       },
       {
         "nome": "Erin Brooks",
         "pais": "CAN",
-        "nota": "7.43",
+        "nota": "12.17",
         "colete": "blue",
         "avancou": false
       }
@@ -649,7 +649,7 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "19:11",
+    "horario": "19:29",
     "quando": "agora",
     "estado": "com_horario"
   },
@@ -679,8 +679,8 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "19:45",
-    "quando": "19:45",
+    "horario": "20:03",
+    "quando": "20:03",
     "estado": "com_horario"
   },
   "baterias": [
@@ -2326,7 +2326,7 @@
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/560213/lexus-trestles-pro-womens-semifinals-heat-2-condensed?jointEventId=443",
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
@@ -2374,14 +2374,14 @@
         {
           "nome": "Gabriela Bryan",
           "pais": "HAW",
-          "nota": "6.33",
+          "nota": "11.90",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Erin Brooks",
           "pais": "CAN",
-          "nota": "7.43",
+          "nota": "12.17",
           "colete": "blue",
           "avancou": false
         }
@@ -2390,7 +2390,7 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "19:11",
+      "horario": "19:29",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -2420,8 +2420,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "19:45",
-      "quando": "19:45",
+      "horario": "20:03",
+      "quando": "20:03",
       "estado": "com_horario"
     }
   ]
