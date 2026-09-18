@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 19:42",
+  "atualizado_em": "18/09/2026 19:56",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -13,7 +13,7 @@
     "tv": "sportv4"
   },
   "status_wsl": "Live",
-  "status_msg": "Heat in the Water • Women's Final",
+  "status_msg": "Heat in the Water • Men's Final",
   "situacao": "ao_vivo",
   "call_data": null,
   "passo_estimado_min": 34,
@@ -490,17 +490,17 @@
       },
       {
         "posicao": 5,
-        "nome": "Luana Silva",
-        "pais": "BRA",
-        "pontos": "36,580",
-        "variacao": "-"
+        "nome": "Erin Brooks",
+        "pais": "CAN",
+        "pontos": "38,000",
+        "variacao": "3"
       },
       {
         "posicao": 6,
-        "nome": "Erin Brooks",
-        "pais": "CAN",
-        "pontos": "35,800",
-        "variacao": "2"
+        "nome": "Luana Silva",
+        "pais": "BRA",
+        "pontos": "36,580",
+        "variacao": "1"
       },
       {
         "posicao": 7,
@@ -624,46 +624,16 @@
     ]
   },
   "ao_vivo": {
-    "id": "114893",
-    "genero": "F",
+    "id": "114364",
+    "genero": "M",
     "rodada": "Final",
     "numero": 1,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Gabriela Bryan",
-        "pais": "HAW",
-        "nota": "11.90",
-        "colete": "red",
-        "avancou": false
-      },
-      {
-        "nome": "Erin Brooks",
-        "pais": "CAN",
-        "nota": "13.00",
-        "colete": "blue",
-        "avancou": false
-      }
-    ],
-    "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
-    "definida": true,
-    "data": "2026-09-18",
-    "dia_rotulo": "18/09",
-    "horario": "19:42",
-    "quando": "agora",
-    "estado": "com_horario"
-  },
-  "proxima": {
-    "id": "114364",
-    "genero": "M",
-    "rodada": "Final",
-    "numero": 1,
-    "status": "aguardando",
-    "surfistas": [
-      {
         "nome": "Kanoa Igarashi",
         "pais": "JPN",
-        "nota": null,
+        "nota": "5.50",
         "colete": "red",
         "avancou": false
       },
@@ -675,14 +645,15 @@
         "avancou": false
       }
     ],
-    "replay": null,
+    "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "20:16",
-    "quando": "20:16",
+    "horario": "19:56",
+    "quando": "agora",
     "estado": "com_horario"
   },
+  "proxima": null,
   "baterias": [
     {
       "id": "114871",
@@ -2326,7 +2297,7 @@
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560213/lexus-trestles-pro-womens-semifinals-heat-2-condensed?jointEventId=443",
+      "replay": "https://www.worldsurfleague.com/posts/560215/lexus-trestles-pro-womens-semifinals-heat-2-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
@@ -2369,7 +2340,7 @@
       "genero": "F",
       "rodada": "Final",
       "numero": 1,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Gabriela Bryan",
@@ -2383,28 +2354,28 @@
           "pais": "CAN",
           "nota": "13.00",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
+      "replay": null,
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "19:42",
-      "quando": "agora",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114364",
       "genero": "M",
       "rodada": "Final",
       "numero": 1,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Kanoa Igarashi",
           "pais": "JPN",
-          "nota": null,
+          "nota": "5.50",
           "colete": "red",
           "avancou": false
         },
@@ -2416,12 +2387,12 @@
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "20:16",
-      "quando": "20:16",
+      "horario": "19:56",
+      "quando": "agora",
       "estado": "com_horario"
     }
   ]
