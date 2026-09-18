@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/09/2026 23:58",
+  "atualizado_em": "18/09/2026 00:18",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -17,16 +17,6 @@
   "passo_estimado_min": 23,
   "dias": [
     {
-      "data": "2026-09-17",
-      "dia": "17",
-      "mes": "09",
-      "semana": "Qui",
-      "estado": "previsto",
-      "qtd": 21,
-      "evento": "Lexus Trestles Pro",
-      "hoje": true
-    },
-    {
       "data": "2026-09-18",
       "dia": "18",
       "mes": "09",
@@ -34,7 +24,7 @@
       "estado": "call",
       "qtd": 14,
       "evento": "Lexus Trestles Pro",
-      "hoje": false
+      "hoje": true
     },
     {
       "data": "2026-09-19",
@@ -161,6 +151,16 @@
       "dia": "01",
       "mes": "10",
       "semana": "Qui",
+      "estado": "vazio",
+      "qtd": 0,
+      "evento": null,
+      "hoje": false
+    },
+    {
+      "data": "2026-10-02",
+      "dia": "02",
+      "mes": "10",
+      "semana": "Sex",
       "estado": "vazio",
       "qtd": 0,
       "evento": null,
