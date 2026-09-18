@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 11:59",
+  "atualizado_em": "18/09/2026 12:18",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -469,7 +469,7 @@
         "posicao": 2,
         "nome": "Gabriela Bryan",
         "pais": "HAW",
-        "pontos": "39,810",
+        "pontos": "41,150",
         "variacao": "-"
       },
       {
@@ -622,23 +622,23 @@
     ]
   },
   "ao_vivo": {
-    "id": "114887",
+    "id": "114888",
     "genero": "F",
     "rodada": "Quartas de final",
-    "numero": 1,
+    "numero": 2,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Gabriela Bryan",
-        "pais": "HAW",
-        "nota": "14.66",
+        "nome": "Sawyer Lindblad",
+        "pais": "USA",
+        "nota": "6.37",
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Luana Silva",
-        "pais": "BRA",
-        "nota": "5.03",
+        "nome": "Eden Walla",
+        "pais": "USA",
+        "nota": "5.50",
         "colete": "blue",
         "avancou": false
       }
@@ -647,7 +647,7 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "11:59",
+    "horario": "12:18",
     "quando": "agora",
     "estado": "com_horario"
   },
@@ -677,8 +677,8 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "12:22",
-    "quando": "12:22",
+    "horario": "12:41",
+    "quando": "12:41",
     "estado": "com_horario"
   },
   "baterias": [
@@ -2007,30 +2007,30 @@
       "genero": "F",
       "rodada": "Quartas de final",
       "numero": 1,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Gabriela Bryan",
           "pais": "HAW",
-          "nota": "14.66",
+          "nota": "16.26",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Luana Silva",
           "pais": "BRA",
-          "nota": "5.03",
+          "nota": "10.64",
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
+      "replay": null,
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "11:59",
-      "quando": "agora",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114358",
@@ -2058,8 +2058,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "12:22",
-      "quando": "12:22",
+      "horario": "12:41",
+      "quando": "12:41",
       "estado": "com_horario"
     },
     {
@@ -2067,29 +2067,29 @@
       "genero": "F",
       "rodada": "Quartas de final",
       "numero": 2,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Sawyer Lindblad",
           "pais": "USA",
-          "nota": null,
+          "nota": "6.37",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Eden Walla",
           "pais": "USA",
-          "nota": null,
+          "nota": "5.50",
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "12:45",
-      "quando": "12:45",
+      "horario": "12:18",
+      "quando": "agora",
       "estado": "com_horario"
     },
     {
@@ -2118,8 +2118,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "13:08",
-      "quando": "13:08",
+      "horario": "13:04",
+      "quando": "13:04",
       "estado": "com_horario"
     },
     {
@@ -2148,8 +2148,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "13:31",
-      "quando": "13:31",
+      "horario": "13:27",
+      "quando": "13:27",
       "estado": "com_horario"
     },
     {
@@ -2178,8 +2178,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "13:54",
-      "quando": "13:54",
+      "horario": "13:50",
+      "quando": "13:50",
       "estado": "com_horario"
     },
     {
@@ -2208,8 +2208,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "14:17",
-      "quando": "14:17",
+      "horario": "14:13",
+      "quando": "14:13",
       "estado": "com_horario"
     },
     {
@@ -2238,8 +2238,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "14:40",
-      "quando": "14:40",
+      "horario": "14:36",
+      "quando": "14:36",
       "estado": "com_horario"
     },
     {
@@ -2250,8 +2250,8 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da QFH1",
-          "pais": null,
+          "nome": "Gabriela Bryan",
+          "pais": "HAW",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -2268,8 +2268,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "15:03",
-      "quando": "15:03",
+      "horario": "14:59",
+      "quando": "14:59",
       "estado": "com_horario"
     },
     {
@@ -2298,8 +2298,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "15:26",
-      "quando": "15:26",
+      "horario": "15:22",
+      "quando": "15:22",
       "estado": "com_horario"
     },
     {
@@ -2328,8 +2328,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "15:49",
-      "quando": "15:49",
+      "horario": "15:45",
+      "quando": "15:45",
       "estado": "com_horario"
     },
     {
@@ -2358,8 +2358,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "16:12",
-      "quando": "16:12",
+      "horario": "16:08",
+      "quando": "16:08",
       "estado": "com_horario"
     },
     {
@@ -2388,8 +2388,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "16:35",
-      "quando": "16:35",
+      "horario": "16:31",
+      "quando": "16:31",
       "estado": "com_horario"
     },
     {
@@ -2418,8 +2418,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "16:58",
-      "quando": "16:58",
+      "horario": "16:54",
+      "quando": "16:54",
       "estado": "com_horario"
     }
   ]
