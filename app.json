@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 17:29",
+  "atualizado_em": "18/09/2026 17:43",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -13,7 +13,7 @@
     "tv": "sportv4"
   },
   "status_wsl": "Live",
-  "status_msg": "Heat in the Water • Women's Semifinals • Heat 2",
+  "status_msg": "Heat in the Water • Men's Semifinals • Heat 1",
   "situacao": "ao_vivo",
   "call_data": null,
   "passo_estimado_min": 31,
@@ -499,7 +499,7 @@
         "posicao": 6,
         "nome": "Erin Brooks",
         "pais": "CAN",
-        "pontos": "34,085",
+        "pontos": "35,800",
         "variacao": "2"
       },
       {
@@ -624,46 +624,16 @@
     ]
   },
   "ao_vivo": {
-    "id": "114892",
-    "genero": "F",
-    "rodada": "Semifinal",
-    "numero": 2,
-    "status": "ao_vivo",
-    "surfistas": [
-      {
-        "nome": "Erin Brooks",
-        "pais": "CAN",
-        "nota": "10.43",
-        "colete": "red",
-        "avancou": false
-      },
-      {
-        "nome": "Molly Picklum",
-        "pais": "AUS",
-        "nota": "4.83",
-        "colete": "blue",
-        "avancou": false
-      }
-    ],
-    "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
-    "definida": true,
-    "data": "2026-09-18",
-    "dia_rotulo": "18/09",
-    "horario": "17:29",
-    "quando": "agora",
-    "estado": "com_horario"
-  },
-  "proxima": {
     "id": "114362",
     "genero": "M",
     "rodada": "Semifinal",
     "numero": 1,
-    "status": "aguardando",
+    "status": "ao_vivo",
     "surfistas": [
       {
         "nome": "Yago Dora",
         "pais": "BRA",
-        "nota": null,
+        "nota": "1.50",
         "colete": "red",
         "avancou": false
       },
@@ -675,12 +645,42 @@
         "avancou": false
       }
     ],
+    "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
+    "definida": true,
+    "data": "2026-09-18",
+    "dia_rotulo": "18/09",
+    "horario": "17:43",
+    "quando": "agora",
+    "estado": "com_horario"
+  },
+  "proxima": {
+    "id": "114363",
+    "genero": "M",
+    "rodada": "Semifinal",
+    "numero": 2,
+    "status": "aguardando",
+    "surfistas": [
+      {
+        "nome": "Cole Houshmand",
+        "pais": "USA",
+        "nota": null,
+        "colete": "red",
+        "avancou": false
+      },
+      {
+        "nome": "Miguel Pupo",
+        "pais": "BRA",
+        "nota": null,
+        "colete": "blue",
+        "avancou": false
+      }
+    ],
     "replay": null,
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "18:00",
-    "quando": "18:00",
+    "horario": "18:14",
+    "quando": "18:14",
     "estado": "com_horario"
   },
   "baterias": [
@@ -2279,12 +2279,12 @@
       "genero": "M",
       "rodada": "Semifinal",
       "numero": 1,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Yago Dora",
           "pais": "BRA",
-          "nota": null,
+          "nota": "1.50",
           "colete": "red",
           "avancou": false
         },
@@ -2296,12 +2296,12 @@
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "18:00",
-      "quando": "18:00",
+      "horario": "17:43",
+      "quando": "agora",
       "estado": "com_horario"
     },
     {
@@ -2309,30 +2309,30 @@
       "genero": "F",
       "rodada": "Semifinal",
       "numero": 2,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Erin Brooks",
           "pais": "CAN",
           "nota": "10.43",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Molly Picklum",
           "pais": "AUS",
-          "nota": "4.83",
+          "nota": "9.50",
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
+      "replay": null,
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "17:29",
-      "quando": "agora",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114363",
@@ -2360,8 +2360,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "18:31",
-      "quando": "18:31",
+      "horario": "18:14",
+      "quando": "18:14",
       "estado": "com_horario"
     },
     {
@@ -2379,19 +2379,19 @@
           "avancou": false
         },
         {
-          "nome": "vencedor da SFH2",
-          "pais": null,
+          "nome": "Erin Brooks",
+          "pais": "CAN",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
       "replay": null,
-      "definida": false,
+      "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "19:02",
-      "quando": "19:02",
+      "horario": "19:16",
+      "quando": "19:16",
       "estado": "com_horario"
     },
     {
@@ -2420,8 +2420,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "19:33",
-      "quando": "19:33",
+      "horario": "18:45",
+      "quando": "18:45",
       "estado": "com_horario"
     }
   ]
