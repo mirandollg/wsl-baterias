@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 19:56",
+  "atualizado_em": "18/09/2026 20:12",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -633,14 +633,14 @@
       {
         "nome": "Kanoa Igarashi",
         "pais": "JPN",
-        "nota": "5.50",
+        "nota": "12.00",
         "colete": "red",
         "avancou": false
       },
       {
         "nome": "Miguel Pupo",
         "pais": "BRA",
-        "nota": null,
+        "nota": "10.83",
         "colete": "blue",
         "avancou": false
       }
@@ -649,7 +649,7 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "19:56",
+    "horario": "20:12",
     "quando": "agora",
     "estado": "com_horario"
   },
@@ -2375,14 +2375,14 @@
         {
           "nome": "Kanoa Igarashi",
           "pais": "JPN",
-          "nota": "5.50",
+          "nota": "12.00",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Miguel Pupo",
           "pais": "BRA",
-          "nota": null,
+          "nota": "10.83",
           "colete": "blue",
           "avancou": false
         }
@@ -2391,7 +2391,7 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "19:56",
+      "horario": "20:12",
       "quando": "agora",
       "estado": "com_horario"
     }
