@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 13:47",
+  "atualizado_em": "18/09/2026 13:57",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -633,14 +633,14 @@
       {
         "nome": "Molly Picklum",
         "pais": "AUS",
-        "nota": "7.83",
+        "nota": "15.33",
         "colete": "red",
         "avancou": false
       },
       {
         "nome": "Bella Kenworthy",
         "pais": "USA",
-        "nota": "5.83",
+        "nota": "12.43",
         "colete": "blue",
         "avancou": false
       }
@@ -649,7 +649,7 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "13:47",
+    "horario": "13:57",
     "quando": "agora",
     "estado": "com_horario"
   },
@@ -679,8 +679,8 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "14:13",
-    "quando": "14:13",
+    "horario": "14:23",
+    "quando": "14:23",
     "estado": "com_horario"
   },
   "baterias": [
@@ -2060,8 +2060,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "14:13",
-      "quando": "14:13",
+      "horario": "14:23",
+      "quando": "14:23",
       "estado": "com_horario"
     },
     {
@@ -2120,8 +2120,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "14:39",
-      "quando": "14:39",
+      "horario": "14:49",
+      "quando": "14:49",
       "estado": "com_horario"
     },
     {
@@ -2146,7 +2146,7 @@
           "avancou": true
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560174/lexus-trestles-pro-womens-quarterfinals-heat-3-condensed?jointEventId=443",
+      "replay": "https://www.worldsurfleague.com/posts/560175/lexus-trestles-pro-womens-quarterfinals-heat-3-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
@@ -2180,8 +2180,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "15:05",
-      "quando": "15:05",
+      "horario": "15:15",
+      "quando": "15:15",
       "estado": "com_horario"
     },
     {
@@ -2194,14 +2194,14 @@
         {
           "nome": "Molly Picklum",
           "pais": "AUS",
-          "nota": "7.83",
+          "nota": "15.33",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Bella Kenworthy",
           "pais": "USA",
-          "nota": "5.83",
+          "nota": "12.43",
           "colete": "blue",
           "avancou": false
         }
@@ -2210,7 +2210,7 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "13:47",
+      "horario": "13:57",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -2240,8 +2240,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "15:31",
-      "quando": "15:31",
+      "horario": "15:41",
+      "quando": "15:41",
       "estado": "com_horario"
     },
     {
@@ -2270,8 +2270,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "15:57",
-      "quando": "15:57",
+      "horario": "16:07",
+      "quando": "16:07",
       "estado": "com_horario"
     },
     {
@@ -2300,8 +2300,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "16:49",
-      "quando": "16:49",
+      "horario": "16:59",
+      "quando": "16:59",
       "estado": "com_horario"
     },
     {
@@ -2330,8 +2330,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "16:23",
-      "quando": "16:23",
+      "horario": "16:33",
+      "quando": "16:33",
       "estado": "com_horario"
     },
     {
@@ -2360,8 +2360,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "17:15",
-      "quando": "17:15",
+      "horario": "17:25",
+      "quando": "17:25",
       "estado": "com_horario"
     },
     {
@@ -2390,8 +2390,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "17:41",
-      "quando": "17:41",
+      "horario": "17:51",
+      "quando": "17:51",
       "estado": "com_horario"
     },
     {
@@ -2420,8 +2420,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "18:07",
-      "quando": "18:07",
+      "horario": "18:17",
+      "quando": "18:17",
       "estado": "com_horario"
     }
   ]
