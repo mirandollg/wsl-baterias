@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 15:32",
+  "atualizado_em": "18/09/2026 15:48",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -633,7 +633,7 @@
       {
         "nome": "Cole Houshmand",
         "pais": "USA",
-        "nota": "9.67",
+        "nota": "18.50",
         "colete": "red",
         "avancou": false
       },
@@ -649,7 +649,7 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "15:32",
+    "horario": "15:48",
     "quando": "agora",
     "estado": "com_horario"
   },
@@ -679,8 +679,8 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "16:01",
-    "quando": "16:01",
+    "horario": "16:17",
+    "quando": "16:17",
     "estado": "com_horario"
   },
   "baterias": [
@@ -2116,7 +2116,7 @@
           "avancou": true
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/560184/lexus-trestles-pro-mens-quarterfinals-heat-2-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
@@ -2164,7 +2164,7 @@
         {
           "nome": "Cole Houshmand",
           "pais": "USA",
-          "nota": "9.67",
+          "nota": "18.50",
           "colete": "red",
           "avancou": false
         },
@@ -2180,7 +2180,7 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "15:32",
+      "horario": "15:48",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -2240,8 +2240,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "16:01",
-      "quando": "16:01",
+      "horario": "16:17",
+      "quando": "16:17",
       "estado": "com_horario"
     },
     {
@@ -2270,8 +2270,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "17:28",
-      "quando": "17:28",
+      "horario": "17:44",
+      "quando": "17:44",
       "estado": "com_horario"
     },
     {
@@ -2300,8 +2300,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "16:30",
-      "quando": "16:30",
+      "horario": "16:46",
+      "quando": "16:46",
       "estado": "com_horario"
     },
     {
@@ -2330,8 +2330,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "17:57",
-      "quando": "17:57",
+      "horario": "18:13",
+      "quando": "18:13",
       "estado": "com_horario"
     },
     {
@@ -2360,8 +2360,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "16:59",
-      "quando": "16:59",
+      "horario": "17:15",
+      "quando": "17:15",
       "estado": "com_horario"
     },
     {
@@ -2390,8 +2390,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "18:55",
-      "quando": "18:55",
+      "horario": "19:11",
+      "quando": "19:11",
       "estado": "com_horario"
     },
     {
@@ -2420,8 +2420,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "18:26",
-      "quando": "18:26",
+      "horario": "18:42",
+      "quando": "18:42",
       "estado": "com_horario"
     }
   ]
