@@ -15,6 +15,8 @@ BASE = "https://www.worldsurfleague.com"
 ANO = datetime.now(BR).year
 DIAS_BARRA = 15
 DUR_PADRAO, INTERVALO = 30, 5
+PASSO_MIN, PASSO_MAX = 28, 45      # piso e teto do intervalo entre baterias
+PAUSA_FASE = 15                    # minutos extras na troca de rodada
 HORA_INI_LOCAL, HORA_FIM_LOCAL = 7, 17          # janela de surf no fuso do evento
 
 ORDEM = ["Rodada 1", "Rodada 2", "Oitavas de final",
@@ -236,7 +238,10 @@ def atualiza_estado(estado, baterias, agora):
 
 def duracao_real(estado):
     d = estado.get("duracoes") or []
-    return round(sum(d) / len(d)) if len(d) >= 3 else DUR_PADRAO + INTERVALO
+    if len(d) < 3:
+        return DUR_PADRAO + INTERVALO
+    media = round(sum(d) / len(d))
+    return max(PASSO_MIN, min(PASSO_MAX, media))
 
 
 # ---------- distribuicao por dia ----------
@@ -296,8 +301,15 @@ def distribui(baterias, call, passo, hoje, d_fim, tz_evento, agora, datas_reg=No
             confirmado = False
 
         t = abre
+        rod_ant = None
         while idx < len(pend) and t + timedelta(minutes=passo) <= fecha:
             b = pend[idx]
+            # troca de rodada: a WSL nao emenda, tem reorganizacao no meio
+            if rod_ant is not None and b["rodada"] != rod_ant:
+                t += timedelta(minutes=PAUSA_FASE)
+                if t + timedelta(minutes=passo) > fecha:
+                    break
+            rod_ant = b["rodada"]
             br = t.astimezone(BR)
             b["data"] = br.strftime("%Y-%m-%d")
             b["dia_rotulo"] = br.strftime("%d/%m")
