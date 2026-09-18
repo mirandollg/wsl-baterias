@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 18:11",
+  "atualizado_em": "18/09/2026 18:29",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -13,10 +13,10 @@
     "tv": "sportv4"
   },
   "status_wsl": "Live",
-  "status_msg": "Heat in the Water • Men's Semifinals • Heat 1",
+  "status_msg": "Heat in the Water • Men's Semifinals • Heat 2",
   "situacao": "ao_vivo",
   "call_data": null,
-  "passo_estimado_min": 31,
+  "passo_estimado_min": 34,
   "dias": [
     {
       "data": "2026-09-18",
@@ -257,17 +257,17 @@
       },
       {
         "posicao": 7,
-        "nome": "Ethan Ewing",
-        "pais": "AUS",
-        "pontos": "30,895",
-        "variacao": "-"
+        "nome": "Kanoa Igarashi",
+        "pais": "JPN",
+        "pontos": "31,910",
+        "variacao": "3"
       },
       {
         "posicao": 8,
-        "nome": "Kanoa Igarashi",
-        "pais": "JPN",
-        "pontos": "30,195",
-        "variacao": "2"
+        "nome": "Ethan Ewing",
+        "pais": "AUS",
+        "pontos": "30,895",
+        "variacao": "1"
       },
       {
         "posicao": 9,
@@ -624,23 +624,23 @@
     ]
   },
   "ao_vivo": {
-    "id": "114362",
+    "id": "114363",
     "genero": "M",
     "rodada": "Semifinal",
-    "numero": 1,
+    "numero": 2,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Yago Dora",
-        "pais": "BRA",
-        "nota": "10.70",
+        "nome": "Cole Houshmand",
+        "pais": "USA",
+        "nota": "11.50",
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Kanoa Igarashi",
-        "pais": "JPN",
-        "nota": "13.33",
+        "nome": "Miguel Pupo",
+        "pais": "BRA",
+        "nota": "16.00",
         "colete": "blue",
         "avancou": false
       }
@@ -649,27 +649,27 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "18:11",
+    "horario": "18:29",
     "quando": "agora",
     "estado": "com_horario"
   },
   "proxima": {
-    "id": "114363",
-    "genero": "M",
-    "rodada": "Semifinal",
-    "numero": 2,
+    "id": "114893",
+    "genero": "F",
+    "rodada": "Final",
+    "numero": 1,
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "Cole Houshmand",
-        "pais": "USA",
+        "nome": "Gabriela Bryan",
+        "pais": "HAW",
         "nota": null,
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Miguel Pupo",
-        "pais": "BRA",
+        "nome": "Erin Brooks",
+        "pais": "CAN",
         "nota": null,
         "colete": "blue",
         "avancou": false
@@ -679,8 +679,8 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "18:42",
-    "quando": "18:42",
+    "horario": "19:37",
+    "quando": "19:37",
     "estado": "com_horario"
   },
   "baterias": [
@@ -2279,12 +2279,12 @@
       "genero": "M",
       "rodada": "Semifinal",
       "numero": 1,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Yago Dora",
           "pais": "BRA",
-          "nota": "10.70",
+          "nota": "11.94",
           "colete": "red",
           "avancou": false
         },
@@ -2293,16 +2293,16 @@
           "pais": "JPN",
           "nota": "13.33",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
+      "replay": null,
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "18:11",
-      "quando": "agora",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114892",
@@ -2339,29 +2339,29 @@
       "genero": "M",
       "rodada": "Semifinal",
       "numero": 2,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Cole Houshmand",
           "pais": "USA",
-          "nota": null,
+          "nota": "11.50",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Miguel Pupo",
           "pais": "BRA",
-          "nota": null,
+          "nota": "16.00",
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "18:42",
-      "quando": "18:42",
+      "horario": "18:29",
+      "quando": "agora",
       "estado": "com_horario"
     },
     {
@@ -2390,8 +2390,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "19:44",
-      "quando": "19:44",
+      "horario": "19:37",
+      "quando": "19:37",
       "estado": "com_horario"
     },
     {
@@ -2402,8 +2402,8 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da SFH1",
-          "pais": null,
+          "nome": "Kanoa Igarashi",
+          "pais": "JPN",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -2420,8 +2420,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "19:13",
-      "quando": "19:13",
+      "horario": "19:03",
+      "quando": "19:03",
       "estado": "com_horario"
     }
   ]
