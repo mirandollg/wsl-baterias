@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 12:48",
+  "atualizado_em": "18/09/2026 12:51",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -16,7 +16,7 @@
   "status_msg": "Heat in the Water • Women's Quarterfinals • Heat 3",
   "situacao": "ao_vivo",
   "call_data": null,
-  "passo_estimado_min": 23,
+  "passo_estimado_min": 28,
   "dias": [
     {
       "data": "2026-09-18",
@@ -478,7 +478,7 @@
         "posicao": 3,
         "nome": "Sawyer Lindblad",
         "pais": "USA",
-        "pontos": "38,715",
+        "pontos": "40,055",
         "variacao": "-"
       },
       {
@@ -633,14 +633,14 @@
       {
         "nome": "Carissa Moore",
         "pais": "HAW",
-        "nota": "4.83",
+        "nota": "5.33",
         "colete": "yellow",
         "avancou": false
       },
       {
         "nome": "Erin Brooks",
         "pais": "CAN",
-        "nota": "7.33",
+        "nota": "15.33",
         "colete": "blue",
         "avancou": false
       }
@@ -649,7 +649,7 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "12:48",
+    "horario": "12:51",
     "quando": "agora",
     "estado": "com_horario"
   },
@@ -679,8 +679,8 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "13:34",
-    "quando": "13:34",
+    "horario": "13:47",
+    "quando": "13:47",
     "estado": "com_horario"
   },
   "baterias": [
@@ -2060,8 +2060,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "13:34",
-      "quando": "13:34",
+      "horario": "13:47",
+      "quando": "13:47",
       "estado": "com_horario"
     },
     {
@@ -2120,8 +2120,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "13:57",
-      "quando": "13:57",
+      "horario": "14:15",
+      "quando": "14:15",
       "estado": "com_horario"
     },
     {
@@ -2134,14 +2134,14 @@
         {
           "nome": "Carissa Moore",
           "pais": "HAW",
-          "nota": "4.83",
+          "nota": "5.33",
           "colete": "yellow",
           "avancou": false
         },
         {
           "nome": "Erin Brooks",
           "pais": "CAN",
-          "nota": "7.33",
+          "nota": "15.33",
           "colete": "blue",
           "avancou": false
         }
@@ -2150,7 +2150,7 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "12:48",
+      "horario": "12:51",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -2180,8 +2180,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "14:20",
-      "quando": "14:20",
+      "horario": "14:43",
+      "quando": "14:43",
       "estado": "com_horario"
     },
     {
@@ -2210,8 +2210,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "13:11",
-      "quando": "13:11",
+      "horario": "13:19",
+      "quando": "13:19",
       "estado": "com_horario"
     },
     {
@@ -2240,8 +2240,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "14:43",
-      "quando": "14:43",
+      "horario": "15:11",
+      "quando": "15:11",
       "estado": "com_horario"
     },
     {
@@ -2270,8 +2270,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "15:06",
-      "quando": "15:06",
+      "horario": "15:54",
+      "quando": "15:54",
       "estado": "com_horario"
     },
     {
@@ -2300,8 +2300,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "15:52",
-      "quando": "15:52",
+      "horario": "16:50",
+      "quando": "16:50",
       "estado": "com_horario"
     },
     {
@@ -2330,8 +2330,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "15:29",
-      "quando": "15:29",
+      "horario": "16:22",
+      "quando": "16:22",
       "estado": "com_horario"
     },
     {
@@ -2360,8 +2360,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "16:15",
-      "quando": "16:15",
+      "horario": "17:18",
+      "quando": "17:18",
       "estado": "com_horario"
     },
     {
@@ -2390,8 +2390,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "16:38",
-      "quando": "16:38",
+      "horario": "18:01",
+      "quando": "18:01",
       "estado": "com_horario"
     },
     {
@@ -2420,8 +2420,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "17:01",
-      "quando": "17:01",
+      "horario": "18:29",
+      "quando": "18:29",
       "estado": "com_horario"
     }
   ]
