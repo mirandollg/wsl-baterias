@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 16:55",
+  "atualizado_em": "18/09/2026 17:12",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -13,10 +13,10 @@
     "tv": "sportv4"
   },
   "status_wsl": "Live",
-  "status_msg": "Heat in the Water • Women's Semifinals • Heat 1",
+  "status_msg": "Heat in the Water • Women's Semifinals • Heat 2",
   "situacao": "ao_vivo",
   "call_data": null,
-  "passo_estimado_min": 29,
+  "passo_estimado_min": 31,
   "dias": [
     {
       "data": "2026-09-18",
@@ -462,17 +462,17 @@
     "feminino": [
       {
         "posicao": 1,
-        "nome": "Carissa Moore",
+        "nome": "Gabriela Bryan",
         "pais": "HAW",
-        "pontos": "42,320",
-        "variacao": "-"
+        "pontos": "42,865",
+        "variacao": "1"
       },
       {
         "posicao": 2,
-        "nome": "Gabriela Bryan",
+        "nome": "Carissa Moore",
         "pais": "HAW",
-        "pontos": "41,150",
-        "variacao": "-"
+        "pontos": "42,320",
+        "variacao": "1"
       },
       {
         "posicao": 3,
@@ -624,23 +624,23 @@
     ]
   },
   "ao_vivo": {
-    "id": "114891",
+    "id": "114892",
     "genero": "F",
     "rodada": "Semifinal",
-    "numero": 1,
+    "numero": 2,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Gabriela Bryan",
-        "pais": "HAW",
-        "nota": "14.33",
+        "nome": "Erin Brooks",
+        "pais": "CAN",
+        "nota": "0.50",
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Sawyer Lindblad",
-        "pais": "USA",
-        "nota": "10.17",
+        "nome": "Molly Picklum",
+        "pais": "AUS",
+        "nota": null,
         "colete": "blue",
         "avancou": false
       }
@@ -649,7 +649,7 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "16:55",
+    "horario": "17:12",
     "quando": "agora",
     "estado": "com_horario"
   },
@@ -679,8 +679,8 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "17:53",
-    "quando": "17:53",
+    "horario": "17:43",
+    "quando": "17:43",
     "estado": "com_horario"
   },
   "baterias": [
@@ -2249,14 +2249,14 @@
       "genero": "F",
       "rodada": "Semifinal",
       "numero": 1,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Gabriela Bryan",
           "pais": "HAW",
           "nota": "14.33",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Sawyer Lindblad",
@@ -2266,13 +2266,13 @@
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
+      "replay": null,
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "16:55",
-      "quando": "agora",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114362",
@@ -2300,8 +2300,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "17:53",
-      "quando": "17:53",
+      "horario": "17:43",
+      "quando": "17:43",
       "estado": "com_horario"
     },
     {
@@ -2309,12 +2309,12 @@
       "genero": "F",
       "rodada": "Semifinal",
       "numero": 2,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Erin Brooks",
           "pais": "CAN",
-          "nota": null,
+          "nota": "0.50",
           "colete": "red",
           "avancou": false
         },
@@ -2326,12 +2326,12 @@
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "17:24",
-      "quando": "17:24",
+      "horario": "17:12",
+      "quando": "agora",
       "estado": "com_horario"
     },
     {
@@ -2360,8 +2360,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "18:22",
-      "quando": "18:22",
+      "horario": "18:14",
+      "quando": "18:14",
       "estado": "com_horario"
     },
     {
@@ -2372,8 +2372,8 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da SFH1",
-          "pais": null,
+          "nome": "Gabriela Bryan",
+          "pais": "HAW",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -2390,8 +2390,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "18:51",
-      "quando": "18:51",
+      "horario": "18:45",
+      "quando": "18:45",
       "estado": "com_horario"
     },
     {
@@ -2420,8 +2420,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "19:20",
-      "quando": "19:20",
+      "horario": "19:16",
+      "quando": "19:16",
       "estado": "com_horario"
     }
   ]
