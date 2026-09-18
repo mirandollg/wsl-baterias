@@ -211,8 +211,15 @@ function render(){
   const d = DADOS;
   document.getElementById('evento').textContent = d.evento.nome;
   const sit = d.situacao || (d.call ? 'call' : 'aguardando');
+  const msg = (d.status_msg || '')
+      .replace(/Heat in the Water/i, 'Na água')
+      .replace(/Women'?s/i, 'Feminino').replace(/Men'?s/i, 'Masculino')
+      .replace(/Quarterfinals?/i, 'Quartas').replace(/Semifinals?/i, 'Semis')
+      .replace(/Final/i, 'Final').replace(/Round/i, 'Rodada')
+      .replace(/Heat/i, 'Bateria').replace(/•/g, '·');
   document.getElementById('call').textContent =
-      sit === 'ao_vivo' ? '🔴 Baterias rolando agora'
+      (sit === 'ao_vivo' && msg) ? '🔴 ' + msg
+    : sit === 'ao_vivo' ? '🔴 Baterias rolando agora'
     : (d.call ? '📣 Call ' + d.call : '📣 Aguardando call');
   document.getElementById('atualizado').textContent = '🕐 ' + d.atualizado_em;
   document.getElementById('rodape').textContent =
