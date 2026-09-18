@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 13:57",
+  "atualizado_em": "18/09/2026 14:14",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -13,10 +13,10 @@
     "tv": "sportv4"
   },
   "status_wsl": "Live",
-  "status_msg": "Heat in the Water • Women's Quarterfinals • Heat 4",
+  "status_msg": "Heat in the Water • Men's Quarterfinals • Heat 1",
   "situacao": "ao_vivo",
   "call_data": null,
-  "passo_estimado_min": 26,
+  "passo_estimado_min": 28,
   "dias": [
     {
       "data": "2026-09-18",
@@ -485,7 +485,7 @@
         "posicao": 4,
         "nome": "Molly Picklum",
         "pais": "AUS",
-        "pontos": "37,610",
+        "pontos": "38,950",
         "variacao": "-"
       },
       {
@@ -624,23 +624,23 @@
     ]
   },
   "ao_vivo": {
-    "id": "114890",
-    "genero": "F",
+    "id": "114358",
+    "genero": "M",
     "rodada": "Quartas de final",
-    "numero": 4,
+    "numero": 1,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Molly Picklum",
+        "nome": "Callum Robson",
         "pais": "AUS",
-        "nota": "15.33",
+        "nota": "2.33",
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Bella Kenworthy",
-        "pais": "USA",
-        "nota": "12.43",
+        "nome": "Yago Dora",
+        "pais": "BRA",
+        "nota": "1.00",
         "colete": "blue",
         "avancou": false
       }
@@ -649,27 +649,27 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "13:57",
+    "horario": "14:14",
     "quando": "agora",
     "estado": "com_horario"
   },
   "proxima": {
-    "id": "114358",
+    "id": "114359",
     "genero": "M",
     "rodada": "Quartas de final",
-    "numero": 1,
+    "numero": 2,
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "Callum Robson",
-        "pais": "AUS",
+        "nome": "Marco Mignot",
+        "pais": "FRA",
         "nota": null,
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Yago Dora",
-        "pais": "BRA",
+        "nome": "Kanoa Igarashi",
+        "pais": "JPN",
         "nota": null,
         "colete": "blue",
         "avancou": false
@@ -679,8 +679,8 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "14:23",
-    "quando": "14:23",
+    "horario": "14:42",
+    "quando": "14:42",
     "estado": "com_horario"
   },
   "baterias": [
@@ -2039,29 +2039,29 @@
       "genero": "M",
       "rodada": "Quartas de final",
       "numero": 1,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Callum Robson",
           "pais": "AUS",
-          "nota": null,
+          "nota": "2.33",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Yago Dora",
           "pais": "BRA",
-          "nota": null,
+          "nota": "1.00",
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "14:23",
-      "quando": "14:23",
+      "horario": "14:14",
+      "quando": "agora",
       "estado": "com_horario"
     },
     {
@@ -2120,8 +2120,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "14:49",
-      "quando": "14:49",
+      "horario": "14:42",
+      "quando": "14:42",
       "estado": "com_horario"
     },
     {
@@ -2180,8 +2180,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "15:15",
-      "quando": "15:15",
+      "horario": "15:10",
+      "quando": "15:10",
       "estado": "com_horario"
     },
     {
@@ -2189,14 +2189,14 @@
       "genero": "F",
       "rodada": "Quartas de final",
       "numero": 4,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Molly Picklum",
           "pais": "AUS",
           "nota": "15.33",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Bella Kenworthy",
@@ -2206,13 +2206,13 @@
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
+      "replay": null,
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "13:57",
-      "quando": "agora",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114361",
@@ -2240,8 +2240,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "15:41",
-      "quando": "15:41",
+      "horario": "15:38",
+      "quando": "15:38",
       "estado": "com_horario"
     },
     {
@@ -2270,8 +2270,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "16:07",
-      "quando": "16:07",
+      "horario": "17:02",
+      "quando": "17:02",
       "estado": "com_horario"
     },
     {
@@ -2300,8 +2300,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "16:59",
-      "quando": "16:59",
+      "horario": "16:06",
+      "quando": "16:06",
       "estado": "com_horario"
     },
     {
@@ -2319,19 +2319,19 @@
           "avancou": false
         },
         {
-          "nome": "vencedor da QFH4",
-          "pais": null,
+          "nome": "Molly Picklum",
+          "pais": "AUS",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
       "replay": null,
-      "definida": false,
+      "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "16:33",
-      "quando": "16:33",
+      "horario": "17:30",
+      "quando": "17:30",
       "estado": "com_horario"
     },
     {
@@ -2360,8 +2360,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "17:25",
-      "quando": "17:25",
+      "horario": "16:34",
+      "quando": "16:34",
       "estado": "com_horario"
     },
     {
@@ -2390,8 +2390,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "17:51",
-      "quando": "17:51",
+      "horario": "18:26",
+      "quando": "18:26",
       "estado": "com_horario"
     },
     {
@@ -2420,8 +2420,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "18:17",
-      "quando": "18:17",
+      "horario": "17:58",
+      "quando": "17:58",
       "estado": "com_horario"
     }
   ]
