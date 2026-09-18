@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 14:14",
+  "atualizado_em": "18/09/2026 14:28",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -633,14 +633,14 @@
       {
         "nome": "Callum Robson",
         "pais": "AUS",
-        "nota": "2.33",
+        "nota": "8.16",
         "colete": "red",
         "avancou": false
       },
       {
         "nome": "Yago Dora",
         "pais": "BRA",
-        "nota": "1.00",
+        "nota": "2.60",
         "colete": "blue",
         "avancou": false
       }
@@ -649,7 +649,7 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "14:14",
+    "horario": "14:28",
     "quando": "agora",
     "estado": "com_horario"
   },
@@ -679,8 +679,8 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "14:42",
-    "quando": "14:42",
+    "horario": "14:56",
+    "quando": "14:56",
     "estado": "com_horario"
   },
   "baterias": [
@@ -2044,14 +2044,14 @@
         {
           "nome": "Callum Robson",
           "pais": "AUS",
-          "nota": "2.33",
+          "nota": "8.16",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Yago Dora",
           "pais": "BRA",
-          "nota": "1.00",
+          "nota": "2.60",
           "colete": "blue",
           "avancou": false
         }
@@ -2060,7 +2060,7 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "14:14",
+      "horario": "14:28",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -2120,8 +2120,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "14:42",
-      "quando": "14:42",
+      "horario": "14:56",
+      "quando": "14:56",
       "estado": "com_horario"
     },
     {
@@ -2180,8 +2180,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "15:10",
-      "quando": "15:10",
+      "horario": "15:24",
+      "quando": "15:24",
       "estado": "com_horario"
     },
     {
@@ -2206,7 +2206,7 @@
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/560177/lexus-trestles-pro-womens-quarterfinals-heat-4-condensed?jointEventId=443",
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
@@ -2240,8 +2240,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "15:38",
-      "quando": "15:38",
+      "horario": "15:52",
+      "quando": "15:52",
       "estado": "com_horario"
     },
     {
@@ -2270,8 +2270,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "17:02",
-      "quando": "17:02",
+      "horario": "17:16",
+      "quando": "17:16",
       "estado": "com_horario"
     },
     {
@@ -2300,8 +2300,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "16:06",
-      "quando": "16:06",
+      "horario": "16:20",
+      "quando": "16:20",
       "estado": "com_horario"
     },
     {
@@ -2330,8 +2330,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "17:30",
-      "quando": "17:30",
+      "horario": "17:44",
+      "quando": "17:44",
       "estado": "com_horario"
     },
     {
@@ -2360,8 +2360,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "16:34",
-      "quando": "16:34",
+      "horario": "16:48",
+      "quando": "16:48",
       "estado": "com_horario"
     },
     {
@@ -2390,8 +2390,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "18:26",
-      "quando": "18:26",
+      "horario": "18:40",
+      "quando": "18:40",
       "estado": "com_horario"
     },
     {
@@ -2420,8 +2420,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "17:58",
-      "quando": "17:58",
+      "horario": "18:12",
+      "quando": "18:12",
       "estado": "com_horario"
     }
   ]
