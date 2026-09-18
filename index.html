@@ -335,7 +335,8 @@ function render(){
   }
   let html = '', rodada = null;
   const aoVivo    = bats.filter(b => b.status === 'ao_vivo');
-  const proximas  = bats.filter(b => b.status === 'aguardando');
+  const proximas  = bats.filter(b => b.status === 'aguardando')
+        .sort((a,b) => (a.horario || '99:99').localeCompare(b.horario || '99:99'));
   const passadas  = bats.filter(b => b.status === 'encerrada');
 
   if(aoVivo.length){
