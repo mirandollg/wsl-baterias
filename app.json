@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 14:28",
+  "atualizado_em": "18/09/2026 14:40",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -640,7 +640,7 @@
       {
         "nome": "Yago Dora",
         "pais": "BRA",
-        "nota": "2.60",
+        "nota": "11.17",
         "colete": "blue",
         "avancou": false
       }
@@ -649,7 +649,7 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "14:28",
+    "horario": "14:40",
     "quando": "agora",
     "estado": "com_horario"
   },
@@ -679,8 +679,8 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "14:56",
-    "quando": "14:56",
+    "horario": "15:08",
+    "quando": "15:08",
     "estado": "com_horario"
   },
   "baterias": [
@@ -2051,7 +2051,7 @@
         {
           "nome": "Yago Dora",
           "pais": "BRA",
-          "nota": "2.60",
+          "nota": "11.17",
           "colete": "blue",
           "avancou": false
         }
@@ -2060,7 +2060,7 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "14:28",
+      "horario": "14:40",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -2120,8 +2120,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "14:56",
-      "quando": "14:56",
+      "horario": "15:08",
+      "quando": "15:08",
       "estado": "com_horario"
     },
     {
@@ -2180,8 +2180,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "15:24",
-      "quando": "15:24",
+      "horario": "15:36",
+      "quando": "15:36",
       "estado": "com_horario"
     },
     {
@@ -2240,8 +2240,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "15:52",
-      "quando": "15:52",
+      "horario": "16:04",
+      "quando": "16:04",
       "estado": "com_horario"
     },
     {
@@ -2270,8 +2270,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "17:16",
-      "quando": "17:16",
+      "horario": "17:28",
+      "quando": "17:28",
       "estado": "com_horario"
     },
     {
@@ -2300,8 +2300,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "16:20",
-      "quando": "16:20",
+      "horario": "16:32",
+      "quando": "16:32",
       "estado": "com_horario"
     },
     {
@@ -2330,8 +2330,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "17:44",
-      "quando": "17:44",
+      "horario": "17:56",
+      "quando": "17:56",
       "estado": "com_horario"
     },
     {
@@ -2360,8 +2360,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "16:48",
-      "quando": "16:48",
+      "horario": "17:00",
+      "quando": "17:00",
       "estado": "com_horario"
     },
     {
@@ -2390,8 +2390,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "18:40",
-      "quando": "18:40",
+      "horario": "18:52",
+      "quando": "18:52",
       "estado": "com_horario"
     },
     {
@@ -2420,8 +2420,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "18:12",
-      "quando": "18:12",
+      "horario": "18:24",
+      "quando": "18:24",
       "estado": "com_horario"
     }
   ]
