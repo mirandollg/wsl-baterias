@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 18:55",
+  "atualizado_em": "18/09/2026 19:11",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -633,14 +633,14 @@
       {
         "nome": "Gabriela Bryan",
         "pais": "HAW",
-        "nota": null,
+        "nota": "6.33",
         "colete": "red",
         "avancou": false
       },
       {
         "nome": "Erin Brooks",
         "pais": "CAN",
-        "nota": null,
+        "nota": "7.43",
         "colete": "blue",
         "avancou": false
       }
@@ -649,7 +649,7 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "18:55",
+    "horario": "19:11",
     "quando": "agora",
     "estado": "com_horario"
   },
@@ -679,8 +679,8 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "19:29",
-    "quando": "19:29",
+    "horario": "19:45",
+    "quando": "19:45",
     "estado": "com_horario"
   },
   "baterias": [
@@ -2356,7 +2356,7 @@
           "avancou": true
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/560212/lexus-trestles-pro-mens-semifinals-heat-2-condensed?jointEventId=443",
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
@@ -2374,14 +2374,14 @@
         {
           "nome": "Gabriela Bryan",
           "pais": "HAW",
-          "nota": null,
+          "nota": "6.33",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Erin Brooks",
           "pais": "CAN",
-          "nota": null,
+          "nota": "7.43",
           "colete": "blue",
           "avancou": false
         }
@@ -2390,7 +2390,7 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "18:55",
+      "horario": "19:11",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -2420,8 +2420,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "19:29",
-      "quando": "19:29",
+      "horario": "19:45",
+      "quando": "19:45",
       "estado": "com_horario"
     }
   ]
