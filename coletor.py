@@ -14,9 +14,11 @@ HEADERS = {
 BASE = "https://www.worldsurfleague.com"
 ANO = datetime.now(BR).year
 DIAS_BARRA = 15
-DUR_PADRAO, INTERVALO = 30, 5
-PASSO_MIN, PASSO_MAX = 28, 45      # piso e teto do intervalo entre baterias
-PAUSA_FASE = 15                    # minutos extras na troca de rodada
+# A WSL emenda uma bateria na outra (transicao zero): inicio = call + (N-1) x duracao.
+# Bateria padrao: 30 min. Com overlapping (2 baterias na agua ao mesmo tempo),
+# o passo efetivo cai para ~metade, por isso o piso baixo.
+DUR_PADRAO = 30
+PASSO_MIN, PASSO_MAX = 18, 42
 HORA_INI_LOCAL, HORA_FIM_LOCAL = 7, 17          # janela de surf no fuso do evento
 
 ORDEM = ["Rodada 1", "Rodada 2", "Oitavas de final",
@@ -231,17 +233,20 @@ def atualiza_estado(estado, baterias, agora):
             estado["datas"][b["id"]] = agora.strftime("%Y-%m-%d")
     marcos = sorted(datetime.fromisoformat(v) for v in estado["encerramentos"].values())
     dur = [(b - a).total_seconds() / 60 for a, b in zip(marcos, marcos[1:])
-           if 8 <= (b - a).total_seconds() / 60 <= 45]
+           if 12 <= (b - a).total_seconds() / 60 <= 50]
     estado["duracoes"] = dur[-12:]
     return estado
 
 
 def duracao_real(estado):
-    d = estado.get("duracoes") or []
+    """Passo entre inicios de bateria, medido pelos encerramentos observados.
+    Mediana em vez de media: um encerramento atrasado nao distorce tudo."""
+    d = sorted(estado.get("duracoes") or [])
     if len(d) < 3:
-        return DUR_PADRAO + INTERVALO
-    media = round(sum(d) / len(d))
-    return max(PASSO_MIN, min(PASSO_MAX, media))
+        return DUR_PADRAO
+    meio = len(d) // 2
+    mediana = d[meio] if len(d) % 2 else (d[meio - 1] + d[meio]) / 2
+    return max(PASSO_MIN, min(PASSO_MAX, round(mediana)))
 
 
 # ---------- distribuicao por dia ----------
@@ -301,15 +306,8 @@ def distribui(baterias, call, passo, hoje, d_fim, tz_evento, agora, datas_reg=No
             confirmado = False
 
         t = abre
-        rod_ant = None
         while idx < len(pend) and t + timedelta(minutes=passo) <= fecha:
             b = pend[idx]
-            # troca de rodada: a WSL nao emenda, tem reorganizacao no meio
-            if rod_ant is not None and b["rodada"] != rod_ant:
-                t += timedelta(minutes=PAUSA_FASE)
-                if t + timedelta(minutes=passo) > fecha:
-                    break
-            rod_ant = b["rodada"]
             br = t.astimezone(BR)
             b["data"] = br.strftime("%Y-%m-%d")
             b["dia_rotulo"] = br.strftime("%d/%m")
