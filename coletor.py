@@ -240,7 +240,8 @@ def duracao_real(estado):
 
 
 # ---------- distribuicao por dia ----------
-def distribui(baterias, call, passo, hoje, d_fim, tz_evento, agora, datas_reg=None):
+def distribui(baterias, call, passo, hoje, d_fim, tz_evento, agora, datas_reg=None,
+              gen_agua=None):
     """Marca cada bateria pendente com data e horario.
 
     Ancora do dia, em ordem de prioridade:
@@ -250,7 +251,13 @@ def distribui(baterias, call, passo, hoje, d_fim, tz_evento, agora, datas_reg=No
     """
     tz = ZoneInfo(tz_evento)
     pend = [b for b in baterias if b["status"] != "encerrada"]
-    pend.sort(key=lambda b: (ORDEM.index(b["rodada"]), b["numero"], b["genero"]))
+    # a divisao que esta na agua termina a rodada dela antes da outra entrar
+    if not gen_agua:
+        viva = next((b for b in pend if b["status"] == "ao_vivo"), None)
+        gen_agua = viva["genero"] if viva else None
+    pend.sort(key=lambda b: (ORDEM.index(b["rodada"]),
+                             0 if (gen_agua and b["genero"] == gen_agua) else 1,
+                             b["numero"]))
     tem_ao_vivo = any(b["status"] == "ao_vivo" for b in baterias)
     # a bateria no mar e a ancora: ela e agora, o resto vem depois dela
     pend = ([b for b in pend if b["status"] == "ao_vivo"] +
@@ -386,6 +393,28 @@ def proximas_etapas(hoje, eid_atual):
     return out
 
 
+def status_oficial(eid, slug):
+    """Le o status que a WSL publica: Live/Standby + qual bateria esta no mar."""
+    try:
+        soup = BeautifulSoup(busca(f"{BASE}/events/{ANO}/ct/{eid}/{slug}/main"), "html.parser")
+        st = soup.select_one(".status-module__status")
+        ms = soup.select_one(".status-module__status-message")
+        st = st.get_text(strip=True) if st else None
+        ms = ms.get_text(strip=True) if ms else None
+    except Exception as e:
+        print("status falhou:", e)
+        return None, None, None
+
+    # "Heat in the Water - Women's Quarterfinals - Heat 2"
+    gen = None
+    if ms:
+        if re.search(r"women", ms, re.I):
+            gen = "F"
+        elif re.search(r"men", ms, re.I):
+            gen = "M"
+    return st, ms, gen
+
+
 # ---------- ranking do mundial ----------
 def ranking(genero):
     """Le a tabela de classificacao do CT. genero: 'm' ou 'w'."""
@@ -439,13 +468,17 @@ def main():
     call = pega_call(eid, slug)
     print("call:", call)
 
+    st_txt, st_msg, gen_agua = status_oficial(eid, slug)
+    print("status WSL:", st_txt, "|", st_msg, "| divisao na agua:", gen_agua)
+
     estado = atualiza_estado(carrega_estado(), baterias, agora)
     passo = duracao_real(estado)
     print("passo (min):", passo, "| amostras:", len(estado["duracoes"]))
 
     baterias = distribui(baterias, call, passo, hoje, d_fim, tz_evento, agora,
-                         estado.get("datas"))
+                         estado.get("datas"), gen_agua)
     baterias.sort(key=lambda b: (ORDEM.index(b["rodada"]), b["numero"], b["genero"]))
+
     try:
         rank = {"masculino": ranking("m"), "feminino": ranking("w")}
         print("ranking: M=%d  F=%d" % (len(rank["masculino"]), len(rank["feminino"])))
@@ -477,6 +510,8 @@ def main():
             "site": "https://www.worldsurfleague.com/watch",
             "tv": "sportv4",
         },
+        "status_wsl": st_txt,
+        "status_msg": st_msg,
         "situacao": "ao_vivo" if rolando else ("call" if call else "aguardando"),
         "call_data": call.strftime("%Y-%m-%d") if call else None,
         "passo_estimado_min": passo,
