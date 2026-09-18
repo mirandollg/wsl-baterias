@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 20:12",
+  "atualizado_em": "18/09/2026 20:29",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -24,7 +24,7 @@
       "mes": "09",
       "semana": "Sex",
       "estado": "call",
-      "qtd": 14,
+      "qtd": 13,
       "evento": "Lexus Trestles Pro",
       "hoje": true
     },
@@ -33,9 +33,9 @@
       "dia": "19",
       "mes": "09",
       "semana": "Sab",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
+      "estado": "previsto",
+      "qtd": 1,
+      "evento": "Lexus Trestles Pro",
       "hoje": false
     },
     {
@@ -633,25 +633,25 @@
       {
         "nome": "Kanoa Igarashi",
         "pais": "JPN",
-        "nota": "12.00",
+        "nota": "14.40",
         "colete": "red",
         "avancou": false
       },
       {
         "nome": "Miguel Pupo",
         "pais": "BRA",
-        "nota": "10.83",
+        "nota": "14.77",
         "colete": "blue",
         "avancou": false
       }
     ],
     "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
     "definida": true,
-    "data": "2026-09-18",
-    "dia_rotulo": "18/09",
-    "horario": "20:12",
-    "quando": "agora",
-    "estado": "com_horario"
+    "data": "2026-09-19",
+    "dia_rotulo": "19/09",
+    "horario": null,
+    "quando": "aguardando call",
+    "estado": "aguardando_call"
   },
   "proxima": null,
   "baterias": [
@@ -2357,7 +2357,7 @@
           "avancou": true
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/560219/lexus-trestles-pro-womens-final-condensed?jointEventId=443",
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
@@ -2375,25 +2375,25 @@
         {
           "nome": "Kanoa Igarashi",
           "pais": "JPN",
-          "nota": "12.00",
+          "nota": "14.40",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Miguel Pupo",
           "pais": "BRA",
-          "nota": "10.83",
+          "nota": "14.77",
           "colete": "blue",
           "avancou": false
         }
       ],
       "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
       "definida": true,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
-      "horario": "20:12",
-      "quando": "agora",
-      "estado": "com_horario"
+      "data": "2026-09-19",
+      "dia_rotulo": "19/09",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     }
   ]
 }
