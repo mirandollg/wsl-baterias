@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 17:55",
+  "atualizado_em": "18/09/2026 18:11",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -633,14 +633,14 @@
       {
         "nome": "Yago Dora",
         "pais": "BRA",
-        "nota": "10.24",
+        "nota": "10.70",
         "colete": "red",
         "avancou": false
       },
       {
         "nome": "Kanoa Igarashi",
         "pais": "JPN",
-        "nota": "5.13",
+        "nota": "13.33",
         "colete": "blue",
         "avancou": false
       }
@@ -649,7 +649,7 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "17:55",
+    "horario": "18:11",
     "quando": "agora",
     "estado": "com_horario"
   },
@@ -679,8 +679,8 @@
     "definida": true,
     "data": "2026-09-18",
     "dia_rotulo": "18/09",
-    "horario": "18:26",
-    "quando": "18:26",
+    "horario": "18:42",
+    "quando": "18:42",
     "estado": "com_horario"
   },
   "baterias": [
@@ -2284,14 +2284,14 @@
         {
           "nome": "Yago Dora",
           "pais": "BRA",
-          "nota": "10.24",
+          "nota": "10.70",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Kanoa Igarashi",
           "pais": "JPN",
-          "nota": "5.13",
+          "nota": "13.33",
           "colete": "blue",
           "avancou": false
         }
@@ -2300,7 +2300,7 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "17:55",
+      "horario": "18:11",
       "quando": "agora",
       "estado": "com_horario"
     },
@@ -2360,8 +2360,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "18:26",
-      "quando": "18:26",
+      "horario": "18:42",
+      "quando": "18:42",
       "estado": "com_horario"
     },
     {
@@ -2390,8 +2390,8 @@
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "19:28",
-      "quando": "19:28",
+      "horario": "19:44",
+      "quando": "19:44",
       "estado": "com_horario"
     },
     {
@@ -2420,8 +2420,8 @@
       "definida": false,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
-      "horario": "18:57",
-      "quando": "18:57",
+      "horario": "19:13",
+      "quando": "19:13",
       "estado": "com_horario"
     }
   ]
