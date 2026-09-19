@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/09/2026 21:20",
+  "atualizado_em": "18/09/2026 21:42",
   "evento": {
     "nome": "Lexus Trestles Pro",
     "id": "443",
@@ -12,8 +12,8 @@
     "site": "https://www.worldsurfleague.com/watch",
     "tv": "sportv4"
   },
-  "status_wsl": "Live",
-  "status_msg": "805 Post Show",
+  "status_wsl": "Completed",
+  "status_msg": "Event Complete - Watch Replay",
   "situacao": "aguardando",
   "call_data": null,
   "passo_estimado_min": 39,
@@ -2358,7 +2358,7 @@
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/557328/its-on-finals-day-of-the-lexus-trestles-pro?jointEventId=443",
+      "replay": "https://www.worldsurfleague.com/posts/560222/lexus-trestles-pro-mens-final-full-heat-replay?jointEventId=443",
       "definida": true,
       "data": "2026-09-18",
       "dia_rotulo": "18/09",
