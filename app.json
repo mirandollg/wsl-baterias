@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "20/09/2026 23:49",
+  "atualizado_em": "21/09/2026 00:00",
   "evento": {
-    "nome": "Lexus Trestles Pro",
-    "id": "443",
-    "inicio": "2026-09-11",
-    "fim": "2026-09-20"
+    "nome": "MEO Rip Curl Pro Portugal",
+    "id": "445",
+    "inicio": "2026-10-16",
+    "fim": "2026-10-25"
   },
   "call": null,
   "transmissao": {
@@ -12,40 +12,30 @@
     "site": "https://www.worldsurfleague.com/watch",
     "tv": "sportv4"
   },
-  "status_wsl": "Completed",
-  "status_msg": "Event Complete - Watch Replay",
+  "status_wsl": "Upcoming",
+  "status_msg": "Oct 16 - Oct 25",
   "situacao": "aguardando",
   "call_data": null,
   "passo_estimado_min": 39,
   "dias": [
     {
-      "data": "2026-09-20",
-      "dia": "20",
-      "mes": "09",
-      "semana": "Dom",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
-      "hoje": true
-    },
-    {
       "data": "2026-09-21",
       "dia": "21",
       "mes": "09",
       "semana": "Seg",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
-      "hoje": false
+      "estado": "previsto",
+      "qtd": 15,
+      "evento": "MEO Rip Curl Pro Portugal",
+      "hoje": true
     },
     {
       "data": "2026-09-22",
       "dia": "22",
       "mes": "09",
       "semana": "Ter",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
+      "estado": "previsto",
+      "qtd": 15,
+      "evento": "MEO Rip Curl Pro Portugal",
       "hoje": false
     },
     {
@@ -53,9 +43,9 @@
       "dia": "23",
       "mes": "09",
       "semana": "Qua",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
+      "estado": "previsto",
+      "qtd": 8,
+      "evento": "MEO Rip Curl Pro Portugal",
       "hoje": false
     },
     {
@@ -167,19 +157,19 @@
       "qtd": 0,
       "evento": null,
       "hoje": false
+    },
+    {
+      "data": "2026-10-05",
+      "dia": "05",
+      "mes": "10",
+      "semana": "Seg",
+      "estado": "vazio",
+      "qtd": 0,
+      "evento": null,
+      "hoje": false
     }
   ],
   "proximas_etapas": [
-    {
-      "id": "443",
-      "nome": "Lexus Trestles Pro",
-      "local": "Lower Trestles, California",
-      "pais": "USA",
-      "inicio": "2026-09-11",
-      "fim": "2026-09-20",
-      "periodo": "11 set a 20 set",
-      "em_andamento": true
-    },
     {
       "id": "445",
       "nome": "MEO Rip Curl Pro Portugal",
@@ -624,1747 +614,1176 @@
     ]
   },
   "ao_vivo": null,
-  "proxima": null,
+  "proxima": {
+    "id": "114284",
+    "genero": "M",
+    "rodada": "Rodada 1",
+    "numero": 1,
+    "status": "aguardando",
+    "surfistas": [
+      {
+        "nome": "Event seed #16",
+        "pais": null,
+        "nota": null,
+        "colete": "red",
+        "avancou": false
+      },
+      {
+        "nome": "Event seed #17",
+        "pais": null,
+        "nota": null,
+        "colete": "blue",
+        "avancou": false
+      }
+    ],
+    "replay": null,
+    "definida": true,
+    "data": "2026-09-21",
+    "dia_rotulo": "21/09",
+    "horario": null,
+    "quando": "aguardando call",
+    "estado": "aguardando_call"
+  },
   "baterias": [
     {
-      "id": "114871",
-      "genero": "F",
-      "rodada": "Rodada 1",
-      "numero": 1,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Stephanie Gilmore",
-          "pais": "AUS",
-          "nota": "10.10",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Brisa Hennessy",
-          "pais": "CRC",
-          "nota": "10.90",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/559940/lexus-trestles-pro-womens-round-1-heat-1-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": null,
-      "dia_rotulo": null,
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114330",
+      "id": "114284",
       "genero": "M",
       "rodada": "Rodada 1",
       "numero": 1,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Luke Thompson",
-          "pais": "RSA",
-          "nota": "10.16",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Matthew McGillivray",
-          "pais": "RSA",
-          "nota": "9.34",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/559919/lexus-trestles-pro-mens-round-1-heat-1-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": null,
-      "dia_rotulo": null,
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114872",
-      "genero": "F",
-      "rodada": "Rodada 1",
-      "numero": 2,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Alyssa Spencer",
-          "pais": "USA",
-          "nota": "12.23",
+          "nome": "Event seed #16",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Tya Zebrowski",
-          "pais": "FRA",
-          "nota": "13.33",
+          "nome": "Event seed #17",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
-          "avancou": true
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/559943/lexus-trestles-pro-womens-round-1-heat-2-full-heat-replay?jointEventId=443",
+      "replay": null,
       "definida": true,
-      "data": null,
-      "dia_rotulo": null,
+      "data": "2026-09-21",
+      "dia_rotulo": "21/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114331",
+      "id": "114285",
       "genero": "M",
       "rodada": "Rodada 1",
       "numero": 2,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Eli Hanneman",
-          "pais": "HAW",
-          "nota": "9.73",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Hayden Rodgers",
-          "pais": "AUS",
-          "nota": "9.67",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/559922/lexus-trestles-pro-mens-round-1-heat-2-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": null,
-      "dia_rotulo": null,
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114873",
-      "genero": "F",
-      "rodada": "Rodada 1",
-      "numero": 3,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Anat Lelior",
-          "pais": "ISR",
-          "nota": "11.50",
+          "nome": "Event seed #15",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Vahine Fierro",
-          "pais": "FRA",
-          "nota": "12.16",
+          "nome": "Event seed #18",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
-          "avancou": true
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/559947/lexus-trestles-pro-womens-round-1-heat-3-full-heat-replay?jointEventId=443",
+      "replay": null,
       "definida": true,
-      "data": null,
-      "dia_rotulo": null,
+      "data": "2026-09-21",
+      "dia_rotulo": "21/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114332",
+      "id": "114286",
       "genero": "M",
       "rodada": "Rodada 1",
       "numero": 3,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Joel Vaughan",
-          "pais": "AUS",
-          "nota": "11.26",
+          "nome": "Event seed #14",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Oscar Berry",
-          "pais": "AUS",
-          "nota": "12.73",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/559933/lexus-trestles-pro-mens-round-1-heat-3-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": null,
-      "dia_rotulo": null,
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114874",
-      "genero": "F",
-      "rodada": "Rodada 1",
-      "numero": 4,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Yolanda Hopkins",
-          "pais": "POR",
-          "nota": "11.96",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Sally Fitzgibbons",
-          "pais": "AUS",
-          "nota": "11.37",
+          "nome": "Event seed #19",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/559995/lexus-trestles-pro-womens-round-1-heat-4-full-heat-replay?jointEventId=443",
+      "replay": null,
       "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
+      "data": "2026-09-21",
+      "dia_rotulo": "21/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114333",
+      "id": "114287",
       "genero": "M",
       "rodada": "Rodada 1",
       "numero": 4,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Mateus Herdy",
-          "pais": "BRA",
-          "nota": "11.40",
+          "nome": "Event seed #13",
+          "pais": null,
+          "nota": null,
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
         {
-          "nome": "Taj Lindblad",
-          "pais": "USA",
-          "nota": "11.27",
+          "nome": "Event seed #20",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/559936/lexus-trestles-pro-mens-round-1-heat-4-full-heat-replay?jointEventId=443",
+      "replay": null,
       "definida": true,
-      "data": null,
-      "dia_rotulo": null,
+      "data": "2026-09-21",
+      "dia_rotulo": "21/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114875",
-      "genero": "F",
+      "id": "114288",
+      "genero": "M",
       "rodada": "Rodada 1",
       "numero": 5,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Tyler Wright",
-          "pais": "AUS",
-          "nota": "10.67",
+          "nome": "Event seed #12",
+          "pais": null,
+          "nota": null,
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
         {
-          "nome": "Francisca Veselko",
-          "pais": "POR",
-          "nota": "7.17",
+          "nome": "Event seed #21",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/559997/lexus-trestles-pro-womens-round-1-heat-5-full-heat-replay?jointEventId=443",
+      "replay": null,
       "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
+      "data": "2026-09-21",
+      "dia_rotulo": "21/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114876",
-      "genero": "F",
+      "id": "114289",
+      "genero": "M",
       "rodada": "Rodada 1",
       "numero": 6,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Bettylou Sakura Johnson",
-          "pais": "HAW",
-          "nota": "10.77",
+          "nome": "Event seed #11",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Bella Kenworthy",
-          "pais": "USA",
-          "nota": "13.33",
+          "nome": "Event seed #22",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
-          "avancou": true
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560001/lexus-trestles-pro-womens-round-1-heat-6-full-heat-replay?jointEventId=443",
+      "replay": null,
       "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
+      "data": "2026-09-21",
+      "dia_rotulo": "21/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114877",
-      "genero": "F",
+      "id": "114290",
+      "genero": "M",
       "rodada": "Rodada 1",
       "numero": 7,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Nadia Erostarbe",
-          "pais": "ESP",
-          "nota": "8.73",
+          "nome": "Event seed #10",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Eden Walla",
-          "pais": "USA",
-          "nota": "11.83",
+          "nome": "Event seed #23",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
-          "avancou": true
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560004/lexus-trestles-pro-womens-round-1-heat-7-full-heat-replay?jointEventId=443",
+      "replay": null,
       "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
+      "data": "2026-09-21",
+      "dia_rotulo": "21/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114878",
-      "genero": "F",
+      "id": "114291",
+      "genero": "M",
       "rodada": "Rodada 1",
       "numero": 8,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Caroline Marks",
-          "pais": "USA",
-          "nota": "15.67",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Kirra Pinkerton",
-          "pais": "USA",
-          "nota": "12.50",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/560008/lexus-trestles-pro-womens-round-1-heat-8-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114334",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 1,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Connor O'Leary",
-          "pais": "JPN",
-          "nota": "8.83",
+          "nome": "Event seed #9",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Callum Robson",
-          "pais": "AUS",
-          "nota": "12.27",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/560017/lexus-trestles-pro-mens-round-2-heat-1-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114335",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 2,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Griffin Colapinto",
-          "pais": "USA",
-          "nota": "14.50",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Rio Waida",
-          "pais": "INA",
-          "nota": "12.87",
+          "nome": "Event seed #24",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560018/lexus-trestles-pro-mens-round-2-heat-2-full-heat-replay?jointEventId=443",
+      "replay": null,
       "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
+      "data": "2026-09-21",
+      "dia_rotulo": "21/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114336",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 3,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Yago Dora",
-          "pais": "BRA",
-          "nota": "14.33",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Oscar Berry",
-          "pais": "AUS",
-          "nota": "11.83",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/560021/lexus-trestles-pro-mens-round-2-heat-3-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114337",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 4,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Kauli Vaast",
-          "pais": "FRA",
-          "nota": "12.20",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Barron Mamiya",
-          "pais": "HAW",
-          "nota": "10.53",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/560026/lexus-trestles-pro-mens-round-2-heat-4-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114338",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 5,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Marco Mignot",
-          "pais": "FRA",
-          "nota": "14.43",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Joao Chianca",
-          "pais": "BRA",
-          "nota": "11.77",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/560027/lexus-trestles-pro-mens-round-2-heat-5-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114339",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 6,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Italo Ferreira",
-          "pais": "BRA",
-          "nota": "14.26",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Eli Hanneman",
-          "pais": "HAW",
-          "nota": "12.40",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/560033/lexus-trestles-pro-mens-round-2-heat-6-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114340",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 7,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Kanoa Igarashi",
-          "pais": "JPN",
-          "nota": "17.00",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Crosby Colapinto",
-          "pais": "USA",
-          "nota": "12.40",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/560040/lexus-trestles-pro-mens-round-2-heat-7-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114341",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 8,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Ethan Ewing",
-          "pais": "AUS",
-          "nota": "12.37",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Alejo Muniz",
-          "pais": "BRA",
-          "nota": "11.50",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/560043/lexus-trestles-pro-mens-round-2-heat-8-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114342",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 9,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Leonardo Fioravanti",
-          "pais": "ITA",
-          "nota": "6.90",
-          "colete": "yellow",
-          "avancou": false
-        },
-        {
-          "nome": "Luke Thompson",
-          "pais": "RSA",
-          "nota": "13.87",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/560048/lexus-trestles-pro-mens-round-2-heat-9-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114343",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 10,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Morgan Cibilic",
-          "pais": "AUS",
-          "nota": "5.40",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Cole Houshmand",
-          "pais": "USA",
-          "nota": "14.00",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/560051/lexus-trestles-pro-mens-round-2-heat-10-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114344",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 11,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "George Pittar",
-          "pais": "AUS",
-          "nota": "11.67",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Alan Cleland",
-          "pais": "MEX",
-          "nota": "13.26",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/560060/lexus-trestles-pro-mens-round-2-heat-11-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-16",
-      "dia_rotulo": "16/09",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114345",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 12,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Samuel Pupo",
-          "pais": "BRA",
-          "nota": "12.83",
-          "colete": "blue",
-          "avancou": false
-        },
-        {
-          "nome": "Jake Marshall",
-          "pais": "USA",
-          "nota": "13.53",
-          "colete": "white",
-          "avancou": true
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/560069/lexus-trestles-pro-mens-round-2-heat-12-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114346",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 13,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Gabriel Medina",
-          "pais": "BRA",
-          "nota": "11.83",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Mateus Herdy",
-          "pais": "BRA",
-          "nota": "12.00",
-          "colete": "green",
-          "avancou": true
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/560073/lexus-trestles-pro-mens-round-2-heat-13-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114347",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 14,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Jack Robinson",
-          "pais": "AUS",
-          "nota": "12.97",
-          "colete": "blue",
-          "avancou": true
-        },
-        {
-          "nome": "Seth Moniz",
-          "pais": "HAW",
-          "nota": "10.13",
-          "colete": "white",
-          "avancou": false
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/560075/lexus-trestles-pro-mens-round-2-heat-14-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114348",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 15,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Liam O'Brien",
-          "pais": "AUS",
-          "nota": "15.10",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Filipe Toledo",
-          "pais": "BRA",
-          "nota": "14.43",
-          "colete": "green",
-          "avancou": false
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/560081/lexus-trestles-pro-mens-round-2-heat-15-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114349",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "numero": 16,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Miguel Pupo",
-          "pais": "BRA",
-          "nota": "13.20",
-          "colete": "blue",
-          "avancou": true
-        },
-        {
-          "nome": "Ramzi Boukhiam",
-          "pais": "MAR",
-          "nota": "12.16",
-          "colete": "white",
-          "avancou": false
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/560085/lexus-trestles-pro-mens-round-2-heat-16-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114879",
+      "id": "114931",
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 1,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Gabriela Bryan",
-          "pais": "HAW",
-          "nota": "14.07",
+          "nome": "Event seed #6",
+          "pais": null,
+          "nota": null,
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
         {
-          "nome": "Tya Zebrowski",
-          "pais": "FRA",
-          "nota": "13.50",
-          "colete": "green",
+          "nome": "Event seed #11",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560117/lexus-trestles-pro-womens-round-2-heat-1-full-heat-replay?jointEventId=443",
+      "replay": null,
       "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-21",
+      "dia_rotulo": "21/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114350",
+      "id": "114292",
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 1,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Callum Robson",
-          "pais": "AUS",
-          "nota": "12.83",
+          "nome": "Event seed #2",
+          "pais": null,
+          "nota": null,
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
         {
-          "nome": "Griffin Colapinto",
-          "pais": "USA",
-          "nota": "11.03",
-          "colete": "green",
+          "nome": "vencedor da R1H2",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560086/lexus-trestles-pro-mens-round-3-heat-1-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "replay": null,
+      "definida": false,
+      "data": "2026-09-21",
+      "dia_rotulo": "21/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114880",
+      "id": "114932",
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 2,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Luana Silva",
-          "pais": "BRA",
-          "nota": "13.03",
-          "colete": "blue",
-          "avancou": true
+          "nome": "Event seed #3",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
         },
         {
-          "nome": "Tyler Wright",
-          "pais": "AUS",
-          "nota": "10.93",
-          "colete": "white",
+          "nome": "Event seed #14",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560123/lexus-trestles-pro-womens-round-2-heat-2-full-heat-replay?jointEventId=443",
+      "replay": null,
       "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-21",
+      "dia_rotulo": "21/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114351",
+      "id": "114293",
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 2,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Yago Dora",
-          "pais": "BRA",
-          "nota": "12.50",
-          "colete": "blue",
-          "avancou": true
+          "nome": "Event seed #5",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
         },
         {
-          "nome": "Kauli Vaast",
-          "pais": "FRA",
-          "nota": "10.97",
-          "colete": "white",
+          "nome": "vencedor da R1H5",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560090/lexus-trestles-pro-mens-round-3-heat-2-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "replay": null,
+      "definida": false,
+      "data": "2026-09-21",
+      "dia_rotulo": "21/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114881",
+      "id": "114933",
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 3,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Sawyer Lindblad",
-          "pais": "USA",
-          "nota": "15.34",
+          "nome": "Event seed #7",
+          "pais": null,
+          "nota": null,
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
         {
-          "nome": "Vahine Fierro",
-          "pais": "FRA",
-          "nota": "8.74",
-          "colete": "green",
+          "nome": "Event seed #10",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560129/lexus-trestles-pro-womens-round-2-heat-3-full-heat-replay?jointEventId=443",
+      "replay": null,
       "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-21",
+      "dia_rotulo": "21/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114352",
+      "id": "114294",
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 3,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Marco Mignot",
-          "pais": "FRA",
-          "nota": "13.70",
+          "nome": "Event seed #3",
+          "pais": null,
+          "nota": null,
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
         {
-          "nome": "Italo Ferreira",
-          "pais": "BRA",
-          "nota": "13.37",
-          "colete": "green",
+          "nome": "vencedor da R1H3",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560098/lexus-trestles-pro-mens-round-3-heat-3-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "replay": null,
+      "definida": false,
+      "data": "2026-09-21",
+      "dia_rotulo": "21/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114882",
+      "id": "114934",
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 4,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Lakey Peterson",
-          "pais": "USA",
-          "nota": "10.50",
-          "colete": "blue",
+          "nome": "Event seed #2",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Eden Walla",
-          "pais": "USA",
-          "nota": "12.00",
-          "colete": "white",
-          "avancou": true
+          "nome": "Event seed #15",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560131/lexus-trestles-pro-womens-round-2-heat-4-full-heat-replay?jointEventId=443",
+      "replay": null,
       "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-22",
+      "dia_rotulo": "22/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114353",
+      "id": "114295",
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 4,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Kanoa Igarashi",
-          "pais": "JPN",
-          "nota": "13.67",
-          "colete": "blue",
-          "avancou": true
+          "nome": "Event seed #7",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
         },
         {
-          "nome": "Ethan Ewing",
-          "pais": "AUS",
-          "nota": "12.00",
-          "colete": "white",
+          "nome": "vencedor da R1H7",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560099/lexus-trestles-pro-mens-round-3-heat-4-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "replay": null,
+      "definida": false,
+      "data": "2026-09-21",
+      "dia_rotulo": "21/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114883",
+      "id": "114935",
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 5,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Carissa Moore",
-          "pais": "HAW",
-          "nota": "12.90",
-          "colete": "yellow",
-          "avancou": true
+          "nome": "Event seed #1",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
         },
         {
-          "nome": "Brisa Hennessy",
-          "pais": "CRC",
-          "nota": "12.24",
-          "colete": "green",
+          "nome": "Event seed #16",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560137/lexus-trestles-pro-womens-round-2-heat-5-full-heat-replay?jointEventId=443",
+      "replay": null,
       "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-22",
+      "dia_rotulo": "22/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114354",
+      "id": "114296",
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 5,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Luke Thompson",
-          "pais": "RSA",
-          "nota": "10.93",
+          "nome": "Event seed #1",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Cole Houshmand",
-          "pais": "USA",
-          "nota": "13.33",
-          "colete": "green",
-          "avancou": true
+          "nome": "vencedor da R1H1",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560103/lexus-trestles-pro-mens-round-3-heat-5-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "replay": null,
+      "definida": false,
+      "data": "2026-09-22",
+      "dia_rotulo": "22/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114884",
+      "id": "114936",
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 6,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Erin Brooks",
-          "pais": "CAN",
-          "nota": "12.27",
-          "colete": "blue",
-          "avancou": true
+          "nome": "Event seed #8",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
         },
         {
-          "nome": "Caroline Marks",
-          "pais": "USA",
-          "nota": "11.70",
-          "colete": "white",
+          "nome": "Event seed #9",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560141/lexus-trestles-pro-womens-round-2-heat-6-full-heat-replay?jointEventId=443",
+      "replay": null,
       "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-22",
+      "dia_rotulo": "22/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114355",
+      "id": "114297",
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 6,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Alan Cleland",
-          "pais": "MEX",
-          "nota": "5.93",
-          "colete": "blue",
+          "nome": "Event seed #8",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Jake Marshall",
-          "pais": "USA",
-          "nota": "12.44",
-          "colete": "white",
-          "avancou": true
+          "nome": "vencedor da R1H8",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560105/lexus-trestles-pro-mens-round-3-heat-6-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "replay": null,
+      "definida": false,
+      "data": "2026-09-22",
+      "dia_rotulo": "22/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114885",
+      "id": "114937",
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 7,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Molly Picklum",
-          "pais": "AUS",
-          "nota": "13.33",
+          "nome": "Event seed #4",
+          "pais": null,
+          "nota": null,
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
         {
-          "nome": "Yolanda Hopkins",
-          "pais": "POR",
-          "nota": "9.50",
-          "colete": "green",
+          "nome": "Event seed #13",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560148/lexus-trestles-pro-womens-round-2-heat-7-full-heat-replay?jointEventId=443",
+      "replay": null,
       "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-22",
+      "dia_rotulo": "22/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114356",
+      "id": "114298",
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 7,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Mateus Herdy",
-          "pais": "BRA",
-          "nota": "14.10",
+          "nome": "Event seed #4",
+          "pais": null,
+          "nota": null,
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
         {
-          "nome": "Jack Robinson",
-          "pais": "AUS",
-          "nota": "9.84",
-          "colete": "green",
+          "nome": "vencedor da R1H4",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560108/lexus-trestles-pro-mens-round-3-heat-7-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "replay": null,
+      "definida": false,
+      "data": "2026-09-22",
+      "dia_rotulo": "22/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114886",
+      "id": "114938",
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 8,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Caitlin Simmers",
-          "pais": "USA",
-          "nota": "12.64",
-          "colete": "blue",
+          "nome": "Event seed #5",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Bella Kenworthy",
-          "pais": "USA",
-          "nota": "13.87",
-          "colete": "white",
-          "avancou": true
+          "nome": "Event seed #12",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560154/lexus-trestles-pro-womens-round-2-heat-8-full-heat-replay?jointEventId=443",
+      "replay": null,
       "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "data": "2026-09-22",
+      "dia_rotulo": "22/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114357",
+      "id": "114299",
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 8,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Liam O'Brien",
-          "pais": "AUS",
-          "nota": "10.13",
-          "colete": "blue",
+          "nome": "Event seed #6",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Miguel Pupo",
-          "pais": "BRA",
-          "nota": "13.40",
-          "colete": "white",
-          "avancou": true
+          "nome": "vencedor da R1H6",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560115/lexus-trestles-pro-mens-round-3-heat-8-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-17",
-      "dia_rotulo": "17/09",
+      "replay": null,
+      "definida": false,
+      "data": "2026-09-22",
+      "dia_rotulo": "22/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114887",
+      "id": "114939",
       "genero": "F",
       "rodada": "Quartas de final",
       "numero": 1,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Gabriela Bryan",
-          "pais": "HAW",
-          "nota": "16.26",
+          "nome": "vencedor da R1H1",
+          "pais": null,
+          "nota": null,
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
         {
-          "nome": "Luana Silva",
-          "pais": "BRA",
-          "nota": "10.64",
+          "nome": "vencedor da R1H2",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560166/lexus-trestles-pro-womens-quarterfinals-heat-1-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "replay": null,
+      "definida": false,
+      "data": "2026-09-22",
+      "dia_rotulo": "22/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114358",
+      "id": "114300",
       "genero": "M",
       "rodada": "Quartas de final",
       "numero": 1,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Callum Robson",
-          "pais": "AUS",
-          "nota": "8.16",
+          "nome": "vencedor da R2H1",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Yago Dora",
-          "pais": "BRA",
-          "nota": "11.67",
+          "nome": "vencedor da R2H2",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
-          "avancou": true
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560183/lexus-trestles-pro-mens-quarterfinals-heat-1-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "replay": null,
+      "definida": false,
+      "data": "2026-09-22",
+      "dia_rotulo": "22/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114888",
+      "id": "114940",
       "genero": "F",
       "rodada": "Quartas de final",
       "numero": 2,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Sawyer Lindblad",
-          "pais": "USA",
-          "nota": "11.90",
+          "nome": "vencedor da R1H3",
+          "pais": null,
+          "nota": null,
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
         {
-          "nome": "Eden Walla",
-          "pais": "USA",
-          "nota": "11.67",
+          "nome": "vencedor da R1H4",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560171/lexus-trestles-pro-womens-quarterfinals-heat-2-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "replay": null,
+      "definida": false,
+      "data": "2026-09-22",
+      "dia_rotulo": "22/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114359",
+      "id": "114301",
       "genero": "M",
       "rodada": "Quartas de final",
       "numero": 2,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Marco Mignot",
-          "pais": "FRA",
-          "nota": "10.26",
+          "nome": "vencedor da R2H3",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Kanoa Igarashi",
-          "pais": "JPN",
-          "nota": "15.67",
+          "nome": "vencedor da R2H4",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
-          "avancou": true
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560184/lexus-trestles-pro-mens-quarterfinals-heat-2-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "replay": null,
+      "definida": false,
+      "data": "2026-09-22",
+      "dia_rotulo": "22/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114889",
+      "id": "114941",
       "genero": "F",
       "rodada": "Quartas de final",
       "numero": 3,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Carissa Moore",
-          "pais": "HAW",
-          "nota": "13.10",
-          "colete": "yellow",
+          "nome": "vencedor da R1H5",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Erin Brooks",
-          "pais": "CAN",
-          "nota": "15.33",
+          "nome": "vencedor da R1H6",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
-          "avancou": true
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560175/lexus-trestles-pro-womens-quarterfinals-heat-3-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "replay": null,
+      "definida": false,
+      "data": "2026-09-22",
+      "dia_rotulo": "22/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114360",
+      "id": "114302",
       "genero": "M",
       "rodada": "Quartas de final",
       "numero": 3,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Cole Houshmand",
-          "pais": "USA",
-          "nota": "18.50",
+          "nome": "vencedor da R2H5",
+          "pais": null,
+          "nota": null,
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
         {
-          "nome": "Jake Marshall",
-          "pais": "USA",
-          "nota": "10.00",
+          "nome": "vencedor da R2H6",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560195/lexus-trestles-pro-mens-quarterfinals-heat-3-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "replay": null,
+      "definida": false,
+      "data": "2026-09-22",
+      "dia_rotulo": "22/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114890",
+      "id": "114942",
       "genero": "F",
       "rodada": "Quartas de final",
       "numero": 4,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Molly Picklum",
-          "pais": "AUS",
-          "nota": "15.33",
+          "nome": "vencedor da R1H7",
+          "pais": null,
+          "nota": null,
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
         {
-          "nome": "Bella Kenworthy",
-          "pais": "USA",
-          "nota": "12.43",
+          "nome": "vencedor da R1H8",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560179/lexus-trestles-pro-womens-quarterfinals-heat-4-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "replay": null,
+      "definida": false,
+      "data": "2026-09-23",
+      "dia_rotulo": "23/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114361",
+      "id": "114303",
       "genero": "M",
       "rodada": "Quartas de final",
       "numero": 4,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Mateus Herdy",
-          "pais": "BRA",
-          "nota": "13.50",
+          "nome": "vencedor da R2H7",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Miguel Pupo",
-          "pais": "BRA",
-          "nota": "15.83",
+          "nome": "vencedor da R2H8",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
-          "avancou": true
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560199/lexus-trestles-pro-mens-quarterfinals-heat-4-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "replay": null,
+      "definida": false,
+      "data": "2026-09-23",
+      "dia_rotulo": "23/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114891",
+      "id": "114943",
       "genero": "F",
       "rodada": "Semifinal",
       "numero": 1,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Gabriela Bryan",
-          "pais": "HAW",
-          "nota": "14.33",
+          "nome": "vencedor da QFH1",
+          "pais": null,
+          "nota": null,
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
         {
-          "nome": "Sawyer Lindblad",
-          "pais": "USA",
-          "nota": "10.17",
+          "nome": "vencedor da QFH2",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560201/lexus-trestles-pro-womens-semifinals-heat-1-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "replay": null,
+      "definida": false,
+      "data": "2026-09-23",
+      "dia_rotulo": "23/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114362",
+      "id": "114304",
       "genero": "M",
       "rodada": "Semifinal",
       "numero": 1,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Yago Dora",
-          "pais": "BRA",
-          "nota": "11.94",
+          "nome": "vencedor da QFH1",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Kanoa Igarashi",
-          "pais": "JPN",
-          "nota": "13.33",
+          "nome": "vencedor da QFH2",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
-          "avancou": true
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560211/lexus-trestles-pro-mens-semifinals-heat-1-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "replay": null,
+      "definida": false,
+      "data": "2026-09-23",
+      "dia_rotulo": "23/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114892",
+      "id": "114944",
       "genero": "F",
       "rodada": "Semifinal",
       "numero": 2,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Erin Brooks",
-          "pais": "CAN",
-          "nota": "10.43",
+          "nome": "vencedor da QFH3",
+          "pais": null,
+          "nota": null,
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
         {
-          "nome": "Molly Picklum",
-          "pais": "AUS",
-          "nota": "9.50",
+          "nome": "vencedor da QFH4",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560215/lexus-trestles-pro-womens-semifinals-heat-2-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "replay": null,
+      "definida": false,
+      "data": "2026-09-23",
+      "dia_rotulo": "23/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114363",
+      "id": "114305",
       "genero": "M",
       "rodada": "Semifinal",
       "numero": 2,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Cole Houshmand",
-          "pais": "USA",
-          "nota": "11.50",
+          "nome": "vencedor da QFH3",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Miguel Pupo",
-          "pais": "BRA",
-          "nota": "16.00",
+          "nome": "vencedor da QFH4",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
-          "avancou": true
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560214/lexus-trestles-pro-mens-semifinals-heat-2-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "replay": null,
+      "definida": false,
+      "data": "2026-09-23",
+      "dia_rotulo": "23/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114893",
+      "id": "114945",
       "genero": "F",
       "rodada": "Final",
       "numero": 1,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Gabriela Bryan",
-          "pais": "HAW",
-          "nota": "11.90",
+          "nome": "vencedor da SFH1",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Erin Brooks",
-          "pais": "CAN",
-          "nota": "13.00",
+          "nome": "vencedor da SFH2",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560220/lexus-trestles-pro-womens-final-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "replay": null,
+      "definida": false,
+      "data": "2026-09-23",
+      "dia_rotulo": "23/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114364",
+      "id": "114306",
       "genero": "M",
       "rodada": "Final",
       "numero": 1,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Kanoa Igarashi",
-          "pais": "JPN",
-          "nota": "14.40",
+          "nome": "vencedor da SFH1",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Miguel Pupo",
-          "pais": "BRA",
-          "nota": "14.77",
+          "nome": "vencedor da SFH2",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560222/lexus-trestles-pro-mens-final-full-heat-replay?jointEventId=443",
-      "definida": true,
-      "data": "2026-09-18",
-      "dia_rotulo": "18/09",
+      "replay": null,
+      "definida": false,
+      "data": "2026-09-23",
+      "dia_rotulo": "23/09",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     }
   ]
 }
