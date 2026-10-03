@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "03/10/2026 11:35",
+  "atualizado_em": "03/10/2026 15:37",
   "evento": {
     "nome": "MEO Rip Curl Pro Portugal",
     "id": "445",
@@ -23,9 +23,9 @@
       "dia": "03",
       "mes": "10",
       "semana": "Sab",
-      "estado": "previsto",
-      "qtd": 2,
-      "evento": "MEO Rip Curl Pro Portugal",
+      "estado": "vazio",
+      "qtd": 0,
+      "evento": null,
       "hoje": true
     },
     {
@@ -54,7 +54,7 @@
       "mes": "10",
       "semana": "Ter",
       "estado": "previsto",
-      "qtd": 6,
+      "qtd": 8,
       "evento": "MEO Rip Curl Pro Portugal",
       "hoje": false
     },
@@ -638,8 +638,8 @@
     ],
     "replay": null,
     "definida": true,
-    "data": "2026-10-03",
-    "dia_rotulo": "03/10",
+    "data": "2026-10-04",
+    "dia_rotulo": "04/10",
     "horario": null,
     "quando": "aguardando call",
     "estado": "aguardando_call"
@@ -669,8 +669,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-03",
-      "dia_rotulo": "03/10",
+      "data": "2026-10-04",
+      "dia_rotulo": "04/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -699,8 +699,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-03",
-      "dia_rotulo": "03/10",
+      "data": "2026-10-04",
+      "dia_rotulo": "04/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1089,8 +1089,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-04",
-      "dia_rotulo": "04/10",
+      "data": "2026-10-05",
+      "dia_rotulo": "05/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1179,8 +1179,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-04",
-      "dia_rotulo": "04/10",
+      "data": "2026-10-05",
+      "dia_rotulo": "05/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1569,8 +1569,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-05",
-      "dia_rotulo": "05/10",
+      "data": "2026-10-06",
+      "dia_rotulo": "06/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1599,8 +1599,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-05",
-      "dia_rotulo": "05/10",
+      "data": "2026-10-06",
+      "dia_rotulo": "06/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
