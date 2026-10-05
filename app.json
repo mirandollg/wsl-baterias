@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "05/10/2026 08:25",
+  "atualizado_em": "05/10/2026 08:46",
   "evento": {
     "nome": "MEO Rip Curl Pro Portugal",
     "id": "445",
@@ -24,7 +24,7 @@
       "mes": "10",
       "semana": "Seg",
       "estado": "previsto",
-      "qtd": 7,
+      "qtd": 6,
       "evento": "MEO Rip Curl Pro Portugal",
       "hoje": true
     },
@@ -54,7 +54,7 @@
       "mes": "10",
       "semana": "Qui",
       "estado": "previsto",
-      "qtd": 1,
+      "qtd": 2,
       "evento": "MEO Rip Curl Pro Portugal",
       "hoje": false
     },
@@ -849,8 +849,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-05",
-      "dia_rotulo": "05/10",
+      "data": "2026-10-06",
+      "dia_rotulo": "06/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1269,8 +1269,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-06",
-      "dia_rotulo": "06/10",
+      "data": "2026-10-07",
+      "dia_rotulo": "07/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1779,8 +1779,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-07",
-      "dia_rotulo": "07/10",
+      "data": "2026-10-08",
+      "dia_rotulo": "08/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
