@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "05/10/2026 15:42",
+  "atualizado_em": "05/10/2026 18:32",
   "evento": {
     "nome": "MEO Rip Curl Pro Portugal",
     "id": "445",
@@ -622,15 +622,15 @@
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "Event seed #16",
-        "pais": null,
+        "nome": "Callum Robson",
+        "pais": "AUS",
         "nota": null,
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Event seed #17",
-        "pais": null,
+        "nome": "Connor O'Leary",
+        "pais": "JPN",
         "nota": null,
         "colete": "blue",
         "avancou": false
@@ -653,15 +653,15 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #16",
-          "pais": null,
+          "nome": "Callum Robson",
+          "pais": "AUS",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Event seed #17",
-          "pais": null,
+          "nome": "Connor O'Leary",
+          "pais": "JPN",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -683,15 +683,15 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #15",
-          "pais": null,
+          "nome": "Marco Mignot",
+          "pais": "FRA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Event seed #18",
-          "pais": null,
+          "nome": "Morgan Cibilic",
+          "pais": "AUS",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -713,15 +713,15 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #14",
-          "pais": null,
+          "nome": "Jack Robinson",
+          "pais": "AUS",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Event seed #19",
-          "pais": null,
+          "nome": "Joao Chianca",
+          "pais": "BRA",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -743,15 +743,15 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #13",
-          "pais": null,
+          "nome": "Cole Houshmand",
+          "pais": "USA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Event seed #20",
-          "pais": null,
+          "nome": "Seth Moniz",
+          "pais": "HAW",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -773,15 +773,15 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #12",
-          "pais": null,
+          "nome": "Liam O'Brien",
+          "pais": "AUS",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Event seed #21",
-          "pais": null,
+          "nome": "Filipe Toledo",
+          "pais": "BRA",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -803,15 +803,15 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #11",
-          "pais": null,
+          "nome": "Kauli Vaast",
+          "pais": "FRA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Event seed #22",
-          "pais": null,
+          "nome": "Jake Marshall",
+          "pais": "USA",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -833,14 +833,14 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #10",
-          "pais": null,
+          "nome": "George Pittar",
+          "pais": "AUS",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Event seed #23",
+          "nome": "Guilherme Ribeiro",
           "pais": null,
           "nota": null,
           "colete": "blue",
@@ -863,14 +863,14 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #9",
-          "pais": null,
+          "nome": "Samuel Pupo",
+          "pais": "BRA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Event seed #24",
+          "nome": "Frederico Morais",
           "pais": null,
           "nota": null,
           "colete": "blue",
@@ -893,15 +893,15 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #6",
-          "pais": null,
+          "nome": "Luana Silva",
+          "pais": "BRA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Event seed #11",
-          "pais": null,
+          "nome": "Bettylou Sakura Johnson",
+          "pais": "HAW",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -923,8 +923,8 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #2",
-          "pais": null,
+          "nome": "Leonardo Fioravanti",
+          "pais": "ITA",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -953,15 +953,15 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #3",
-          "pais": null,
+          "nome": "Sawyer Lindblad",
+          "pais": "USA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Event seed #14",
-          "pais": null,
+          "nome": "Francisca Veselko",
+          "pais": "POR",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -983,8 +983,8 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #5",
-          "pais": null,
+          "nome": "Gabriel Medina",
+          "pais": "BRA",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -1013,15 +1013,15 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #7",
-          "pais": null,
+          "nome": "Caitlin Simmers",
+          "pais": "USA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Event seed #10",
-          "pais": null,
+          "nome": "Nadia Erostarbe",
+          "pais": "ESP",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1043,8 +1043,8 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #3",
-          "pais": null,
+          "nome": "Italo Ferreira",
+          "pais": "BRA",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -1073,14 +1073,14 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #2",
-          "pais": null,
+          "nome": "Carissa Moore",
+          "pais": "HAW",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Event seed #15",
+          "nome": "Teresa Bonvalot",
           "pais": null,
           "nota": null,
           "colete": "blue",
@@ -1103,8 +1103,8 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #7",
-          "pais": null,
+          "nome": "Kanoa Igarashi",
+          "pais": "JPN",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -1133,14 +1133,14 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #1",
-          "pais": null,
+          "nome": "Gabriela Bryan",
+          "pais": "HAW",
           "nota": null,
-          "colete": "red",
+          "colete": "yellow",
           "avancou": false
         },
         {
-          "nome": "Event seed #16",
+          "nome": "Johanne Defay",
           "pais": null,
           "nota": null,
           "colete": "blue",
@@ -1163,10 +1163,10 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #1",
-          "pais": null,
+          "nome": "Yago Dora",
+          "pais": "BRA",
           "nota": null,
-          "colete": "red",
+          "colete": "yellow",
           "avancou": false
         },
         {
@@ -1193,15 +1193,15 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #8",
-          "pais": null,
+          "nome": "Lakey Peterson",
+          "pais": "USA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Event seed #9",
-          "pais": null,
+          "nome": "Caroline Marks",
+          "pais": "USA",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1223,8 +1223,8 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #8",
-          "pais": null,
+          "nome": "Ethan Ewing",
+          "pais": "AUS",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -1253,15 +1253,15 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #4",
-          "pais": null,
+          "nome": "Molly Picklum",
+          "pais": "AUS",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Event seed #13",
-          "pais": null,
+          "nome": "Yolanda Hopkins",
+          "pais": "POR",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1283,8 +1283,8 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #4",
-          "pais": null,
+          "nome": "Miguel Pupo",
+          "pais": "BRA",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -1313,15 +1313,15 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #5",
-          "pais": null,
+          "nome": "Erin Brooks",
+          "pais": "CAN",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Event seed #12",
-          "pais": null,
+          "nome": "Tyler Wright",
+          "pais": "AUS",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -1343,8 +1343,8 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #6",
-          "pais": null,
+          "nome": "Griffin Colapinto",
+          "pais": "USA",
           "nota": null,
           "colete": "red",
           "avancou": false
