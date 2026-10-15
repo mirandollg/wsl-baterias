@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "15/10/2026 08:22",
+  "atualizado_em": "15/10/2026 12:41",
   "evento": {
     "nome": "MEO Rip Curl Pro Portugal",
     "id": "445",
@@ -12,7 +12,7 @@
     "site": "https://www.worldsurfleague.com/watch",
     "tv": "sportv4"
   },
-  "status_wsl": "Upcoming",
+  "status_wsl": "Standby",
   "status_msg": "First Call during Dawn Patrol •Oct 16•7:30 AM WEST",
   "situacao": "call",
   "call_data": "2026-10-16",
@@ -632,7 +632,7 @@
         "nome": "Connor O'Leary",
         "pais": "JPN",
         "nota": null,
-        "colete": "blue",
+        "colete": "green",
         "avancou": false
       }
     ],
@@ -663,7 +663,7 @@
           "nome": "Connor O'Leary",
           "pais": "JPN",
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
@@ -686,14 +686,14 @@
           "nome": "Marco Mignot",
           "pais": "FRA",
           "nota": null,
-          "colete": "red",
+          "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Morgan Cibilic",
           "pais": "AUS",
           "nota": null,
-          "colete": "blue",
+          "colete": "white",
           "avancou": false
         }
       ],
@@ -723,7 +723,7 @@
           "nome": "Joao Chianca",
           "pais": "BRA",
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
@@ -746,14 +746,14 @@
           "nome": "Cole Houshmand",
           "pais": "USA",
           "nota": null,
-          "colete": "red",
+          "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Seth Moniz",
           "pais": "HAW",
           "nota": null,
-          "colete": "blue",
+          "colete": "white",
           "avancou": false
         }
       ],
@@ -783,7 +783,7 @@
           "nome": "Filipe Toledo",
           "pais": "BRA",
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
@@ -806,14 +806,14 @@
           "nome": "Kauli Vaast",
           "pais": "FRA",
           "nota": null,
-          "colete": "red",
+          "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Jake Marshall",
           "pais": "USA",
           "nota": null,
-          "colete": "blue",
+          "colete": "white",
           "avancou": false
         }
       ],
@@ -843,7 +843,7 @@
           "nome": "Guilherme Ribeiro",
           "pais": null,
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
@@ -866,14 +866,14 @@
           "nome": "Samuel Pupo",
           "pais": "BRA",
           "nota": null,
-          "colete": "red",
+          "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Frederico Morais",
           "pais": null,
           "nota": null,
-          "colete": "blue",
+          "colete": "white",
           "avancou": false
         }
       ],
@@ -903,7 +903,7 @@
           "nome": "Bettylou Sakura Johnson",
           "pais": "HAW",
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
@@ -956,14 +956,14 @@
           "nome": "Sawyer Lindblad",
           "pais": "USA",
           "nota": null,
-          "colete": "red",
+          "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Francisca Veselko",
           "pais": "POR",
           "nota": null,
-          "colete": "blue",
+          "colete": "white",
           "avancou": false
         }
       ],
@@ -986,7 +986,7 @@
           "nome": "Gabriel Medina",
           "pais": "BRA",
           "nota": null,
-          "colete": "red",
+          "colete": "blue",
           "avancou": false
         },
         {
@@ -1023,7 +1023,7 @@
           "nome": "Nadia Erostarbe",
           "pais": "ESP",
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
@@ -1076,14 +1076,14 @@
           "nome": "Carissa Moore",
           "pais": "HAW",
           "nota": null,
-          "colete": "red",
+          "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Teresa Bonvalot",
           "pais": null,
           "nota": null,
-          "colete": "blue",
+          "colete": "white",
           "avancou": false
         }
       ],
@@ -1106,7 +1106,7 @@
           "nome": "Kanoa Igarashi",
           "pais": "JPN",
           "nota": null,
-          "colete": "red",
+          "colete": "blue",
           "avancou": false
         },
         {
@@ -1143,7 +1143,7 @@
           "nome": "Johanne Defay",
           "pais": null,
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
@@ -1196,14 +1196,14 @@
           "nome": "Lakey Peterson",
           "pais": "USA",
           "nota": null,
-          "colete": "red",
+          "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Caroline Marks",
           "pais": "USA",
           "nota": null,
-          "colete": "blue",
+          "colete": "white",
           "avancou": false
         }
       ],
@@ -1226,7 +1226,7 @@
           "nome": "Ethan Ewing",
           "pais": "AUS",
           "nota": null,
-          "colete": "red",
+          "colete": "blue",
           "avancou": false
         },
         {
@@ -1263,7 +1263,7 @@
           "nome": "Yolanda Hopkins",
           "pais": "POR",
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
@@ -1316,14 +1316,14 @@
           "nome": "Erin Brooks",
           "pais": "CAN",
           "nota": null,
-          "colete": "red",
+          "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Tyler Wright",
           "pais": "AUS",
           "nota": null,
-          "colete": "blue",
+          "colete": "white",
           "avancou": false
         }
       ],
@@ -1346,7 +1346,7 @@
           "nome": "Griffin Colapinto",
           "pais": "USA",
           "nota": null,
-          "colete": "red",
+          "colete": "blue",
           "avancou": false
         },
         {
