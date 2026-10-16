@@ -1,21 +1,21 @@
 {
-  "atualizado_em": "16/10/2026 11:21",
+  "atualizado_em": "16/10/2026 15:16",
   "evento": {
     "nome": "MEO Rip Curl Pro Portugal",
     "id": "445",
     "inicio": "2026-10-16",
     "fim": "2026-10-25"
   },
-  "call": null,
+  "call": "17/10 às 04:30",
   "transmissao": {
     "youtube": "https://www.youtube.com/@wsl/live",
     "site": "https://www.worldsurfleague.com/watch",
     "tv": "sportv4"
   },
-  "status_wsl": "Live",
-  "status_msg": "Heat in the Water • Women's Round 1 • Heat 4 & 5",
-  "situacao": "ao_vivo",
-  "call_data": null,
+  "status_wsl": "Standby",
+  "status_msg": "Next Call •Oct 17•8:30 AM WEST",
+  "situacao": "call",
+  "call_data": "2026-10-17",
   "passo_estimado_min": 39,
   "dias": [
     {
@@ -23,8 +23,8 @@
       "dia": "16",
       "mes": "10",
       "semana": "Sex",
-      "estado": "call",
-      "qtd": 21,
+      "estado": "previsto",
+      "qtd": 24,
       "evento": "MEO Rip Curl Pro Portugal",
       "hoje": true
     },
@@ -33,8 +33,8 @@
       "dia": "17",
       "mes": "10",
       "semana": "Sab",
-      "estado": "previsto",
-      "qtd": 15,
+      "estado": "call",
+      "qtd": 13,
       "evento": "MEO Rip Curl Pro Portugal",
       "hoje": false
     },
@@ -44,7 +44,7 @@
       "mes": "10",
       "semana": "Dom",
       "estado": "previsto",
-      "qtd": 2,
+      "qtd": 1,
       "evento": "MEO Rip Curl Pro Portugal",
       "hoje": false
     },
@@ -452,38 +452,38 @@
     "feminino": [
       {
         "posicao": 1,
-        "nome": "Gabriela Bryan",
+        "nome": "Carissa Moore",
         "pais": "HAW",
-        "pontos": "44,865",
-        "variacao": "-"
+        "pontos": "47,065",
+        "variacao": "1"
       },
       {
         "posicao": 2,
-        "nome": "Carissa Moore",
+        "nome": "Gabriela Bryan",
         "pais": "HAW",
-        "pontos": "44,320",
-        "variacao": "-"
+        "pontos": "44,865",
+        "variacao": "1"
       },
       {
         "posicao": 3,
-        "nome": "Sawyer Lindblad",
-        "pais": "USA",
-        "pontos": "42,055",
-        "variacao": "-"
+        "nome": "Molly Picklum",
+        "pais": "AUS",
+        "pontos": "43,695",
+        "variacao": "1"
       },
       {
         "posicao": 4,
-        "nome": "Molly Picklum",
-        "pais": "AUS",
-        "pontos": "40,950",
-        "variacao": "-"
+        "nome": "Erin Brooks",
+        "pais": "CAN",
+        "pontos": "42,745",
+        "variacao": "1"
       },
       {
         "posicao": 5,
-        "nome": "Erin Brooks",
-        "pais": "CAN",
-        "pontos": "40,000",
-        "variacao": "-"
+        "nome": "Sawyer Lindblad",
+        "pais": "USA",
+        "pontos": "42,055",
+        "variacao": "2"
       },
       {
         "posicao": 6,
@@ -503,7 +503,7 @@
         "posicao": 8,
         "nome": "Lakey Peterson",
         "pais": "USA",
-        "pontos": "32,235",
+        "pontos": "34,980",
         "variacao": "-"
       },
       {
@@ -613,55 +613,26 @@
       }
     ]
   },
-  "ao_vivo": {
-    "id": "114934",
-    "genero": "F",
-    "rodada": "Oitavas de final",
-    "numero": 4,
-    "status": "ao_vivo",
-    "surfistas": [
-      {
-        "nome": "Carissa Moore",
-        "pais": "HAW",
-        "nota": "12.33",
-        "colete": "blue",
-        "avancou": false
-      },
-      {
-        "nome": "Johanne Defay",
-        "pais": null,
-        "nota": "6.76",
-        "colete": "white",
-        "avancou": false
-      }
-    ],
-    "replay": "https://www.worldsurfleague.com/posts/557329/its-on-day-1-of-the-meo-rip-curl-pro-portugal?jointEventId=445",
-    "definida": true,
-    "data": "2026-10-16",
-    "dia_rotulo": "16/10",
-    "horario": "11:21",
-    "quando": "agora",
-    "estado": "com_horario"
-  },
+  "ao_vivo": null,
   "proxima": {
-    "id": "114936",
+    "id": "114939",
     "genero": "F",
-    "rodada": "Oitavas de final",
-    "numero": 6,
+    "rodada": "Quartas de final",
+    "numero": 1,
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "Lakey Peterson",
-        "pais": "USA",
+        "nome": "Bettylou Sakura Johnson",
+        "pais": "HAW",
         "nota": null,
-        "colete": "blue",
+        "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Caroline Marks",
-        "pais": "USA",
+        "nome": "Francisca Veselko",
+        "pais": "POR",
         "nota": null,
-        "colete": "white",
+        "colete": "blue",
         "avancou": false
       }
     ],
@@ -669,9 +640,9 @@
     "definida": true,
     "data": "2026-10-17",
     "dia_rotulo": "17/10",
-    "horario": null,
-    "quando": "aguardando call",
-    "estado": "aguardando_call"
+    "horario": "05:09",
+    "quando": "05:09",
+    "estado": "com_horario"
   },
   "baterias": [
     {
@@ -996,7 +967,7 @@
           "avancou": true
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/561984/meo-rip-curl-pro-portugal-womens-round-1-heat-2-condensed-?jointEventId=445",
+      "replay": "https://www.worldsurfleague.com/posts/561987/meo-rip-curl-pro-portugal-womens-round-1-heat-2-full-heat-replay?jointEventId=445",
       "definida": true,
       "data": "2026-10-16",
       "dia_rotulo": "16/10",
@@ -1056,7 +1027,7 @@
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/561992/meo-rip-curl-pro-portugal-womens-round-1-heat-3-full-heat-replay?jointEventId=445",
       "definida": true,
       "data": "2026-10-16",
       "dia_rotulo": "16/10",
@@ -1099,14 +1070,14 @@
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 4,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Carissa Moore",
           "pais": "HAW",
           "nota": "12.33",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Johanne Defay",
@@ -1116,13 +1087,13 @@
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/557329/its-on-day-1-of-the-meo-rip-curl-pro-portugal?jointEventId=445",
+      "replay": "https://www.worldsurfleague.com/posts/561993/meo-rip-curl-pro-portugal-womens-round-1-heat-4-full-heat-replay?jointEventId=445",
       "definida": true,
       "data": "2026-10-16",
       "dia_rotulo": "16/10",
-      "horario": "11:21",
-      "quando": "agora",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114295",
@@ -1159,30 +1130,30 @@
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 5,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Gabriela Bryan",
           "pais": "HAW",
-          "nota": "9.33",
+          "nota": "10.93",
           "colete": "yellow",
           "avancou": false
         },
         {
           "nome": "Teresa Bonvalot",
           "pais": null,
-          "nota": "1.60",
+          "nota": "11.40",
           "colete": "green",
-          "avancou": false
+          "avancou": true
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/557329/its-on-day-1-of-the-meo-rip-curl-pro-portugal?jointEventId=445",
+      "replay": "https://www.worldsurfleague.com/posts/561998/meo-rip-curl-pro-portugal-womens-round-1-heat-5-full-heat-replay?jointEventId=445",
       "definida": true,
       "data": "2026-10-16",
       "dia_rotulo": "16/10",
-      "horario": "12:00",
-      "quando": "agora",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114296",
@@ -1219,30 +1190,30 @@
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 6,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Lakey Peterson",
           "pais": "USA",
-          "nota": null,
+          "nota": "11.17",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Caroline Marks",
           "pais": "USA",
-          "nota": null,
+          "nota": "7.10",
           "colete": "white",
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/561997/meo-rip-curl-pro-portugal-womens-round-1-heat-6-full-heat-replay?jointEventId=445",
       "definida": true,
-      "data": "2026-10-17",
-      "dia_rotulo": "17/10",
+      "data": "2026-10-16",
+      "dia_rotulo": "16/10",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114297",
@@ -1279,30 +1250,30 @@
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 7,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Molly Picklum",
           "pais": "AUS",
-          "nota": null,
+          "nota": "15.74",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Yolanda Hopkins",
           "pais": "POR",
-          "nota": null,
+          "nota": "11.10",
           "colete": "green",
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/562019/meo-rip-curl-pro-portugal-womens-round-1-heat-7-full-heat-replay?jointEventId=445",
       "definida": true,
-      "data": "2026-10-17",
-      "dia_rotulo": "17/10",
+      "data": "2026-10-16",
+      "dia_rotulo": "16/10",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114298",
@@ -1339,30 +1310,30 @@
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 8,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Erin Brooks",
           "pais": "CAN",
-          "nota": null,
+          "nota": "12.50",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Tyler Wright",
           "pais": "AUS",
-          "nota": null,
+          "nota": "7.27",
           "colete": "white",
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/562021/meo-rip-curl-pro-portugal-womens-round-1-heat-8-full-heat-replay?jointEventId=445",
       "definida": true,
-      "data": "2026-10-17",
-      "dia_rotulo": "17/10",
+      "data": "2026-10-16",
+      "dia_rotulo": "16/10",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114299",
@@ -1420,9 +1391,9 @@
       "definida": true,
       "data": "2026-10-17",
       "dia_rotulo": "17/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "05:09",
+      "quando": "05:09",
+      "estado": "com_horario"
     },
     {
       "id": "114300",
@@ -1450,9 +1421,9 @@
       "definida": true,
       "data": "2026-10-17",
       "dia_rotulo": "17/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "04:30",
+      "quando": "04:30",
+      "estado": "com_horario"
     },
     {
       "id": "114940",
@@ -1469,20 +1440,20 @@
           "avancou": false
         },
         {
-          "nome": "vencedor da R1H4",
-          "pais": null,
+          "nome": "Carissa Moore",
+          "pais": "HAW",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
       "replay": null,
-      "definida": false,
+      "definida": true,
       "data": "2026-10-17",
       "dia_rotulo": "17/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "06:27",
+      "quando": "06:27",
+      "estado": "com_horario"
     },
     {
       "id": "114301",
@@ -1510,9 +1481,9 @@
       "definida": true,
       "data": "2026-10-17",
       "dia_rotulo": "17/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "05:48",
+      "quando": "05:48",
+      "estado": "com_horario"
     },
     {
       "id": "114941",
@@ -1522,27 +1493,27 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da R1H5",
+          "nome": "Teresa Bonvalot",
           "pais": null,
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "vencedor da R1H6",
-          "pais": null,
+          "nome": "Lakey Peterson",
+          "pais": "USA",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
       "replay": null,
-      "definida": false,
+      "definida": true,
       "data": "2026-10-17",
       "dia_rotulo": "17/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "07:45",
+      "quando": "07:45",
+      "estado": "com_horario"
     },
     {
       "id": "114302",
@@ -1570,9 +1541,9 @@
       "definida": true,
       "data": "2026-10-17",
       "dia_rotulo": "17/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "07:06",
+      "quando": "07:06",
+      "estado": "com_horario"
     },
     {
       "id": "114942",
@@ -1582,27 +1553,27 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da R1H7",
-          "pais": null,
+          "nome": "Molly Picklum",
+          "pais": "AUS",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "vencedor da R1H8",
-          "pais": null,
+          "nome": "Erin Brooks",
+          "pais": "CAN",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
       "replay": null,
-      "definida": false,
+      "definida": true,
       "data": "2026-10-17",
       "dia_rotulo": "17/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "09:03",
+      "quando": "09:03",
+      "estado": "com_horario"
     },
     {
       "id": "114303",
@@ -1630,9 +1601,9 @@
       "definida": true,
       "data": "2026-10-17",
       "dia_rotulo": "17/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "08:24",
+      "quando": "08:24",
+      "estado": "com_horario"
     },
     {
       "id": "114943",
@@ -1660,9 +1631,9 @@
       "definida": false,
       "data": "2026-10-17",
       "dia_rotulo": "17/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "10:21",
+      "quando": "10:21",
+      "estado": "com_horario"
     },
     {
       "id": "114304",
@@ -1690,9 +1661,9 @@
       "definida": false,
       "data": "2026-10-17",
       "dia_rotulo": "17/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "09:42",
+      "quando": "09:42",
+      "estado": "com_horario"
     },
     {
       "id": "114944",
@@ -1720,9 +1691,9 @@
       "definida": false,
       "data": "2026-10-17",
       "dia_rotulo": "17/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "11:39",
+      "quando": "11:39",
+      "estado": "com_horario"
     },
     {
       "id": "114305",
@@ -1750,9 +1721,9 @@
       "definida": false,
       "data": "2026-10-17",
       "dia_rotulo": "17/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "11:00",
+      "quando": "11:00",
+      "estado": "com_horario"
     },
     {
       "id": "114945",
@@ -1808,11 +1779,11 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-18",
-      "dia_rotulo": "18/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "data": "2026-10-17",
+      "dia_rotulo": "17/10",
+      "horario": "12:18",
+      "quando": "12:18",
+      "estado": "com_horario"
     }
   ]
 }
