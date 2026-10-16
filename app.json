@@ -1,21 +1,21 @@
 {
-  "atualizado_em": "16/10/2026 02:09",
+  "atualizado_em": "16/10/2026 06:47",
   "evento": {
     "nome": "MEO Rip Curl Pro Portugal",
     "id": "445",
     "inicio": "2026-10-16",
     "fim": "2026-10-25"
   },
-  "call": "16/10 às 03:30",
+  "call": null,
   "transmissao": {
     "youtube": "https://www.youtube.com/@wsl/live",
     "site": "https://www.worldsurfleague.com/watch",
     "tv": "sportv4"
   },
-  "status_wsl": "Standby",
-  "status_msg": "First Call during Dawn Patrol •Oct 16•7:30 AM WEST",
-  "situacao": "call",
-  "call_data": "2026-10-16",
+  "status_wsl": "Live",
+  "status_msg": "Heat in the Water • Men's Round 1 • Heat 8, Men's Round 2 • Heat 1",
+  "situacao": "ao_vivo",
+  "call_data": null,
   "passo_estimado_min": 39,
   "dias": [
     {
@@ -24,7 +24,7 @@
       "mes": "10",
       "semana": "Sex",
       "estado": "call",
-      "qtd": 14,
+      "qtd": 16,
       "evento": "MEO Rip Curl Pro Portugal",
       "hoje": true
     },
@@ -44,7 +44,7 @@
       "mes": "10",
       "semana": "Dom",
       "estado": "previsto",
-      "qtd": 9,
+      "qtd": 7,
       "evento": "MEO Rip Curl Pro Portugal",
       "hoje": false
     },
@@ -207,232 +207,232 @@
         "posicao": 1,
         "nome": "Yago Dora",
         "pais": "BRA",
-        "pontos": "42,780",
-        "variacao": "2"
+        "pontos": "45,280",
+        "variacao": "-"
       },
       {
         "posicao": 2,
-        "nome": "Leonardo Fioravanti",
-        "pais": "ITA",
-        "pontos": "40,015",
+        "nome": "Italo Ferreira",
+        "pais": "BRA",
+        "pontos": "43,250",
         "variacao": "1"
       },
       {
         "posicao": 3,
-        "nome": "Italo Ferreira",
+        "nome": "Miguel Pupo",
         "pais": "BRA",
-        "pontos": "39,930",
+        "pontos": "42,770",
         "variacao": "1"
       },
       {
         "posicao": 4,
-        "nome": "Miguel Pupo",
-        "pais": "BRA",
-        "pontos": "39,450",
-        "variacao": "1"
+        "nome": "Leonardo Fioravanti",
+        "pais": "ITA",
+        "pontos": "42,515",
+        "variacao": "2"
       },
       {
         "posicao": 5,
         "nome": "Gabriel Medina",
         "pais": "BRA",
-        "pontos": "35,410",
-        "variacao": "1"
+        "pontos": "37,910",
+        "variacao": "-"
       },
       {
         "posicao": 6,
         "nome": "Griffin Colapinto",
         "pais": "USA",
-        "pontos": "33,695",
+        "pontos": "36,195",
         "variacao": "-"
       },
       {
         "posicao": 7,
         "nome": "Kanoa Igarashi",
         "pais": "JPN",
-        "pontos": "31,910",
-        "variacao": "3"
+        "pontos": "34,410",
+        "variacao": "-"
       },
       {
         "posicao": 8,
         "nome": "Ethan Ewing",
         "pais": "AUS",
-        "pontos": "30,895",
-        "variacao": "1"
+        "pontos": "33,395",
+        "variacao": "-"
       },
       {
         "posicao": 9,
-        "nome": "Samuel Pupo",
-        "pais": "BRA",
-        "pontos": "27,960",
-        "variacao": "1"
+        "nome": "Kauli Vaast",
+        "pais": "FRA",
+        "pontos": "29,120",
+        "variacao": "2"
       },
       {
         "posicao": 10,
-        "nome": "George Pittar",
-        "pais": "AUS",
-        "pontos": "26,705",
+        "nome": "Samuel Pupo",
+        "pais": "BRA",
+        "pontos": "28,960",
         "variacao": "1"
       },
       {
         "posicao": 11,
-        "nome": "Kauli Vaast",
-        "pais": "FRA",
-        "pontos": "26,620",
-        "variacao": "-"
+        "nome": "George Pittar",
+        "pais": "AUS",
+        "pontos": "27,705",
+        "variacao": "1"
       },
       {
         "posicao": 12,
-        "nome": "Liam O'Brien",
+        "nome": "Jack Robinson",
         "pais": "AUS",
-        "pontos": "26,005",
-        "variacao": "-"
+        "pontos": "27,165",
+        "variacao": "2"
       },
       {
         "posicao": 13,
-        "nome": "Cole Houshmand",
-        "pais": "USA",
-        "pontos": "24,830",
-        "variacao": "4"
+        "nome": "Liam O'Brien",
+        "pais": "AUS",
+        "pontos": "27,005",
+        "variacao": "1"
       },
       {
         "posicao": 14,
-        "nome": "Jack Robinson",
-        "pais": "AUS",
-        "pontos": "24,665",
+        "nome": "Cole Houshmand",
+        "pais": "USA",
+        "pontos": "25,830",
         "variacao": "1"
       },
       {
         "posicao": 15,
         "nome": "Marco Mignot",
         "pais": "FRA",
-        "pontos": "23,770",
+        "pontos": "24,770",
         "variacao": "-"
       },
       {
         "posicao": 16,
-        "nome": "Callum Robson",
-        "pais": "AUS",
-        "pontos": "22,875",
-        "variacao": "3"
+        "nome": "Connor O'Leary",
+        "pais": "JPN",
+        "pontos": "24,685",
+        "variacao": "1"
       },
       {
         "posicao": 17,
-        "nome": "Connor O'Leary",
-        "pais": "JPN",
-        "pontos": "22,185",
-        "variacao": "3"
+        "nome": "Callum Robson",
+        "pais": "AUS",
+        "pontos": "23,875",
+        "variacao": "1"
       },
       {
         "posicao": 18,
         "nome": "Morgan Cibilic",
         "pais": "AUS",
-        "pontos": "19,865",
-        "variacao": "2"
+        "pontos": "22,365",
+        "variacao": "-"
       },
       {
         "posicao": 19,
-        "nome": "Joao Chianca",
-        "pais": "BRA",
-        "pontos": "19,045",
+        "nome": "Seth Moniz",
+        "pais": "HAW",
+        "pontos": "20,820",
         "variacao": "1"
       },
       {
         "posicao": 20,
-        "nome": "Seth Moniz",
-        "pais": "HAW",
-        "pontos": "18,320",
-        "variacao": "-"
+        "nome": "Filipe Toledo",
+        "pais": "BRA",
+        "pontos": "20,650",
+        "variacao": "1"
       },
       {
         "posicao": 21,
-        "nome": "Filipe Toledo",
+        "nome": "Joao Chianca",
         "pais": "BRA",
-        "pontos": "18,150",
-        "variacao": "-"
+        "pontos": "20,045",
+        "variacao": "2"
       },
       {
         "posicao": 22,
         "nome": "Jake Marshall",
         "pais": "USA",
-        "pontos": "17,705",
-        "variacao": "3"
+        "pontos": "18,705",
+        "variacao": "-"
       },
       {
         "posicao": 23,
         "nome": "Barron Mamiya",
         "pais": "HAW",
-        "pontos": "17,705",
-        "variacao": "1"
+        "pontos": "18,705",
+        "variacao": "-"
       },
       {
         "posicao": 24,
         "nome": "Alan Cleland",
         "pais": "MEX",
-        "pontos": "16,810",
+        "pontos": "17,810",
         "variacao": "-"
       },
       {
         "posicao": 25,
         "nome": "Crosby Colapinto",
         "pais": "USA",
-        "pontos": "15,385",
-        "variacao": "2"
+        "pontos": "16,385",
+        "variacao": "-"
       },
       {
         "posicao": 26,
         "nome": "Mateus Herdy",
         "pais": "BRA",
-        "pontos": "14,490",
-        "variacao": "3"
+        "pontos": "15,490",
+        "variacao": "-"
       },
       {
         "posicao": 27,
         "nome": "Alejo Muniz",
         "pais": "BRA",
-        "pontos": "13,960",
-        "variacao": "1"
+        "pontos": "14,960",
+        "variacao": "-"
       },
       {
         "posicao": 28,
         "nome": "Rio Waida",
         "pais": "INA",
-        "pontos": "13,065",
-        "variacao": "1"
+        "pontos": "14,065",
+        "variacao": "-"
       },
       {
         "posicao": 29,
         "nome": "Ramzi Boukhiam",
         "pais": "MAR",
-        "pontos": "11,585",
-        "variacao": "1"
+        "pontos": "12,085",
+        "variacao": "-"
       },
       {
         "posicao": 30,
         "nome": "Joel Vaughan",
         "pais": "AUS",
-        "pontos": "10,745",
+        "pontos": "11,745",
         "variacao": "-"
       },
       {
         "posicao": 31,
         "nome": "Eli Hanneman",
         "pais": "HAW",
-        "pontos": "9,320",
+        "pontos": "10,320",
         "variacao": "-"
       },
       {
         "posicao": 32,
         "nome": "Luke Thompson",
         "pais": "RSA",
-        "pontos": "8,820",
-        "variacao": "1"
+        "pontos": "9,320",
+        "variacao": "-"
       },
       {
         "posicao": 33,
         "nome": "Jordy Smith",
         "pais": "RSA",
-        "pontos": "7,820",
-        "variacao": "1"
+        "pontos": "8,320",
+        "variacao": "-"
       },
       {
         "posicao": 34,
@@ -445,7 +445,7 @@
         "posicao": 35,
         "nome": "Oscar Berry",
         "pais": "AUS",
-        "pontos": "4,000",
+        "pontos": "4,500",
         "variacao": "-"
       }
     ],
@@ -613,24 +613,53 @@
       }
     ]
   },
-  "ao_vivo": null,
-  "proxima": {
-    "id": "114284",
+  "ao_vivo": {
+    "id": "114291",
     "genero": "M",
     "rodada": "Rodada 1",
+    "numero": 8,
+    "status": "ao_vivo",
+    "surfistas": [
+      {
+        "nome": "Samuel Pupo",
+        "pais": "BRA",
+        "nota": "8.27",
+        "colete": "blue",
+        "avancou": false
+      },
+      {
+        "nome": "Frederico Morais",
+        "pais": null,
+        "nota": "13.00",
+        "colete": "white",
+        "avancou": false
+      }
+    ],
+    "replay": "https://www.worldsurfleague.com/posts/557329/its-on-day-1-of-the-meo-rip-curl-pro-portugal?jointEventId=445",
+    "definida": true,
+    "data": "2026-10-16",
+    "dia_rotulo": "16/10",
+    "horario": "06:47",
+    "quando": "agora",
+    "estado": "com_horario"
+  },
+  "proxima": {
+    "id": "114931",
+    "genero": "F",
+    "rodada": "Oitavas de final",
     "numero": 1,
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "Callum Robson",
-        "pais": "AUS",
+        "nome": "Luana Silva",
+        "pais": "BRA",
         "nota": null,
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Connor O'Leary",
-        "pais": "JPN",
+        "nome": "Bettylou Sakura Johnson",
+        "pais": "HAW",
         "nota": null,
         "colete": "green",
         "avancou": false
@@ -638,11 +667,11 @@
     ],
     "replay": null,
     "definida": true,
-    "data": "2026-10-16",
-    "dia_rotulo": "16/10",
-    "horario": "03:30",
-    "quando": "03:30",
-    "estado": "com_horario"
+    "data": "2026-10-17",
+    "dia_rotulo": "17/10",
+    "horario": null,
+    "quando": "aguardando call",
+    "estado": "aguardando_call"
   },
   "baterias": [
     {
@@ -650,169 +679,169 @@
       "genero": "M",
       "rodada": "Rodada 1",
       "numero": 1,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Callum Robson",
           "pais": "AUS",
-          "nota": null,
+          "nota": "10.66",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Connor O'Leary",
           "pais": "JPN",
-          "nota": null,
+          "nota": "11.33",
           "colete": "green",
-          "avancou": false
+          "avancou": true
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/561927/meo-rip-curl-pro-portugal-mens-round-1-heat-1-full-heat-replay?jointEventId=445",
       "definida": true,
       "data": "2026-10-16",
       "dia_rotulo": "16/10",
-      "horario": "03:30",
-      "quando": "03:30",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114285",
       "genero": "M",
       "rodada": "Rodada 1",
       "numero": 2,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Marco Mignot",
           "pais": "FRA",
-          "nota": null,
+          "nota": "5.10",
           "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Morgan Cibilic",
           "pais": "AUS",
-          "nota": null,
+          "nota": "8.17",
           "colete": "white",
-          "avancou": false
+          "avancou": true
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/561928/meo-rip-curl-pro-portugal-mens-round-1-heat-2-full-heat-replay?jointEventId=445",
       "definida": true,
       "data": "2026-10-16",
       "dia_rotulo": "16/10",
-      "horario": "04:09",
-      "quando": "04:09",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114286",
       "genero": "M",
       "rodada": "Rodada 1",
       "numero": 3,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Jack Robinson",
           "pais": "AUS",
-          "nota": null,
+          "nota": "13.33",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Joao Chianca",
           "pais": "BRA",
-          "nota": null,
+          "nota": "5.10",
           "colete": "green",
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/561932/meo-rip-curl-pro-portugal-mens-round-1-heat-3-full-heat-replay?jointEventId=445",
       "definida": true,
       "data": "2026-10-16",
       "dia_rotulo": "16/10",
-      "horario": "04:48",
-      "quando": "04:48",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114287",
       "genero": "M",
       "rodada": "Rodada 1",
       "numero": 4,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Cole Houshmand",
           "pais": "USA",
-          "nota": null,
+          "nota": "8.80",
           "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Seth Moniz",
           "pais": "HAW",
-          "nota": null,
+          "nota": "10.67",
           "colete": "white",
-          "avancou": false
+          "avancou": true
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/561931/meo-rip-curl-pro-portugal-mens-round-1-heat-4?jointEventId=445",
       "definida": true,
       "data": "2026-10-16",
       "dia_rotulo": "16/10",
-      "horario": "05:27",
-      "quando": "05:27",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114288",
       "genero": "M",
       "rodada": "Rodada 1",
       "numero": 5,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Liam O'Brien",
           "pais": "AUS",
-          "nota": null,
+          "nota": "12.93",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Filipe Toledo",
           "pais": "BRA",
-          "nota": null,
+          "nota": "14.43",
           "colete": "green",
-          "avancou": false
+          "avancou": true
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/561936/meo-rip-curl-pro-portugal-mens-round-1-heat-5-full-heat-replay?jointEventId=445",
       "definida": true,
       "data": "2026-10-16",
       "dia_rotulo": "16/10",
-      "horario": "06:06",
-      "quando": "06:06",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114289",
       "genero": "M",
       "rodada": "Rodada 1",
       "numero": 6,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Kauli Vaast",
           "pais": "FRA",
-          "nota": null,
+          "nota": "12.27",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Jake Marshall",
           "pais": "USA",
-          "nota": null,
+          "nota": "3.40",
           "colete": "white",
           "avancou": false
         }
@@ -821,68 +850,68 @@
       "definida": true,
       "data": "2026-10-16",
       "dia_rotulo": "16/10",
-      "horario": "06:45",
-      "quando": "06:45",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114290",
       "genero": "M",
       "rodada": "Rodada 1",
       "numero": 7,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "George Pittar",
           "pais": "AUS",
-          "nota": null,
+          "nota": "5.57",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Guilherme Ribeiro",
           "pais": null,
-          "nota": null,
+          "nota": "11.16",
           "colete": "green",
-          "avancou": false
+          "avancou": true
         }
       ],
       "replay": null,
       "definida": true,
       "data": "2026-10-16",
       "dia_rotulo": "16/10",
-      "horario": "07:24",
-      "quando": "07:24",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114291",
       "genero": "M",
       "rodada": "Rodada 1",
       "numero": 8,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Samuel Pupo",
           "pais": "BRA",
-          "nota": null,
+          "nota": "8.27",
           "colete": "blue",
           "avancou": false
         },
         {
           "nome": "Frederico Morais",
           "pais": null,
-          "nota": null,
+          "nota": "13.00",
           "colete": "white",
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/557329/its-on-day-1-of-the-meo-rip-curl-pro-portugal?jointEventId=445",
       "definida": true,
       "data": "2026-10-16",
       "dia_rotulo": "16/10",
-      "horario": "08:03",
-      "quando": "08:03",
+      "horario": "06:47",
+      "quando": "agora",
       "estado": "com_horario"
     },
     {
@@ -909,40 +938,40 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
-      "horario": "09:21",
-      "quando": "09:21",
-      "estado": "com_horario"
+      "data": "2026-10-17",
+      "dia_rotulo": "17/10",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114292",
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 1,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Leonardo Fioravanti",
           "pais": "ITA",
-          "nota": null,
+          "nota": "0.77",
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "vencedor da R1H2",
-          "pais": null,
+          "nome": "Morgan Cibilic",
+          "pais": "AUS",
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
-      "replay": null,
-      "definida": false,
+      "replay": "https://www.worldsurfleague.com/posts/557329/its-on-day-1-of-the-meo-rip-curl-pro-portugal?jointEventId=445",
+      "definida": true,
       "data": "2026-10-16",
       "dia_rotulo": "16/10",
-      "horario": "08:42",
-      "quando": "08:42",
+      "horario": "07:26",
+      "quando": "agora",
       "estado": "com_horario"
     },
     {
@@ -969,11 +998,11 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
-      "horario": "10:39",
-      "quando": "10:39",
-      "estado": "com_horario"
+      "data": "2026-10-17",
+      "dia_rotulo": "17/10",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114293",
@@ -986,23 +1015,23 @@
           "nome": "Gabriel Medina",
           "pais": "BRA",
           "nota": null,
-          "colete": "blue",
+          "colete": "red",
           "avancou": false
         },
         {
-          "nome": "vencedor da R1H5",
-          "pais": null,
+          "nome": "Filipe Toledo",
+          "pais": "BRA",
           "nota": null,
-          "colete": "blue",
+          "colete": "white",
           "avancou": false
         }
       ],
       "replay": null,
-      "definida": false,
+      "definida": true,
       "data": "2026-10-16",
       "dia_rotulo": "16/10",
-      "horario": "10:00",
-      "quando": "10:00",
+      "horario": "08:05",
+      "quando": "08:05",
       "estado": "com_horario"
     },
     {
@@ -1029,11 +1058,11 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
-      "horario": "11:57",
-      "quando": "11:57",
-      "estado": "com_horario"
+      "data": "2026-10-17",
+      "dia_rotulo": "17/10",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114294",
@@ -1050,19 +1079,19 @@
           "avancou": false
         },
         {
-          "nome": "vencedor da R1H3",
-          "pais": null,
+          "nome": "Jack Robinson",
+          "pais": "AUS",
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
       "replay": null,
-      "definida": false,
+      "definida": true,
       "data": "2026-10-16",
       "dia_rotulo": "16/10",
-      "horario": "11:18",
-      "quando": "11:18",
+      "horario": "08:44",
+      "quando": "08:44",
       "estado": "com_horario"
     },
     {
@@ -1110,20 +1139,20 @@
           "avancou": false
         },
         {
-          "nome": "vencedor da R1H7",
+          "nome": "Guilherme Ribeiro",
           "pais": null,
           "nota": null,
-          "colete": "blue",
+          "colete": "white",
           "avancou": false
         }
       ],
       "replay": null,
-      "definida": false,
-      "data": "2026-10-17",
-      "dia_rotulo": "17/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "definida": true,
+      "data": "2026-10-16",
+      "dia_rotulo": "16/10",
+      "horario": "09:23",
+      "quando": "09:23",
+      "estado": "com_horario"
     },
     {
       "id": "114935",
@@ -1170,20 +1199,20 @@
           "avancou": false
         },
         {
-          "nome": "vencedor da R1H1",
-          "pais": null,
+          "nome": "Connor O'Leary",
+          "pais": "JPN",
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
       "replay": null,
-      "definida": false,
-      "data": "2026-10-17",
-      "dia_rotulo": "17/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "definida": true,
+      "data": "2026-10-16",
+      "dia_rotulo": "16/10",
+      "horario": "10:02",
+      "quando": "10:02",
+      "estado": "com_horario"
     },
     {
       "id": "114936",
@@ -1233,17 +1262,17 @@
           "nome": "vencedor da R1H8",
           "pais": null,
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-17",
-      "dia_rotulo": "17/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "data": "2026-10-16",
+      "dia_rotulo": "16/10",
+      "horario": "10:41",
+      "quando": "10:41",
+      "estado": "com_horario"
     },
     {
       "id": "114937",
@@ -1290,20 +1319,20 @@
           "avancou": false
         },
         {
-          "nome": "vencedor da R1H4",
-          "pais": null,
+          "nome": "Seth Moniz",
+          "pais": "HAW",
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
       "replay": null,
-      "definida": false,
-      "data": "2026-10-17",
-      "dia_rotulo": "17/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "definida": true,
+      "data": "2026-10-16",
+      "dia_rotulo": "16/10",
+      "horario": "11:20",
+      "quando": "11:20",
+      "estado": "com_horario"
     },
     {
       "id": "114938",
@@ -1350,20 +1379,20 @@
           "avancou": false
         },
         {
-          "nome": "vencedor da R1H6",
-          "pais": null,
+          "nome": "Kauli Vaast",
+          "pais": "FRA",
           "nota": null,
-          "colete": "blue",
+          "colete": "white",
           "avancou": false
         }
       ],
       "replay": null,
-      "definida": false,
-      "data": "2026-10-17",
-      "dia_rotulo": "17/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "definida": true,
+      "data": "2026-10-16",
+      "dia_rotulo": "16/10",
+      "horario": "11:59",
+      "quando": "11:59",
+      "estado": "com_horario"
     },
     {
       "id": "114939",
@@ -1383,7 +1412,7 @@
           "nome": "vencedor da R1H2",
           "pais": null,
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
@@ -1443,7 +1472,7 @@
           "nome": "vencedor da R1H4",
           "pais": null,
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
@@ -1503,14 +1532,14 @@
           "nome": "vencedor da R1H6",
           "pais": null,
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-18",
-      "dia_rotulo": "18/10",
+      "data": "2026-10-17",
+      "dia_rotulo": "17/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1563,7 +1592,7 @@
           "nome": "vencedor da R1H8",
           "pais": null,
           "nota": null,
-          "colete": "blue",
+          "colete": "green",
           "avancou": false
         }
       ],
@@ -1599,8 +1628,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-18",
-      "dia_rotulo": "18/10",
+      "data": "2026-10-17",
+      "dia_rotulo": "17/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
