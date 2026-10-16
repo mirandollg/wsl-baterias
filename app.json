@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/10/2026 06:47",
+  "atualizado_em": "16/10/2026 11:21",
   "evento": {
     "nome": "MEO Rip Curl Pro Portugal",
     "id": "445",
@@ -13,7 +13,7 @@
     "tv": "sportv4"
   },
   "status_wsl": "Live",
-  "status_msg": "Heat in the Water • Men's Round 1 • Heat 8, Men's Round 2 • Heat 1",
+  "status_msg": "Heat in the Water • Women's Round 1 • Heat 4 & 5",
   "situacao": "ao_vivo",
   "call_data": null,
   "passo_estimado_min": 39,
@@ -24,7 +24,7 @@
       "mes": "10",
       "semana": "Sex",
       "estado": "call",
-      "qtd": 16,
+      "qtd": 21,
       "evento": "MEO Rip Curl Pro Portugal",
       "hoje": true
     },
@@ -44,7 +44,7 @@
       "mes": "10",
       "semana": "Dom",
       "estado": "previsto",
-      "qtd": 7,
+      "qtd": 2,
       "evento": "MEO Rip Curl Pro Portugal",
       "hoje": false
     },
@@ -207,14 +207,14 @@
         "posicao": 1,
         "nome": "Yago Dora",
         "pais": "BRA",
-        "pontos": "45,280",
+        "pontos": "47,525",
         "variacao": "-"
       },
       {
         "posicao": 2,
         "nome": "Italo Ferreira",
         "pais": "BRA",
-        "pontos": "43,250",
+        "pontos": "44,675",
         "variacao": "1"
       },
       {
@@ -235,29 +235,29 @@
         "posicao": 5,
         "nome": "Gabriel Medina",
         "pais": "BRA",
-        "pontos": "37,910",
+        "pontos": "40,155",
         "variacao": "-"
       },
       {
         "posicao": 6,
         "nome": "Griffin Colapinto",
         "pais": "USA",
-        "pontos": "36,195",
+        "pontos": "38,440",
         "variacao": "-"
       },
       {
         "posicao": 7,
-        "nome": "Kanoa Igarashi",
-        "pais": "JPN",
-        "pontos": "34,410",
-        "variacao": "-"
+        "nome": "Ethan Ewing",
+        "pais": "AUS",
+        "pontos": "35,640",
+        "variacao": "1"
       },
       {
         "posicao": 8,
-        "nome": "Ethan Ewing",
-        "pais": "AUS",
-        "pontos": "33,395",
-        "variacao": "-"
+        "nome": "Kanoa Igarashi",
+        "pais": "JPN",
+        "pontos": "34,410",
+        "variacao": "1"
       },
       {
         "posicao": 9,
@@ -317,23 +317,23 @@
       },
       {
         "posicao": 17,
-        "nome": "Callum Robson",
+        "nome": "Morgan Cibilic",
         "pais": "AUS",
-        "pontos": "23,875",
+        "pontos": "24,610",
         "variacao": "1"
       },
       {
         "posicao": 18,
-        "nome": "Morgan Cibilic",
+        "nome": "Callum Robson",
         "pais": "AUS",
-        "pontos": "22,365",
-        "variacao": "-"
+        "pontos": "23,875",
+        "variacao": "2"
       },
       {
         "posicao": 19,
         "nome": "Seth Moniz",
         "pais": "HAW",
-        "pontos": "20,820",
+        "pontos": "23,065",
         "variacao": "1"
       },
       {
@@ -454,183 +454,183 @@
         "posicao": 1,
         "nome": "Gabriela Bryan",
         "pais": "HAW",
-        "pontos": "42,865",
-        "variacao": "1"
+        "pontos": "44,865",
+        "variacao": "-"
       },
       {
         "posicao": 2,
         "nome": "Carissa Moore",
         "pais": "HAW",
-        "pontos": "42,320",
-        "variacao": "1"
+        "pontos": "44,320",
+        "variacao": "-"
       },
       {
         "posicao": 3,
         "nome": "Sawyer Lindblad",
         "pais": "USA",
-        "pontos": "40,055",
+        "pontos": "42,055",
         "variacao": "-"
       },
       {
         "posicao": 4,
         "nome": "Molly Picklum",
         "pais": "AUS",
-        "pontos": "38,950",
+        "pontos": "40,950",
         "variacao": "-"
       },
       {
         "posicao": 5,
         "nome": "Erin Brooks",
         "pais": "CAN",
-        "pontos": "38,000",
-        "variacao": "3"
+        "pontos": "40,000",
+        "variacao": "-"
       },
       {
         "posicao": 6,
         "nome": "Luana Silva",
         "pais": "BRA",
-        "pontos": "36,580",
-        "variacao": "1"
+        "pontos": "38,580",
+        "variacao": "-"
       },
       {
         "posicao": 7,
         "nome": "Caitlin Simmers",
         "pais": "USA",
-        "pontos": "31,810",
-        "variacao": "1"
+        "pontos": "36,555",
+        "variacao": "-"
       },
       {
         "posicao": 8,
         "nome": "Lakey Peterson",
         "pais": "USA",
-        "pontos": "30,235",
-        "variacao": "1"
+        "pontos": "32,235",
+        "variacao": "-"
       },
       {
         "posicao": 9,
         "nome": "Isabella Nichols",
         "pais": "AUS",
-        "pontos": "27,970",
+        "pontos": "28,970",
         "variacao": "-"
       },
       {
         "posicao": 10,
         "nome": "Caroline Marks",
         "pais": "USA",
-        "pontos": "26,320",
+        "pontos": "28,320",
         "variacao": "-"
       },
       {
         "posicao": 11,
-        "nome": "Nadia Erostarbe",
-        "pais": "ESP",
-        "pontos": "23,915",
-        "variacao": "-"
+        "nome": "Bettylou Sakura Johnson",
+        "pais": "HAW",
+        "pontos": "27,320",
+        "variacao": "1"
       },
       {
         "posicao": 12,
-        "nome": "Bettylou Sakura Johnson",
-        "pais": "HAW",
-        "pontos": "22,575",
-        "variacao": "-"
+        "nome": "Nadia Erostarbe",
+        "pais": "ESP",
+        "pontos": "25,915",
+        "variacao": "1"
       },
       {
         "posicao": 13,
         "nome": "Tyler Wright",
         "pais": "AUS",
-        "pontos": "20,545",
+        "pontos": "22,545",
         "variacao": "-"
       },
       {
         "posicao": 14,
         "nome": "Yolanda Hopkins",
         "pais": "POR",
-        "pontos": "19,830",
+        "pontos": "21,830",
         "variacao": "-"
       },
       {
         "posicao": 15,
         "nome": "Anat Lelior",
         "pais": "ISR",
-        "pontos": "18,545",
+        "pontos": "19,545",
         "variacao": "-"
       },
       {
         "posicao": 16,
         "nome": "Alyssa Spencer",
         "pais": "USA",
-        "pontos": "18,170",
+        "pontos": "19,170",
         "variacao": "-"
       },
       {
         "posicao": 17,
         "nome": "Stephanie Gilmore",
         "pais": "AUS",
-        "pontos": "17,000",
+        "pontos": "18,000",
         "variacao": "-"
       },
       {
         "posicao": 18,
         "nome": "Brisa Hennessy",
         "pais": "CRC",
-        "pontos": "16,085",
+        "pontos": "17,085",
         "variacao": "-"
       },
       {
         "posicao": 19,
         "nome": "Tya Zebrowski",
         "pais": "FRA",
-        "pontos": "15,800",
+        "pontos": "16,800",
         "variacao": "-"
       },
       {
         "posicao": 20,
         "nome": "Vahine Fierro",
         "pais": "FRA",
-        "pontos": "14,745",
+        "pontos": "15,745",
         "variacao": "-"
       },
       {
         "posicao": 21,
-        "nome": "Sally Fitzgibbons",
-        "pais": "AUS",
-        "pontos": "13,000",
-        "variacao": "-"
+        "nome": "Francisca Veselko",
+        "pais": "POR",
+        "pontos": "14,745",
+        "variacao": "2"
       },
       {
         "posicao": 22,
-        "nome": "Bella Kenworthy",
-        "pais": "USA",
-        "pontos": "12,745",
+        "nome": "Sally Fitzgibbons",
+        "pais": "AUS",
+        "pontos": "14,000",
         "variacao": "1"
       },
       {
         "posicao": 23,
-        "nome": "Francisca Veselko",
-        "pais": "POR",
-        "pontos": "10,000",
+        "nome": "Bella Kenworthy",
+        "pais": "USA",
+        "pontos": "13,745",
         "variacao": "1"
       }
     ]
   },
   "ao_vivo": {
-    "id": "114291",
-    "genero": "M",
-    "rodada": "Rodada 1",
-    "numero": 8,
+    "id": "114934",
+    "genero": "F",
+    "rodada": "Oitavas de final",
+    "numero": 4,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Samuel Pupo",
-        "pais": "BRA",
-        "nota": "8.27",
+        "nome": "Carissa Moore",
+        "pais": "HAW",
+        "nota": "12.33",
         "colete": "blue",
         "avancou": false
       },
       {
-        "nome": "Frederico Morais",
+        "nome": "Johanne Defay",
         "pais": null,
-        "nota": "13.00",
+        "nota": "6.76",
         "colete": "white",
         "avancou": false
       }
@@ -639,29 +639,29 @@
     "definida": true,
     "data": "2026-10-16",
     "dia_rotulo": "16/10",
-    "horario": "06:47",
+    "horario": "11:21",
     "quando": "agora",
     "estado": "com_horario"
   },
   "proxima": {
-    "id": "114931",
+    "id": "114936",
     "genero": "F",
     "rodada": "Oitavas de final",
-    "numero": 1,
+    "numero": 6,
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "Luana Silva",
-        "pais": "BRA",
+        "nome": "Lakey Peterson",
+        "pais": "USA",
         "nota": null,
-        "colete": "red",
+        "colete": "blue",
         "avancou": false
       },
       {
-        "nome": "Bettylou Sakura Johnson",
-        "pais": "HAW",
+        "nome": "Caroline Marks",
+        "pais": "USA",
         "nota": null,
-        "colete": "green",
+        "colete": "white",
         "avancou": false
       }
     ],
@@ -786,7 +786,7 @@
           "avancou": true
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/561931/meo-rip-curl-pro-portugal-mens-round-1-heat-4?jointEventId=445",
+      "replay": "https://www.worldsurfleague.com/posts/561945/meo-rip-curl-pro-portugal-mens-round-1-heat-4-full-heat-replay?jointEventId=445",
       "definida": true,
       "data": "2026-10-16",
       "dia_rotulo": "16/10",
@@ -846,7 +846,7 @@
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/561940/meo-rip-curl-pro-portugal-mens-round-1-heat-6-full-heat-replay?jointEventId=445",
       "definida": true,
       "data": "2026-10-16",
       "dia_rotulo": "16/10",
@@ -876,7 +876,7 @@
           "avancou": true
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/561942/meo-rip-curl-pro-portugal-mens-round-1-heat-7-full-heat-replay?jointEventId=445",
       "definida": true,
       "data": "2026-10-16",
       "dia_rotulo": "16/10",
@@ -889,7 +889,7 @@
       "genero": "M",
       "rodada": "Rodada 1",
       "numero": 8,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Samuel Pupo",
@@ -903,65 +903,275 @@
           "pais": null,
           "nota": "13.00",
           "colete": "white",
-          "avancou": false
+          "avancou": true
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/557329/its-on-day-1-of-the-meo-rip-curl-pro-portugal?jointEventId=445",
+      "replay": "https://www.worldsurfleague.com/posts/561943/meo-rip-curl-pro-portugal-mens-round-1-heat-8-full-heat-replay?jointEventId=445",
       "definida": true,
       "data": "2026-10-16",
       "dia_rotulo": "16/10",
-      "horario": "06:47",
-      "quando": "agora",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114931",
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 1,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Luana Silva",
           "pais": "BRA",
-          "nota": null,
+          "nota": "3.53",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Bettylou Sakura Johnson",
           "pais": "HAW",
-          "nota": null,
+          "nota": "11.33",
           "colete": "green",
-          "avancou": false
+          "avancou": true
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/561983/meo-rip-curl-pro-portugal-womens-round-1-heat-1-full-heat-replay?jointEventId=445",
       "definida": true,
-      "data": "2026-10-17",
-      "dia_rotulo": "17/10",
+      "data": "2026-10-16",
+      "dia_rotulo": "16/10",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114292",
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 1,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Leonardo Fioravanti",
           "pais": "ITA",
-          "nota": "0.77",
+          "nota": "11.90",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Morgan Cibilic",
           "pais": "AUS",
-          "nota": null,
+          "nota": "15.43",
+          "colete": "green",
+          "avancou": true
+        }
+      ],
+      "replay": "https://www.worldsurfleague.com/posts/561948/meo-rip-curl-pro-portugal-mens-round-2-heat-1-full-heat-replay?jointEventId=445",
+      "definida": true,
+      "data": "2026-10-16",
+      "dia_rotulo": "16/10",
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
+    },
+    {
+      "id": "114932",
+      "genero": "F",
+      "rodada": "Oitavas de final",
+      "numero": 2,
+      "status": "encerrada",
+      "surfistas": [
+        {
+          "nome": "Sawyer Lindblad",
+          "pais": "USA",
+          "nota": "7.90",
+          "colete": "blue",
+          "avancou": false
+        },
+        {
+          "nome": "Francisca Veselko",
+          "pais": "POR",
+          "nota": "8.54",
+          "colete": "white",
+          "avancou": true
+        }
+      ],
+      "replay": "https://www.worldsurfleague.com/posts/561984/meo-rip-curl-pro-portugal-womens-round-1-heat-2-condensed-?jointEventId=445",
+      "definida": true,
+      "data": "2026-10-16",
+      "dia_rotulo": "16/10",
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
+    },
+    {
+      "id": "114293",
+      "genero": "M",
+      "rodada": "Oitavas de final",
+      "numero": 2,
+      "status": "encerrada",
+      "surfistas": [
+        {
+          "nome": "Gabriel Medina",
+          "pais": "BRA",
+          "nota": "12.00",
+          "colete": "blue",
+          "avancou": true
+        },
+        {
+          "nome": "Filipe Toledo",
+          "pais": "BRA",
+          "nota": "2.30",
+          "colete": "white",
+          "avancou": false
+        }
+      ],
+      "replay": "https://www.worldsurfleague.com/posts/561957/meo-rip-curl-pro-portugal-mens-round-2-heat-2-full-heat-replay?jointEventId=445",
+      "definida": true,
+      "data": "2026-10-16",
+      "dia_rotulo": "16/10",
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
+    },
+    {
+      "id": "114933",
+      "genero": "F",
+      "rodada": "Oitavas de final",
+      "numero": 3,
+      "status": "encerrada",
+      "surfistas": [
+        {
+          "nome": "Caitlin Simmers",
+          "pais": "USA",
+          "nota": "14.16",
+          "colete": "red",
+          "avancou": true
+        },
+        {
+          "nome": "Nadia Erostarbe",
+          "pais": "ESP",
+          "nota": "7.93",
+          "colete": "green",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": true,
+      "data": "2026-10-16",
+      "dia_rotulo": "16/10",
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
+    },
+    {
+      "id": "114294",
+      "genero": "M",
+      "rodada": "Oitavas de final",
+      "numero": 3,
+      "status": "encerrada",
+      "surfistas": [
+        {
+          "nome": "Italo Ferreira",
+          "pais": "BRA",
+          "nota": "15.00",
+          "colete": "red",
+          "avancou": true
+        },
+        {
+          "nome": "Jack Robinson",
+          "pais": "AUS",
+          "nota": "10.43",
+          "colete": "green",
+          "avancou": false
+        }
+      ],
+      "replay": "https://www.worldsurfleague.com/posts/561961/meo-rip-curl-pro-portugal-mens-round-2-heat-3-full-heat-replay?jointEventId=445",
+      "definida": true,
+      "data": "2026-10-16",
+      "dia_rotulo": "16/10",
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
+    },
+    {
+      "id": "114934",
+      "genero": "F",
+      "rodada": "Oitavas de final",
+      "numero": 4,
+      "status": "ao_vivo",
+      "surfistas": [
+        {
+          "nome": "Carissa Moore",
+          "pais": "HAW",
+          "nota": "12.33",
+          "colete": "blue",
+          "avancou": false
+        },
+        {
+          "nome": "Johanne Defay",
+          "pais": null,
+          "nota": "6.76",
+          "colete": "white",
+          "avancou": false
+        }
+      ],
+      "replay": "https://www.worldsurfleague.com/posts/557329/its-on-day-1-of-the-meo-rip-curl-pro-portugal?jointEventId=445",
+      "definida": true,
+      "data": "2026-10-16",
+      "dia_rotulo": "16/10",
+      "horario": "11:21",
+      "quando": "agora",
+      "estado": "com_horario"
+    },
+    {
+      "id": "114295",
+      "genero": "M",
+      "rodada": "Oitavas de final",
+      "numero": 4,
+      "status": "encerrada",
+      "surfistas": [
+        {
+          "nome": "Kanoa Igarashi",
+          "pais": "JPN",
+          "nota": "5.00",
+          "colete": "blue",
+          "avancou": false
+        },
+        {
+          "nome": "Guilherme Ribeiro",
+          "pais": null,
+          "nota": "10.33",
+          "colete": "white",
+          "avancou": true
+        }
+      ],
+      "replay": "https://www.worldsurfleague.com/posts/561969/meo-rip-curl-pro-portugal-mens-round-2-heat-4-full-heat-replay?jointEventId=445",
+      "definida": true,
+      "data": "2026-10-16",
+      "dia_rotulo": "16/10",
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
+    },
+    {
+      "id": "114935",
+      "genero": "F",
+      "rodada": "Oitavas de final",
+      "numero": 5,
+      "status": "ao_vivo",
+      "surfistas": [
+        {
+          "nome": "Gabriela Bryan",
+          "pais": "HAW",
+          "nota": "9.33",
+          "colete": "yellow",
+          "avancou": false
+        },
+        {
+          "nome": "Teresa Bonvalot",
+          "pais": null,
+          "nota": "1.60",
           "colete": "green",
           "avancou": false
         }
@@ -970,249 +1180,39 @@
       "definida": true,
       "data": "2026-10-16",
       "dia_rotulo": "16/10",
-      "horario": "07:26",
+      "horario": "12:00",
       "quando": "agora",
       "estado": "com_horario"
-    },
-    {
-      "id": "114932",
-      "genero": "F",
-      "rodada": "Oitavas de final",
-      "numero": 2,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Sawyer Lindblad",
-          "pais": "USA",
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        },
-        {
-          "nome": "Francisca Veselko",
-          "pais": "POR",
-          "nota": null,
-          "colete": "white",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": true,
-      "data": "2026-10-17",
-      "dia_rotulo": "17/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
-    },
-    {
-      "id": "114293",
-      "genero": "M",
-      "rodada": "Oitavas de final",
-      "numero": 2,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Gabriel Medina",
-          "pais": "BRA",
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Filipe Toledo",
-          "pais": "BRA",
-          "nota": null,
-          "colete": "white",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
-      "horario": "08:05",
-      "quando": "08:05",
-      "estado": "com_horario"
-    },
-    {
-      "id": "114933",
-      "genero": "F",
-      "rodada": "Oitavas de final",
-      "numero": 3,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Caitlin Simmers",
-          "pais": "USA",
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Nadia Erostarbe",
-          "pais": "ESP",
-          "nota": null,
-          "colete": "green",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": true,
-      "data": "2026-10-17",
-      "dia_rotulo": "17/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
-    },
-    {
-      "id": "114294",
-      "genero": "M",
-      "rodada": "Oitavas de final",
-      "numero": 3,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Italo Ferreira",
-          "pais": "BRA",
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Jack Robinson",
-          "pais": "AUS",
-          "nota": null,
-          "colete": "green",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
-      "horario": "08:44",
-      "quando": "08:44",
-      "estado": "com_horario"
-    },
-    {
-      "id": "114934",
-      "genero": "F",
-      "rodada": "Oitavas de final",
-      "numero": 4,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Carissa Moore",
-          "pais": "HAW",
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        },
-        {
-          "nome": "Teresa Bonvalot",
-          "pais": null,
-          "nota": null,
-          "colete": "white",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": true,
-      "data": "2026-10-17",
-      "dia_rotulo": "17/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
-    },
-    {
-      "id": "114295",
-      "genero": "M",
-      "rodada": "Oitavas de final",
-      "numero": 4,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Kanoa Igarashi",
-          "pais": "JPN",
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        },
-        {
-          "nome": "Guilherme Ribeiro",
-          "pais": null,
-          "nota": null,
-          "colete": "white",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
-      "horario": "09:23",
-      "quando": "09:23",
-      "estado": "com_horario"
-    },
-    {
-      "id": "114935",
-      "genero": "F",
-      "rodada": "Oitavas de final",
-      "numero": 5,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Gabriela Bryan",
-          "pais": "HAW",
-          "nota": null,
-          "colete": "yellow",
-          "avancou": false
-        },
-        {
-          "nome": "Johanne Defay",
-          "pais": null,
-          "nota": null,
-          "colete": "green",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": true,
-      "data": "2026-10-17",
-      "dia_rotulo": "17/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
     },
     {
       "id": "114296",
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 5,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Yago Dora",
           "pais": "BRA",
-          "nota": null,
+          "nota": "13.66",
           "colete": "yellow",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Connor O'Leary",
           "pais": "JPN",
-          "nota": null,
+          "nota": "11.67",
           "colete": "green",
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/561964/meo-rip-curl-pro-portugal-mens-round-2-heat-5-full-heat-replay?jointEventId=445",
       "definida": true,
       "data": "2026-10-16",
       "dia_rotulo": "16/10",
-      "horario": "10:02",
-      "quando": "10:02",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114936",
@@ -1249,30 +1249,30 @@
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 6,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Ethan Ewing",
           "pais": "AUS",
-          "nota": null,
+          "nota": "15.73",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         },
         {
-          "nome": "vencedor da R1H8",
+          "nome": "Frederico Morais",
           "pais": null,
-          "nota": null,
-          "colete": "green",
+          "nota": "11.17",
+          "colete": "white",
           "avancou": false
         }
       ],
-      "replay": null,
-      "definida": false,
+      "replay": "https://www.worldsurfleague.com/posts/561970/meo-rip-curl-pro-portugal-mens-round-2-heat-6-full-heat-replay?jointEventId=445",
+      "definida": true,
       "data": "2026-10-16",
       "dia_rotulo": "16/10",
-      "horario": "10:41",
-      "quando": "10:41",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114937",
@@ -1309,30 +1309,30 @@
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 7,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Miguel Pupo",
           "pais": "BRA",
-          "nota": null,
+          "nota": "12.60",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Seth Moniz",
           "pais": "HAW",
-          "nota": null,
+          "nota": "12.80",
           "colete": "green",
-          "avancou": false
+          "avancou": true
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/561977/meo-rip-curl-pro-portugal-mens-round-2-heat-7-full-heat-replay?jointEventId=445",
       "definida": true,
       "data": "2026-10-16",
       "dia_rotulo": "16/10",
-      "horario": "11:20",
-      "quando": "11:20",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114938",
@@ -1369,30 +1369,30 @@
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 8,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Griffin Colapinto",
           "pais": "USA",
-          "nota": null,
+          "nota": "17.17",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Kauli Vaast",
           "pais": "FRA",
-          "nota": null,
+          "nota": "13.27",
           "colete": "white",
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/561974/meo-rip-curl-pro-portugal-mens-round-2-heat-8-full-heat-replay?jointEventId=445",
       "definida": true,
       "data": "2026-10-16",
       "dia_rotulo": "16/10",
-      "horario": "11:59",
-      "quando": "11:59",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114939",
@@ -1402,22 +1402,22 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da R1H1",
-          "pais": null,
+          "nome": "Bettylou Sakura Johnson",
+          "pais": "HAW",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "vencedor da R1H2",
-          "pais": null,
+          "nome": "Francisca Veselko",
+          "pais": "POR",
           "nota": null,
-          "colete": "green",
+          "colete": "blue",
           "avancou": false
         }
       ],
       "replay": null,
-      "definida": false,
+      "definida": true,
       "data": "2026-10-17",
       "dia_rotulo": "17/10",
       "horario": null,
@@ -1432,22 +1432,22 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da R2H1",
-          "pais": null,
+          "nome": "Morgan Cibilic",
+          "pais": "AUS",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "vencedor da R2H2",
-          "pais": null,
+          "nome": "Gabriel Medina",
+          "pais": "BRA",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
       "replay": null,
-      "definida": false,
+      "definida": true,
       "data": "2026-10-17",
       "dia_rotulo": "17/10",
       "horario": null,
@@ -1462,8 +1462,8 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da R1H3",
-          "pais": null,
+          "nome": "Caitlin Simmers",
+          "pais": "USA",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -1472,7 +1472,7 @@
           "nome": "vencedor da R1H4",
           "pais": null,
           "nota": null,
-          "colete": "green",
+          "colete": "blue",
           "avancou": false
         }
       ],
@@ -1492,14 +1492,14 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da R2H3",
-          "pais": null,
+          "nome": "Italo Ferreira",
+          "pais": "BRA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "vencedor da R2H4",
+          "nome": "Guilherme Ribeiro",
           "pais": null,
           "nota": null,
           "colete": "blue",
@@ -1507,7 +1507,7 @@
         }
       ],
       "replay": null,
-      "definida": false,
+      "definida": true,
       "data": "2026-10-17",
       "dia_rotulo": "17/10",
       "horario": null,
@@ -1532,7 +1532,7 @@
           "nome": "vencedor da R1H6",
           "pais": null,
           "nota": null,
-          "colete": "green",
+          "colete": "blue",
           "avancou": false
         }
       ],
@@ -1552,22 +1552,22 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da R2H5",
-          "pais": null,
+          "nome": "Yago Dora",
+          "pais": "BRA",
           "nota": null,
-          "colete": "red",
+          "colete": "yellow",
           "avancou": false
         },
         {
-          "nome": "vencedor da R2H6",
-          "pais": null,
+          "nome": "Ethan Ewing",
+          "pais": "AUS",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
       "replay": null,
-      "definida": false,
+      "definida": true,
       "data": "2026-10-17",
       "dia_rotulo": "17/10",
       "horario": null,
@@ -1592,14 +1592,14 @@
           "nome": "vencedor da R1H8",
           "pais": null,
           "nota": null,
-          "colete": "green",
+          "colete": "blue",
           "avancou": false
         }
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-18",
-      "dia_rotulo": "18/10",
+      "data": "2026-10-17",
+      "dia_rotulo": "17/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1612,22 +1612,22 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da R2H7",
-          "pais": null,
+          "nome": "Seth Moniz",
+          "pais": "HAW",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "vencedor da R2H8",
-          "pais": null,
+          "nome": "Griffin Colapinto",
+          "pais": "USA",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
       "replay": null,
-      "definida": false,
+      "definida": true,
       "data": "2026-10-17",
       "dia_rotulo": "17/10",
       "horario": null,
@@ -1658,8 +1658,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-18",
-      "dia_rotulo": "18/10",
+      "data": "2026-10-17",
+      "dia_rotulo": "17/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1688,8 +1688,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-18",
-      "dia_rotulo": "18/10",
+      "data": "2026-10-17",
+      "dia_rotulo": "17/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1718,8 +1718,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-18",
-      "dia_rotulo": "18/10",
+      "data": "2026-10-17",
+      "dia_rotulo": "17/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1748,8 +1748,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-18",
-      "dia_rotulo": "18/10",
+      "data": "2026-10-17",
+      "dia_rotulo": "17/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
