@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "15/10/2026 21:45",
+  "atualizado_em": "16/10/2026 02:09",
   "evento": {
     "nome": "MEO Rip Curl Pro Portugal",
     "id": "445",
@@ -19,16 +19,6 @@
   "passo_estimado_min": 39,
   "dias": [
     {
-      "data": "2026-10-15",
-      "dia": "15",
-      "mes": "10",
-      "semana": "Qui",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
-      "hoje": true
-    },
-    {
       "data": "2026-10-16",
       "dia": "16",
       "mes": "10",
@@ -36,7 +26,7 @@
       "estado": "call",
       "qtd": 14,
       "evento": "MEO Rip Curl Pro Portugal",
-      "hoje": false
+      "hoje": true
     },
     {
       "data": "2026-10-17",
@@ -167,6 +157,16 @@
       "qtd": 0,
       "evento": null,
       "hoje": false
+    },
+    {
+      "data": "2026-10-30",
+      "dia": "30",
+      "mes": "10",
+      "semana": "Sex",
+      "estado": "vazio",
+      "qtd": 0,
+      "evento": null,
+      "hoje": false
     }
   ],
   "proximas_etapas": [
@@ -178,7 +178,7 @@
       "inicio": "2026-10-16",
       "fim": "2026-10-25",
       "periodo": "16 out a 25 out",
-      "em_andamento": false
+      "em_andamento": true
     },
     {
       "id": "543",
