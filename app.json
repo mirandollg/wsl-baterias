@@ -1,19 +1,19 @@
 {
-  "atualizado_em": "17/10/2026 03:10",
+  "atualizado_em": "17/10/2026 07:44",
   "evento": {
     "nome": "MEO Rip Curl Pro Portugal",
     "id": "445",
     "inicio": "2026-10-16",
     "fim": "2026-10-25"
   },
-  "call": "17/10 às 04:30",
+  "call": "17/10 às 10:00",
   "transmissao": {
     "youtube": "https://www.youtube.com/@wsl/live",
     "site": "https://www.worldsurfleague.com/watch",
     "tv": "sportv4"
   },
-  "status_wsl": "Standby",
-  "status_msg": "Next Call •Oct 17•8:30 AM WEST",
+  "status_wsl": "Live",
+  "status_msg": "On Hold, Next Call •Oct 17•2:00 PM WEST",
   "situacao": "call",
   "call_data": "2026-10-17",
   "passo_estimado_min": 39,
@@ -24,7 +24,7 @@
       "mes": "10",
       "semana": "Sab",
       "estado": "call",
-      "qtd": 13,
+      "qtd": 6,
       "evento": "MEO Rip Curl Pro Portugal",
       "hoje": true
     },
@@ -34,7 +34,7 @@
       "mes": "10",
       "semana": "Dom",
       "estado": "previsto",
-      "qtd": 1,
+      "qtd": 8,
       "evento": "MEO Rip Curl Pro Portugal",
       "hoje": false
     },
@@ -496,7 +496,7 @@
         "posicao": 7,
         "nome": "Caitlin Simmers",
         "pais": "USA",
-        "pontos": "36,555",
+        "pontos": "37,895",
         "variacao": "-"
       },
       {
@@ -515,16 +515,16 @@
       },
       {
         "posicao": 10,
-        "nome": "Caroline Marks",
-        "pais": "USA",
-        "pontos": "28,320",
-        "variacao": "-"
+        "nome": "Bettylou Sakura Johnson",
+        "pais": "HAW",
+        "pontos": "28,660",
+        "variacao": "2"
       },
       {
         "posicao": 11,
-        "nome": "Bettylou Sakura Johnson",
-        "pais": "HAW",
-        "pontos": "27,320",
+        "nome": "Caroline Marks",
+        "pais": "USA",
+        "pontos": "28,320",
         "variacao": "1"
       },
       {
@@ -615,22 +615,22 @@
   },
   "ao_vivo": null,
   "proxima": {
-    "id": "114939",
-    "genero": "F",
+    "id": "114300",
+    "genero": "M",
     "rodada": "Quartas de final",
     "numero": 1,
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "Bettylou Sakura Johnson",
-        "pais": "HAW",
+        "nome": "Morgan Cibilic",
+        "pais": "AUS",
         "nota": null,
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Francisca Veselko",
-        "pais": "POR",
+        "nome": "Gabriel Medina",
+        "pais": "BRA",
         "nota": null,
         "colete": "blue",
         "avancou": false
@@ -640,8 +640,8 @@
     "definida": true,
     "data": "2026-10-17",
     "dia_rotulo": "17/10",
-    "horario": "05:09",
-    "quando": "05:09",
+    "horario": "10:00",
+    "quando": "10:00",
     "estado": "com_horario"
   },
   "baterias": [
@@ -1370,30 +1370,30 @@
       "genero": "F",
       "rodada": "Quartas de final",
       "numero": 1,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Bettylou Sakura Johnson",
           "pais": "HAW",
-          "nota": null,
+          "nota": "7.43",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Francisca Veselko",
           "pais": "POR",
-          "nota": null,
+          "nota": "7.34",
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/562047/meo-rip-curl-pro-portugal-womens-quarterfinals-heat-1-full-heat-replay?jointEventId=445",
       "definida": true,
       "data": "2026-10-17",
       "dia_rotulo": "17/10",
-      "horario": "05:09",
-      "quando": "05:09",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114300",
@@ -1421,8 +1421,8 @@
       "definida": true,
       "data": "2026-10-17",
       "dia_rotulo": "17/10",
-      "horario": "04:30",
-      "quando": "04:30",
+      "horario": "10:00",
+      "quando": "10:00",
       "estado": "com_horario"
     },
     {
@@ -1430,30 +1430,30 @@
       "genero": "F",
       "rodada": "Quartas de final",
       "numero": 2,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Caitlin Simmers",
           "pais": "USA",
-          "nota": null,
+          "nota": "11.50",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Carissa Moore",
           "pais": "HAW",
-          "nota": null,
+          "nota": "8.93",
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/562048/meo-rip-curl-pro-portugal-womens-quarterfinals-heat-2-full-heat-replay?jointEventId=445",
       "definida": true,
       "data": "2026-10-17",
       "dia_rotulo": "17/10",
-      "horario": "06:27",
-      "quando": "06:27",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114301",
@@ -1481,8 +1481,8 @@
       "definida": true,
       "data": "2026-10-17",
       "dia_rotulo": "17/10",
-      "horario": "05:48",
-      "quando": "05:48",
+      "horario": "10:39",
+      "quando": "10:39",
       "estado": "com_horario"
     },
     {
@@ -1507,12 +1507,12 @@
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/557329/its-on-day-2-of-the-meo-rip-curl-pro-portugal?jointEventId=445",
       "definida": true,
       "data": "2026-10-17",
       "dia_rotulo": "17/10",
-      "horario": "07:45",
-      "quando": "07:45",
+      "horario": "11:57",
+      "quando": "11:57",
       "estado": "com_horario"
     },
     {
@@ -1541,8 +1541,8 @@
       "definida": true,
       "data": "2026-10-17",
       "dia_rotulo": "17/10",
-      "horario": "07:06",
-      "quando": "07:06",
+      "horario": "11:18",
+      "quando": "11:18",
       "estado": "com_horario"
     },
     {
@@ -1569,11 +1569,11 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-17",
-      "dia_rotulo": "17/10",
-      "horario": "09:03",
-      "quando": "09:03",
-      "estado": "com_horario"
+      "data": "2026-10-18",
+      "dia_rotulo": "18/10",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114303",
@@ -1599,11 +1599,11 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-17",
-      "dia_rotulo": "17/10",
-      "horario": "08:24",
-      "quando": "08:24",
-      "estado": "com_horario"
+      "data": "2026-10-18",
+      "dia_rotulo": "18/10",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114943",
@@ -1613,27 +1613,27 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da QFH1",
-          "pais": null,
+          "nome": "Bettylou Sakura Johnson",
+          "pais": "HAW",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "vencedor da QFH2",
-          "pais": null,
+          "nome": "Caitlin Simmers",
+          "pais": "USA",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
       "replay": null,
-      "definida": false,
-      "data": "2026-10-17",
-      "dia_rotulo": "17/10",
-      "horario": "10:21",
-      "quando": "10:21",
-      "estado": "com_horario"
+      "definida": true,
+      "data": "2026-10-18",
+      "dia_rotulo": "18/10",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114304",
@@ -1659,11 +1659,11 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-17",
-      "dia_rotulo": "17/10",
-      "horario": "09:42",
-      "quando": "09:42",
-      "estado": "com_horario"
+      "data": "2026-10-18",
+      "dia_rotulo": "18/10",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114944",
@@ -1689,11 +1689,11 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-17",
-      "dia_rotulo": "17/10",
-      "horario": "11:39",
-      "quando": "11:39",
-      "estado": "com_horario"
+      "data": "2026-10-18",
+      "dia_rotulo": "18/10",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114305",
@@ -1719,11 +1719,11 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-17",
-      "dia_rotulo": "17/10",
-      "horario": "11:00",
-      "quando": "11:00",
-      "estado": "com_horario"
+      "data": "2026-10-18",
+      "dia_rotulo": "18/10",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114945",
@@ -1779,11 +1779,11 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-17",
-      "dia_rotulo": "17/10",
-      "horario": "12:18",
-      "quando": "12:18",
-      "estado": "com_horario"
+      "data": "2026-10-18",
+      "dia_rotulo": "18/10",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     }
   ]
 }
