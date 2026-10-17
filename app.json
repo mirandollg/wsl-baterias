@@ -1,19 +1,19 @@
 {
-  "atualizado_em": "17/10/2026 07:44",
+  "atualizado_em": "17/10/2026 10:57",
   "evento": {
     "nome": "MEO Rip Curl Pro Portugal",
     "id": "445",
     "inicio": "2026-10-16",
     "fim": "2026-10-25"
   },
-  "call": "17/10 às 10:00",
+  "call": "17/10 às 11:00",
   "transmissao": {
     "youtube": "https://www.youtube.com/@wsl/live",
     "site": "https://www.worldsurfleague.com/watch",
     "tv": "sportv4"
   },
   "status_wsl": "Live",
-  "status_msg": "On Hold, Next Call •Oct 17•2:00 PM WEST",
+  "status_msg": "On Hold, Next Call •Oct 17•3:00 PM WEST",
   "situacao": "call",
   "call_data": "2026-10-17",
   "passo_estimado_min": 39,
@@ -24,7 +24,7 @@
       "mes": "10",
       "semana": "Sab",
       "estado": "call",
-      "qtd": 6,
+      "qtd": 5,
       "evento": "MEO Rip Curl Pro Portugal",
       "hoje": true
     },
@@ -34,7 +34,7 @@
       "mes": "10",
       "semana": "Dom",
       "estado": "previsto",
-      "qtd": 8,
+      "qtd": 9,
       "evento": "MEO Rip Curl Pro Portugal",
       "hoje": false
     },
@@ -592,24 +592,24 @@
       },
       {
         "posicao": 21,
-        "nome": "Francisca Veselko",
-        "pais": "POR",
-        "pontos": "14,745",
-        "variacao": "2"
-      },
-      {
-        "posicao": 22,
         "nome": "Sally Fitzgibbons",
         "pais": "AUS",
         "pontos": "14,000",
-        "variacao": "1"
+        "variacao": "-"
       },
       {
-        "posicao": 23,
+        "posicao": 22,
         "nome": "Bella Kenworthy",
         "pais": "USA",
         "pontos": "13,745",
-        "variacao": "1"
+        "variacao": "-"
+      },
+      {
+        "posicao": 23,
+        "nome": "Francisca Veselko",
+        "pais": "POR",
+        "pontos": "10,000",
+        "variacao": "-"
       }
     ]
   },
@@ -640,8 +640,8 @@
     "definida": true,
     "data": "2026-10-17",
     "dia_rotulo": "17/10",
-    "horario": "10:00",
-    "quando": "10:00",
+    "horario": "11:00",
+    "quando": "11:00",
     "estado": "com_horario"
   },
   "baterias": [
@@ -1421,8 +1421,8 @@
       "definida": true,
       "data": "2026-10-17",
       "dia_rotulo": "17/10",
-      "horario": "10:00",
-      "quando": "10:00",
+      "horario": "11:00",
+      "quando": "11:00",
       "estado": "com_horario"
     },
     {
@@ -1481,8 +1481,8 @@
       "definida": true,
       "data": "2026-10-17",
       "dia_rotulo": "17/10",
-      "horario": "10:39",
-      "quando": "10:39",
+      "horario": "11:39",
+      "quando": "11:39",
       "estado": "com_horario"
     },
     {
@@ -1509,11 +1509,11 @@
       ],
       "replay": "https://www.worldsurfleague.com/posts/557329/its-on-day-2-of-the-meo-rip-curl-pro-portugal?jointEventId=445",
       "definida": true,
-      "data": "2026-10-17",
-      "dia_rotulo": "17/10",
-      "horario": "11:57",
-      "quando": "11:57",
-      "estado": "com_horario"
+      "data": "2026-10-18",
+      "dia_rotulo": "18/10",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114302",
@@ -1541,8 +1541,8 @@
       "definida": true,
       "data": "2026-10-17",
       "dia_rotulo": "17/10",
-      "horario": "11:18",
-      "quando": "11:18",
+      "horario": "12:18",
+      "quando": "12:18",
       "estado": "com_horario"
     },
     {
