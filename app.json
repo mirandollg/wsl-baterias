@@ -1,21 +1,21 @@
 {
-  "atualizado_em": "18/10/2026 03:23",
+  "atualizado_em": "18/10/2026 08:34",
   "evento": {
     "nome": "MEO Rip Curl Pro Portugal",
     "id": "445",
     "inicio": "2026-10-16",
     "fim": "2026-10-25"
   },
-  "call": "18/10 às 05:00",
+  "call": null,
   "transmissao": {
     "youtube": "https://www.youtube.com/@wsl/live",
     "site": "https://www.worldsurfleague.com/watch",
     "tv": "sportv4"
   },
-  "status_wsl": "Standby",
-  "status_msg": "Next Call •Oct 18•9:00 AM WEST",
-  "situacao": "call",
-  "call_data": "2026-10-18",
+  "status_wsl": "Live",
+  "status_msg": "Watch the Expression Session",
+  "situacao": "aguardando",
+  "call_data": null,
   "passo_estimado_min": 39,
   "dias": [
     {
@@ -23,8 +23,8 @@
       "dia": "18",
       "mes": "10",
       "semana": "Dom",
-      "estado": "call",
-      "qtd": 12,
+      "estado": "previsto",
+      "qtd": 6,
       "evento": "MEO Rip Curl Pro Portugal",
       "hoje": true
     },
@@ -33,9 +33,9 @@
       "dia": "19",
       "mes": "10",
       "semana": "Seg",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
+      "estado": "previsto",
+      "qtd": 6,
+      "evento": "MEO Rip Curl Pro Portugal",
       "hoje": false
     },
     {
@@ -640,9 +640,9 @@
     "definida": true,
     "data": "2026-10-18",
     "dia_rotulo": "18/10",
-    "horario": "05:00",
-    "quando": "05:00",
-    "estado": "com_horario"
+    "horario": null,
+    "quando": "aguardando call",
+    "estado": "aguardando_call"
   },
   "baterias": [
     {
@@ -1421,9 +1421,9 @@
       "definida": true,
       "data": "2026-10-18",
       "dia_rotulo": "18/10",
-      "horario": "05:00",
-      "quando": "05:00",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114940",
@@ -1481,9 +1481,9 @@
       "definida": true,
       "data": "2026-10-18",
       "dia_rotulo": "18/10",
-      "horario": "05:39",
-      "quando": "05:39",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114941",
@@ -1507,13 +1507,13 @@
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/557329/its-on-day-3-of-the-meo-rip-curl-pro-portugal?jointEventId=445",
       "definida": true,
       "data": "2026-10-18",
       "dia_rotulo": "18/10",
-      "horario": "06:57",
-      "quando": "06:57",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114302",
@@ -1541,9 +1541,9 @@
       "definida": true,
       "data": "2026-10-18",
       "dia_rotulo": "18/10",
-      "horario": "06:18",
-      "quando": "06:18",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114942",
@@ -1571,9 +1571,9 @@
       "definida": true,
       "data": "2026-10-18",
       "dia_rotulo": "18/10",
-      "horario": "08:15",
-      "quando": "08:15",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114303",
@@ -1601,9 +1601,9 @@
       "definida": true,
       "data": "2026-10-18",
       "dia_rotulo": "18/10",
-      "horario": "07:36",
-      "quando": "07:36",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114943",
@@ -1629,11 +1629,11 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-18",
-      "dia_rotulo": "18/10",
-      "horario": "09:33",
-      "quando": "09:33",
-      "estado": "com_horario"
+      "data": "2026-10-19",
+      "dia_rotulo": "19/10",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114304",
@@ -1659,11 +1659,11 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-18",
-      "dia_rotulo": "18/10",
-      "horario": "08:54",
-      "quando": "08:54",
-      "estado": "com_horario"
+      "data": "2026-10-19",
+      "dia_rotulo": "19/10",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114944",
@@ -1689,11 +1689,11 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-18",
-      "dia_rotulo": "18/10",
-      "horario": "10:51",
-      "quando": "10:51",
-      "estado": "com_horario"
+      "data": "2026-10-19",
+      "dia_rotulo": "19/10",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114305",
@@ -1719,11 +1719,11 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-18",
-      "dia_rotulo": "18/10",
-      "horario": "10:12",
-      "quando": "10:12",
-      "estado": "com_horario"
+      "data": "2026-10-19",
+      "dia_rotulo": "19/10",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114945",
@@ -1749,11 +1749,11 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-18",
-      "dia_rotulo": "18/10",
-      "horario": "12:09",
-      "quando": "12:09",
-      "estado": "com_horario"
+      "data": "2026-10-19",
+      "dia_rotulo": "19/10",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114306",
@@ -1779,11 +1779,11 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-18",
-      "dia_rotulo": "18/10",
-      "horario": "11:30",
-      "quando": "11:30",
-      "estado": "com_horario"
+      "data": "2026-10-19",
+      "dia_rotulo": "19/10",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     }
   ]
 }
