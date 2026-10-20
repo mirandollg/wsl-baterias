@@ -1,19 +1,19 @@
 {
-  "atualizado_em": "20/10/2026 02:07",
+  "atualizado_em": "20/10/2026 07:00",
   "evento": {
     "nome": "MEO Rip Curl Pro Portugal",
     "id": "445",
     "inicio": "2026-10-16",
     "fim": "2026-10-25"
   },
-  "call": "20/10 às 03:45",
+  "call": "20/10 às 07:00",
   "transmissao": {
     "youtube": "https://www.youtube.com/@wsl/live",
     "site": "https://www.worldsurfleague.com/watch",
     "tv": "sportv4"
   },
-  "status_wsl": "Standby",
-  "status_msg": "Next Call •Oct 20•7:45 AM WEST",
+  "status_wsl": "Live",
+  "status_msg": "It's ON! Coverage Starts •11:00 AM WEST",
   "situacao": "call",
   "call_data": "2026-10-20",
   "passo_estimado_min": 39,
@@ -24,7 +24,7 @@
       "mes": "10",
       "semana": "Ter",
       "estado": "call",
-      "qtd": 12,
+      "qtd": 9,
       "evento": "MEO Rip Curl Pro Portugal",
       "hoje": true
     },
@@ -33,9 +33,9 @@
       "dia": "21",
       "mes": "10",
       "semana": "Qua",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
+      "estado": "previsto",
+      "qtd": 3,
+      "evento": "MEO Rip Curl Pro Portugal",
       "hoje": false
     },
     {
@@ -640,8 +640,8 @@
     "definida": true,
     "data": "2026-10-20",
     "dia_rotulo": "20/10",
-    "horario": "03:45",
-    "quando": "03:45",
+    "horario": "07:00",
+    "quando": "07:00",
     "estado": "com_horario"
   },
   "baterias": [
@@ -1421,8 +1421,8 @@
       "definida": true,
       "data": "2026-10-20",
       "dia_rotulo": "20/10",
-      "horario": "03:45",
-      "quando": "03:45",
+      "horario": "07:00",
+      "quando": "07:00",
       "estado": "com_horario"
     },
     {
@@ -1481,8 +1481,8 @@
       "definida": true,
       "data": "2026-10-20",
       "dia_rotulo": "20/10",
-      "horario": "04:24",
-      "quando": "04:24",
+      "horario": "07:39",
+      "quando": "07:39",
       "estado": "com_horario"
     },
     {
@@ -1507,12 +1507,12 @@
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/557329/its-on-day-3-of-the-meo-rip-curl-pro-portugal?jointEventId=445",
       "definida": true,
       "data": "2026-10-20",
       "dia_rotulo": "20/10",
-      "horario": "05:42",
-      "quando": "05:42",
+      "horario": "08:57",
+      "quando": "08:57",
       "estado": "com_horario"
     },
     {
@@ -1541,8 +1541,8 @@
       "definida": true,
       "data": "2026-10-20",
       "dia_rotulo": "20/10",
-      "horario": "05:03",
-      "quando": "05:03",
+      "horario": "08:18",
+      "quando": "08:18",
       "estado": "com_horario"
     },
     {
@@ -1571,8 +1571,8 @@
       "definida": true,
       "data": "2026-10-20",
       "dia_rotulo": "20/10",
-      "horario": "07:00",
-      "quando": "07:00",
+      "horario": "10:15",
+      "quando": "10:15",
       "estado": "com_horario"
     },
     {
@@ -1601,8 +1601,8 @@
       "definida": true,
       "data": "2026-10-20",
       "dia_rotulo": "20/10",
-      "horario": "06:21",
-      "quando": "06:21",
+      "horario": "09:36",
+      "quando": "09:36",
       "estado": "com_horario"
     },
     {
@@ -1631,8 +1631,8 @@
       "definida": true,
       "data": "2026-10-20",
       "dia_rotulo": "20/10",
-      "horario": "08:18",
-      "quando": "08:18",
+      "horario": "11:33",
+      "quando": "11:33",
       "estado": "com_horario"
     },
     {
@@ -1661,8 +1661,8 @@
       "definida": false,
       "data": "2026-10-20",
       "dia_rotulo": "20/10",
-      "horario": "07:39",
-      "quando": "07:39",
+      "horario": "10:54",
+      "quando": "10:54",
       "estado": "com_horario"
     },
     {
@@ -1689,11 +1689,11 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-20",
-      "dia_rotulo": "20/10",
-      "horario": "09:36",
-      "quando": "09:36",
-      "estado": "com_horario"
+      "data": "2026-10-21",
+      "dia_rotulo": "21/10",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114305",
@@ -1721,8 +1721,8 @@
       "definida": false,
       "data": "2026-10-20",
       "dia_rotulo": "20/10",
-      "horario": "08:57",
-      "quando": "08:57",
+      "horario": "12:12",
+      "quando": "12:12",
       "estado": "com_horario"
     },
     {
@@ -1749,11 +1749,11 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-20",
-      "dia_rotulo": "20/10",
-      "horario": "10:54",
-      "quando": "10:54",
-      "estado": "com_horario"
+      "data": "2026-10-21",
+      "dia_rotulo": "21/10",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114306",
@@ -1779,11 +1779,11 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-20",
-      "dia_rotulo": "20/10",
-      "horario": "10:15",
-      "quando": "10:15",
-      "estado": "com_horario"
+      "data": "2026-10-21",
+      "dia_rotulo": "21/10",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     }
   ]
 }
