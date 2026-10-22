@@ -1,21 +1,21 @@
 {
-  "atualizado_em": "22/10/2026 02:56",
+  "atualizado_em": "22/10/2026 08:29",
   "evento": {
     "nome": "MEO Rip Curl Pro Portugal",
     "id": "445",
     "inicio": "2026-10-16",
     "fim": "2026-10-25"
   },
-  "call": "22/10 às 04:00",
+  "call": "23/10 às 05:00",
   "transmissao": {
     "youtube": "https://www.youtube.com/@wsl/live",
     "site": "https://www.worldsurfleague.com/watch",
     "tv": "sportv4"
   },
   "status_wsl": "Standby",
-  "status_msg": "Next Call •Oct 22•8:00 AM WEST",
+  "status_msg": "Off for the Day, Next Call •Oct 23•9:00 AM WEST",
   "situacao": "call",
-  "call_data": "2026-10-22",
+  "call_data": "2026-10-23",
   "passo_estimado_min": 39,
   "dias": [
     {
@@ -23,8 +23,8 @@
       "dia": "22",
       "mes": "10",
       "semana": "Qui",
-      "estado": "call",
-      "qtd": 6,
+      "estado": "previsto",
+      "qtd": 2,
       "evento": "MEO Rip Curl Pro Portugal",
       "hoje": true
     },
@@ -33,9 +33,9 @@
       "dia": "23",
       "mes": "10",
       "semana": "Sex",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
+      "estado": "call",
+      "qtd": 4,
+      "evento": "MEO Rip Curl Pro Portugal",
       "hoje": false
     },
     {
@@ -461,7 +461,7 @@
         "posicao": 2,
         "nome": "Molly Picklum",
         "pais": "AUS",
-        "pontos": "45,035",
+        "pontos": "46,750",
         "variacao": "2"
       },
       {
@@ -487,17 +487,17 @@
       },
       {
         "posicao": 6,
-        "nome": "Luana Silva",
-        "pais": "BRA",
-        "pontos": "38,580",
-        "variacao": "-"
+        "nome": "Caitlin Simmers",
+        "pais": "USA",
+        "pontos": "39,610",
+        "variacao": "1"
       },
       {
         "posicao": 7,
-        "nome": "Caitlin Simmers",
-        "pais": "USA",
-        "pontos": "37,895",
-        "variacao": "-"
+        "nome": "Luana Silva",
+        "pais": "BRA",
+        "pontos": "38,580",
+        "variacao": "1"
       },
       {
         "posicao": 8,
@@ -615,22 +615,22 @@
   },
   "ao_vivo": null,
   "proxima": {
-    "id": "114943",
-    "genero": "F",
+    "id": "114304",
+    "genero": "M",
     "rodada": "Semifinal",
     "numero": 1,
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "Bettylou Sakura Johnson",
-        "pais": "HAW",
+        "nome": "Gabriel Medina",
+        "pais": "BRA",
         "nota": null,
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Caitlin Simmers",
-        "pais": "USA",
+        "nome": "Italo Ferreira",
+        "pais": "BRA",
         "nota": null,
         "colete": "blue",
         "avancou": false
@@ -638,10 +638,10 @@
     ],
     "replay": null,
     "definida": true,
-    "data": "2026-10-22",
-    "dia_rotulo": "22/10",
-    "horario": "04:39",
-    "quando": "04:39",
+    "data": "2026-10-23",
+    "dia_rotulo": "23/10",
+    "horario": "05:00",
+    "quando": "05:00",
     "estado": "com_horario"
   },
   "baterias": [
@@ -1610,30 +1610,30 @@
       "genero": "F",
       "rodada": "Semifinal",
       "numero": 1,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Bettylou Sakura Johnson",
           "pais": "HAW",
-          "nota": null,
+          "nota": "10.26",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Caitlin Simmers",
           "pais": "USA",
-          "nota": null,
+          "nota": "11.33",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/562239/meo-rip-curl-pro-portugal-womens-semifinals-heat-1-full-heat-replay?jointEventId=445",
       "definida": true,
       "data": "2026-10-22",
       "dia_rotulo": "22/10",
-      "horario": "04:39",
-      "quando": "04:39",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114304",
@@ -1659,10 +1659,10 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-22",
-      "dia_rotulo": "22/10",
-      "horario": "04:00",
-      "quando": "04:00",
+      "data": "2026-10-23",
+      "dia_rotulo": "23/10",
+      "horario": "05:00",
+      "quando": "05:00",
       "estado": "com_horario"
     },
     {
@@ -1670,30 +1670,30 @@
       "genero": "F",
       "rodada": "Semifinal",
       "numero": 2,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Lakey Peterson",
           "pais": "USA",
-          "nota": null,
+          "nota": "7.40",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Molly Picklum",
           "pais": "AUS",
-          "nota": null,
+          "nota": "8.63",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/562241/meo-rip-curl-pro-portugal-womens-semifinals-heat-2-full-heat-replay?jointEventId=445",
       "definida": true,
       "data": "2026-10-22",
       "dia_rotulo": "22/10",
-      "horario": "05:57",
-      "quando": "05:57",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114305",
@@ -1719,10 +1719,10 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-22",
-      "dia_rotulo": "22/10",
-      "horario": "05:18",
-      "quando": "05:18",
+      "data": "2026-10-23",
+      "dia_rotulo": "23/10",
+      "horario": "05:39",
+      "quando": "05:39",
       "estado": "com_horario"
     },
     {
@@ -1733,26 +1733,26 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da SFH1",
-          "pais": null,
+          "nome": "Caitlin Simmers",
+          "pais": "USA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "vencedor da SFH2",
-          "pais": null,
+          "nome": "Molly Picklum",
+          "pais": "AUS",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
       "replay": null,
-      "definida": false,
-      "data": "2026-10-22",
-      "dia_rotulo": "22/10",
-      "horario": "07:15",
-      "quando": "07:15",
+      "definida": true,
+      "data": "2026-10-23",
+      "dia_rotulo": "23/10",
+      "horario": "06:57",
+      "quando": "06:57",
       "estado": "com_horario"
     },
     {
@@ -1779,10 +1779,10 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-22",
-      "dia_rotulo": "22/10",
-      "horario": "06:36",
-      "quando": "06:36",
+      "data": "2026-10-23",
+      "dia_rotulo": "23/10",
+      "horario": "06:18",
+      "quando": "06:18",
       "estado": "com_horario"
     }
   ]
