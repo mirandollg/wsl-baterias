@@ -1,21 +1,21 @@
 {
-  "atualizado_em": "23/10/2026 08:58",
+  "atualizado_em": "23/10/2026 13:55",
   "evento": {
     "nome": "MEO Rip Curl Pro Portugal",
     "id": "445",
     "inicio": "2026-10-16",
     "fim": "2026-10-25"
   },
-  "call": "23/10 às 09:30",
+  "call": null,
   "transmissao": {
     "youtube": "https://www.youtube.com/@wsl/live",
     "site": "https://www.worldsurfleague.com/watch",
     "tv": "sportv4"
   },
-  "status_wsl": "Standby",
-  "status_msg": "On Hold, Next Call •Oct 23•1:30 PM WEST",
-  "situacao": "call",
-  "call_data": "2026-10-23",
+  "status_wsl": "Live",
+  "status_msg": "Corona Cero Post Show",
+  "situacao": "aguardando",
+  "call_data": null,
   "passo_estimado_min": 39,
   "dias": [
     {
@@ -23,7 +23,7 @@
       "dia": "23",
       "mes": "10",
       "semana": "Sex",
-      "estado": "call",
+      "estado": "previsto",
       "qtd": 4,
       "evento": "MEO Rip Curl Pro Portugal",
       "hoje": true
@@ -219,31 +219,31 @@
       },
       {
         "posicao": 3,
+        "nome": "Griffin Colapinto",
+        "pais": "USA",
+        "pontos": "43,695",
+        "variacao": "3"
+      },
+      {
+        "posicao": 4,
+        "nome": "Gabriel Medina",
+        "pais": "BRA",
+        "pontos": "43,210",
+        "variacao": "1"
+      },
+      {
+        "posicao": 5,
         "nome": "Miguel Pupo",
         "pais": "BRA",
         "pontos": "42,770",
         "variacao": "1"
       },
       {
-        "posicao": 4,
+        "posicao": 6,
         "nome": "Leonardo Fioravanti",
         "pais": "ITA",
         "pontos": "42,515",
-        "variacao": "2"
-      },
-      {
-        "posicao": 5,
-        "nome": "Gabriel Medina",
-        "pais": "BRA",
-        "pontos": "41,495",
-        "variacao": "-"
-      },
-      {
-        "posicao": 6,
-        "nome": "Griffin Colapinto",
-        "pais": "USA",
-        "pontos": "39,780",
-        "variacao": "-"
+        "variacao": "4"
       },
       {
         "posicao": 7,
@@ -452,17 +452,17 @@
     "feminino": [
       {
         "posicao": 1,
-        "nome": "Carissa Moore",
-        "pais": "HAW",
-        "pontos": "47,065",
-        "variacao": "1"
+        "nome": "Molly Picklum",
+        "pais": "AUS",
+        "pontos": "48,950",
+        "variacao": "3"
       },
       {
         "posicao": 2,
-        "nome": "Molly Picklum",
-        "pais": "AUS",
-        "pontos": "46,750",
-        "variacao": "2"
+        "nome": "Carissa Moore",
+        "pais": "HAW",
+        "pontos": "47,065",
+        "variacao": "-"
       },
       {
         "posicao": 3,
@@ -592,58 +592,29 @@
       },
       {
         "posicao": 21,
-        "nome": "Francisca Veselko",
-        "pais": "POR",
-        "pontos": "14,745",
-        "variacao": "2"
-      },
-      {
-        "posicao": 22,
         "nome": "Sally Fitzgibbons",
         "pais": "AUS",
         "pontos": "14,000",
-        "variacao": "1"
+        "variacao": "-"
       },
       {
-        "posicao": 23,
+        "posicao": 22,
         "nome": "Bella Kenworthy",
         "pais": "USA",
         "pontos": "13,745",
-        "variacao": "1"
+        "variacao": "-"
+      },
+      {
+        "posicao": 23,
+        "nome": "Francisca Veselko",
+        "pais": "POR",
+        "pontos": "11,000",
+        "variacao": "-"
       }
     ]
   },
   "ao_vivo": null,
-  "proxima": {
-    "id": "114304",
-    "genero": "M",
-    "rodada": "Semifinal",
-    "numero": 1,
-    "status": "aguardando",
-    "surfistas": [
-      {
-        "nome": "Gabriel Medina",
-        "pais": "BRA",
-        "nota": null,
-        "colete": "red",
-        "avancou": false
-      },
-      {
-        "nome": "Italo Ferreira",
-        "pais": "BRA",
-        "nota": null,
-        "colete": "blue",
-        "avancou": false
-      }
-    ],
-    "replay": null,
-    "definida": true,
-    "data": "2026-10-23",
-    "dia_rotulo": "23/10",
-    "horario": "09:30",
-    "quando": "09:30",
-    "estado": "com_horario"
-  },
+  "proxima": null,
   "baterias": [
     {
       "id": "114284",
@@ -1640,30 +1611,30 @@
       "genero": "M",
       "rodada": "Semifinal",
       "numero": 1,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Gabriel Medina",
           "pais": "BRA",
-          "nota": null,
+          "nota": "11.67",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Italo Ferreira",
           "pais": "BRA",
-          "nota": null,
+          "nota": "10.10",
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/562258/meo-rip-curl-pro-portugal-mens-semifinals-heat-1-full-heat-replay?jointEventId=445",
       "definida": true,
       "data": "2026-10-23",
       "dia_rotulo": "23/10",
-      "horario": "09:30",
-      "quando": "09:30",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114944",
@@ -1700,90 +1671,90 @@
       "genero": "M",
       "rodada": "Semifinal",
       "numero": 2,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Yago Dora",
           "pais": "BRA",
-          "nota": null,
+          "nota": "8.83",
           "colete": "yellow",
           "avancou": false
         },
         {
           "nome": "Griffin Colapinto",
           "pais": "USA",
-          "nota": null,
+          "nota": "14.33",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/562260/meo-rip-curl-pro-portugal-mens-semifinals-heat-2-full-heat-replay?jointEventId=445",
       "definida": true,
       "data": "2026-10-23",
       "dia_rotulo": "23/10",
-      "horario": "10:09",
-      "quando": "10:09",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114945",
       "genero": "F",
       "rodada": "Final",
       "numero": 1,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Caitlin Simmers",
           "pais": "USA",
-          "nota": null,
+          "nota": "12.84",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Molly Picklum",
           "pais": "AUS",
-          "nota": null,
+          "nota": "13.33",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/562267/meo-rip-curl-pro-portugal-womens-final-full-heat-replay?jointEventId=445",
       "definida": true,
       "data": "2026-10-23",
       "dia_rotulo": "23/10",
-      "horario": "11:27",
-      "quando": "11:27",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114306",
       "genero": "M",
       "rodada": "Final",
       "numero": 1,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
-          "nome": "vencedor da SFH1",
-          "pais": null,
-          "nota": null,
+          "nome": "Gabriel Medina",
+          "pais": "BRA",
+          "nota": "16.77",
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "vencedor da SFH2",
-          "pais": null,
-          "nota": null,
+          "nome": "Griffin Colapinto",
+          "pais": "USA",
+          "nota": "17.60",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         }
       ],
-      "replay": null,
-      "definida": false,
+      "replay": "https://www.worldsurfleague.com/posts/557329/its-on-finals-day-of-the-meo-rip-curl-pro-portugal?jointEventId=445",
+      "definida": true,
       "data": "2026-10-23",
       "dia_rotulo": "23/10",
-      "horario": "10:48",
-      "quando": "10:48",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     }
   ]
 }
