@@ -1,19 +1,19 @@
 {
-  "atualizado_em": "23/10/2026 03:28",
+  "atualizado_em": "23/10/2026 08:58",
   "evento": {
     "nome": "MEO Rip Curl Pro Portugal",
     "id": "445",
     "inicio": "2026-10-16",
     "fim": "2026-10-25"
   },
-  "call": "23/10 às 05:00",
+  "call": "23/10 às 09:30",
   "transmissao": {
     "youtube": "https://www.youtube.com/@wsl/live",
     "site": "https://www.worldsurfleague.com/watch",
     "tv": "sportv4"
   },
   "status_wsl": "Standby",
-  "status_msg": "Next Call •Oct 23•9:00 AM WEST",
+  "status_msg": "On Hold, Next Call •Oct 23•1:30 PM WEST",
   "situacao": "call",
   "call_data": "2026-10-23",
   "passo_estimado_min": 39,
@@ -640,8 +640,8 @@
     "definida": true,
     "data": "2026-10-23",
     "dia_rotulo": "23/10",
-    "horario": "05:00",
-    "quando": "05:00",
+    "horario": "09:30",
+    "quando": "09:30",
     "estado": "com_horario"
   },
   "baterias": [
@@ -1661,8 +1661,8 @@
       "definida": true,
       "data": "2026-10-23",
       "dia_rotulo": "23/10",
-      "horario": "05:00",
-      "quando": "05:00",
+      "horario": "09:30",
+      "quando": "09:30",
       "estado": "com_horario"
     },
     {
@@ -1721,8 +1721,8 @@
       "definida": true,
       "data": "2026-10-23",
       "dia_rotulo": "23/10",
-      "horario": "05:39",
-      "quando": "05:39",
+      "horario": "10:09",
+      "quando": "10:09",
       "estado": "com_horario"
     },
     {
@@ -1751,8 +1751,8 @@
       "definida": true,
       "data": "2026-10-23",
       "dia_rotulo": "23/10",
-      "horario": "06:57",
-      "quando": "06:57",
+      "horario": "11:27",
+      "quando": "11:27",
       "estado": "com_horario"
     },
     {
@@ -1781,8 +1781,8 @@
       "definida": false,
       "data": "2026-10-23",
       "dia_rotulo": "23/10",
-      "horario": "06:18",
-      "quando": "06:18",
+      "horario": "10:48",
+      "quando": "10:48",
       "estado": "com_horario"
     }
   ]
