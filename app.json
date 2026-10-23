@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "23/10/2026 13:55",
+  "atualizado_em": "23/10/2026 17:14",
   "evento": {
     "nome": "MEO Rip Curl Pro Portugal",
     "id": "445",
@@ -12,8 +12,8 @@
     "site": "https://www.worldsurfleague.com/watch",
     "tv": "sportv4"
   },
-  "status_wsl": "Live",
-  "status_msg": "Corona Cero Post Show",
+  "status_wsl": "Completed",
+  "status_msg": "Event Complete - Watch Replay",
   "situacao": "aguardando",
   "call_data": null,
   "passo_estimado_min": 39,
@@ -1748,7 +1748,7 @@
           "avancou": true
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/557329/its-on-finals-day-of-the-meo-rip-curl-pro-portugal?jointEventId=445",
+      "replay": null,
       "definida": true,
       "data": "2026-10-23",
       "dia_rotulo": "23/10",
