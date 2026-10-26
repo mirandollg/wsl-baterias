@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "26/10/2026 02:15",
+  "atualizado_em": "26/10/2026 08:14",
   "evento": {
     "nome": "Philippines Pro",
     "id": "543",
@@ -24,7 +24,7 @@
       "mes": "10",
       "semana": "Seg",
       "estado": "previsto",
-      "qtd": 12,
+      "qtd": 7,
       "evento": "Philippines Pro",
       "hoje": true
     },
@@ -44,7 +44,7 @@
       "mes": "10",
       "semana": "Qua",
       "estado": "previsto",
-      "qtd": 11,
+      "qtd": 15,
       "evento": "Philippines Pro",
       "hoje": false
     },
@@ -53,9 +53,9 @@
       "dia": "29",
       "mes": "10",
       "semana": "Qui",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
+      "estado": "previsto",
+      "qtd": 1,
+      "evento": "Philippines Pro",
       "hoje": false
     },
     {
@@ -869,8 +869,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-26",
-      "dia_rotulo": "26/10",
+      "data": "2026-10-27",
+      "dia_rotulo": "27/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -899,8 +899,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-26",
-      "dia_rotulo": "26/10",
+      "data": "2026-10-27",
+      "dia_rotulo": "27/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -929,8 +929,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-26",
-      "dia_rotulo": "26/10",
+      "data": "2026-10-27",
+      "dia_rotulo": "27/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -959,8 +959,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-26",
-      "dia_rotulo": "26/10",
+      "data": "2026-10-27",
+      "dia_rotulo": "27/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -989,8 +989,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-26",
-      "dia_rotulo": "26/10",
+      "data": "2026-10-27",
+      "dia_rotulo": "27/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1319,8 +1319,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-27",
-      "dia_rotulo": "27/10",
+      "data": "2026-10-28",
+      "dia_rotulo": "28/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1349,8 +1349,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-27",
-      "dia_rotulo": "27/10",
+      "data": "2026-10-28",
+      "dia_rotulo": "28/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1379,8 +1379,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-27",
-      "dia_rotulo": "27/10",
+      "data": "2026-10-28",
+      "dia_rotulo": "28/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1409,8 +1409,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-27",
-      "dia_rotulo": "27/10",
+      "data": "2026-10-28",
+      "dia_rotulo": "28/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1469,8 +1469,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-27",
-      "dia_rotulo": "27/10",
+      "data": "2026-10-28",
+      "dia_rotulo": "28/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1739,8 +1739,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-28",
-      "dia_rotulo": "28/10",
+      "data": "2026-10-29",
+      "dia_rotulo": "29/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
