@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "25/10/2026 21:33",
+  "atualizado_em": "26/10/2026 02:15",
   "evento": {
-    "nome": "MEO Rip Curl Pro Portugal",
-    "id": "445",
-    "inicio": "2026-10-16",
-    "fim": "2026-10-25"
+    "nome": "Philippines Pro",
+    "id": "543",
+    "inicio": "2026-10-31",
+    "fim": "2026-11-10"
   },
   "call": null,
   "transmissao": {
@@ -12,40 +12,30 @@
     "site": "https://www.worldsurfleague.com/watch",
     "tv": "sportv4"
   },
-  "status_wsl": "Completed",
-  "status_msg": "Event Complete - Watch Replay",
+  "status_wsl": "Upcoming",
+  "status_msg": "Oct 31 - Nov 10",
   "situacao": "aguardando",
   "call_data": null,
   "passo_estimado_min": 39,
   "dias": [
     {
-      "data": "2026-10-25",
-      "dia": "25",
-      "mes": "10",
-      "semana": "Dom",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
-      "hoje": true
-    },
-    {
       "data": "2026-10-26",
       "dia": "26",
       "mes": "10",
       "semana": "Seg",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
-      "hoje": false
+      "estado": "previsto",
+      "qtd": 12,
+      "evento": "Philippines Pro",
+      "hoje": true
     },
     {
       "data": "2026-10-27",
       "dia": "27",
       "mes": "10",
       "semana": "Ter",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
+      "estado": "previsto",
+      "qtd": 15,
+      "evento": "Philippines Pro",
       "hoje": false
     },
     {
@@ -53,9 +43,9 @@
       "dia": "28",
       "mes": "10",
       "semana": "Qua",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
+      "estado": "previsto",
+      "qtd": 11,
+      "evento": "Philippines Pro",
       "hoje": false
     },
     {
@@ -167,19 +157,19 @@
       "qtd": 0,
       "evento": null,
       "hoje": false
+    },
+    {
+      "data": "2026-11-09",
+      "dia": "09",
+      "mes": "11",
+      "semana": "Seg",
+      "estado": "vazio",
+      "qtd": 0,
+      "evento": null,
+      "hoje": false
     }
   ],
   "proximas_etapas": [
-    {
-      "id": "445",
-      "nome": "MEO Rip Curl Pro Portugal",
-      "local": "Supertubos, Peniche",
-      "pais": "POR",
-      "inicio": "2026-10-16",
-      "fim": "2026-10-25",
-      "periodo": "16 out a 25 out",
-      "em_andamento": true
-    },
     {
       "id": "543",
       "nome": "Philippines Pro",
@@ -614,1147 +604,1176 @@
     ]
   },
   "ao_vivo": null,
-  "proxima": null,
+  "proxima": {
+    "id": "114307",
+    "genero": "M",
+    "rodada": "Rodada 1",
+    "numero": 1,
+    "status": "aguardando",
+    "surfistas": [
+      {
+        "nome": "Event seed #16",
+        "pais": null,
+        "nota": null,
+        "colete": "red",
+        "avancou": false
+      },
+      {
+        "nome": "Event seed #17",
+        "pais": null,
+        "nota": null,
+        "colete": "blue",
+        "avancou": false
+      }
+    ],
+    "replay": null,
+    "definida": true,
+    "data": "2026-10-26",
+    "dia_rotulo": "26/10",
+    "horario": null,
+    "quando": "aguardando call",
+    "estado": "aguardando_call"
+  },
   "baterias": [
     {
-      "id": "114284",
+      "id": "114307",
       "genero": "M",
       "rodada": "Rodada 1",
       "numero": 1,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Callum Robson",
-          "pais": "AUS",
-          "nota": "10.66",
+          "nome": "Event seed #16",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Connor O'Leary",
-          "pais": "JPN",
-          "nota": "11.33",
-          "colete": "green",
-          "avancou": true
+          "nome": "Event seed #17",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/561927/meo-rip-curl-pro-portugal-mens-round-1-heat-1-full-heat-replay?jointEventId=445",
+      "replay": null,
       "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
+      "data": "2026-10-26",
+      "dia_rotulo": "26/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114285",
+      "id": "114308",
       "genero": "M",
       "rodada": "Rodada 1",
       "numero": 2,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Marco Mignot",
-          "pais": "FRA",
-          "nota": "5.10",
-          "colete": "blue",
+          "nome": "Event seed #15",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Morgan Cibilic",
-          "pais": "AUS",
-          "nota": "8.17",
-          "colete": "white",
-          "avancou": true
+          "nome": "Event seed #18",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/561928/meo-rip-curl-pro-portugal-mens-round-1-heat-2-full-heat-replay?jointEventId=445",
+      "replay": null,
       "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
+      "data": "2026-10-26",
+      "dia_rotulo": "26/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114286",
+      "id": "114309",
       "genero": "M",
       "rodada": "Rodada 1",
       "numero": 3,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Jack Robinson",
-          "pais": "AUS",
-          "nota": "13.33",
+          "nome": "Event seed #14",
+          "pais": null,
+          "nota": null,
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
         {
-          "nome": "Joao Chianca",
-          "pais": "BRA",
-          "nota": "5.10",
-          "colete": "green",
+          "nome": "Event seed #19",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/561932/meo-rip-curl-pro-portugal-mens-round-1-heat-3-full-heat-replay?jointEventId=445",
+      "replay": null,
       "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
+      "data": "2026-10-26",
+      "dia_rotulo": "26/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114287",
+      "id": "114310",
       "genero": "M",
       "rodada": "Rodada 1",
       "numero": 4,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Cole Houshmand",
-          "pais": "USA",
-          "nota": "8.80",
-          "colete": "blue",
+          "nome": "Event seed #13",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Seth Moniz",
-          "pais": "HAW",
-          "nota": "10.67",
-          "colete": "white",
-          "avancou": true
+          "nome": "Event seed #20",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/561945/meo-rip-curl-pro-portugal-mens-round-1-heat-4-full-heat-replay?jointEventId=445",
+      "replay": null,
       "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
+      "data": "2026-10-26",
+      "dia_rotulo": "26/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114288",
+      "id": "114311",
       "genero": "M",
       "rodada": "Rodada 1",
       "numero": 5,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Liam O'Brien",
-          "pais": "AUS",
-          "nota": "12.93",
+          "nome": "Event seed #12",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Filipe Toledo",
-          "pais": "BRA",
-          "nota": "14.43",
-          "colete": "green",
-          "avancou": true
+          "nome": "Event seed #21",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/561936/meo-rip-curl-pro-portugal-mens-round-1-heat-5-full-heat-replay?jointEventId=445",
+      "replay": null,
       "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
+      "data": "2026-10-26",
+      "dia_rotulo": "26/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114289",
+      "id": "114312",
       "genero": "M",
       "rodada": "Rodada 1",
       "numero": 6,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Kauli Vaast",
-          "pais": "FRA",
-          "nota": "12.27",
-          "colete": "blue",
-          "avancou": true
+          "nome": "Event seed #11",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
         },
         {
-          "nome": "Jake Marshall",
-          "pais": "USA",
-          "nota": "3.40",
-          "colete": "white",
+          "nome": "Event seed #22",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/561940/meo-rip-curl-pro-portugal-mens-round-1-heat-6-full-heat-replay?jointEventId=445",
+      "replay": null,
       "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
+      "data": "2026-10-26",
+      "dia_rotulo": "26/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114290",
+      "id": "114313",
       "genero": "M",
       "rodada": "Rodada 1",
       "numero": 7,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "George Pittar",
-          "pais": "AUS",
-          "nota": "5.57",
+          "nome": "Event seed #10",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Guilherme Ribeiro",
+          "nome": "Event seed #23",
           "pais": null,
-          "nota": "11.16",
-          "colete": "green",
-          "avancou": true
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/561942/meo-rip-curl-pro-portugal-mens-round-1-heat-7-full-heat-replay?jointEventId=445",
+      "replay": null,
       "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
+      "data": "2026-10-26",
+      "dia_rotulo": "26/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114291",
+      "id": "114314",
       "genero": "M",
       "rodada": "Rodada 1",
       "numero": 8,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Samuel Pupo",
-          "pais": "BRA",
-          "nota": "8.27",
-          "colete": "blue",
+          "nome": "Event seed #9",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Frederico Morais",
+          "nome": "Event seed #24",
           "pais": null,
-          "nota": "13.00",
-          "colete": "white",
-          "avancou": true
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/561943/meo-rip-curl-pro-portugal-mens-round-1-heat-8-full-heat-replay?jointEventId=445",
+      "replay": null,
       "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
+      "data": "2026-10-26",
+      "dia_rotulo": "26/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114931",
+      "id": "115064",
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 1,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Luana Silva",
-          "pais": "BRA",
-          "nota": "3.53",
+          "nome": "Event seed #6",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Bettylou Sakura Johnson",
-          "pais": "HAW",
-          "nota": "11.33",
-          "colete": "green",
-          "avancou": true
+          "nome": "Event seed #11",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/561983/meo-rip-curl-pro-portugal-womens-round-1-heat-1-full-heat-replay?jointEventId=445",
+      "replay": null,
       "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
+      "data": "2026-10-26",
+      "dia_rotulo": "26/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114292",
+      "id": "114315",
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 1,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Leonardo Fioravanti",
-          "pais": "ITA",
-          "nota": "11.90",
+          "nome": "Event seed #2",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Morgan Cibilic",
-          "pais": "AUS",
-          "nota": "15.43",
-          "colete": "green",
-          "avancou": true
+          "nome": "vencedor da R1H2",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/561948/meo-rip-curl-pro-portugal-mens-round-2-heat-1-full-heat-replay?jointEventId=445",
-      "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
+      "replay": null,
+      "definida": false,
+      "data": "2026-10-26",
+      "dia_rotulo": "26/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114932",
+      "id": "115065",
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 2,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Sawyer Lindblad",
-          "pais": "USA",
-          "nota": "7.90",
-          "colete": "blue",
+          "nome": "Event seed #3",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Francisca Veselko",
-          "pais": "POR",
-          "nota": "8.54",
-          "colete": "white",
-          "avancou": true
+          "nome": "Event seed #14",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/561987/meo-rip-curl-pro-portugal-womens-round-1-heat-2-full-heat-replay?jointEventId=445",
+      "replay": null,
       "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
+      "data": "2026-10-26",
+      "dia_rotulo": "26/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114293",
+      "id": "114316",
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 2,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Gabriel Medina",
-          "pais": "BRA",
-          "nota": "12.00",
-          "colete": "blue",
-          "avancou": true
+          "nome": "Event seed #5",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
         },
         {
-          "nome": "Filipe Toledo",
-          "pais": "BRA",
-          "nota": "2.30",
-          "colete": "white",
+          "nome": "vencedor da R1H5",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/561957/meo-rip-curl-pro-portugal-mens-round-2-heat-2-full-heat-replay?jointEventId=445",
-      "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
+      "replay": null,
+      "definida": false,
+      "data": "2026-10-26",
+      "dia_rotulo": "26/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114933",
+      "id": "115066",
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 3,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Caitlin Simmers",
-          "pais": "USA",
-          "nota": "14.16",
+          "nome": "Event seed #7",
+          "pais": null,
+          "nota": null,
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
         {
-          "nome": "Nadia Erostarbe",
-          "pais": "ESP",
-          "nota": "7.93",
-          "colete": "green",
+          "nome": "Event seed #10",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/561992/meo-rip-curl-pro-portugal-womens-round-1-heat-3-full-heat-replay?jointEventId=445",
+      "replay": null,
       "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
+      "data": "2026-10-27",
+      "dia_rotulo": "27/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114294",
+      "id": "114317",
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 3,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Italo Ferreira",
-          "pais": "BRA",
-          "nota": "15.00",
+          "nome": "Event seed #3",
+          "pais": null,
+          "nota": null,
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
         {
-          "nome": "Jack Robinson",
-          "pais": "AUS",
-          "nota": "10.43",
-          "colete": "green",
+          "nome": "vencedor da R1H3",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/561961/meo-rip-curl-pro-portugal-mens-round-2-heat-3-full-heat-replay?jointEventId=445",
-      "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
+      "replay": null,
+      "definida": false,
+      "data": "2026-10-27",
+      "dia_rotulo": "27/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114934",
+      "id": "115067",
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 4,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Carissa Moore",
-          "pais": "HAW",
-          "nota": "12.33",
-          "colete": "blue",
-          "avancou": true
+          "nome": "Event seed #2",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
         },
         {
-          "nome": "Johanne Defay",
+          "nome": "Event seed #15",
           "pais": null,
-          "nota": "6.76",
-          "colete": "white",
+          "nota": null,
+          "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/561993/meo-rip-curl-pro-portugal-womens-round-1-heat-4-full-heat-replay?jointEventId=445",
+      "replay": null,
       "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
+      "data": "2026-10-27",
+      "dia_rotulo": "27/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114295",
+      "id": "114318",
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 4,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Kanoa Igarashi",
-          "pais": "JPN",
-          "nota": "5.00",
-          "colete": "blue",
+          "nome": "Event seed #7",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Guilherme Ribeiro",
+          "nome": "vencedor da R1H7",
           "pais": null,
-          "nota": "10.33",
-          "colete": "white",
-          "avancou": true
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/561969/meo-rip-curl-pro-portugal-mens-round-2-heat-4-full-heat-replay?jointEventId=445",
-      "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
+      "replay": null,
+      "definida": false,
+      "data": "2026-10-27",
+      "dia_rotulo": "27/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114935",
+      "id": "115068",
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 5,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Gabriela Bryan",
-          "pais": "HAW",
-          "nota": "10.93",
-          "colete": "yellow",
+          "nome": "Event seed #1",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Teresa Bonvalot",
+          "nome": "Event seed #16",
           "pais": null,
-          "nota": "11.40",
-          "colete": "green",
-          "avancou": true
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/561998/meo-rip-curl-pro-portugal-womens-round-1-heat-5-full-heat-replay?jointEventId=445",
+      "replay": null,
       "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
+      "data": "2026-10-27",
+      "dia_rotulo": "27/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114296",
+      "id": "114319",
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 5,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Yago Dora",
-          "pais": "BRA",
-          "nota": "13.66",
-          "colete": "yellow",
-          "avancou": true
+          "nome": "Event seed #1",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
         },
         {
-          "nome": "Connor O'Leary",
-          "pais": "JPN",
-          "nota": "11.67",
-          "colete": "green",
+          "nome": "vencedor da R1H1",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/561964/meo-rip-curl-pro-portugal-mens-round-2-heat-5-full-heat-replay?jointEventId=445",
-      "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
+      "replay": null,
+      "definida": false,
+      "data": "2026-10-27",
+      "dia_rotulo": "27/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114936",
+      "id": "115069",
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 6,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Lakey Peterson",
-          "pais": "USA",
-          "nota": "11.17",
-          "colete": "blue",
-          "avancou": true
+          "nome": "Event seed #8",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
         },
         {
-          "nome": "Caroline Marks",
-          "pais": "USA",
-          "nota": "7.10",
-          "colete": "white",
+          "nome": "Event seed #9",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/561997/meo-rip-curl-pro-portugal-womens-round-1-heat-6-full-heat-replay?jointEventId=445",
+      "replay": null,
       "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
+      "data": "2026-10-27",
+      "dia_rotulo": "27/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114297",
+      "id": "114320",
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 6,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Ethan Ewing",
-          "pais": "AUS",
-          "nota": "15.73",
-          "colete": "blue",
-          "avancou": true
+          "nome": "Event seed #8",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
         },
         {
-          "nome": "Frederico Morais",
+          "nome": "vencedor da R1H8",
           "pais": null,
-          "nota": "11.17",
-          "colete": "white",
+          "nota": null,
+          "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/561970/meo-rip-curl-pro-portugal-mens-round-2-heat-6-full-heat-replay?jointEventId=445",
-      "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
+      "replay": null,
+      "definida": false,
+      "data": "2026-10-27",
+      "dia_rotulo": "27/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114937",
+      "id": "115070",
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 7,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Molly Picklum",
-          "pais": "AUS",
-          "nota": "15.74",
+          "nome": "Event seed #4",
+          "pais": null,
+          "nota": null,
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
         {
-          "nome": "Yolanda Hopkins",
-          "pais": "POR",
-          "nota": "11.10",
-          "colete": "green",
+          "nome": "Event seed #13",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562019/meo-rip-curl-pro-portugal-womens-round-1-heat-7-full-heat-replay?jointEventId=445",
+      "replay": null,
       "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
+      "data": "2026-10-27",
+      "dia_rotulo": "27/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114298",
+      "id": "114321",
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 7,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Miguel Pupo",
-          "pais": "BRA",
-          "nota": "12.60",
+          "nome": "Event seed #4",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Seth Moniz",
-          "pais": "HAW",
-          "nota": "12.80",
-          "colete": "green",
-          "avancou": true
+          "nome": "vencedor da R1H4",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/561977/meo-rip-curl-pro-portugal-mens-round-2-heat-7-full-heat-replay?jointEventId=445",
-      "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
+      "replay": null,
+      "definida": false,
+      "data": "2026-10-27",
+      "dia_rotulo": "27/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114938",
+      "id": "115071",
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 8,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Erin Brooks",
-          "pais": "CAN",
-          "nota": "12.50",
-          "colete": "blue",
-          "avancou": true
+          "nome": "Event seed #5",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
         },
         {
-          "nome": "Tyler Wright",
-          "pais": "AUS",
-          "nota": "7.27",
-          "colete": "white",
+          "nome": "Event seed #12",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562021/meo-rip-curl-pro-portugal-womens-round-1-heat-8-full-heat-replay?jointEventId=445",
+      "replay": null,
       "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
+      "data": "2026-10-27",
+      "dia_rotulo": "27/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114299",
+      "id": "114322",
       "genero": "M",
       "rodada": "Oitavas de final",
       "numero": 8,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Griffin Colapinto",
-          "pais": "USA",
-          "nota": "17.17",
-          "colete": "blue",
-          "avancou": true
-        },
-        {
-          "nome": "Kauli Vaast",
-          "pais": "FRA",
-          "nota": "13.27",
-          "colete": "white",
-          "avancou": false
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/561974/meo-rip-curl-pro-portugal-mens-round-2-heat-8-full-heat-replay?jointEventId=445",
-      "definida": true,
-      "data": "2026-10-16",
-      "dia_rotulo": "16/10",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114939",
-      "genero": "F",
-      "rodada": "Quartas de final",
-      "numero": 1,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Bettylou Sakura Johnson",
-          "pais": "HAW",
-          "nota": "7.43",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Francisca Veselko",
-          "pais": "POR",
-          "nota": "7.34",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/562047/meo-rip-curl-pro-portugal-womens-quarterfinals-heat-1-full-heat-replay?jointEventId=445",
-      "definida": true,
-      "data": "2026-10-17",
-      "dia_rotulo": "17/10",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114300",
-      "genero": "M",
-      "rodada": "Quartas de final",
-      "numero": 1,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Morgan Cibilic",
-          "pais": "AUS",
-          "nota": "10.00",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Gabriel Medina",
-          "pais": "BRA",
-          "nota": "10.60",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/562181/meo-rip-curl-pro-portugal-mens-quarterfinals-heat-1-full-heat-replay?jointEventId=445",
-      "definida": true,
-      "data": "2026-10-20",
-      "dia_rotulo": "20/10",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114940",
-      "genero": "F",
-      "rodada": "Quartas de final",
-      "numero": 2,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Caitlin Simmers",
-          "pais": "USA",
-          "nota": "11.50",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Carissa Moore",
-          "pais": "HAW",
-          "nota": "8.93",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/562048/meo-rip-curl-pro-portugal-womens-quarterfinals-heat-2-full-heat-replay?jointEventId=445",
-      "definida": true,
-      "data": "2026-10-17",
-      "dia_rotulo": "17/10",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114301",
-      "genero": "M",
-      "rodada": "Quartas de final",
-      "numero": 2,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Italo Ferreira",
-          "pais": "BRA",
-          "nota": "12.83",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Guilherme Ribeiro",
+          "nome": "Event seed #6",
           "pais": null,
-          "nota": "6.84",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R1H6",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562188/meo-rip-curl-pro-portugal-mens-quarterfinals-heat-2-full-heat-replay?jointEventId=445",
-      "definida": true,
-      "data": "2026-10-20",
-      "dia_rotulo": "20/10",
+      "replay": null,
+      "definida": false,
+      "data": "2026-10-27",
+      "dia_rotulo": "27/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114941",
+      "id": "115072",
+      "genero": "F",
+      "rodada": "Quartas de final",
+      "numero": 1,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R1H1",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R1H2",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-10-27",
+      "dia_rotulo": "27/10",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114323",
+      "genero": "M",
+      "rodada": "Quartas de final",
+      "numero": 1,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R2H1",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H2",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-10-27",
+      "dia_rotulo": "27/10",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "115073",
+      "genero": "F",
+      "rodada": "Quartas de final",
+      "numero": 2,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R1H3",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R1H4",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-10-28",
+      "dia_rotulo": "28/10",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114324",
+      "genero": "M",
+      "rodada": "Quartas de final",
+      "numero": 2,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R2H3",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H4",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-10-27",
+      "dia_rotulo": "27/10",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "115074",
       "genero": "F",
       "rodada": "Quartas de final",
       "numero": 3,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Teresa Bonvalot",
+          "nome": "vencedor da R1H5",
           "pais": null,
-          "nota": "5.10",
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Lakey Peterson",
-          "pais": "USA",
-          "nota": "10.00",
+          "nome": "vencedor da R1H6",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
-          "avancou": true
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562179/meo-rip-curl-pro-portugal-womens-quarterfinals-heat-3-full-heat-replay?jointEventId=445",
-      "definida": true,
-      "data": "2026-10-20",
-      "dia_rotulo": "20/10",
+      "replay": null,
+      "definida": false,
+      "data": "2026-10-28",
+      "dia_rotulo": "28/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114302",
+      "id": "114325",
       "genero": "M",
       "rodada": "Quartas de final",
       "numero": 3,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Yago Dora",
-          "pais": "BRA",
-          "nota": "15.84",
-          "colete": "yellow",
-          "avancou": true
+          "nome": "vencedor da R2H5",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
         },
         {
-          "nome": "Ethan Ewing",
-          "pais": "AUS",
-          "nota": "3.00",
+          "nome": "vencedor da R2H6",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562189/meo-rip-curl-pro-portugal-mens-quarterfinals-heat-3-full-heat-replay?jointEventId=445",
-      "definida": true,
-      "data": "2026-10-20",
-      "dia_rotulo": "20/10",
+      "replay": null,
+      "definida": false,
+      "data": "2026-10-28",
+      "dia_rotulo": "28/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114942",
+      "id": "115075",
       "genero": "F",
       "rodada": "Quartas de final",
       "numero": 4,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Molly Picklum",
-          "pais": "AUS",
-          "nota": "11.33",
+          "nome": "vencedor da R1H7",
+          "pais": null,
+          "nota": null,
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
         {
-          "nome": "Erin Brooks",
-          "pais": "CAN",
-          "nota": "6.83",
+          "nome": "vencedor da R1H8",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562185/meo-rip-curl-pro-portugal-womens-quarterfinals-heat-4-full-heat-replay?jointEventId=445",
-      "definida": true,
-      "data": "2026-10-20",
-      "dia_rotulo": "20/10",
+      "replay": null,
+      "definida": false,
+      "data": "2026-10-28",
+      "dia_rotulo": "28/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114303",
+      "id": "114326",
       "genero": "M",
       "rodada": "Quartas de final",
       "numero": 4,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Seth Moniz",
-          "pais": "HAW",
-          "nota": "14.17",
+          "nome": "vencedor da R2H7",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Griffin Colapinto",
-          "pais": "USA",
-          "nota": "14.50",
+          "nome": "vencedor da R2H8",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
-          "avancou": true
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562196/meo-rip-curl-pro-portugal-mens-quarterfinals-heat-4-full-heat-replay?jointEventId=445",
-      "definida": true,
-      "data": "2026-10-20",
-      "dia_rotulo": "20/10",
+      "replay": null,
+      "definida": false,
+      "data": "2026-10-28",
+      "dia_rotulo": "28/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114943",
+      "id": "115076",
       "genero": "F",
       "rodada": "Semifinal",
       "numero": 1,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Bettylou Sakura Johnson",
-          "pais": "HAW",
-          "nota": "10.26",
+          "nome": "vencedor da QFH1",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Caitlin Simmers",
-          "pais": "USA",
-          "nota": "11.33",
+          "nome": "vencedor da QFH2",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
-          "avancou": true
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562239/meo-rip-curl-pro-portugal-womens-semifinals-heat-1-full-heat-replay?jointEventId=445",
-      "definida": true,
-      "data": "2026-10-22",
-      "dia_rotulo": "22/10",
+      "replay": null,
+      "definida": false,
+      "data": "2026-10-28",
+      "dia_rotulo": "28/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114304",
+      "id": "114327",
       "genero": "M",
       "rodada": "Semifinal",
       "numero": 1,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Gabriel Medina",
-          "pais": "BRA",
-          "nota": "11.67",
+          "nome": "vencedor da QFH1",
+          "pais": null,
+          "nota": null,
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
         {
-          "nome": "Italo Ferreira",
-          "pais": "BRA",
-          "nota": "10.10",
+          "nome": "vencedor da QFH2",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562258/meo-rip-curl-pro-portugal-mens-semifinals-heat-1-full-heat-replay?jointEventId=445",
-      "definida": true,
-      "data": "2026-10-23",
-      "dia_rotulo": "23/10",
+      "replay": null,
+      "definida": false,
+      "data": "2026-10-28",
+      "dia_rotulo": "28/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114944",
+      "id": "115077",
       "genero": "F",
       "rodada": "Semifinal",
       "numero": 2,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Lakey Peterson",
-          "pais": "USA",
-          "nota": "7.40",
+          "nome": "vencedor da QFH3",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Molly Picklum",
-          "pais": "AUS",
-          "nota": "8.63",
+          "nome": "vencedor da QFH4",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
-          "avancou": true
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562241/meo-rip-curl-pro-portugal-womens-semifinals-heat-2-full-heat-replay?jointEventId=445",
-      "definida": true,
-      "data": "2026-10-22",
-      "dia_rotulo": "22/10",
+      "replay": null,
+      "definida": false,
+      "data": "2026-10-28",
+      "dia_rotulo": "28/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114305",
+      "id": "114328",
       "genero": "M",
       "rodada": "Semifinal",
       "numero": 2,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Yago Dora",
-          "pais": "BRA",
-          "nota": "8.83",
-          "colete": "yellow",
+          "nome": "vencedor da QFH3",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Griffin Colapinto",
-          "pais": "USA",
-          "nota": "14.33",
+          "nome": "vencedor da QFH4",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
-          "avancou": true
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562260/meo-rip-curl-pro-portugal-mens-semifinals-heat-2-full-heat-replay?jointEventId=445",
-      "definida": true,
-      "data": "2026-10-23",
-      "dia_rotulo": "23/10",
+      "replay": null,
+      "definida": false,
+      "data": "2026-10-28",
+      "dia_rotulo": "28/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114945",
+      "id": "115078",
       "genero": "F",
       "rodada": "Final",
       "numero": 1,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Caitlin Simmers",
-          "pais": "USA",
-          "nota": "12.84",
+          "nome": "vencedor da SFH1",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Molly Picklum",
-          "pais": "AUS",
-          "nota": "13.33",
+          "nome": "vencedor da SFH2",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
-          "avancou": true
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562267/meo-rip-curl-pro-portugal-womens-final-full-heat-replay?jointEventId=445",
-      "definida": true,
-      "data": "2026-10-23",
-      "dia_rotulo": "23/10",
+      "replay": null,
+      "definida": false,
+      "data": "2026-10-28",
+      "dia_rotulo": "28/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114306",
+      "id": "114329",
       "genero": "M",
       "rodada": "Final",
       "numero": 1,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Gabriel Medina",
-          "pais": "BRA",
-          "nota": "16.77",
+          "nome": "vencedor da SFH1",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Griffin Colapinto",
-          "pais": "USA",
-          "nota": "17.60",
+          "nome": "vencedor da SFH2",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
-          "avancou": true
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562272/meo-rip-curl-pro-portugal-mens-final-full-heat-replay?jointEventId=445",
-      "definida": true,
-      "data": "2026-10-23",
-      "dia_rotulo": "23/10",
+      "replay": null,
+      "definida": false,
+      "data": "2026-10-28",
+      "dia_rotulo": "28/10",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     }
   ]
 }
