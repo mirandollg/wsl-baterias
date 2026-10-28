@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "27/10/2026 22:02",
+  "atualizado_em": "28/10/2026 03:49",
   "evento": {
     "nome": "Philippines Pro",
     "id": "543",
@@ -19,16 +19,6 @@
   "passo_estimado_min": 39,
   "dias": [
     {
-      "data": "2026-10-27",
-      "dia": "27",
-      "mes": "10",
-      "semana": "Ter",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
-      "hoje": true
-    },
-    {
       "data": "2026-10-28",
       "dia": "28",
       "mes": "10",
@@ -36,7 +26,7 @@
       "estado": "vazio",
       "qtd": 0,
       "evento": null,
-      "hoje": false
+      "hoje": true
     },
     {
       "data": "2026-10-29",
@@ -163,6 +153,16 @@
       "dia": "10",
       "mes": "11",
       "semana": "Ter",
+      "estado": "vazio",
+      "qtd": 0,
+      "evento": null,
+      "hoje": false
+    },
+    {
+      "data": "2026-11-11",
+      "dia": "11",
+      "mes": "11",
+      "semana": "Qua",
       "estado": "vazio",
       "qtd": 0,
       "evento": null,
