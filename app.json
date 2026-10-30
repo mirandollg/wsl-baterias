@@ -1,33 +1,23 @@
 {
-  "atualizado_em": "29/10/2026 21:38",
+  "atualizado_em": "30/10/2026 03:27",
   "evento": {
     "nome": "Philippines Pro",
     "id": "543",
     "inicio": "2026-10-31",
     "fim": "2026-11-10"
   },
-  "call": "30/10 às 20:00",
+  "call": "30/10 às 20:30",
   "transmissao": {
     "youtube": "https://www.youtube.com/@wsl/live",
     "site": "https://www.worldsurfleague.com/watch",
     "tv": "sportv4"
   },
-  "status_wsl": "Upcoming",
-  "status_msg": "First Call during Dawn Patrol •Oct 31•7:00 AM SGT",
+  "status_wsl": "Standby",
+  "status_msg": "First Call during Dawn Patrol •Oct 31•7:30 AM SGT",
   "situacao": "call",
   "call_data": "2026-10-30",
   "passo_estimado_min": 39,
   "dias": [
-    {
-      "data": "2026-10-29",
-      "dia": "29",
-      "mes": "10",
-      "semana": "Qui",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
-      "hoje": true
-    },
     {
       "data": "2026-10-30",
       "dia": "30",
@@ -36,7 +26,7 @@
       "estado": "call",
       "qtd": 7,
       "evento": "Philippines Pro",
-      "hoje": false
+      "hoje": true
     },
     {
       "data": "2026-10-31",
@@ -163,6 +153,16 @@
       "dia": "12",
       "mes": "11",
       "semana": "Qui",
+      "estado": "vazio",
+      "qtd": 0,
+      "evento": null,
+      "hoje": false
+    },
+    {
+      "data": "2026-11-13",
+      "dia": "13",
+      "mes": "11",
+      "semana": "Sex",
       "estado": "vazio",
       "qtd": 0,
       "evento": null,
