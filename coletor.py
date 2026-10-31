@@ -20,8 +20,18 @@ DUR_PADRAO = 30
 PASSO_MIN, PASSO_MAX = 18, 42
 HORA_INI_LOCAL, HORA_FIM_LOCAL = 7, 17          # janela de surf no fuso do evento
 
-ORDEM = ["Rodada 1", "Rodada 2", "Oitavas de final",
+ORDEM = ["Rodada de abertura", "Repescagem", "Rodada 1", "Rodada 2", "Rodada 3",
+         "Rodada 4", "Rodada 5", "Rodada de 32", "Oitavas de final",
          "Quartas de final", "Semifinal", "Final", "?"]
+
+
+def ord_rodada(b):
+    """Ordem da fase: usa o numero oficial da WSL quando existe."""
+    n = b.get("rodada_num")
+    if isinstance(n, int):
+        return n
+    r = b.get("rodada")
+    return ORDEM.index(r) if r in ORDEM else len(ORDEM)
 SEMANA = ["Seg", "Ter", "Qua", "Qui", "Sex", "Sab", "Dom"]
 
 # etapa: (slug, inicio, fim, fuso, local, pais)
@@ -146,6 +156,50 @@ def etapa_atual():
     return eid, slug, date(hoje.year, *ini), date(hoje.year, *fim), tz
 
 
+# nomes de rodada como a propria WSL escreve
+ROD_PT = {
+    "opening round": "Rodada de abertura",
+    "elimination round": "Repescagem",
+    "round 1": "Rodada 1", "round 2": "Rodada 2", "round 3": "Rodada 3",
+    "round 4": "Rodada 4", "round 5": "Rodada 5",
+    "round of 32": "Rodada de 32", "round of 16": "Oitavas de final",
+    "quarterfinals": "Quartas de final", "quarterfinal": "Quartas de final",
+    "semifinals": "Semifinal", "semifinal": "Semifinal",
+    "final": "Final", "finals": "Final",
+}
+
+
+def traduz_rodada(nome):
+    if not nome:
+        return None
+    return ROD_PT.get(nome.strip().lower(), nome.strip())
+
+
+def dados_gtm(h):
+    """Le round_names / round_numbers / heat_numbers que a WSL embute na bateria."""
+    for a in h.select("[data-gtm-event]"):
+        raw = a.get("data-gtm-event") or ""
+        if "round_names" not in raw:
+            continue
+        def campo(k):
+            m = re.search(r'["&]?%s["&;a-z]*\s*:\s*["&]*q?u?o?t?;?"?([^"&,}]+)' % k, raw)
+            return m.group(1).strip() if m else None
+        rn = campo("round_names")
+        rnum = campo("round_numbers")
+        hnum = campo("heat_numbers")
+        if rn:
+            try:
+                rnum = int(re.sub(r"\D", "", rnum)) if rnum else None
+            except Exception:
+                rnum = None
+            try:
+                hnum = int(re.sub(r"\D", "", hnum)) if hnum else None
+            except Exception:
+                hnum = None
+            return rn, rnum, hnum
+    return None, None, None
+
+
 # ---------- coleta ----------
 def coleta(eid, slug, stat_id, genero):
     url = f"{BASE}/events/{ANO}/ct/{eid}/{slug}/results?showAll=1&statEventId={stat_id}"
@@ -179,12 +233,17 @@ def coleta(eid, slug, stat_id, genero):
                 break
 
         num = re.search(r"(\d+)", nome)
-        rod = rodada_de(adv, nome)
+        rn_wsl, rnum_wsl, hnum_wsl = dados_gtm(h)
+        rod_wsl = traduz_rodada(rn_wsl)
+        rod = rod_wsl or rodada_de(adv, nome)
+        numero = hnum_wsl or (int(num.group(1)) if num else 1)
         out.append({
             "id": classe(h, "hot-heat--heat-id-"),
             "genero": genero,
             "rodada": rod,
-            "numero": 1 if rod == "Final" else (int(num.group(1)) if num else 99),
+            "rodada_wsl": rn_wsl,
+            "rodada_num": rnum_wsl,
+            "numero": numero,
             "status": "encerrada" if st == "over" else
                       ("ao_vivo" if st in ("live", "active", "in-progress") else "aguardando"),
             "surfistas": surfistas,
@@ -264,7 +323,7 @@ def distribui(baterias, call, passo, hoje, d_fim, tz_evento, agora, datas_reg=No
     if not gen_agua:
         viva = next((b for b in pend if b["status"] == "ao_vivo"), None)
         gen_agua = viva["genero"] if viva else None
-    pend.sort(key=lambda b: (ORDEM.index(b["rodada"]),
+    pend.sort(key=lambda b: (ord_rodada(b),
                              0 if (gen_agua and b["genero"] == gen_agua) else 1,
                              b["numero"]))
     tem_ao_vivo = any(b["status"] == "ao_vivo" for b in baterias)
@@ -416,13 +475,19 @@ def status_oficial(eid, slug):
         return None, None, None
 
     # "Heat in the Water - Women's Quarterfinals - Heat 2"
-    gen = None
+    gen = rod = num = None
     if ms:
         if re.search(r"women", ms, re.I):
             gen = "F"
         elif re.search(r"men", ms, re.I):
             gen = "M"
-    return st, ms, gen
+        mh = re.search(r"heat\s*(\d+)", ms, re.I)
+        num = int(mh.group(1)) if mh else None
+        for chave in ROD_PT:
+            if re.search(r"\b%s\b" % re.escape(chave), ms, re.I):
+                rod = ROD_PT[chave]
+                break
+    return st, ms, gen, rod, num
 
 
 # ---------- ranking do mundial ----------
@@ -478,8 +543,29 @@ def main():
     call = pega_call(eid, slug)
     print("call:", call)
 
-    st_txt, st_msg, gen_agua = status_oficial(eid, slug)
-    print("status WSL:", st_txt, "|", st_msg, "| divisao na agua:", gen_agua)
+    st_txt, st_msg, gen_agua, rod_agua, num_agua = status_oficial(eid, slug)
+    print("status WSL:", st_txt, "|", st_msg)
+    print("no mar:", gen_agua, rod_agua, "bateria", num_agua)
+
+    # A WSL diz qual bateria esta na agua: ela manda, nao o palpite do HTML.
+    if st_txt and re.search(r"live|water", (st_txt + " " + (st_msg or "")), re.I) \
+       and gen_agua and num_agua:
+        alvo = None
+        for b in baterias:
+            if (b["genero"] == gen_agua and b["numero"] == num_agua
+                    and b["status"] != "encerrada"
+                    and (not rod_agua or b["rodada"] == rod_agua)):
+                alvo = b
+                break
+        if alvo:
+            for b in baterias:
+                if b["status"] == "ao_vivo" and b is not alvo:
+                    b["status"] = "aguardando"
+            alvo["status"] = "ao_vivo"
+            nomes = " x ".join(s["nome"] for s in alvo["surfistas"])
+            print("ancora:", alvo["rodada"], "H%s" % alvo["numero"], "|", nomes)
+        else:
+            print("ancora: nao achei a bateria do status na lista")
 
     estado = atualiza_estado(carrega_estado(), baterias, agora)
     passo = duracao_real(estado)
@@ -487,7 +573,7 @@ def main():
 
     baterias = distribui(baterias, call, passo, hoje, d_fim, tz_evento, agora,
                          estado.get("datas"), gen_agua)
-    baterias.sort(key=lambda b: (ORDEM.index(b["rodada"]), b["numero"], b["genero"]))
+    baterias.sort(key=lambda b: (ord_rodada(b), b["numero"], b["genero"]))
 
     try:
         rank = {"masculino": ranking("m"), "feminino": ranking("w")}
