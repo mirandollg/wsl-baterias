@@ -15,8 +15,7 @@ BASE = "https://www.worldsurfleague.com"
 ANO = datetime.now(BR).year
 DIAS_BARRA = 15
 # A WSL emenda uma bateria na outra (transicao zero): inicio = call + (N-1) x duracao.
-# Bateria padrao: 30 min. Com overlapping (2 baterias na agua ao mesmo tempo),
-# o passo efetivo cai para ~metade, por isso o piso baixo.
+# Bateria padrao 30 min; com overlapping o passo efetivo cai pela metade.
 DUR_PADRAO = 30
 PASSO_MIN, PASSO_MAX = 18, 42
 HORA_INI_LOCAL, HORA_FIM_LOCAL = 7, 17          # janela de surf no fuso do evento
@@ -239,7 +238,7 @@ def atualiza_estado(estado, baterias, agora):
 
 
 def duracao_real(estado):
-    """Passo entre inicios de bateria, medido pelos encerramentos observados.
+    """Passo entre inicios, medido pelos encerramentos observados.
     Mediana em vez de media: um encerramento atrasado nao distorce tudo."""
     d = sorted(estado.get("duracoes") or [])
     if len(d) < 3:
@@ -273,9 +272,9 @@ def distribui(baterias, call, passo, hoje, d_fim, tz_evento, agora, datas_reg=No
     pend = ([b for b in pend if b["status"] == "ao_vivo"] +
             [b for b in pend if b["status"] != "ao_vivo"])
 
-    inicio = hoje
-    if call and call.date() > hoje:
-        inicio = call.date()
+    inicio = agora.astimezone(tz).date()
+    if call and call.astimezone(tz).date() > inicio:
+        inicio = call.astimezone(tz).date()
     dias = []
     d = inicio
     while d <= d_fim:
@@ -285,6 +284,7 @@ def distribui(baterias, call, passo, hoje, d_fim, tz_evento, agora, datas_reg=No
         dias = [hoje]
 
     agora_tz = agora.astimezone(tz)
+    hoje_local = agora_tz.date()          # o dia que esta correndo NO LOCAL do evento
     idx = 0
     for dia in dias:
         if idx >= len(pend):
@@ -292,8 +292,8 @@ def distribui(baterias, call, passo, hoje, d_fim, tz_evento, agora, datas_reg=No
         abre = datetime.combine(dia, datetime.min.time(), tz).replace(hour=HORA_INI_LOCAL)
         fecha = datetime.combine(dia, datetime.min.time(), tz).replace(hour=HORA_FIM_LOCAL)
 
-        eh_hoje = (dia == hoje)
-        tem_call = bool(call and call.date() == dia)
+        eh_hoje = (dia == hoje_local)
+        tem_call = bool(call and call.astimezone(tz).date() == dia)
         if tem_call:
             abre = max(abre, call.astimezone(tz))
         # dia em andamento: nunca marcar horario no passado
