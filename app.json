@@ -1,42 +1,32 @@
 {
-  "atualizado_em": "30/10/2026 22:52",
+  "atualizado_em": "31/10/2026 05:02",
   "evento": {
     "nome": "Philippines Pro",
     "id": "543",
     "inicio": "2026-10-31",
     "fim": "2026-11-10"
   },
-  "call": "30/10 às 23:00",
+  "call": "31/10 às 19:30",
   "transmissao": {
     "youtube": "https://www.youtube.com/@wsl/live",
     "site": "https://www.worldsurfleague.com/watch",
     "tv": "sportv4"
   },
-  "status_wsl": "Live",
-  "status_msg": "On Hold, Next Call •Oct 31•10:00 AM SGT",
+  "status_wsl": "Standby",
+  "status_msg": "Next Call •Nov 1•6:30 AM SGT",
   "situacao": "call",
-  "call_data": "2026-10-30",
+  "call_data": "2026-10-31",
   "passo_estimado_min": 39,
   "dias": [
-    {
-      "data": "2026-10-30",
-      "dia": "30",
-      "mes": "10",
-      "semana": "Sex",
-      "estado": "call",
-      "qtd": 9,
-      "evento": "Philippines Pro",
-      "hoje": true
-    },
     {
       "data": "2026-10-31",
       "dia": "31",
       "mes": "10",
       "semana": "Sab",
-      "estado": "previsto",
-      "qtd": 15,
+      "estado": "call",
+      "qtd": 7,
       "evento": "Philippines Pro",
-      "hoje": false
+      "hoje": true
     },
     {
       "data": "2026-11-01",
@@ -44,7 +34,7 @@
       "mes": "11",
       "semana": "Dom",
       "estado": "previsto",
-      "qtd": 14,
+      "qtd": 15,
       "evento": "Philippines Pro",
       "hoje": false
     },
@@ -53,9 +43,9 @@
       "dia": "02",
       "mes": "11",
       "semana": "Seg",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
+      "estado": "previsto",
+      "qtd": 14,
+      "evento": "Philippines Pro",
       "hoje": false
     },
     {
@@ -167,6 +157,16 @@
       "qtd": 0,
       "evento": null,
       "hoje": false
+    },
+    {
+      "data": "2026-11-14",
+      "dia": "14",
+      "mes": "11",
+      "semana": "Sab",
+      "estado": "vazio",
+      "qtd": 0,
+      "evento": null,
+      "hoje": false
     }
   ],
   "proximas_etapas": [
@@ -178,7 +178,7 @@
       "inicio": "2026-10-31",
       "fim": "2026-11-10",
       "periodo": "31 out a 10 nov",
-      "em_andamento": false
+      "em_andamento": true
     },
     {
       "id": "446",
@@ -628,8 +628,8 @@
     ],
     "replay": null,
     "definida": true,
-    "data": "2026-10-30",
-    "dia_rotulo": "30/10",
+    "data": "2026-10-31",
+    "dia_rotulo": "31/10",
     "horario": null,
     "quando": "aguardando call",
     "estado": "aguardando_call"
@@ -659,8 +659,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-30",
-      "dia_rotulo": "30/10",
+      "data": "2026-10-31",
+      "dia_rotulo": "31/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -689,8 +689,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-30",
-      "dia_rotulo": "30/10",
+      "data": "2026-10-31",
+      "dia_rotulo": "31/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -719,8 +719,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-30",
-      "dia_rotulo": "30/10",
+      "data": "2026-10-31",
+      "dia_rotulo": "31/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -749,8 +749,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-30",
-      "dia_rotulo": "30/10",
+      "data": "2026-10-31",
+      "dia_rotulo": "31/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -779,8 +779,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-30",
-      "dia_rotulo": "30/10",
+      "data": "2026-10-31",
+      "dia_rotulo": "31/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -809,8 +809,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-30",
-      "dia_rotulo": "30/10",
+      "data": "2026-10-31",
+      "dia_rotulo": "31/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -839,8 +839,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-30",
-      "dia_rotulo": "30/10",
+      "data": "2026-10-31",
+      "dia_rotulo": "31/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -869,8 +869,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -929,8 +929,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -989,8 +989,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1017,10 +1017,10 @@
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560244/its-on-day-1-of-the-philippine?jointEventId=543",
+      "replay": null,
       "definida": true,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1049,8 +1049,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1079,8 +1079,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1109,8 +1109,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1139,8 +1139,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1169,8 +1169,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1199,8 +1199,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1229,8 +1229,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1259,8 +1259,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1289,8 +1289,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1319,8 +1319,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1349,8 +1349,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1379,8 +1379,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
+      "data": "2026-11-02",
+      "dia_rotulo": "02/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1409,8 +1409,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
+      "data": "2026-11-02",
+      "dia_rotulo": "02/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1439,8 +1439,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
+      "data": "2026-11-02",
+      "dia_rotulo": "02/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1469,8 +1469,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
+      "data": "2026-11-02",
+      "dia_rotulo": "02/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1499,8 +1499,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
+      "data": "2026-11-02",
+      "dia_rotulo": "02/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1529,8 +1529,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
+      "data": "2026-11-02",
+      "dia_rotulo": "02/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1559,8 +1559,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
+      "data": "2026-11-02",
+      "dia_rotulo": "02/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1589,8 +1589,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
+      "data": "2026-11-02",
+      "dia_rotulo": "02/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1619,8 +1619,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
+      "data": "2026-11-02",
+      "dia_rotulo": "02/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1649,8 +1649,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
+      "data": "2026-11-02",
+      "dia_rotulo": "02/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1679,8 +1679,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
+      "data": "2026-11-02",
+      "dia_rotulo": "02/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1709,8 +1709,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
+      "data": "2026-11-02",
+      "dia_rotulo": "02/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1739,8 +1739,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
+      "data": "2026-11-02",
+      "dia_rotulo": "02/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1769,8 +1769,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
+      "data": "2026-11-02",
+      "dia_rotulo": "02/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
