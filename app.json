@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "31/10/2026 20:31",
+  "atualizado_em": "31/10/2026 20:49",
   "evento": {
     "nome": "Philippines Pro",
     "id": "543",
@@ -13,7 +13,7 @@
     "tv": "sportv4"
   },
   "status_wsl": "Live",
-  "status_msg": "Heat in the Water • Women's Round 1 • Heat 3",
+  "status_msg": "Heat in the Water • Women's Round 1 • Heat 4",
   "situacao": "ao_vivo",
   "call_data": null,
   "passo_estimado_min": 39,
@@ -34,7 +34,7 @@
       "mes": "11",
       "semana": "Dom",
       "estado": "previsto",
-      "qtd": 15,
+      "qtd": 16,
       "evento": "Philippines Pro",
       "hoje": false
     },
@@ -44,7 +44,7 @@
       "mes": "11",
       "semana": "Seg",
       "estado": "previsto",
-      "qtd": 15,
+      "qtd": 14,
       "evento": "Philippines Pro",
       "hoje": false
     },
@@ -604,23 +604,25 @@
     ]
   },
   "ao_vivo": {
-    "id": "115066",
+    "id": "115067",
     "genero": "F",
-    "rodada": "Oitavas de final",
-    "numero": 3,
+    "rodada": "Rodada 1",
+    "rodada_wsl": "Round 1",
+    "rodada_num": 1,
+    "numero": 4,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Luana Silva",
-        "pais": "BRA",
-        "nota": "10.63",
+        "nome": "Carissa Moore",
+        "pais": "HAW",
+        "nota": "6.63",
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Bettylou Sakura Johnson",
-        "pais": "HAW",
-        "nota": "9.66",
+        "nome": "Sierra Kerr",
+        "pais": null,
+        "nota": "1.60",
         "colete": "blue",
         "avancou": false
       }
@@ -629,7 +631,7 @@
     "definida": true,
     "data": "2026-10-31",
     "dia_rotulo": "31/10",
-    "horario": "20:31",
+    "horario": "20:49",
     "quando": "agora",
     "estado": "com_horario"
   },
@@ -637,6 +639,8 @@
     "id": "114307",
     "genero": "M",
     "rodada": "Rodada 1",
+    "rodada_wsl": "Round 1",
+    "rodada_num": 1,
     "numero": 1,
     "status": "aguardando",
     "surfistas": [
@@ -657,257 +661,19 @@
     ],
     "replay": null,
     "definida": true,
-    "data": "2026-10-31",
-    "dia_rotulo": "31/10",
-    "horario": "21:10",
-    "quando": "21:10",
+    "data": "2026-11-01",
+    "dia_rotulo": "01/11",
+    "horario": "00:04",
+    "quando": "00:04",
     "estado": "com_horario"
   },
   "baterias": [
     {
-      "id": "114307",
-      "genero": "M",
-      "rodada": "Rodada 1",
-      "numero": 1,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Connor O'Leary",
-          "pais": "JPN",
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Callum Robson",
-          "pais": "AUS",
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": true,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
-      "horario": "21:10",
-      "quando": "21:10",
-      "estado": "com_horario"
-    },
-    {
-      "id": "114308",
-      "genero": "M",
-      "rodada": "Rodada 1",
-      "numero": 2,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Marco Mignot",
-          "pais": "FRA",
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Seth Moniz",
-          "pais": "HAW",
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": true,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
-      "horario": "21:49",
-      "quando": "21:49",
-      "estado": "com_horario"
-    },
-    {
-      "id": "114309",
-      "genero": "M",
-      "rodada": "Rodada 1",
-      "numero": 3,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Cole Houshmand",
-          "pais": "USA",
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Filipe Toledo",
-          "pais": "BRA",
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": true,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
-      "horario": "22:28",
-      "quando": "22:28",
-      "estado": "com_horario"
-    },
-    {
-      "id": "114310",
-      "genero": "M",
-      "rodada": "Rodada 1",
-      "numero": 4,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Liam O'Brien",
-          "pais": "AUS",
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Joao Chianca",
-          "pais": "BRA",
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": true,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
-      "horario": "23:07",
-      "quando": "23:07",
-      "estado": "com_horario"
-    },
-    {
-      "id": "114311",
-      "genero": "M",
-      "rodada": "Rodada 1",
-      "numero": 5,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Jack Robinson",
-          "pais": "AUS",
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Bronson Meydi",
-          "pais": null,
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": true,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
-      "horario": "23:46",
-      "quando": "23:46",
-      "estado": "com_horario"
-    },
-    {
-      "id": "114312",
-      "genero": "M",
-      "rodada": "Rodada 1",
-      "numero": 6,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "George Pittar",
-          "pais": "AUS",
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Noah Arkfeld",
-          "pais": null,
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
-      "horario": "00:25",
-      "quando": "00:25",
-      "estado": "com_horario"
-    },
-    {
-      "id": "114313",
-      "genero": "M",
-      "rodada": "Rodada 1",
-      "numero": 7,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Samuel Pupo",
-          "pais": "BRA",
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "John Mark Tokong",
-          "pais": null,
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
-      "horario": "01:04",
-      "quando": "01:04",
-      "estado": "com_horario"
-    },
-    {
-      "id": "114314",
-      "genero": "M",
-      "rodada": "Rodada 1",
-      "numero": 8,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Kauli Vaast",
-          "pais": "FRA",
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Jayuard Alciso",
-          "pais": null,
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
-      "horario": "01:43",
-      "quando": "01:43",
-      "estado": "com_horario"
-    },
-    {
       "id": "115064",
       "genero": "F",
-      "rodada": "Oitavas de final",
+      "rodada": "Rodada 1",
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
       "numero": 1,
       "status": "encerrada",
       "surfistas": [
@@ -935,39 +701,43 @@
       "estado": "encerrada"
     },
     {
-      "id": "114315",
+      "id": "114307",
       "genero": "M",
-      "rodada": "Oitavas de final",
+      "rodada": "Rodada 1",
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
       "numero": 1,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Italo Ferreira",
-          "pais": "BRA",
+          "nome": "Connor O'Leary",
+          "pais": "JPN",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "vencedor da R1H2",
-          "pais": null,
+          "nome": "Callum Robson",
+          "pais": "AUS",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
       "replay": null,
-      "definida": false,
+      "definida": true,
       "data": "2026-11-01",
       "dia_rotulo": "01/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "00:04",
+      "quando": "00:04",
+      "estado": "com_horario"
     },
     {
       "id": "115065",
       "genero": "F",
-      "rodada": "Oitavas de final",
+      "rodada": "Rodada 1",
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
       "numero": 2,
       "status": "encerrada",
       "surfistas": [
@@ -995,9 +765,491 @@
       "estado": "encerrada"
     },
     {
+      "id": "114308",
+      "genero": "M",
+      "rodada": "Rodada 1",
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
+      "numero": 2,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Marco Mignot",
+          "pais": "FRA",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Seth Moniz",
+          "pais": "HAW",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": true,
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
+      "horario": "00:43",
+      "quando": "00:43",
+      "estado": "com_horario"
+    },
+    {
+      "id": "115066",
+      "genero": "F",
+      "rodada": "Rodada 1",
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
+      "numero": 3,
+      "status": "encerrada",
+      "surfistas": [
+        {
+          "nome": "Luana Silva",
+          "pais": "BRA",
+          "nota": "10.63",
+          "colete": "red",
+          "avancou": true
+        },
+        {
+          "nome": "Bettylou Sakura Johnson",
+          "pais": "HAW",
+          "nota": "9.66",
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": true,
+      "data": "2026-10-31",
+      "dia_rotulo": "31/10",
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
+    },
+    {
+      "id": "114309",
+      "genero": "M",
+      "rodada": "Rodada 1",
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
+      "numero": 3,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Cole Houshmand",
+          "pais": "USA",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Filipe Toledo",
+          "pais": "BRA",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": true,
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
+      "horario": "01:22",
+      "quando": "01:22",
+      "estado": "com_horario"
+    },
+    {
+      "id": "115067",
+      "genero": "F",
+      "rodada": "Rodada 1",
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
+      "numero": 4,
+      "status": "ao_vivo",
+      "surfistas": [
+        {
+          "nome": "Carissa Moore",
+          "pais": "HAW",
+          "nota": "6.63",
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Sierra Kerr",
+          "pais": null,
+          "nota": "1.60",
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": "https://www.worldsurfleague.com/posts/560244/its-on-day-2-of-the-philippine?jointEventId=543",
+      "definida": true,
+      "data": "2026-10-31",
+      "dia_rotulo": "31/10",
+      "horario": "20:49",
+      "quando": "agora",
+      "estado": "com_horario"
+    },
+    {
+      "id": "114310",
+      "genero": "M",
+      "rodada": "Rodada 1",
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
+      "numero": 4,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Liam O'Brien",
+          "pais": "AUS",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Joao Chianca",
+          "pais": "BRA",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": true,
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
+      "horario": "02:01",
+      "quando": "02:01",
+      "estado": "com_horario"
+    },
+    {
+      "id": "115068",
+      "genero": "F",
+      "rodada": "Rodada 1",
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
+      "numero": 5,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Molly Picklum",
+          "pais": "AUS",
+          "nota": null,
+          "colete": "yellow",
+          "avancou": false
+        },
+        {
+          "nome": "Mara Lopez",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": true,
+      "data": "2026-10-31",
+      "dia_rotulo": "31/10",
+      "horario": "21:28",
+      "quando": "21:28",
+      "estado": "com_horario"
+    },
+    {
+      "id": "114311",
+      "genero": "M",
+      "rodada": "Rodada 1",
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
+      "numero": 5,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Jack Robinson",
+          "pais": "AUS",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Bronson Meydi",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": true,
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
+      "horario": "02:40",
+      "quando": "02:40",
+      "estado": "com_horario"
+    },
+    {
+      "id": "115069",
+      "genero": "F",
+      "rodada": "Rodada 1",
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
+      "numero": 6,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Lakey Peterson",
+          "pais": "USA",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Isabella Nichols",
+          "pais": "AUS",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": true,
+      "data": "2026-10-31",
+      "dia_rotulo": "31/10",
+      "horario": "22:07",
+      "quando": "22:07",
+      "estado": "com_horario"
+    },
+    {
+      "id": "114312",
+      "genero": "M",
+      "rodada": "Rodada 1",
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
+      "numero": 6,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "George Pittar",
+          "pais": "AUS",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Noah Arkfeld",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": true,
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
+      "horario": "03:19",
+      "quando": "03:19",
+      "estado": "com_horario"
+    },
+    {
+      "id": "115070",
+      "genero": "F",
+      "rodada": "Rodada 1",
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
+      "numero": 7,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Erin Brooks",
+          "pais": "CAN",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Tyler Wright",
+          "pais": "AUS",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": true,
+      "data": "2026-10-31",
+      "dia_rotulo": "31/10",
+      "horario": "22:46",
+      "quando": "22:46",
+      "estado": "com_horario"
+    },
+    {
+      "id": "114313",
+      "genero": "M",
+      "rodada": "Rodada 1",
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
+      "numero": 7,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Samuel Pupo",
+          "pais": "BRA",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "John Mark Tokong",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": true,
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
+      "horario": "03:58",
+      "quando": "03:58",
+      "estado": "com_horario"
+    },
+    {
+      "id": "115071",
+      "genero": "F",
+      "rodada": "Rodada 1",
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
+      "numero": 8,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Sawyer Lindblad",
+          "pais": "USA",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Nadia Erostarbe",
+          "pais": "ESP",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": true,
+      "data": "2026-10-31",
+      "dia_rotulo": "31/10",
+      "horario": "23:25",
+      "quando": "23:25",
+      "estado": "com_horario"
+    },
+    {
+      "id": "114314",
+      "genero": "M",
+      "rodada": "Rodada 1",
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
+      "numero": 8,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Kauli Vaast",
+          "pais": "FRA",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Jayuard Alciso",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": true,
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
+      "horario": "04:37",
+      "quando": "04:37",
+      "estado": "com_horario"
+    },
+    {
+      "id": "115072",
+      "genero": "F",
+      "rodada": "Quartas de final",
+      "rodada_wsl": "Quarterfinals",
+      "rodada_num": 2,
+      "numero": 1,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Caitlin Simmers",
+          "pais": "USA",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Yolanda Hopkins",
+          "pais": "POR",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": true,
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
+      "horario": "05:16",
+      "quando": "05:16",
+      "estado": "com_horario"
+    },
+    {
+      "id": "114315",
+      "genero": "M",
+      "rodada": "Oitavas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 1,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Italo Ferreira",
+          "pais": "BRA",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R1H2",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
       "id": "114316",
       "genero": "M",
       "rodada": "Oitavas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 2,
       "status": "aguardando",
       "surfistas": [
@@ -1025,39 +1277,11 @@
       "estado": "aguardando_call"
     },
     {
-      "id": "115066",
-      "genero": "F",
-      "rodada": "Oitavas de final",
-      "numero": 3,
-      "status": "ao_vivo",
-      "surfistas": [
-        {
-          "nome": "Luana Silva",
-          "pais": "BRA",
-          "nota": "10.63",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Bettylou Sakura Johnson",
-          "pais": "HAW",
-          "nota": "9.66",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/560244/its-on-day-2-of-the-philippine?jointEventId=543",
-      "definida": true,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
-      "horario": "20:31",
-      "quando": "agora",
-      "estado": "com_horario"
-    },
-    {
       "id": "114317",
       "genero": "M",
       "rodada": "Oitavas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 3,
       "status": "aguardando",
       "surfistas": [
@@ -1085,39 +1309,11 @@
       "estado": "aguardando_call"
     },
     {
-      "id": "115067",
-      "genero": "F",
-      "rodada": "Oitavas de final",
-      "numero": 4,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Carissa Moore",
-          "pais": "HAW",
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Sierra Kerr",
-          "pais": null,
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
-      "horario": "02:22",
-      "quando": "02:22",
-      "estado": "com_horario"
-    },
-    {
       "id": "114318",
       "genero": "M",
       "rodada": "Oitavas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 4,
       "status": "aguardando",
       "surfistas": [
@@ -1145,39 +1341,11 @@
       "estado": "aguardando_call"
     },
     {
-      "id": "115068",
-      "genero": "F",
-      "rodada": "Oitavas de final",
-      "numero": 5,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Molly Picklum",
-          "pais": "AUS",
-          "nota": null,
-          "colete": "yellow",
-          "avancou": false
-        },
-        {
-          "nome": "Mara Lopez",
-          "pais": null,
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
-      "horario": "03:01",
-      "quando": "03:01",
-      "estado": "com_horario"
-    },
-    {
       "id": "114319",
       "genero": "M",
       "rodada": "Oitavas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 5,
       "status": "aguardando",
       "surfistas": [
@@ -1205,39 +1373,11 @@
       "estado": "aguardando_call"
     },
     {
-      "id": "115069",
-      "genero": "F",
-      "rodada": "Oitavas de final",
-      "numero": 6,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Lakey Peterson",
-          "pais": "USA",
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Isabella Nichols",
-          "pais": "AUS",
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
-      "horario": "03:40",
-      "quando": "03:40",
-      "estado": "com_horario"
-    },
-    {
       "id": "114320",
       "genero": "M",
       "rodada": "Oitavas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 6,
       "status": "aguardando",
       "surfistas": [
@@ -1265,39 +1405,11 @@
       "estado": "aguardando_call"
     },
     {
-      "id": "115070",
-      "genero": "F",
-      "rodada": "Oitavas de final",
-      "numero": 7,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Erin Brooks",
-          "pais": "CAN",
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Tyler Wright",
-          "pais": "AUS",
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
-      "horario": "04:19",
-      "quando": "04:19",
-      "estado": "com_horario"
-    },
-    {
       "id": "114321",
       "genero": "M",
       "rodada": "Oitavas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 7,
       "status": "aguardando",
       "surfistas": [
@@ -1325,39 +1437,11 @@
       "estado": "aguardando_call"
     },
     {
-      "id": "115071",
-      "genero": "F",
-      "rodada": "Oitavas de final",
-      "numero": 8,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Sawyer Lindblad",
-          "pais": "USA",
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Nadia Erostarbe",
-          "pais": "ESP",
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
-      "horario": "04:58",
-      "quando": "04:58",
-      "estado": "com_horario"
-    },
-    {
       "id": "114322",
       "genero": "M",
       "rodada": "Oitavas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 8,
       "status": "aguardando",
       "surfistas": [
@@ -1385,39 +1469,11 @@
       "estado": "aguardando_call"
     },
     {
-      "id": "115072",
-      "genero": "F",
-      "rodada": "Quartas de final",
-      "numero": 1,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Caitlin Simmers",
-          "pais": "USA",
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Yolanda Hopkins",
-          "pais": "POR",
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": true,
-      "data": "2026-11-02",
-      "dia_rotulo": "02/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
-    },
-    {
       "id": "114323",
       "genero": "M",
       "rodada": "Quartas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 1,
       "status": "aguardando",
       "surfistas": [
@@ -1448,12 +1504,14 @@
       "id": "115073",
       "genero": "F",
       "rodada": "Quartas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 2,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da R1H3",
-          "pais": null,
+          "nome": "Luana Silva",
+          "pais": "BRA",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -1478,6 +1536,8 @@
       "id": "114324",
       "genero": "M",
       "rodada": "Quartas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 2,
       "status": "aguardando",
       "surfistas": [
@@ -1508,6 +1568,8 @@
       "id": "115074",
       "genero": "F",
       "rodada": "Quartas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 3,
       "status": "aguardando",
       "surfistas": [
@@ -1538,6 +1600,8 @@
       "id": "114325",
       "genero": "M",
       "rodada": "Quartas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 3,
       "status": "aguardando",
       "surfistas": [
@@ -1568,6 +1632,8 @@
       "id": "115075",
       "genero": "F",
       "rodada": "Quartas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 4,
       "status": "aguardando",
       "surfistas": [
@@ -1598,6 +1664,8 @@
       "id": "114326",
       "genero": "M",
       "rodada": "Quartas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 4,
       "status": "aguardando",
       "surfistas": [
@@ -1628,6 +1696,8 @@
       "id": "115076",
       "genero": "F",
       "rodada": "Semifinal",
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 1,
       "status": "aguardando",
       "surfistas": [
@@ -1658,6 +1728,8 @@
       "id": "114327",
       "genero": "M",
       "rodada": "Semifinal",
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 1,
       "status": "aguardando",
       "surfistas": [
@@ -1688,6 +1760,8 @@
       "id": "115077",
       "genero": "F",
       "rodada": "Semifinal",
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 2,
       "status": "aguardando",
       "surfistas": [
@@ -1718,6 +1792,8 @@
       "id": "114328",
       "genero": "M",
       "rodada": "Semifinal",
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 2,
       "status": "aguardando",
       "surfistas": [
@@ -1748,6 +1824,8 @@
       "id": "115078",
       "genero": "F",
       "rodada": "Final",
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 1,
       "status": "aguardando",
       "surfistas": [
@@ -1778,6 +1856,8 @@
       "id": "114329",
       "genero": "M",
       "rodada": "Final",
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 1,
       "status": "aguardando",
       "surfistas": [
