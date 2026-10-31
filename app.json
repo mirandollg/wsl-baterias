@@ -1,21 +1,21 @@
 {
-  "atualizado_em": "31/10/2026 18:55",
+  "atualizado_em": "31/10/2026 20:31",
   "evento": {
     "nome": "Philippines Pro",
     "id": "543",
     "inicio": "2026-10-31",
     "fim": "2026-11-10"
   },
-  "call": "31/10 às 19:30",
+  "call": null,
   "transmissao": {
     "youtube": "https://www.youtube.com/@wsl/live",
     "site": "https://www.worldsurfleague.com/watch",
     "tv": "sportv4"
   },
-  "status_wsl": "Standby",
-  "status_msg": "Next Call •Nov 1•6:30 AM SGT",
-  "situacao": "call",
-  "call_data": "2026-10-31",
+  "status_wsl": "Live",
+  "status_msg": "Heat in the Water • Women's Round 1 • Heat 3",
+  "situacao": "ao_vivo",
+  "call_data": null,
   "passo_estimado_min": 39,
   "dias": [
     {
@@ -24,7 +24,7 @@
       "mes": "10",
       "semana": "Sab",
       "estado": "call",
-      "qtd": 7,
+      "qtd": 6,
       "evento": "Philippines Pro",
       "hoje": true
     },
@@ -44,7 +44,7 @@
       "mes": "11",
       "semana": "Seg",
       "estado": "previsto",
-      "qtd": 14,
+      "qtd": 15,
       "evento": "Philippines Pro",
       "hoje": false
     },
@@ -603,7 +603,36 @@
       }
     ]
   },
-  "ao_vivo": null,
+  "ao_vivo": {
+    "id": "115066",
+    "genero": "F",
+    "rodada": "Oitavas de final",
+    "numero": 3,
+    "status": "ao_vivo",
+    "surfistas": [
+      {
+        "nome": "Luana Silva",
+        "pais": "BRA",
+        "nota": "10.63",
+        "colete": "red",
+        "avancou": false
+      },
+      {
+        "nome": "Bettylou Sakura Johnson",
+        "pais": "HAW",
+        "nota": "9.66",
+        "colete": "blue",
+        "avancou": false
+      }
+    ],
+    "replay": "https://www.worldsurfleague.com/posts/560244/its-on-day-2-of-the-philippine?jointEventId=543",
+    "definida": true,
+    "data": "2026-10-31",
+    "dia_rotulo": "31/10",
+    "horario": "20:31",
+    "quando": "agora",
+    "estado": "com_horario"
+  },
   "proxima": {
     "id": "114307",
     "genero": "M",
@@ -630,9 +659,9 @@
     "definida": true,
     "data": "2026-10-31",
     "dia_rotulo": "31/10",
-    "horario": null,
-    "quando": "aguardando call",
-    "estado": "aguardando_call"
+    "horario": "21:10",
+    "quando": "21:10",
+    "estado": "com_horario"
   },
   "baterias": [
     {
@@ -661,9 +690,9 @@
       "definida": true,
       "data": "2026-10-31",
       "dia_rotulo": "31/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "21:10",
+      "quando": "21:10",
+      "estado": "com_horario"
     },
     {
       "id": "114308",
@@ -691,9 +720,9 @@
       "definida": true,
       "data": "2026-10-31",
       "dia_rotulo": "31/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "21:49",
+      "quando": "21:49",
+      "estado": "com_horario"
     },
     {
       "id": "114309",
@@ -721,9 +750,9 @@
       "definida": true,
       "data": "2026-10-31",
       "dia_rotulo": "31/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "22:28",
+      "quando": "22:28",
+      "estado": "com_horario"
     },
     {
       "id": "114310",
@@ -751,9 +780,9 @@
       "definida": true,
       "data": "2026-10-31",
       "dia_rotulo": "31/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "23:07",
+      "quando": "23:07",
+      "estado": "com_horario"
     },
     {
       "id": "114311",
@@ -781,9 +810,9 @@
       "definida": true,
       "data": "2026-10-31",
       "dia_rotulo": "31/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "23:46",
+      "quando": "23:46",
+      "estado": "com_horario"
     },
     {
       "id": "114312",
@@ -809,11 +838,11 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
+      "horario": "00:25",
+      "quando": "00:25",
+      "estado": "com_horario"
     },
     {
       "id": "114313",
@@ -839,11 +868,11 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
+      "horario": "01:04",
+      "quando": "01:04",
+      "estado": "com_horario"
     },
     {
       "id": "114314",
@@ -871,9 +900,9 @@
       "definida": true,
       "data": "2026-11-01",
       "dia_rotulo": "01/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "01:43",
+      "quando": "01:43",
+      "estado": "com_horario"
     },
     {
       "id": "115064",
@@ -1000,30 +1029,30 @@
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 3,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Luana Silva",
           "pais": "BRA",
-          "nota": null,
+          "nota": "10.63",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Bettylou Sakura Johnson",
           "pais": "HAW",
-          "nota": null,
+          "nota": "9.66",
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/560244/its-on-day-2-of-the-philippine?jointEventId=543",
       "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "data": "2026-10-31",
+      "dia_rotulo": "31/10",
+      "horario": "20:31",
+      "quando": "agora",
+      "estado": "com_horario"
     },
     {
       "id": "114317",
@@ -1081,9 +1110,9 @@
       "definida": true,
       "data": "2026-11-01",
       "dia_rotulo": "01/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "02:22",
+      "quando": "02:22",
+      "estado": "com_horario"
     },
     {
       "id": "114318",
@@ -1141,9 +1170,9 @@
       "definida": true,
       "data": "2026-11-01",
       "dia_rotulo": "01/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "03:01",
+      "quando": "03:01",
+      "estado": "com_horario"
     },
     {
       "id": "114319",
@@ -1201,9 +1230,9 @@
       "definida": true,
       "data": "2026-11-01",
       "dia_rotulo": "01/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "03:40",
+      "quando": "03:40",
+      "estado": "com_horario"
     },
     {
       "id": "114320",
@@ -1261,9 +1290,9 @@
       "definida": true,
       "data": "2026-11-01",
       "dia_rotulo": "01/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "04:19",
+      "quando": "04:19",
+      "estado": "com_horario"
     },
     {
       "id": "114321",
@@ -1321,9 +1350,9 @@
       "definida": true,
       "data": "2026-11-01",
       "dia_rotulo": "01/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "04:58",
+      "quando": "04:58",
+      "estado": "com_horario"
     },
     {
       "id": "114322",
@@ -1349,8 +1378,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
+      "data": "2026-11-02",
+      "dia_rotulo": "02/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
