@@ -1,19 +1,19 @@
 {
-  "atualizado_em": "30/10/2026 19:40",
+  "atualizado_em": "30/10/2026 22:52",
   "evento": {
     "nome": "Philippines Pro",
     "id": "543",
     "inicio": "2026-10-31",
     "fim": "2026-11-10"
   },
-  "call": "30/10 às 20:30",
+  "call": "30/10 às 23:00",
   "transmissao": {
     "youtube": "https://www.youtube.com/@wsl/live",
     "site": "https://www.worldsurfleague.com/watch",
     "tv": "sportv4"
   },
-  "status_wsl": "Standby",
-  "status_msg": "First Call during Dawn Patrol •Oct 31•7:30 AM SGT",
+  "status_wsl": "Live",
+  "status_msg": "On Hold, Next Call •Oct 31•10:00 AM SGT",
   "situacao": "call",
   "call_data": "2026-10-30",
   "passo_estimado_min": 39,
@@ -24,7 +24,7 @@
       "mes": "10",
       "semana": "Sex",
       "estado": "call",
-      "qtd": 7,
+      "qtd": 9,
       "evento": "Philippines Pro",
       "hoje": true
     },
@@ -44,7 +44,7 @@
       "mes": "11",
       "semana": "Dom",
       "estado": "previsto",
-      "qtd": 15,
+      "qtd": 14,
       "evento": "Philippines Pro",
       "hoje": false
     },
@@ -53,9 +53,9 @@
       "dia": "02",
       "mes": "11",
       "semana": "Seg",
-      "estado": "previsto",
-      "qtd": 1,
-      "evento": "Philippines Pro",
+      "estado": "vazio",
+      "qtd": 0,
+      "evento": null,
       "hoje": false
     },
     {
@@ -444,161 +444,161 @@
         "posicao": 1,
         "nome": "Molly Picklum",
         "pais": "AUS",
-        "pontos": "48,950",
-        "variacao": "3"
+        "pontos": "50,950",
+        "variacao": "-"
       },
       {
         "posicao": 2,
         "nome": "Carissa Moore",
         "pais": "HAW",
-        "pontos": "47,065",
+        "pontos": "49,065",
         "variacao": "-"
       },
       {
         "posicao": 3,
         "nome": "Gabriela Bryan",
         "pais": "HAW",
-        "pontos": "44,865",
-        "variacao": "2"
+        "pontos": "46,865",
+        "variacao": "-"
       },
       {
         "posicao": 4,
         "nome": "Erin Brooks",
         "pais": "CAN",
-        "pontos": "42,745",
-        "variacao": "1"
+        "pontos": "44,745",
+        "variacao": "-"
       },
       {
         "posicao": 5,
-        "nome": "Sawyer Lindblad",
+        "nome": "Caitlin Simmers",
         "pais": "USA",
-        "pontos": "42,055",
-        "variacao": "2"
+        "pontos": "44,355",
+        "variacao": "1"
       },
       {
         "posicao": 6,
-        "nome": "Caitlin Simmers",
+        "nome": "Sawyer Lindblad",
         "pais": "USA",
-        "pontos": "39,610",
+        "pontos": "44,055",
         "variacao": "1"
       },
       {
         "posicao": 7,
         "nome": "Luana Silva",
         "pais": "BRA",
-        "pontos": "38,580",
-        "variacao": "1"
+        "pontos": "40,580",
+        "variacao": "-"
       },
       {
         "posicao": 8,
         "nome": "Lakey Peterson",
         "pais": "USA",
-        "pontos": "36,320",
+        "pontos": "38,320",
         "variacao": "-"
       },
       {
         "posicao": 9,
         "nome": "Isabella Nichols",
         "pais": "AUS",
-        "pontos": "28,970",
+        "pontos": "30,970",
         "variacao": "-"
       },
       {
         "posicao": 10,
         "nome": "Bettylou Sakura Johnson",
         "pais": "HAW",
-        "pontos": "28,660",
-        "variacao": "2"
+        "pontos": "30,660",
+        "variacao": "-"
       },
       {
         "posicao": 11,
         "nome": "Caroline Marks",
         "pais": "USA",
-        "pontos": "28,320",
-        "variacao": "1"
+        "pontos": "30,320",
+        "variacao": "-"
       },
       {
         "posicao": 12,
         "nome": "Nadia Erostarbe",
         "pais": "ESP",
-        "pontos": "25,915",
-        "variacao": "1"
+        "pontos": "27,915",
+        "variacao": "-"
       },
       {
         "posicao": 13,
-        "nome": "Tyler Wright",
-        "pais": "AUS",
-        "pontos": "22,545",
-        "variacao": "-"
+        "nome": "Yolanda Hopkins",
+        "pais": "POR",
+        "pontos": "26,575",
+        "variacao": "1"
       },
       {
         "posicao": 14,
-        "nome": "Yolanda Hopkins",
-        "pais": "POR",
-        "pontos": "21,830",
-        "variacao": "-"
+        "nome": "Tyler Wright",
+        "pais": "AUS",
+        "pontos": "24,545",
+        "variacao": "1"
       },
       {
         "posicao": 15,
         "nome": "Anat Lelior",
         "pais": "ISR",
-        "pontos": "19,545",
+        "pontos": "20,545",
         "variacao": "-"
       },
       {
         "posicao": 16,
         "nome": "Alyssa Spencer",
         "pais": "USA",
-        "pontos": "19,170",
+        "pontos": "20,170",
         "variacao": "-"
       },
       {
         "posicao": 17,
         "nome": "Stephanie Gilmore",
         "pais": "AUS",
-        "pontos": "18,000",
+        "pontos": "19,000",
         "variacao": "-"
       },
       {
         "posicao": 18,
         "nome": "Brisa Hennessy",
         "pais": "CRC",
-        "pontos": "17,085",
+        "pontos": "18,085",
         "variacao": "-"
       },
       {
         "posicao": 19,
         "nome": "Tya Zebrowski",
         "pais": "FRA",
-        "pontos": "16,800",
+        "pontos": "17,800",
         "variacao": "-"
       },
       {
         "posicao": 20,
         "nome": "Vahine Fierro",
         "pais": "FRA",
-        "pontos": "15,745",
+        "pontos": "16,745",
         "variacao": "-"
       },
       {
         "posicao": 21,
         "nome": "Sally Fitzgibbons",
         "pais": "AUS",
-        "pontos": "14,000",
+        "pontos": "15,000",
         "variacao": "-"
       },
       {
         "posicao": 22,
         "nome": "Bella Kenworthy",
         "pais": "USA",
-        "pontos": "13,745",
+        "pontos": "14,745",
         "variacao": "-"
       },
       {
         "posicao": 23,
         "nome": "Francisca Veselko",
         "pais": "POR",
-        "pontos": "11,000",
+        "pontos": "12,000",
         "variacao": "-"
       }
     ]
@@ -880,30 +880,30 @@
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 1,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Caitlin Simmers",
           "pais": "USA",
-          "nota": null,
+          "nota": "15.17",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Caroline Marks",
           "pais": "USA",
-          "nota": null,
+          "nota": "9.00",
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/562451/philippines-pro-womens-round-1-heat-1-full-heat-replay?jointEventId=543",
       "definida": true,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
+      "data": "2026-10-30",
+      "dia_rotulo": "30/10",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114315",
@@ -940,30 +940,30 @@
       "genero": "F",
       "rodada": "Oitavas de final",
       "numero": 2,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Gabriela Bryan",
           "pais": "HAW",
-          "nota": null,
+          "nota": "7.00",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Yolanda Hopkins",
           "pais": "POR",
-          "nota": null,
+          "nota": "10.10",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/562453/philippines-pro-womens-round-1-heat-2-full-heat-replay?jointEventId=543",
       "definida": true,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
+      "data": "2026-10-30",
+      "dia_rotulo": "30/10",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114316",
@@ -1017,7 +1017,7 @@
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/560244/its-on-day-1-of-the-philippine?jointEventId=543",
       "definida": true,
       "data": "2026-10-31",
       "dia_rotulo": "31/10",
@@ -1319,8 +1319,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
+      "data": "2026-10-31",
+      "dia_rotulo": "31/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1349,8 +1349,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
+      "data": "2026-10-31",
+      "dia_rotulo": "31/10",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1363,22 +1363,22 @@
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da R1H1",
-          "pais": null,
+          "nome": "Caitlin Simmers",
+          "pais": "USA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "vencedor da R1H2",
-          "pais": null,
+          "nome": "Yolanda Hopkins",
+          "pais": "POR",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
       "replay": null,
-      "definida": false,
+      "definida": true,
       "data": "2026-11-01",
       "dia_rotulo": "01/11",
       "horario": null,
@@ -1739,8 +1739,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-02",
-      "dia_rotulo": "02/11",
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
