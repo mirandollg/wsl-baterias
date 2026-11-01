@@ -1,21 +1,21 @@
 {
-  "atualizado_em": "01/11/2026 03:53",
+  "atualizado_em": "01/11/2026 11:04",
   "evento": {
     "nome": "Philippines Pro",
     "id": "543",
     "inicio": "2026-10-31",
     "fim": "2026-11-10"
   },
-  "call": null,
+  "call": "01/11 às 20:00",
   "transmissao": {
     "youtube": "https://www.youtube.com/@wsl/live",
     "site": "https://www.worldsurfleague.com/watch",
     "tv": "sportv4"
   },
-  "status_wsl": "Live",
-  "status_msg": "Heat in the Water • Men's Round 1 • Heat 8",
-  "situacao": "ao_vivo",
-  "call_data": null,
+  "status_wsl": "Standby",
+  "status_msg": "Next Call •Nov 2•7:00 AM SGT",
+  "situacao": "call",
+  "call_data": "2026-11-01",
   "passo_estimado_min": 39,
   "dias": [
     {
@@ -251,31 +251,31 @@
       },
       {
         "posicao": 9,
-        "nome": "George Pittar",
+        "nome": "Jack Robinson",
         "pais": "AUS",
-        "pontos": "30,205",
-        "variacao": "2"
+        "pontos": "31,910",
+        "variacao": "3"
       },
       {
         "posicao": 10,
-        "nome": "Kauli Vaast",
-        "pais": "FRA",
-        "pontos": "30,120",
+        "nome": "George Pittar",
+        "pais": "AUS",
+        "pontos": "30,205",
         "variacao": "1"
       },
       {
         "posicao": 11,
-        "nome": "Samuel Pupo",
-        "pais": "BRA",
-        "pontos": "29,960",
-        "variacao": "1"
+        "nome": "Kauli Vaast",
+        "pais": "FRA",
+        "pontos": "30,120",
+        "variacao": "2"
       },
       {
         "posicao": 12,
-        "nome": "Jack Robinson",
-        "pais": "AUS",
-        "pontos": "29,665",
-        "variacao": "-"
+        "nome": "Samuel Pupo",
+        "pais": "BRA",
+        "pontos": "29,960",
+        "variacao": "2"
       },
       {
         "posicao": 13,
@@ -286,37 +286,37 @@
       },
       {
         "posicao": 14,
-        "nome": "Connor O'Leary",
-        "pais": "JPN",
-        "pontos": "27,185",
-        "variacao": "2"
+        "nome": "Seth Moniz",
+        "pais": "HAW",
+        "pontos": "27,810",
+        "variacao": "5"
       },
       {
         "posicao": 15,
-        "nome": "Cole Houshmand",
-        "pais": "USA",
-        "pontos": "26,830",
+        "nome": "Connor O'Leary",
+        "pais": "JPN",
+        "pontos": "27,185",
         "variacao": "1"
       },
       {
         "posicao": 16,
-        "nome": "Marco Mignot",
-        "pais": "FRA",
-        "pontos": "25,770",
-        "variacao": "1"
+        "nome": "Cole Houshmand",
+        "pais": "USA",
+        "pontos": "26,830",
+        "variacao": "2"
       },
       {
         "posicao": 17,
-        "nome": "Morgan Cibilic",
-        "pais": "AUS",
-        "pontos": "25,610",
-        "variacao": "-"
+        "nome": "Marco Mignot",
+        "pais": "FRA",
+        "pontos": "25,770",
+        "variacao": "2"
       },
       {
         "posicao": 18,
-        "nome": "Seth Moniz",
-        "pais": "HAW",
-        "pontos": "25,565",
+        "nome": "Morgan Cibilic",
+        "pais": "AUS",
+        "pontos": "25,610",
         "variacao": "1"
       },
       {
@@ -603,38 +603,7 @@
       }
     ]
   },
-  "ao_vivo": {
-    "id": "114314",
-    "genero": "M",
-    "rodada": "Rodada 1",
-    "rodada_wsl": "Round 1",
-    "rodada_num": 1,
-    "numero": 8,
-    "status": "ao_vivo",
-    "surfistas": [
-      {
-        "nome": "Kauli Vaast",
-        "pais": "FRA",
-        "nota": null,
-        "colete": "red",
-        "avancou": false
-      },
-      {
-        "nome": "Jayuard Alciso",
-        "pais": null,
-        "nota": "0.70",
-        "colete": "blue",
-        "avancou": false
-      }
-    ],
-    "replay": "https://www.worldsurfleague.com/posts/560244/its-on-day-2-of-the-philippine?jointEventId=543",
-    "definida": true,
-    "data": "2026-11-01",
-    "dia_rotulo": "01/11",
-    "horario": "03:53",
-    "quando": "agora",
-    "estado": "com_horario"
-  },
+  "ao_vivo": null,
   "proxima": {
     "id": "115072",
     "genero": "F",
@@ -663,9 +632,9 @@
     "definida": true,
     "data": "2026-11-01",
     "dia_rotulo": "01/11",
-    "horario": null,
-    "quando": "aguardando call",
-    "estado": "aguardando_call"
+    "horario": "20:00",
+    "quando": "20:00",
+    "estado": "com_horario"
   },
   "baterias": [
     {
@@ -1108,7 +1077,7 @@
           "avancou": true
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/562512/philippines-pro-mens-round-1-heat-7-full-heat-replay?jointEventId=543",
       "definida": true,
       "data": "2026-11-01",
       "dia_rotulo": "01/11",
@@ -1155,30 +1124,30 @@
       "rodada_wsl": "Round 1",
       "rodada_num": 1,
       "numero": 8,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Kauli Vaast",
           "pais": "FRA",
-          "nota": null,
+          "nota": "12.17",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Jayuard Alciso",
           "pais": null,
-          "nota": "0.70",
+          "nota": "12.93",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560244/its-on-day-2-of-the-philippine?jointEventId=543",
+      "replay": "https://www.worldsurfleague.com/posts/562514/philippines-pro-mens-round-1-heat-8-full-heat-replay?jointEventId=543",
       "definida": true,
       "data": "2026-11-01",
       "dia_rotulo": "01/11",
-      "horario": "03:53",
-      "quando": "agora",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "115072",
@@ -1208,9 +1177,9 @@
       "definida": true,
       "data": "2026-11-01",
       "dia_rotulo": "01/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "20:00",
+      "quando": "20:00",
+      "estado": "com_horario"
     },
     {
       "id": "114315",
@@ -1219,30 +1188,30 @@
       "rodada_wsl": "Round 2",
       "rodada_num": 2,
       "numero": 1,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Italo Ferreira",
           "pais": "BRA",
-          "nota": null,
+          "nota": "13.67",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Seth Moniz",
           "pais": "HAW",
-          "nota": null,
+          "nota": "14.43",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/562518/philippines-pro-mens-round-2-heat-1-full-heat-replay?jointEventId=543",
       "definida": true,
       "data": "2026-11-01",
       "dia_rotulo": "01/11",
-      "horario": "04:32",
-      "quando": "04:32",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "115073",
@@ -1272,9 +1241,9 @@
       "definida": true,
       "data": "2026-11-01",
       "dia_rotulo": "01/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "20:39",
+      "quando": "20:39",
+      "estado": "com_horario"
     },
     {
       "id": "114316",
@@ -1283,30 +1252,30 @@
       "rodada_wsl": "Round 2",
       "rodada_num": 2,
       "numero": 2,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Miguel Pupo",
           "pais": "BRA",
-          "nota": null,
+          "nota": "12.60",
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Jack Robinson",
           "pais": "AUS",
-          "nota": null,
+          "nota": "13.23",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/562520/philippines-pro-mens-round-2-heat-2-full-heat-replay?jointEventId=543",
       "definida": true,
       "data": "2026-11-01",
       "dia_rotulo": "01/11",
-      "horario": "05:11",
-      "quando": "05:11",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "115074",
@@ -1334,11 +1303,11 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-11-02",
-      "dia_rotulo": "02/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
+      "horario": "21:57",
+      "quando": "21:57",
+      "estado": "com_horario"
     },
     {
       "id": "114317",
@@ -1368,9 +1337,9 @@
       "definida": true,
       "data": "2026-11-01",
       "dia_rotulo": "01/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "21:18",
+      "quando": "21:18",
+      "estado": "com_horario"
     },
     {
       "id": "115075",
@@ -1398,11 +1367,11 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-11-02",
-      "dia_rotulo": "02/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
+      "horario": "23:15",
+      "quando": "23:15",
+      "estado": "com_horario"
     },
     {
       "id": "114318",
@@ -1432,9 +1401,9 @@
       "definida": true,
       "data": "2026-11-01",
       "dia_rotulo": "01/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "22:36",
+      "quando": "22:36",
+      "estado": "com_horario"
     },
     {
       "id": "114319",
@@ -1464,9 +1433,41 @@
       "definida": true,
       "data": "2026-11-01",
       "dia_rotulo": "01/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "23:54",
+      "quando": "23:54",
+      "estado": "com_horario"
+    },
+    {
+      "id": "114320",
+      "genero": "M",
+      "rodada": "Rodada 2",
+      "rodada_wsl": "Round 2",
+      "rodada_num": 2,
+      "numero": 6,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Kanoa Igarashi",
+          "pais": "JPN",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Jayuard Alciso",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": true,
+      "data": "2026-11-02",
+      "dia_rotulo": "02/11",
+      "horario": "00:33",
+      "quando": "00:33",
+      "estado": "com_horario"
     },
     {
       "id": "114321",
@@ -1494,11 +1495,11 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "data": "2026-11-02",
+      "dia_rotulo": "02/11",
+      "horario": "01:12",
+      "quando": "01:12",
+      "estado": "com_horario"
     },
     {
       "id": "114322",
@@ -1526,75 +1527,43 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
-    },
-    {
-      "id": "114320",
-      "genero": "M",
-      "rodada": "Oitavas de final",
-      "rodada_wsl": null,
-      "rodada_num": null,
-      "numero": 6,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Kanoa Igarashi",
-          "pais": "JPN",
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "vencedor da R1H8",
-          "pais": null,
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": false,
       "data": "2026-11-02",
       "dia_rotulo": "02/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "01:51",
+      "quando": "01:51",
+      "estado": "com_horario"
     },
     {
       "id": "114323",
       "genero": "M",
       "rodada": "Quartas de final",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada_wsl": "Quarterfinals",
+      "rodada_num": 3,
       "numero": 1,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "vencedor da R2H1",
-          "pais": null,
+          "nome": "Seth Moniz",
+          "pais": "HAW",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "vencedor da R2H2",
-          "pais": null,
+          "nome": "Jack Robinson",
+          "pais": "AUS",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
       "replay": null,
-      "definida": false,
+      "definida": true,
       "data": "2026-11-02",
       "dia_rotulo": "02/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "02:30",
+      "quando": "02:30",
+      "estado": "com_horario"
     },
     {
       "id": "114324",
@@ -1624,9 +1593,9 @@
       "definida": false,
       "data": "2026-11-02",
       "dia_rotulo": "02/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "03:09",
+      "quando": "03:09",
+      "estado": "com_horario"
     },
     {
       "id": "114325",
@@ -1656,9 +1625,9 @@
       "definida": false,
       "data": "2026-11-02",
       "dia_rotulo": "02/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "03:48",
+      "quando": "03:48",
+      "estado": "com_horario"
     },
     {
       "id": "114326",
@@ -1688,9 +1657,9 @@
       "definida": false,
       "data": "2026-11-02",
       "dia_rotulo": "02/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "04:27",
+      "quando": "04:27",
+      "estado": "com_horario"
     },
     {
       "id": "115076",
@@ -1752,9 +1721,9 @@
       "definida": false,
       "data": "2026-11-02",
       "dia_rotulo": "02/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "05:06",
+      "quando": "05:06",
+      "estado": "com_horario"
     },
     {
       "id": "115077",
