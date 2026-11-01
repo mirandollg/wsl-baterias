@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "31/10/2026 20:49",
+  "atualizado_em": "31/10/2026 21:44",
   "evento": {
     "nome": "Philippines Pro",
     "id": "543",
@@ -13,7 +13,7 @@
     "tv": "sportv4"
   },
   "status_wsl": "Live",
-  "status_msg": "Heat in the Water • Women's Round 1 • Heat 4",
+  "status_msg": "Heat in the Water • Women's Round 1 • Heat 5",
   "situacao": "ao_vivo",
   "call_data": null,
   "passo_estimado_min": 39,
@@ -34,7 +34,7 @@
       "mes": "11",
       "semana": "Dom",
       "estado": "previsto",
-      "qtd": 16,
+      "qtd": 15,
       "evento": "Philippines Pro",
       "hoje": false
     },
@@ -44,7 +44,7 @@
       "mes": "11",
       "semana": "Seg",
       "estado": "previsto",
-      "qtd": 14,
+      "qtd": 15,
       "evento": "Philippines Pro",
       "hoje": false
     },
@@ -442,17 +442,17 @@
     "feminino": [
       {
         "posicao": 1,
-        "nome": "Molly Picklum",
-        "pais": "AUS",
-        "pontos": "50,950",
-        "variacao": "-"
+        "nome": "Carissa Moore",
+        "pais": "HAW",
+        "pontos": "51,810",
+        "variacao": "1"
       },
       {
         "posicao": 2,
-        "nome": "Carissa Moore",
-        "pais": "HAW",
-        "pontos": "49,065",
-        "variacao": "-"
+        "nome": "Molly Picklum",
+        "pais": "AUS",
+        "pontos": "50,950",
+        "variacao": "1"
       },
       {
         "posicao": 3,
@@ -486,7 +486,7 @@
         "posicao": 7,
         "nome": "Luana Silva",
         "pais": "BRA",
-        "pontos": "40,580",
+        "pontos": "43,325",
         "variacao": "-"
       },
       {
@@ -604,25 +604,25 @@
     ]
   },
   "ao_vivo": {
-    "id": "115067",
+    "id": "115068",
     "genero": "F",
     "rodada": "Rodada 1",
     "rodada_wsl": "Round 1",
     "rodada_num": 1,
-    "numero": 4,
+    "numero": 5,
     "status": "ao_vivo",
     "surfistas": [
       {
-        "nome": "Carissa Moore",
-        "pais": "HAW",
-        "nota": "6.63",
-        "colete": "red",
+        "nome": "Molly Picklum",
+        "pais": "AUS",
+        "nota": "11.50",
+        "colete": "yellow",
         "avancou": false
       },
       {
-        "nome": "Sierra Kerr",
+        "nome": "Mara Lopez",
         "pais": null,
-        "nota": "1.60",
+        "nota": "4.50",
         "colete": "blue",
         "avancou": false
       }
@@ -631,7 +631,7 @@
     "definida": true,
     "data": "2026-10-31",
     "dia_rotulo": "31/10",
-    "horario": "20:49",
+    "horario": "21:44",
     "quando": "agora",
     "estado": "com_horario"
   },
@@ -663,8 +663,8 @@
     "definida": true,
     "data": "2026-11-01",
     "dia_rotulo": "01/11",
-    "horario": "00:04",
-    "quando": "00:04",
+    "horario": "00:20",
+    "quando": "00:20",
     "estado": "com_horario"
   },
   "baterias": [
@@ -728,8 +728,8 @@
       "definida": true,
       "data": "2026-11-01",
       "dia_rotulo": "01/11",
-      "horario": "00:04",
-      "quando": "00:04",
+      "horario": "00:20",
+      "quando": "00:20",
       "estado": "com_horario"
     },
     {
@@ -792,8 +792,8 @@
       "definida": true,
       "data": "2026-11-01",
       "dia_rotulo": "01/11",
-      "horario": "00:43",
-      "quando": "00:43",
+      "horario": "00:59",
+      "quando": "00:59",
       "estado": "com_horario"
     },
     {
@@ -820,7 +820,7 @@
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/562467/philippines-pro-womens-round-1-heat-3-full-heat-replay?jointEventId=543",
       "definida": true,
       "data": "2026-10-31",
       "dia_rotulo": "31/10",
@@ -856,8 +856,8 @@
       "definida": true,
       "data": "2026-11-01",
       "dia_rotulo": "01/11",
-      "horario": "01:22",
-      "quando": "01:22",
+      "horario": "01:38",
+      "quando": "01:38",
       "estado": "com_horario"
     },
     {
@@ -867,30 +867,30 @@
       "rodada_wsl": "Round 1",
       "rodada_num": 1,
       "numero": 4,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Carissa Moore",
           "pais": "HAW",
-          "nota": "6.63",
+          "nota": "14.33",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Sierra Kerr",
           "pais": null,
-          "nota": "1.60",
+          "nota": "6.07",
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560244/its-on-day-2-of-the-philippine?jointEventId=543",
+      "replay": "https://www.worldsurfleague.com/posts/562469/philippines-pro-womens-round-1-heat-4-condensed?jointEventId=543",
       "definida": true,
       "data": "2026-10-31",
       "dia_rotulo": "31/10",
-      "horario": "20:49",
-      "quando": "agora",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114310",
@@ -920,8 +920,8 @@
       "definida": true,
       "data": "2026-11-01",
       "dia_rotulo": "01/11",
-      "horario": "02:01",
-      "quando": "02:01",
+      "horario": "02:17",
+      "quando": "02:17",
       "estado": "com_horario"
     },
     {
@@ -931,29 +931,29 @@
       "rodada_wsl": "Round 1",
       "rodada_num": 1,
       "numero": 5,
-      "status": "aguardando",
+      "status": "ao_vivo",
       "surfistas": [
         {
           "nome": "Molly Picklum",
           "pais": "AUS",
-          "nota": null,
+          "nota": "11.50",
           "colete": "yellow",
           "avancou": false
         },
         {
           "nome": "Mara Lopez",
           "pais": null,
-          "nota": null,
+          "nota": "4.50",
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/560244/its-on-day-2-of-the-philippine?jointEventId=543",
       "definida": true,
       "data": "2026-10-31",
       "dia_rotulo": "31/10",
-      "horario": "21:28",
-      "quando": "21:28",
+      "horario": "21:44",
+      "quando": "agora",
       "estado": "com_horario"
     },
     {
@@ -984,8 +984,8 @@
       "definida": true,
       "data": "2026-11-01",
       "dia_rotulo": "01/11",
-      "horario": "02:40",
-      "quando": "02:40",
+      "horario": "02:56",
+      "quando": "02:56",
       "estado": "com_horario"
     },
     {
@@ -1016,8 +1016,8 @@
       "definida": true,
       "data": "2026-10-31",
       "dia_rotulo": "31/10",
-      "horario": "22:07",
-      "quando": "22:07",
+      "horario": "22:23",
+      "quando": "22:23",
       "estado": "com_horario"
     },
     {
@@ -1048,8 +1048,8 @@
       "definida": true,
       "data": "2026-11-01",
       "dia_rotulo": "01/11",
-      "horario": "03:19",
-      "quando": "03:19",
+      "horario": "03:35",
+      "quando": "03:35",
       "estado": "com_horario"
     },
     {
@@ -1080,8 +1080,8 @@
       "definida": true,
       "data": "2026-10-31",
       "dia_rotulo": "31/10",
-      "horario": "22:46",
-      "quando": "22:46",
+      "horario": "23:02",
+      "quando": "23:02",
       "estado": "com_horario"
     },
     {
@@ -1112,8 +1112,8 @@
       "definida": true,
       "data": "2026-11-01",
       "dia_rotulo": "01/11",
-      "horario": "03:58",
-      "quando": "03:58",
+      "horario": "04:14",
+      "quando": "04:14",
       "estado": "com_horario"
     },
     {
@@ -1144,8 +1144,8 @@
       "definida": true,
       "data": "2026-10-31",
       "dia_rotulo": "31/10",
-      "horario": "23:25",
-      "quando": "23:25",
+      "horario": "23:41",
+      "quando": "23:41",
       "estado": "com_horario"
     },
     {
@@ -1176,8 +1176,8 @@
       "definida": true,
       "data": "2026-11-01",
       "dia_rotulo": "01/11",
-      "horario": "04:37",
-      "quando": "04:37",
+      "horario": "04:53",
+      "quando": "04:53",
       "estado": "com_horario"
     },
     {
@@ -1208,9 +1208,41 @@
       "definida": true,
       "data": "2026-11-01",
       "dia_rotulo": "01/11",
-      "horario": "05:16",
-      "quando": "05:16",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "115073",
+      "genero": "F",
+      "rodada": "Quartas de final",
+      "rodada_wsl": "Quarterfinals",
+      "rodada_num": 2,
+      "numero": 2,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Luana Silva",
+          "pais": "BRA",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Carissa Moore",
+          "pais": "HAW",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": true,
+      "data": "2026-11-01",
+      "dia_rotulo": "01/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
       "id": "114315",
@@ -1398,8 +1430,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
+      "data": "2026-11-02",
+      "dia_rotulo": "02/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1430,8 +1462,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
+      "data": "2026-11-02",
+      "dia_rotulo": "02/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1486,38 +1518,6 @@
         },
         {
           "nome": "vencedor da R2H2",
-          "pais": null,
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": false,
-      "data": "2026-11-02",
-      "dia_rotulo": "02/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
-    },
-    {
-      "id": "115073",
-      "genero": "F",
-      "rodada": "Quartas de final",
-      "rodada_wsl": null,
-      "rodada_num": null,
-      "numero": 2,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Luana Silva",
-          "pais": "BRA",
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "vencedor da R1H4",
           "pais": null,
           "nota": null,
           "colete": "blue",
