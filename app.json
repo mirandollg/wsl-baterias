@@ -1,21 +1,21 @@
 {
-  "atualizado_em": "02/11/2026 05:25",
+  "atualizado_em": "02/11/2026 15:41",
   "evento": {
     "nome": "Philippines Pro",
     "id": "543",
     "inicio": "2026-10-31",
     "fim": "2026-11-10"
   },
-  "call": null,
+  "call": "02/11 às 21:30",
   "transmissao": {
     "youtube": "https://www.youtube.com/@wsl/live",
     "site": "https://www.worldsurfleague.com/watch",
     "tv": "sportv4"
   },
-  "status_wsl": "Live",
-  "status_msg": "Heat in the Water • Men's Quarterfinals • Heat 4",
-  "situacao": "ao_vivo",
-  "call_data": null,
+  "status_wsl": "Standby",
+  "status_msg": "Next Call •Nov 3•8:30 AM SGT",
+  "situacao": "call",
+  "call_data": "2026-11-02",
   "passo_estimado_min": 39,
   "dias": [
     {
@@ -24,7 +24,7 @@
       "mes": "11",
       "semana": "Seg",
       "estado": "call",
-      "qtd": 17,
+      "qtd": 15,
       "evento": "Philippines Pro",
       "hoje": true
     },
@@ -33,9 +33,9 @@
       "dia": "03",
       "mes": "11",
       "semana": "Ter",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
+      "estado": "previsto",
+      "qtd": 2,
+      "evento": "Philippines Pro",
       "hoje": false
     },
     {
@@ -211,7 +211,7 @@
         "posicao": 3,
         "nome": "Gabriel Medina",
         "pais": "BRA",
-        "pontos": "47,955",
+        "pontos": "49,295",
         "variacao": "1"
       },
       {
@@ -603,38 +603,7 @@
       }
     ]
   },
-  "ao_vivo": {
-    "id": "114326",
-    "genero": "M",
-    "rodada": "Quartas de final",
-    "rodada_wsl": "Quarterfinals",
-    "rodada_num": 3,
-    "numero": 4,
-    "status": "ao_vivo",
-    "surfistas": [
-      {
-        "nome": "Gabriel Medina",
-        "pais": "BRA",
-        "nota": "0.50",
-        "colete": "red",
-        "avancou": false
-      },
-      {
-        "nome": "George Pittar",
-        "pais": "AUS",
-        "nota": null,
-        "colete": "blue",
-        "avancou": false
-      }
-    ],
-    "replay": "https://www.worldsurfleague.com/posts/560244/its-on-day-3-of-the-philippine?jointEventId=543",
-    "definida": true,
-    "data": "2026-11-02",
-    "dia_rotulo": "02/11",
-    "horario": null,
-    "quando": "aguardando call",
-    "estado": "aguardando_call"
-  },
+  "ao_vivo": null,
   "proxima": {
     "id": "115076",
     "genero": "F",
@@ -663,9 +632,9 @@
     "definida": true,
     "data": "2026-11-02",
     "dia_rotulo": "02/11",
-    "horario": null,
-    "quando": "aguardando call",
-    "estado": "aguardando_call"
+    "horario": "21:30",
+    "quando": "21:30",
+    "estado": "com_horario"
   },
   "baterias": [
     {
@@ -1592,9 +1561,9 @@
       "definida": true,
       "data": "2026-11-02",
       "dia_rotulo": "02/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "21:30",
+      "quando": "21:30",
+      "estado": "com_horario"
     },
     {
       "id": "114323",
@@ -1656,9 +1625,9 @@
       "definida": true,
       "data": "2026-11-02",
       "dia_rotulo": "02/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "22:09",
+      "quando": "22:09",
+      "estado": "com_horario"
     },
     {
       "id": "114324",
@@ -1716,7 +1685,7 @@
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/562608/philippines-pro-mens-quarterfinals-heat-3-full-heat-replay?jointEventId=543",
       "definida": true,
       "data": "2026-11-02",
       "dia_rotulo": "02/11",
@@ -1731,30 +1700,30 @@
       "rodada_wsl": "Quarterfinals",
       "rodada_num": 3,
       "numero": 4,
-      "status": "ao_vivo",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Gabriel Medina",
           "pais": "BRA",
-          "nota": "0.50",
+          "nota": "12.33",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "George Pittar",
           "pais": "AUS",
-          "nota": null,
+          "nota": "9.17",
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/560244/its-on-day-3-of-the-philippine?jointEventId=543",
+      "replay": "https://www.worldsurfleague.com/posts/562610/philippines-pro-mens-quarterfinals-heat-4-full-heat-replay?jointEventId=543",
       "definida": true,
       "data": "2026-11-02",
       "dia_rotulo": "02/11",
       "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114327",
@@ -1784,16 +1753,16 @@
       "definida": true,
       "data": "2026-11-02",
       "dia_rotulo": "02/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "22:48",
+      "quando": "22:48",
+      "estado": "com_horario"
     },
     {
       "id": "114328",
       "genero": "M",
       "rodada": "Semifinal",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada_wsl": "Semifinals",
+      "rodada_num": 4,
       "numero": 2,
       "status": "aguardando",
       "surfistas": [
@@ -1805,20 +1774,20 @@
           "avancou": false
         },
         {
-          "nome": "vencedor da QFH4",
-          "pais": null,
+          "nome": "Gabriel Medina",
+          "pais": "BRA",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
       "replay": null,
-      "definida": false,
+      "definida": true,
       "data": "2026-11-02",
       "dia_rotulo": "02/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "horario": "23:27",
+      "quando": "23:27",
+      "estado": "com_horario"
     },
     {
       "id": "115078",
@@ -1846,11 +1815,11 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-02",
-      "dia_rotulo": "02/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "data": "2026-11-03",
+      "dia_rotulo": "03/11",
+      "horario": "00:45",
+      "quando": "00:45",
+      "estado": "com_horario"
     },
     {
       "id": "114329",
@@ -1878,11 +1847,11 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-02",
-      "dia_rotulo": "02/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
+      "data": "2026-11-03",
+      "dia_rotulo": "03/11",
+      "horario": "00:06",
+      "quando": "00:06",
+      "estado": "com_horario"
     }
   ]
 }
