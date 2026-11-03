@@ -1,42 +1,32 @@
 {
-  "atualizado_em": "02/11/2026 22:19",
+  "atualizado_em": "03/11/2026 05:01",
   "evento": {
     "nome": "Philippines Pro",
     "id": "543",
     "inicio": "2026-10-31",
     "fim": "2026-11-10"
   },
-  "call": "02/11 às 22:30",
+  "call": null,
   "transmissao": {
     "youtube": "https://www.youtube.com/@wsl/live",
     "site": "https://www.worldsurfleague.com/watch",
     "tv": "sportv4"
   },
-  "status_wsl": "Standby",
-  "status_msg": "Next Call •Nov 3•9:30 AM SGT",
-  "situacao": "call",
-  "call_data": "2026-11-02",
+  "status_wsl": "Completed",
+  "status_msg": "Event Complete - Watch Replay",
+  "situacao": "aguardando",
+  "call_data": null,
   "passo_estimado_min": 39,
   "dias": [
-    {
-      "data": "2026-11-02",
-      "dia": "02",
-      "mes": "11",
-      "semana": "Seg",
-      "estado": "call",
-      "qtd": 14,
-      "evento": "Philippines Pro",
-      "hoje": true
-    },
     {
       "data": "2026-11-03",
       "dia": "03",
       "mes": "11",
       "semana": "Ter",
       "estado": "previsto",
-      "qtd": 3,
+      "qtd": 6,
       "evento": "Philippines Pro",
-      "hoje": false
+      "hoje": true
     },
     {
       "data": "2026-11-04",
@@ -167,6 +157,16 @@
       "qtd": 0,
       "evento": null,
       "hoje": false
+    },
+    {
+      "data": "2026-11-17",
+      "dia": "17",
+      "mes": "11",
+      "semana": "Ter",
+      "estado": "vazio",
+      "qtd": 0,
+      "evento": null,
+      "hoje": false
     }
   ],
   "proximas_etapas": [
@@ -202,16 +202,16 @@
       },
       {
         "posicao": 2,
-        "nome": "Italo Ferreira",
+        "nome": "Gabriel Medina",
         "pais": "BRA",
-        "pontos": "49,335",
-        "variacao": "-"
+        "pontos": "53,210",
+        "variacao": "2"
       },
       {
         "posicao": 3,
-        "nome": "Gabriel Medina",
+        "nome": "Italo Ferreira",
         "pais": "BRA",
-        "pontos": "49,295",
+        "pontos": "49,335",
         "variacao": "1"
       },
       {
@@ -253,7 +253,7 @@
         "posicao": 9,
         "nome": "Jack Robinson",
         "pais": "AUS",
-        "pontos": "33,250",
+        "pontos": "34,965",
         "variacao": "3"
       },
       {
@@ -456,17 +456,17 @@
       },
       {
         "posicao": 3,
-        "nome": "Gabriela Bryan",
-        "pais": "HAW",
-        "pontos": "46,865",
-        "variacao": "-"
+        "nome": "Caitlin Simmers",
+        "pais": "USA",
+        "pontos": "49,610",
+        "variacao": "3"
       },
       {
         "posicao": 4,
-        "nome": "Caitlin Simmers",
-        "pais": "USA",
-        "pontos": "45,695",
-        "variacao": "2"
+        "nome": "Gabriela Bryan",
+        "pais": "HAW",
+        "pontos": "46,865",
+        "variacao": "1"
       },
       {
         "posicao": 5,
@@ -500,7 +500,7 @@
         "posicao": 9,
         "nome": "Isabella Nichols",
         "pais": "AUS",
-        "pontos": "35,055",
+        "pontos": "36,770",
         "variacao": "-"
       },
       {
@@ -604,38 +604,7 @@
     ]
   },
   "ao_vivo": null,
-  "proxima": {
-    "id": "115076",
-    "genero": "F",
-    "rodada": "Semifinal",
-    "rodada_wsl": "Semifinals",
-    "rodada_num": 3,
-    "numero": 1,
-    "status": "aguardando",
-    "surfistas": [
-      {
-        "nome": "Caitlin Simmers",
-        "pais": "USA",
-        "nota": null,
-        "colete": "red",
-        "avancou": false
-      },
-      {
-        "nome": "Carissa Moore",
-        "pais": "HAW",
-        "nota": null,
-        "colete": "blue",
-        "avancou": false
-      }
-    ],
-    "replay": null,
-    "definida": true,
-    "data": "2026-11-02",
-    "dia_rotulo": "02/11",
-    "horario": "22:30",
-    "quando": "22:30",
-    "estado": "com_horario"
-  },
+  "proxima": null,
   "baterias": [
     {
       "id": "115064",
@@ -1540,30 +1509,30 @@
       "rodada_wsl": "Semifinals",
       "rodada_num": 3,
       "numero": 1,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Caitlin Simmers",
           "pais": "USA",
-          "nota": null,
+          "nota": "9.43",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Carissa Moore",
           "pais": "HAW",
-          "nota": null,
+          "nota": "5.67",
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/562636/philippines-pro-womens-semifinals-heat-1-full-heat-replay?jointEventId=543",
       "definida": true,
-      "data": "2026-11-02",
-      "dia_rotulo": "02/11",
-      "horario": "22:30",
-      "quando": "22:30",
-      "estado": "com_horario"
+      "data": "2026-11-03",
+      "dia_rotulo": "03/11",
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114323",
@@ -1604,30 +1573,30 @@
       "rodada_wsl": "Semifinals",
       "rodada_num": 3,
       "numero": 2,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Isabella Nichols",
           "pais": "AUS",
-          "nota": null,
+          "nota": "10.17",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Tyler Wright",
           "pais": "AUS",
-          "nota": null,
+          "nota": "7.00",
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/562640/philippines-pro-womens-semifinals-heat-2-full-heat-replay?jointEventId=543",
       "definida": true,
-      "data": "2026-11-02",
-      "dia_rotulo": "02/11",
-      "horario": "23:09",
-      "quando": "23:09",
-      "estado": "com_horario"
+      "data": "2026-11-03",
+      "dia_rotulo": "03/11",
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114324",
@@ -1726,36 +1695,68 @@
       "estado": "encerrada"
     },
     {
+      "id": "115078",
+      "genero": "F",
+      "rodada": "Final",
+      "rodada_wsl": "Final",
+      "rodada_num": 4,
+      "numero": 1,
+      "status": "encerrada",
+      "surfistas": [
+        {
+          "nome": "Caitlin Simmers",
+          "pais": "USA",
+          "nota": "12.00",
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Isabella Nichols",
+          "pais": "AUS",
+          "nota": "10.77",
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": "https://www.worldsurfleague.com/posts/562652/philippines-pro-womens-final-full-heat-replay?jointEventId=543",
+      "definida": true,
+      "data": "2026-11-03",
+      "dia_rotulo": "03/11",
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
+    },
+    {
       "id": "114327",
       "genero": "M",
       "rodada": "Semifinal",
       "rodada_wsl": "Semifinals",
       "rodada_num": 4,
       "numero": 1,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Jack Robinson",
           "pais": "AUS",
-          "nota": null,
+          "nota": "16.63",
           "colete": "red",
-          "avancou": false
+          "avancou": true
         },
         {
           "nome": "Ethan Ewing",
           "pais": "AUS",
-          "nota": null,
+          "nota": "16.00",
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/562645/philippines-pro-mens-semifinals-heat-1-full-heat-replay?jointEventId=543",
       "definida": true,
-      "data": "2026-11-02",
-      "dia_rotulo": "02/11",
-      "horario": "23:48",
-      "quando": "23:48",
-      "estado": "com_horario"
+      "data": "2026-11-03",
+      "dia_rotulo": "03/11",
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114328",
@@ -1764,94 +1765,62 @@
       "rodada_wsl": "Semifinals",
       "rodada_num": 4,
       "numero": 2,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
           "nome": "Yago Dora",
           "pais": "BRA",
-          "nota": null,
+          "nota": "13.50",
           "colete": "yellow",
           "avancou": false
         },
         {
           "nome": "Gabriel Medina",
           "pais": "BRA",
-          "nota": null,
+          "nota": "15.76",
           "colete": "blue",
-          "avancou": false
+          "avancou": true
         }
       ],
-      "replay": null,
+      "replay": "https://www.worldsurfleague.com/posts/562647/philippines-pro-mens-semifinals-heat-2-full-heat-replay?jointEventId=543",
       "definida": true,
       "data": "2026-11-03",
       "dia_rotulo": "03/11",
-      "horario": "00:27",
-      "quando": "00:27",
-      "estado": "com_horario"
-    },
-    {
-      "id": "115078",
-      "genero": "F",
-      "rodada": "Final",
-      "rodada_wsl": null,
-      "rodada_num": null,
-      "numero": 1,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "vencedor da SFH1",
-          "pais": null,
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "vencedor da SFH2",
-          "pais": null,
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": false,
-      "data": "2026-11-03",
-      "dia_rotulo": "03/11",
-      "horario": "01:45",
-      "quando": "01:45",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     },
     {
       "id": "114329",
       "genero": "M",
       "rodada": "Final",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada_wsl": "Final",
+      "rodada_num": 5,
       "numero": 1,
-      "status": "aguardando",
+      "status": "encerrada",
       "surfistas": [
         {
-          "nome": "vencedor da SFH1",
-          "pais": null,
-          "nota": null,
+          "nome": "Jack Robinson",
+          "pais": "AUS",
+          "nota": "14.50",
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "vencedor da SFH2",
-          "pais": null,
-          "nota": null,
+          "nome": "Gabriel Medina",
+          "pais": "BRA",
+          "nota": "16.93",
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": null,
-      "definida": false,
+      "replay": "https://www.worldsurfleague.com/posts/562658/philippines-pro-mens-final-heat-1-full-heat-replay?jointEventId=543",
+      "definida": true,
       "data": "2026-11-03",
       "dia_rotulo": "03/11",
-      "horario": "01:06",
-      "quando": "01:06",
-      "estado": "com_horario"
+      "horario": null,
+      "quando": "encerrada",
+      "estado": "encerrada"
     }
   ]
 }
