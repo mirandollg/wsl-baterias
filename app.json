@@ -1,19 +1,19 @@
 {
-  "atualizado_em": "02/11/2026 15:41",
+  "atualizado_em": "02/11/2026 22:19",
   "evento": {
     "nome": "Philippines Pro",
     "id": "543",
     "inicio": "2026-10-31",
     "fim": "2026-11-10"
   },
-  "call": "02/11 às 21:30",
+  "call": "02/11 às 22:30",
   "transmissao": {
     "youtube": "https://www.youtube.com/@wsl/live",
     "site": "https://www.worldsurfleague.com/watch",
     "tv": "sportv4"
   },
   "status_wsl": "Standby",
-  "status_msg": "Next Call •Nov 3•8:30 AM SGT",
+  "status_msg": "Next Call •Nov 3•9:30 AM SGT",
   "situacao": "call",
   "call_data": "2026-11-02",
   "passo_estimado_min": 39,
@@ -24,7 +24,7 @@
       "mes": "11",
       "semana": "Seg",
       "estado": "call",
-      "qtd": 15,
+      "qtd": 14,
       "evento": "Philippines Pro",
       "hoje": true
     },
@@ -34,7 +34,7 @@
       "mes": "11",
       "semana": "Ter",
       "estado": "previsto",
-      "qtd": 2,
+      "qtd": 3,
       "evento": "Philippines Pro",
       "hoje": false
     },
@@ -632,8 +632,8 @@
     "definida": true,
     "data": "2026-11-02",
     "dia_rotulo": "02/11",
-    "horario": "21:30",
-    "quando": "21:30",
+    "horario": "22:30",
+    "quando": "22:30",
     "estado": "com_horario"
   },
   "baterias": [
@@ -1561,8 +1561,8 @@
       "definida": true,
       "data": "2026-11-02",
       "dia_rotulo": "02/11",
-      "horario": "21:30",
-      "quando": "21:30",
+      "horario": "22:30",
+      "quando": "22:30",
       "estado": "com_horario"
     },
     {
@@ -1625,8 +1625,8 @@
       "definida": true,
       "data": "2026-11-02",
       "dia_rotulo": "02/11",
-      "horario": "22:09",
-      "quando": "22:09",
+      "horario": "23:09",
+      "quando": "23:09",
       "estado": "com_horario"
     },
     {
@@ -1753,8 +1753,8 @@
       "definida": true,
       "data": "2026-11-02",
       "dia_rotulo": "02/11",
-      "horario": "22:48",
-      "quando": "22:48",
+      "horario": "23:48",
+      "quando": "23:48",
       "estado": "com_horario"
     },
     {
@@ -1783,10 +1783,10 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-11-02",
-      "dia_rotulo": "02/11",
-      "horario": "23:27",
-      "quando": "23:27",
+      "data": "2026-11-03",
+      "dia_rotulo": "03/11",
+      "horario": "00:27",
+      "quando": "00:27",
       "estado": "com_horario"
     },
     {
@@ -1817,8 +1817,8 @@
       "definida": false,
       "data": "2026-11-03",
       "dia_rotulo": "03/11",
-      "horario": "00:45",
-      "quando": "00:45",
+      "horario": "01:45",
+      "quando": "01:45",
       "estado": "com_horario"
     },
     {
@@ -1849,8 +1849,8 @@
       "definida": false,
       "data": "2026-11-03",
       "dia_rotulo": "03/11",
-      "horario": "00:06",
-      "quando": "00:06",
+      "horario": "01:06",
+      "quando": "01:06",
       "estado": "com_horario"
     }
   ]
