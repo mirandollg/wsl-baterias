@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "10/11/2026 22:24",
+  "atualizado_em": "11/11/2026 05:03",
   "evento": {
-    "nome": "Philippines Pro",
-    "id": "543",
-    "inicio": "2026-10-31",
-    "fim": "2026-11-10"
+    "nome": "Lexus Pipe Masters",
+    "id": "446",
+    "inicio": "2026-12-08",
+    "fim": "2026-12-20"
   },
   "call": null,
   "transmissao": {
@@ -12,40 +12,30 @@
     "site": "https://www.worldsurfleague.com/watch",
     "tv": "sportv4"
   },
-  "status_wsl": "Completed",
-  "status_msg": "Event Complete - Watch Replay",
+  "status_wsl": "Upcoming",
+  "status_msg": "Dec 8 - Dec 20",
   "situacao": "aguardando",
   "call_data": null,
   "passo_estimado_min": 39,
   "dias": [
     {
-      "data": "2026-11-10",
-      "dia": "10",
-      "mes": "11",
-      "semana": "Ter",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
-      "hoje": true
-    },
-    {
       "data": "2026-11-11",
       "dia": "11",
       "mes": "11",
       "semana": "Qua",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
-      "hoje": false
+      "estado": "previsto",
+      "qtd": 15,
+      "evento": "Lexus Pipe Masters",
+      "hoje": true
     },
     {
       "data": "2026-11-12",
       "dia": "12",
       "mes": "11",
       "semana": "Qui",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
+      "estado": "previsto",
+      "qtd": 15,
+      "evento": "Lexus Pipe Masters",
       "hoje": false
     },
     {
@@ -53,9 +43,9 @@
       "dia": "13",
       "mes": "11",
       "semana": "Sex",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
+      "estado": "previsto",
+      "qtd": 15,
+      "evento": "Lexus Pipe Masters",
       "hoje": false
     },
     {
@@ -63,9 +53,9 @@
       "dia": "14",
       "mes": "11",
       "semana": "Sab",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
+      "estado": "previsto",
+      "qtd": 13,
+      "evento": "Lexus Pipe Masters",
       "hoje": false
     },
     {
@@ -167,19 +157,19 @@
       "qtd": 0,
       "evento": null,
       "hoje": false
+    },
+    {
+      "data": "2026-11-25",
+      "dia": "25",
+      "mes": "11",
+      "semana": "Qua",
+      "estado": "vazio",
+      "qtd": 0,
+      "evento": null,
+      "hoje": false
     }
   ],
   "proximas_etapas": [
-    {
-      "id": "543",
-      "nome": "Philippines Pro",
-      "local": "Cloud 9, Siargao",
-      "pais": "PHI",
-      "inicio": "2026-10-31",
-      "fim": "2026-11-10",
-      "periodo": "31 out a 10 nov",
-      "em_andamento": true
-    },
     {
       "id": "446",
       "nome": "Lexus Pipe Masters",
@@ -604,1223 +594,1894 @@
     ]
   },
   "ao_vivo": null,
-  "proxima": null,
+  "proxima": {
+    "id": "115079",
+    "genero": "F",
+    "rodada": "Rodada 1",
+    "rodada_wsl": null,
+    "rodada_num": null,
+    "numero": 1,
+    "status": "aguardando",
+    "surfistas": [
+      {
+        "nome": "Event seed #16",
+        "pais": null,
+        "nota": null,
+        "colete": "red",
+        "avancou": false
+      },
+      {
+        "nome": "Event seed #17",
+        "pais": null,
+        "nota": null,
+        "colete": "blue",
+        "avancou": false
+      }
+    ],
+    "replay": null,
+    "definida": true,
+    "data": "2026-11-11",
+    "dia_rotulo": "11/11",
+    "horario": null,
+    "quando": "aguardando call",
+    "estado": "aguardando_call"
+  },
   "baterias": [
     {
-      "id": "115064",
+      "id": "115079",
       "genero": "F",
       "rodada": "Rodada 1",
-      "rodada_wsl": "Round 1",
-      "rodada_num": 1,
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 1,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Caitlin Simmers",
-          "pais": "USA",
-          "nota": "15.17",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Caroline Marks",
-          "pais": "USA",
-          "nota": "9.00",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/562451/philippines-pro-womens-round-1-heat-1-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-10-30",
-      "dia_rotulo": "30/10",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114307",
-      "genero": "M",
-      "rodada": "Rodada 1",
-      "rodada_wsl": "Round 1",
-      "rodada_num": 1,
-      "numero": 1,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Connor O'Leary",
-          "pais": "JPN",
-          "nota": "13.13",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Callum Robson",
-          "pais": "AUS",
-          "nota": "9.90",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/562488/philippines-pro-mens-round-1-heat-1-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "115065",
-      "genero": "F",
-      "rodada": "Rodada 1",
-      "rodada_wsl": "Round 1",
-      "rodada_num": 1,
-      "numero": 2,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Gabriela Bryan",
-          "pais": "HAW",
-          "nota": "7.00",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Yolanda Hopkins",
-          "pais": "POR",
-          "nota": "10.10",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/562453/philippines-pro-womens-round-1-heat-2-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-10-30",
-      "dia_rotulo": "30/10",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114308",
-      "genero": "M",
-      "rodada": "Rodada 1",
-      "rodada_wsl": "Round 1",
-      "rodada_num": 1,
-      "numero": 2,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Marco Mignot",
-          "pais": "FRA",
-          "nota": "10.33",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Seth Moniz",
-          "pais": "HAW",
-          "nota": "12.66",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/562493/philippines-pro-mens-round-1-heat-2-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "115066",
-      "genero": "F",
-      "rodada": "Rodada 1",
-      "rodada_wsl": "Round 1",
-      "rodada_num": 1,
-      "numero": 3,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Luana Silva",
-          "pais": "BRA",
-          "nota": "10.63",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Bettylou Sakura Johnson",
-          "pais": "HAW",
-          "nota": "9.66",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/562467/philippines-pro-womens-round-1-heat-3-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114309",
-      "genero": "M",
-      "rodada": "Rodada 1",
-      "rodada_wsl": "Round 1",
-      "rodada_num": 1,
-      "numero": 3,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Cole Houshmand",
-          "pais": "USA",
-          "nota": "9.53",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Filipe Toledo",
-          "pais": "BRA",
-          "nota": "10.67",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/562497/philippines-pro-mens-round-1-heat-3-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "115067",
-      "genero": "F",
-      "rodada": "Rodada 1",
-      "rodada_wsl": "Round 1",
-      "rodada_num": 1,
-      "numero": 4,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Carissa Moore",
-          "pais": "HAW",
-          "nota": "14.33",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Sierra Kerr",
+          "nome": "Event seed #16",
           "pais": null,
-          "nota": "6.07",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/562472/philippines-pro-womens-round-1-heat-4-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-10-31",
-      "dia_rotulo": "31/10",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114310",
-      "genero": "M",
-      "rodada": "Rodada 1",
-      "rodada_wsl": "Round 1",
-      "rodada_num": 1,
-      "numero": 4,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Liam O'Brien",
-          "pais": "AUS",
-          "nota": "14.33",
+          "nota": null,
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
         {
-          "nome": "Joao Chianca",
-          "pais": "BRA",
-          "nota": "13.33",
+          "nome": "Event seed #17",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562502/philippines-pro-mens-round-1-heat-4-full-heat-replay?jointEventId=543",
+      "replay": null,
       "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
+      "data": "2026-11-11",
+      "dia_rotulo": "11/11",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "115068",
+      "id": "114896",
+      "genero": "M",
+      "rodada": "Rodada 1",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 1,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #32",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Event seed #36",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": true,
+      "data": "2026-11-11",
+      "dia_rotulo": "11/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "115080",
       "genero": "F",
       "rodada": "Rodada 1",
-      "rodada_wsl": "Round 1",
-      "rodada_num": 1,
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 2,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #15",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Event seed #18",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": true,
+      "data": "2026-11-11",
+      "dia_rotulo": "11/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114897",
+      "genero": "M",
+      "rodada": "Rodada 1",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 2,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #31",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Event seed #33",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": true,
+      "data": "2026-11-11",
+      "dia_rotulo": "11/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "115081",
+      "genero": "F",
+      "rodada": "Rodada 1",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 3,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #14",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Event seed #19",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": true,
+      "data": "2026-11-11",
+      "dia_rotulo": "11/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114898",
+      "genero": "M",
+      "rodada": "Rodada 1",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 3,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #30",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Event seed #34",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": true,
+      "data": "2026-11-11",
+      "dia_rotulo": "11/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "115082",
+      "genero": "F",
+      "rodada": "Rodada 1",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 4,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #13",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Event seed #20",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": true,
+      "data": "2026-11-11",
+      "dia_rotulo": "11/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114899",
+      "genero": "M",
+      "rodada": "Rodada 1",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 4,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #29",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Event seed #35",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": true,
+      "data": "2026-11-11",
+      "dia_rotulo": "11/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "115083",
+      "genero": "F",
+      "rodada": "Rodada 1",
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 5,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Molly Picklum",
-          "pais": "AUS",
-          "nota": "11.50",
-          "colete": "yellow",
-          "avancou": true
-        },
-        {
-          "nome": "Mara Lopez",
+          "nome": "Event seed #12",
           "pais": null,
-          "nota": "4.50",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/562476/philippines-pro-womens-round-1-heat-5-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114311",
-      "genero": "M",
-      "rodada": "Rodada 1",
-      "rodada_wsl": "Round 1",
-      "rodada_num": 1,
-      "numero": 5,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Jack Robinson",
-          "pais": "AUS",
-          "nota": "14.83",
+          "nota": null,
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
         {
-          "nome": "Bronson Meydi",
+          "nome": "Event seed #21",
           "pais": null,
-          "nota": "10.00",
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562505/philippines-pro-mens-round-1-heat-5-full-heat-replay?jointEventId=543",
+      "replay": null,
       "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
+      "data": "2026-11-11",
+      "dia_rotulo": "11/11",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "115069",
+      "id": "115084",
       "genero": "F",
       "rodada": "Rodada 1",
-      "rodada_wsl": "Round 1",
-      "rodada_num": 1,
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 6,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Lakey Peterson",
-          "pais": "USA",
-          "nota": "9.47",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Isabella Nichols",
-          "pais": "AUS",
-          "nota": "9.67",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/562478/philippines-pro-womens-round-1-heat-6-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114312",
-      "genero": "M",
-      "rodada": "Rodada 1",
-      "rodada_wsl": "Round 1",
-      "rodada_num": 1,
-      "numero": 6,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "George Pittar",
-          "pais": "AUS",
-          "nota": "10.33",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Noah Arkfeld",
+          "nome": "Event seed #11",
           "pais": null,
-          "nota": "6.67",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Event seed #22",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562509/philippines-pro-mens-round-1-heat-6-full-heat-replay?jointEventId=543",
+      "replay": null,
       "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
+      "data": "2026-11-11",
+      "dia_rotulo": "11/11",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "115070",
+      "id": "115085",
       "genero": "F",
       "rodada": "Rodada 1",
-      "rodada_wsl": "Round 1",
-      "rodada_num": 1,
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 7,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Erin Brooks",
-          "pais": "CAN",
-          "nota": "10.64",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Tyler Wright",
-          "pais": "AUS",
-          "nota": "11.93",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/562482/philippines-pro-womens-round-1-heat-7-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114313",
-      "genero": "M",
-      "rodada": "Rodada 1",
-      "rodada_wsl": "Round 1",
-      "rodada_num": 1,
-      "numero": 7,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Samuel Pupo",
-          "pais": "BRA",
-          "nota": "11.00",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "John Mark Tokong",
+          "nome": "Event seed #10",
           "pais": null,
-          "nota": "16.60",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Event seed #23",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
-          "avancou": true
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562512/philippines-pro-mens-round-1-heat-7-full-heat-replay?jointEventId=543",
+      "replay": null,
       "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
+      "data": "2026-11-11",
+      "dia_rotulo": "11/11",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "115071",
+      "id": "115086",
       "genero": "F",
       "rodada": "Rodada 1",
-      "rodada_wsl": "Round 1",
-      "rodada_num": 1,
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 8,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Sawyer Lindblad",
-          "pais": "USA",
-          "nota": "9.57",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Nadia Erostarbe",
-          "pais": "ESP",
-          "nota": "10.04",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/562484/philippines-pro-womens-round-1-heat-8-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114314",
-      "genero": "M",
-      "rodada": "Rodada 1",
-      "rodada_wsl": "Round 1",
-      "rodada_num": 1,
-      "numero": 8,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Kauli Vaast",
-          "pais": "FRA",
-          "nota": "12.17",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Jayuard Alciso",
+          "nome": "Event seed #9",
           "pais": null,
-          "nota": "12.93",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Event seed #24",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
-          "avancou": true
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562514/philippines-pro-mens-round-1-heat-8-full-heat-replay?jointEventId=543",
+      "replay": null,
       "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
+      "data": "2026-11-11",
+      "dia_rotulo": "11/11",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "115072",
-      "genero": "F",
-      "rodada": "Quartas de final",
-      "rodada_wsl": "Quarterfinals",
-      "rodada_num": 2,
+      "id": "114900",
+      "genero": "M",
+      "rodada": "Rodada 2",
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 1,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Caitlin Simmers",
-          "pais": "USA",
-          "nota": "10.34",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Yolanda Hopkins",
-          "pais": "POR",
-          "nota": "8.33",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/562577/philippines-pro-womens-quarterfinals-heat-1-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-11-02",
-      "dia_rotulo": "02/11",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114315",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "rodada_wsl": "Round 2",
-      "rodada_num": 2,
-      "numero": 1,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Italo Ferreira",
-          "pais": "BRA",
-          "nota": "13.67",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Seth Moniz",
-          "pais": "HAW",
-          "nota": "14.43",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/562518/philippines-pro-mens-round-2-heat-1-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "115073",
-      "genero": "F",
-      "rodada": "Quartas de final",
-      "rodada_wsl": "Quarterfinals",
-      "rodada_num": 2,
-      "numero": 2,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Luana Silva",
-          "pais": "BRA",
-          "nota": "7.83",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Carissa Moore",
-          "pais": "HAW",
-          "nota": "13.57",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/562585/philippines-pro-womens-quarterfinals-heat-2-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-11-02",
-      "dia_rotulo": "02/11",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114316",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "rodada_wsl": "Round 2",
-      "rodada_num": 2,
-      "numero": 2,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Miguel Pupo",
-          "pais": "BRA",
-          "nota": "12.60",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Jack Robinson",
-          "pais": "AUS",
-          "nota": "13.23",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/562520/philippines-pro-mens-round-2-heat-2-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "115074",
-      "genero": "F",
-      "rodada": "Quartas de final",
-      "rodada_wsl": "Quarterfinals",
-      "rodada_num": 2,
-      "numero": 3,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Molly Picklum",
-          "pais": "AUS",
-          "nota": "2.57",
-          "colete": "yellow",
-          "avancou": false
-        },
-        {
-          "nome": "Isabella Nichols",
-          "pais": "AUS",
-          "nota": "13.50",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/562589/philippines-pro-womens-quarterfinals-heat-3-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-11-02",
-      "dia_rotulo": "02/11",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114317",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "rodada_wsl": "Round 2",
-      "rodada_num": 2,
-      "numero": 3,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Griffin Colapinto",
-          "pais": "USA",
-          "nota": "12.33",
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Filipe Toledo",
-          "pais": "BRA",
-          "nota": "14.00",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/562543/philippines-pro-mens-round-2-heat-3-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "115075",
-      "genero": "F",
-      "rodada": "Quartas de final",
-      "rodada_wsl": "Quarterfinals",
-      "rodada_num": 2,
-      "numero": 4,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Tyler Wright",
-          "pais": "AUS",
-          "nota": "13.67",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Nadia Erostarbe",
-          "pais": "ESP",
-          "nota": "7.93",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/562591/philippines-pro-womens-quarterfinals-heat-4-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-11-02",
-      "dia_rotulo": "02/11",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114318",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "rodada_wsl": "Round 2",
-      "rodada_num": 2,
-      "numero": 4,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Ethan Ewing",
-          "pais": "AUS",
-          "nota": "14.50",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "John Mark Tokong",
+          "nome": "Event seed #22",
           "pais": null,
-          "nota": "11.54",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Event seed #27",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562545/philippines-pro-mens-round-2-heat-4-full-heat-replay?jointEventId=543",
+      "replay": null,
       "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
+      "data": "2026-11-11",
+      "dia_rotulo": "11/11",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114319",
+      "id": "114901",
       "genero": "M",
       "rodada": "Rodada 2",
-      "rodada_wsl": "Round 2",
-      "rodada_num": 2,
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 2,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #23",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Event seed #26",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": true,
+      "data": "2026-11-11",
+      "dia_rotulo": "11/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114902",
+      "genero": "M",
+      "rodada": "Rodada 2",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 3,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #17",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R1H1",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-11",
+      "dia_rotulo": "11/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114903",
+      "genero": "M",
+      "rodada": "Rodada 2",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 4,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #18",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R1H2",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-12",
+      "dia_rotulo": "12/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114904",
+      "genero": "M",
+      "rodada": "Rodada 2",
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 5,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Yago Dora",
-          "pais": "BRA",
-          "nota": "14.00",
-          "colete": "yellow",
-          "avancou": true
-        },
-        {
-          "nome": "Connor O'Leary",
-          "pais": "JPN",
-          "nota": "12.14",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/562549/philippines-pro-mens-round-2-heat-5-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-11-01",
-      "dia_rotulo": "01/11",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114320",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "rodada_wsl": "Round 2",
-      "rodada_num": 2,
-      "numero": 6,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Kanoa Igarashi",
-          "pais": "JPN",
-          "nota": "12.90",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Jayuard Alciso",
+          "nome": "Event seed #24",
           "pais": null,
-          "nota": "11.84",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Event seed #25",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562553/philippines-pro-mens-round-2-heat-6-full-heat-replay?jointEventId=543",
+      "replay": null,
       "definida": true,
-      "data": "2026-11-02",
-      "dia_rotulo": "02/11",
+      "data": "2026-11-12",
+      "dia_rotulo": "12/11",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114321",
+      "id": "114905",
       "genero": "M",
       "rodada": "Rodada 2",
-      "rodada_wsl": "Round 2",
-      "rodada_num": 2,
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 6,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #19",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R1H3",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-12",
+      "dia_rotulo": "12/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114906",
+      "genero": "M",
+      "rodada": "Rodada 2",
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 7,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Gabriel Medina",
-          "pais": "BRA",
-          "nota": "15.23",
+          "nome": "Event seed #20",
+          "pais": null,
+          "nota": null,
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
         {
-          "nome": "Liam O'Brien",
-          "pais": "AUS",
-          "nota": "14.50",
+          "nome": "vencedor da R1H4",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562569/philippines-pro-mens-round-2-heat-7-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-11-02",
-      "dia_rotulo": "02/11",
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-12",
+      "dia_rotulo": "12/11",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114322",
+      "id": "114907",
       "genero": "M",
       "rodada": "Rodada 2",
-      "rodada_wsl": "Round 2",
-      "rodada_num": 2,
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 8,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Leonardo Fioravanti",
-          "pais": "ITA",
-          "nota": "13.83",
+          "nome": "Event seed #21",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "George Pittar",
-          "pais": "AUS",
-          "nota": "14.63",
+          "nome": "Event seed #28",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
-          "avancou": true
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562572/philippines-pro-mens-round-2-heat-8-full-heat-replay?jointEventId=543",
+      "replay": null,
       "definida": true,
-      "data": "2026-11-02",
-      "dia_rotulo": "02/11",
+      "data": "2026-11-12",
+      "dia_rotulo": "12/11",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "115076",
+      "id": "115087",
+      "genero": "F",
+      "rodada": "Oitavas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 1,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #2",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R1H2",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-12",
+      "dia_rotulo": "12/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114916",
+      "genero": "M",
+      "rodada": "Oitavas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 1,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #7",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R3H2",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-12",
+      "dia_rotulo": "12/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "115088",
+      "genero": "F",
+      "rodada": "Oitavas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 2,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #5",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R1H5",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-12",
+      "dia_rotulo": "12/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114917",
+      "genero": "M",
+      "rodada": "Oitavas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 2,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #2",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R3H4",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-12",
+      "dia_rotulo": "12/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "115089",
+      "genero": "F",
+      "rodada": "Oitavas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 3,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #3",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R1H3",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-12",
+      "dia_rotulo": "12/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114918",
+      "genero": "M",
+      "rodada": "Oitavas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 3,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #6",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R3H1",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-12",
+      "dia_rotulo": "12/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "115090",
+      "genero": "F",
+      "rodada": "Oitavas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 4,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #7",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R1H7",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-12",
+      "dia_rotulo": "12/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114919",
+      "genero": "M",
+      "rodada": "Oitavas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 4,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #3",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R3H6",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-12",
+      "dia_rotulo": "12/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "115091",
+      "genero": "F",
+      "rodada": "Oitavas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 5,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #1",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R1H1",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-12",
+      "dia_rotulo": "12/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114920",
+      "genero": "M",
+      "rodada": "Oitavas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 5,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #1",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R3H3",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-12",
+      "dia_rotulo": "12/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "115092",
+      "genero": "F",
+      "rodada": "Oitavas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 6,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #8",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R1H8",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-13",
+      "dia_rotulo": "13/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114921",
+      "genero": "M",
+      "rodada": "Oitavas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 6,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #6",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R3H5",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-13",
+      "dia_rotulo": "13/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "115093",
+      "genero": "F",
+      "rodada": "Oitavas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 7,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #4",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R1H4",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-13",
+      "dia_rotulo": "13/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114922",
+      "genero": "M",
+      "rodada": "Oitavas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 7,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #4",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R3H7",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-13",
+      "dia_rotulo": "13/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "115094",
+      "genero": "F",
+      "rodada": "Oitavas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 8,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #6",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R1H6",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-13",
+      "dia_rotulo": "13/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114923",
+      "genero": "M",
+      "rodada": "Oitavas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 8,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #5",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R3H8",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-13",
+      "dia_rotulo": "13/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "115095",
+      "genero": "F",
+      "rodada": "Quartas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 1,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R2H1",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H2",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-13",
+      "dia_rotulo": "13/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114924",
+      "genero": "M",
+      "rodada": "Quartas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 1,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R4H1",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R4H2",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-13",
+      "dia_rotulo": "13/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "115096",
+      "genero": "F",
+      "rodada": "Quartas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 2,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R2H3",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H4",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-13",
+      "dia_rotulo": "13/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114925",
+      "genero": "M",
+      "rodada": "Quartas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 2,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R4H3",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R4H4",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-13",
+      "dia_rotulo": "13/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "115097",
+      "genero": "F",
+      "rodada": "Quartas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 3,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R2H5",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H6",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-13",
+      "dia_rotulo": "13/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114926",
+      "genero": "M",
+      "rodada": "Quartas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 3,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R4H5",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R4H6",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-13",
+      "dia_rotulo": "13/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "115098",
+      "genero": "F",
+      "rodada": "Quartas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 4,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R2H7",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H8",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-13",
+      "dia_rotulo": "13/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114927",
+      "genero": "M",
+      "rodada": "Quartas de final",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 4,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "vencedor da R4H7",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R4H8",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-13",
+      "dia_rotulo": "13/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "115099",
       "genero": "F",
       "rodada": "Semifinal",
-      "rodada_wsl": "Semifinals",
-      "rodada_num": 3,
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 1,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Caitlin Simmers",
-          "pais": "USA",
-          "nota": "9.43",
+          "nome": "vencedor da QFH1",
+          "pais": null,
+          "nota": null,
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
         {
-          "nome": "Carissa Moore",
-          "pais": "HAW",
-          "nota": "5.67",
+          "nome": "vencedor da QFH2",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562636/philippines-pro-womens-semifinals-heat-1-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-11-03",
-      "dia_rotulo": "03/11",
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-14",
+      "dia_rotulo": "14/11",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114323",
+      "id": "114928",
       "genero": "M",
-      "rodada": "Quartas de final",
-      "rodada_wsl": "Quarterfinals",
-      "rodada_num": 3,
+      "rodada": "Semifinal",
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 1,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Seth Moniz",
-          "pais": "HAW",
-          "nota": "10.50",
+          "nome": "vencedor da QFH1",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Jack Robinson",
-          "pais": "AUS",
-          "nota": "14.17",
+          "nome": "vencedor da QFH2",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
-          "avancou": true
+          "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562599/philippines-pro-mens-quarterfinals-heat-1-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-11-02",
-      "dia_rotulo": "02/11",
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-13",
+      "dia_rotulo": "13/11",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "115077",
+      "id": "115100",
       "genero": "F",
       "rodada": "Semifinal",
-      "rodada_wsl": "Semifinals",
-      "rodada_num": 3,
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 2,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Isabella Nichols",
-          "pais": "AUS",
-          "nota": "10.17",
+          "nome": "vencedor da QFH3",
+          "pais": null,
+          "nota": null,
           "colete": "red",
-          "avancou": true
+          "avancou": false
         },
         {
-          "nome": "Tyler Wright",
-          "pais": "AUS",
-          "nota": "7.00",
+          "nome": "vencedor da QFH4",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562640/philippines-pro-womens-semifinals-heat-2-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-11-03",
-      "dia_rotulo": "03/11",
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-14",
+      "dia_rotulo": "14/11",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114324",
+      "id": "114929",
       "genero": "M",
-      "rodada": "Quartas de final",
-      "rodada_wsl": "Quarterfinals",
-      "rodada_num": 3,
+      "rodada": "Semifinal",
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 2,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Filipe Toledo",
-          "pais": "BRA",
-          "nota": "14.93",
+          "nome": "vencedor da QFH3",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Ethan Ewing",
-          "pais": "AUS",
-          "nota": "17.17",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/562603/philippines-pro-mens-quarterfinals-heat-2-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-11-02",
-      "dia_rotulo": "02/11",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114325",
-      "genero": "M",
-      "rodada": "Quartas de final",
-      "rodada_wsl": "Quarterfinals",
-      "rodada_num": 3,
-      "numero": 3,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Yago Dora",
-          "pais": "BRA",
-          "nota": "17.37",
-          "colete": "yellow",
-          "avancou": true
-        },
-        {
-          "nome": "Kanoa Igarashi",
-          "pais": "JPN",
-          "nota": "9.60",
+          "nome": "vencedor da QFH4",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562608/philippines-pro-mens-quarterfinals-heat-3-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-11-02",
-      "dia_rotulo": "02/11",
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-14",
+      "dia_rotulo": "14/11",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114326",
-      "genero": "M",
-      "rodada": "Quartas de final",
-      "rodada_wsl": "Quarterfinals",
-      "rodada_num": 3,
-      "numero": 4,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Gabriel Medina",
-          "pais": "BRA",
-          "nota": "12.33",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "George Pittar",
-          "pais": "AUS",
-          "nota": "9.17",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/562610/philippines-pro-mens-quarterfinals-heat-4-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-11-02",
-      "dia_rotulo": "02/11",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "115078",
+      "id": "115101",
       "genero": "F",
       "rodada": "Final",
-      "rodada_wsl": "Final",
-      "rodada_num": 4,
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 1,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Caitlin Simmers",
-          "pais": "USA",
-          "nota": "12.00",
+          "nome": "vencedor da SFH1",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Isabella Nichols",
-          "pais": "AUS",
-          "nota": "10.77",
+          "nome": "vencedor da SFH2",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562652/philippines-pro-womens-final-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-11-03",
-      "dia_rotulo": "03/11",
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-14",
+      "dia_rotulo": "14/11",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     },
     {
-      "id": "114327",
-      "genero": "M",
-      "rodada": "Semifinal",
-      "rodada_wsl": "Semifinals",
-      "rodada_num": 4,
-      "numero": 1,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Jack Robinson",
-          "pais": "AUS",
-          "nota": "16.63",
-          "colete": "red",
-          "avancou": true
-        },
-        {
-          "nome": "Ethan Ewing",
-          "pais": "AUS",
-          "nota": "16.00",
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/562645/philippines-pro-mens-semifinals-heat-1-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-11-03",
-      "dia_rotulo": "03/11",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114328",
-      "genero": "M",
-      "rodada": "Semifinal",
-      "rodada_wsl": "Semifinals",
-      "rodada_num": 4,
-      "numero": 2,
-      "status": "encerrada",
-      "surfistas": [
-        {
-          "nome": "Yago Dora",
-          "pais": "BRA",
-          "nota": "13.50",
-          "colete": "yellow",
-          "avancou": false
-        },
-        {
-          "nome": "Gabriel Medina",
-          "pais": "BRA",
-          "nota": "15.76",
-          "colete": "blue",
-          "avancou": true
-        }
-      ],
-      "replay": "https://www.worldsurfleague.com/posts/562647/philippines-pro-mens-semifinals-heat-2-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-11-03",
-      "dia_rotulo": "03/11",
-      "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
-    },
-    {
-      "id": "114329",
+      "id": "114930",
       "genero": "M",
       "rodada": "Final",
-      "rodada_wsl": "Final",
-      "rodada_num": 5,
+      "rodada_wsl": null,
+      "rodada_num": null,
       "numero": 1,
-      "status": "encerrada",
+      "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Jack Robinson",
-          "pais": "AUS",
-          "nota": "14.50",
+          "nome": "vencedor da SFH1",
+          "pais": null,
+          "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Gabriel Medina",
-          "pais": "BRA",
-          "nota": "16.93",
+          "nome": "vencedor da SFH2",
+          "pais": null,
+          "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
-      "replay": "https://www.worldsurfleague.com/posts/562658/philippines-pro-mens-final-heat-1-full-heat-replay?jointEventId=543",
-      "definida": true,
-      "data": "2026-11-03",
-      "dia_rotulo": "03/11",
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-14",
+      "dia_rotulo": "14/11",
       "horario": null,
-      "quando": "encerrada",
-      "estado": "encerrada"
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114908",
+      "genero": "M",
+      "rodada": "?",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 1,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #11",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H1",
+          "pais": null,
+          "nota": null,
+          "colete": "white",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-14",
+      "dia_rotulo": "14/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114909",
+      "genero": "M",
+      "rodada": "?",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 2,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #10",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H2",
+          "pais": null,
+          "nota": null,
+          "colete": "white",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-14",
+      "dia_rotulo": "14/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114910",
+      "genero": "M",
+      "rodada": "?",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 3,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #16",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H3",
+          "pais": null,
+          "nota": null,
+          "colete": "white",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-14",
+      "dia_rotulo": "14/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114911",
+      "genero": "M",
+      "rodada": "?",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 4,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #15",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H4",
+          "pais": null,
+          "nota": null,
+          "colete": "white",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-14",
+      "dia_rotulo": "14/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114912",
+      "genero": "M",
+      "rodada": "?",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 5,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #9",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H5",
+          "pais": null,
+          "nota": null,
+          "colete": "white",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-14",
+      "dia_rotulo": "14/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114913",
+      "genero": "M",
+      "rodada": "?",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 6,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #14",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H6",
+          "pais": null,
+          "nota": null,
+          "colete": "white",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-14",
+      "dia_rotulo": "14/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114914",
+      "genero": "M",
+      "rodada": "?",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 7,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #13",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H7",
+          "pais": null,
+          "nota": null,
+          "colete": "white",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-14",
+      "dia_rotulo": "14/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114915",
+      "genero": "M",
+      "rodada": "?",
+      "rodada_wsl": null,
+      "rodada_num": null,
+      "numero": 8,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Event seed #12",
+          "pais": null,
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H8",
+          "pais": null,
+          "nota": null,
+          "colete": "white",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-14",
+      "dia_rotulo": "14/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
     }
   ]
 }
