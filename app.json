@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "13/11/2026 22:39",
+  "atualizado_em": "14/11/2026 05:01",
   "evento": {
     "nome": "Lexus Pipe Masters",
     "id": "446",
@@ -19,16 +19,6 @@
   "passo_estimado_min": 39,
   "dias": [
     {
-      "data": "2026-11-13",
-      "dia": "13",
-      "mes": "11",
-      "semana": "Sex",
-      "estado": "previsto",
-      "qtd": 2,
-      "evento": "Lexus Pipe Masters",
-      "hoje": true
-    },
-    {
       "data": "2026-11-14",
       "dia": "14",
       "mes": "11",
@@ -36,7 +26,7 @@
       "estado": "previsto",
       "qtd": 15,
       "evento": "Lexus Pipe Masters",
-      "hoje": false
+      "hoje": true
     },
     {
       "data": "2026-11-15",
@@ -64,7 +54,7 @@
       "mes": "11",
       "semana": "Ter",
       "estado": "previsto",
-      "qtd": 11,
+      "qtd": 13,
       "evento": "Lexus Pipe Masters",
       "hoje": false
     },
@@ -163,6 +153,16 @@
       "dia": "27",
       "mes": "11",
       "semana": "Sex",
+      "estado": "vazio",
+      "qtd": 0,
+      "evento": null,
+      "hoje": false
+    },
+    {
+      "data": "2026-11-28",
+      "dia": "28",
+      "mes": "11",
+      "semana": "Sab",
       "estado": "vazio",
       "qtd": 0,
       "evento": null,
@@ -620,8 +620,8 @@
     ],
     "replay": null,
     "definida": true,
-    "data": "2026-11-13",
-    "dia_rotulo": "13/11",
+    "data": "2026-11-14",
+    "dia_rotulo": "14/11",
     "horario": null,
     "quando": "aguardando call",
     "estado": "aguardando_call"
@@ -653,8 +653,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-11-13",
-      "dia_rotulo": "13/11",
+      "data": "2026-11-14",
+      "dia_rotulo": "14/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -685,8 +685,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-11-13",
-      "dia_rotulo": "13/11",
+      "data": "2026-11-14",
+      "dia_rotulo": "14/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1133,8 +1133,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-14",
-      "dia_rotulo": "14/11",
+      "data": "2026-11-15",
+      "dia_rotulo": "15/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1165,8 +1165,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-11-14",
-      "dia_rotulo": "14/11",
+      "data": "2026-11-15",
+      "dia_rotulo": "15/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1613,8 +1613,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-15",
-      "dia_rotulo": "15/11",
+      "data": "2026-11-16",
+      "dia_rotulo": "16/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1645,8 +1645,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-15",
-      "dia_rotulo": "15/11",
+      "data": "2026-11-16",
+      "dia_rotulo": "16/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -2061,8 +2061,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-16",
-      "dia_rotulo": "16/11",
+      "data": "2026-11-17",
+      "dia_rotulo": "17/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -2157,8 +2157,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-16",
-      "dia_rotulo": "16/11",
+      "data": "2026-11-17",
+      "dia_rotulo": "17/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
