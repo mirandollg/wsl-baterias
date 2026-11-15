@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "15/11/2026 07:51",
+  "atualizado_em": "15/11/2026 14:34",
   "evento": {
     "nome": "Lexus Pipe Masters",
     "id": "446",
@@ -24,7 +24,7 @@
       "mes": "11",
       "semana": "Dom",
       "estado": "previsto",
-      "qtd": 15,
+      "qtd": 14,
       "evento": "Lexus Pipe Masters",
       "hoje": true
     },
@@ -54,7 +54,7 @@
       "mes": "11",
       "semana": "Qua",
       "estado": "previsto",
-      "qtd": 13,
+      "qtd": 14,
       "evento": "Lexus Pipe Masters",
       "hoje": false
     },
@@ -1101,8 +1101,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-15",
-      "dia_rotulo": "15/11",
+      "data": "2026-11-16",
+      "dia_rotulo": "16/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1549,8 +1549,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-16",
-      "dia_rotulo": "16/11",
+      "data": "2026-11-17",
+      "dia_rotulo": "17/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -2093,8 +2093,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-17",
-      "dia_rotulo": "17/11",
+      "data": "2026-11-18",
+      "dia_rotulo": "18/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
