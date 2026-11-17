@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "16/11/2026 23:38",
+  "atualizado_em": "17/11/2026 08:09",
   "evento": {
     "nome": "Lexus Pipe Masters",
     "id": "446",
@@ -19,16 +19,6 @@
   "passo_estimado_min": 39,
   "dias": [
     {
-      "data": "2026-11-16",
-      "dia": "16",
-      "mes": "11",
-      "semana": "Seg",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
-      "hoje": true
-    },
-    {
       "data": "2026-11-17",
       "dia": "17",
       "mes": "11",
@@ -36,7 +26,7 @@
       "estado": "previsto",
       "qtd": 15,
       "evento": "Lexus Pipe Masters",
-      "hoje": false
+      "hoje": true
     },
     {
       "data": "2026-11-18",
@@ -163,6 +153,16 @@
       "dia": "30",
       "mes": "11",
       "semana": "Seg",
+      "estado": "vazio",
+      "qtd": 0,
+      "evento": null,
+      "hoje": false
+    },
+    {
+      "data": "2026-12-01",
+      "dia": "01",
+      "mes": "12",
+      "semana": "Ter",
       "estado": "vazio",
       "qtd": 0,
       "evento": null,
