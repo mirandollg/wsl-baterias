@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "23/11/2026 10:43",
+  "atualizado_em": "23/11/2026 22:15",
   "evento": {
     "nome": "Lexus Pipe Masters",
     "id": "446",
@@ -24,7 +24,7 @@
       "mes": "11",
       "semana": "Seg",
       "estado": "previsto",
-      "qtd": 15,
+      "qtd": 2,
       "evento": "Lexus Pipe Masters",
       "hoje": true
     },
@@ -54,7 +54,7 @@
       "mes": "11",
       "semana": "Qui",
       "estado": "previsto",
-      "qtd": 13,
+      "qtd": 15,
       "evento": "Lexus Pipe Masters",
       "hoje": false
     },
@@ -63,9 +63,9 @@
       "dia": "27",
       "mes": "11",
       "semana": "Sex",
-      "estado": "vazio",
-      "qtd": 0,
-      "evento": null,
+      "estado": "previsto",
+      "qtd": 11,
+      "evento": "Lexus Pipe Masters",
       "hoje": false
     },
     {
@@ -598,21 +598,21 @@
     "id": "115079",
     "genero": "F",
     "rodada": "Rodada 1",
-    "rodada_wsl": null,
-    "rodada_num": null,
+    "rodada_wsl": "Round 1",
+    "rodada_num": 1,
     "numero": 1,
     "status": "aguardando",
     "surfistas": [
       {
-        "nome": "Event seed #16",
-        "pais": null,
+        "nome": "Alyssa Spencer",
+        "pais": "USA",
         "nota": null,
         "colete": "red",
         "avancou": false
       },
       {
-        "nome": "Event seed #17",
-        "pais": null,
+        "nome": "Stephanie Gilmore",
+        "pais": "AUS",
         "nota": null,
         "colete": "blue",
         "avancou": false
@@ -631,21 +631,21 @@
       "id": "115079",
       "genero": "F",
       "rodada": "Rodada 1",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
       "numero": 1,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #16",
-          "pais": null,
+          "nome": "Alyssa Spencer",
+          "pais": "USA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Event seed #17",
-          "pais": null,
+          "nome": "Stephanie Gilmore",
+          "pais": "AUS",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -663,14 +663,14 @@
       "id": "114896",
       "genero": "M",
       "rodada": "Rodada 1",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
       "numero": 1,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #32",
-          "pais": null,
+          "nome": "Matthew McGillivray",
+          "pais": "RSA",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -695,21 +695,21 @@
       "id": "115080",
       "genero": "F",
       "rodada": "Rodada 1",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
       "numero": 2,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #15",
-          "pais": null,
+          "nome": "Anat Lelior",
+          "pais": "ISR",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Event seed #18",
-          "pais": null,
+          "nome": "Brisa Hennessy",
+          "pais": "CRC",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -717,8 +717,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-11-23",
-      "dia_rotulo": "23/11",
+      "data": "2026-11-24",
+      "dia_rotulo": "24/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -727,21 +727,21 @@
       "id": "114897",
       "genero": "M",
       "rodada": "Rodada 1",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
       "numero": 2,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #31",
-          "pais": null,
+          "nome": "Luke Thompson",
+          "pais": "RSA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Event seed #33",
-          "pais": null,
+          "nome": "Oscar Berry",
+          "pais": "AUS",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -749,8 +749,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-11-23",
-      "dia_rotulo": "23/11",
+      "data": "2026-11-24",
+      "dia_rotulo": "24/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -759,21 +759,21 @@
       "id": "115081",
       "genero": "F",
       "rodada": "Rodada 1",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
       "numero": 3,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #14",
-          "pais": null,
+          "nome": "Yolanda Hopkins",
+          "pais": "POR",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Event seed #19",
-          "pais": null,
+          "nome": "Vahine Fierro",
+          "pais": "FRA",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -781,8 +781,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-11-23",
-      "dia_rotulo": "23/11",
+      "data": "2026-11-24",
+      "dia_rotulo": "24/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -791,14 +791,14 @@
       "id": "114898",
       "genero": "M",
       "rodada": "Rodada 1",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
       "numero": 3,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #30",
-          "pais": null,
+          "nome": "Eli Hanneman",
+          "pais": "HAW",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -813,8 +813,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-11-23",
-      "dia_rotulo": "23/11",
+      "data": "2026-11-24",
+      "dia_rotulo": "24/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -823,21 +823,21 @@
       "id": "115082",
       "genero": "F",
       "rodada": "Rodada 1",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
       "numero": 4,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #13",
-          "pais": null,
+          "nome": "Tyler Wright",
+          "pais": "AUS",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Event seed #20",
-          "pais": null,
+          "nome": "Sally Fitzgibbons",
+          "pais": "AUS",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -845,8 +845,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-11-23",
-      "dia_rotulo": "23/11",
+      "data": "2026-11-24",
+      "dia_rotulo": "24/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -855,14 +855,14 @@
       "id": "114899",
       "genero": "M",
       "rodada": "Rodada 1",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
       "numero": 4,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #29",
-          "pais": null,
+          "nome": "Joel Vaughan",
+          "pais": "AUS",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -877,8 +877,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-11-23",
-      "dia_rotulo": "23/11",
+      "data": "2026-11-24",
+      "dia_rotulo": "24/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -887,21 +887,21 @@
       "id": "115083",
       "genero": "F",
       "rodada": "Rodada 1",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
       "numero": 5,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #12",
-          "pais": null,
+          "nome": "Caroline Marks",
+          "pais": "USA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Event seed #21",
-          "pais": null,
+          "nome": "Bella Kenworthy",
+          "pais": "USA",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -909,8 +909,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-11-23",
-      "dia_rotulo": "23/11",
+      "data": "2026-11-24",
+      "dia_rotulo": "24/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -919,21 +919,21 @@
       "id": "115084",
       "genero": "F",
       "rodada": "Rodada 1",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
       "numero": 6,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #11",
-          "pais": null,
+          "nome": "Nadia Erostarbe",
+          "pais": "ESP",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "Event seed #22",
-          "pais": null,
+          "nome": "Francisca Veselko",
+          "pais": "POR",
           "nota": null,
           "colete": "blue",
           "avancou": false
@@ -941,8 +941,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-11-23",
-      "dia_rotulo": "23/11",
+      "data": "2026-11-24",
+      "dia_rotulo": "24/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -951,14 +951,14 @@
       "id": "115085",
       "genero": "F",
       "rodada": "Rodada 1",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
       "numero": 7,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #10",
-          "pais": null,
+          "nome": "Bettylou Sakura Johnson",
+          "pais": "HAW",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -973,8 +973,8 @@
       ],
       "replay": null,
       "definida": true,
-      "data": "2026-11-23",
-      "dia_rotulo": "23/11",
+      "data": "2026-11-24",
+      "dia_rotulo": "24/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -983,276 +983,20 @@
       "id": "115086",
       "genero": "F",
       "rodada": "Rodada 1",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada_wsl": "Round 1",
+      "rodada_num": 1,
       "numero": 8,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #9",
-          "pais": null,
+          "nome": "Isabella Nichols",
+          "pais": "AUS",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
           "nome": "Event seed #24",
-          "pais": null,
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": true,
-      "data": "2026-11-23",
-      "dia_rotulo": "23/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
-    },
-    {
-      "id": "114900",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "rodada_wsl": null,
-      "rodada_num": null,
-      "numero": 1,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Event seed #22",
-          "pais": null,
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Event seed #27",
-          "pais": null,
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": true,
-      "data": "2026-11-23",
-      "dia_rotulo": "23/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
-    },
-    {
-      "id": "114901",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "rodada_wsl": null,
-      "rodada_num": null,
-      "numero": 2,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Event seed #23",
-          "pais": null,
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Event seed #26",
-          "pais": null,
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": true,
-      "data": "2026-11-23",
-      "dia_rotulo": "23/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
-    },
-    {
-      "id": "114902",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "rodada_wsl": null,
-      "rodada_num": null,
-      "numero": 3,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Event seed #17",
-          "pais": null,
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "vencedor da R1H1",
-          "pais": null,
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": false,
-      "data": "2026-11-23",
-      "dia_rotulo": "23/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
-    },
-    {
-      "id": "114903",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "rodada_wsl": null,
-      "rodada_num": null,
-      "numero": 4,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Event seed #18",
-          "pais": null,
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "vencedor da R1H2",
-          "pais": null,
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": false,
-      "data": "2026-11-24",
-      "dia_rotulo": "24/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
-    },
-    {
-      "id": "114904",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "rodada_wsl": null,
-      "rodada_num": null,
-      "numero": 5,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Event seed #24",
-          "pais": null,
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Event seed #25",
-          "pais": null,
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": true,
-      "data": "2026-11-24",
-      "dia_rotulo": "24/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
-    },
-    {
-      "id": "114905",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "rodada_wsl": null,
-      "rodada_num": null,
-      "numero": 6,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Event seed #19",
-          "pais": null,
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "vencedor da R1H3",
-          "pais": null,
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": false,
-      "data": "2026-11-24",
-      "dia_rotulo": "24/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
-    },
-    {
-      "id": "114906",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "rodada_wsl": null,
-      "rodada_num": null,
-      "numero": 7,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Event seed #20",
-          "pais": null,
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "vencedor da R1H4",
-          "pais": null,
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": false,
-      "data": "2026-11-24",
-      "dia_rotulo": "24/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
-    },
-    {
-      "id": "114907",
-      "genero": "M",
-      "rodada": "Rodada 2",
-      "rodada_wsl": null,
-      "rodada_num": null,
-      "numero": 8,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Event seed #21",
-          "pais": null,
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "Event seed #28",
           "pais": null,
           "nota": null,
           "colete": "blue",
@@ -1270,15 +1014,15 @@
     {
       "id": "115087",
       "genero": "F",
-      "rodada": "Oitavas de final",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada": "Rodada 2",
+      "rodada_wsl": "Round 2",
+      "rodada_num": 2,
       "numero": 1,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #2",
-          "pais": null,
+          "nome": "Carissa Moore",
+          "pais": "HAW",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -1300,31 +1044,31 @@
       "estado": "aguardando_call"
     },
     {
-      "id": "114916",
+      "id": "114900",
       "genero": "M",
-      "rodada": "Oitavas de final",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada": "Rodada 2",
+      "rodada_wsl": "Round 2",
+      "rodada_num": 2,
       "numero": 1,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #7",
-          "pais": null,
+          "nome": "Barron Mamiya",
+          "pais": "HAW",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "vencedor da R3H2",
-          "pais": null,
+          "nome": "Rio Waida",
+          "pais": "INA",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
       "replay": null,
-      "definida": false,
+      "definida": true,
       "data": "2026-11-24",
       "dia_rotulo": "24/11",
       "horario": null,
@@ -1334,15 +1078,15 @@
     {
       "id": "115088",
       "genero": "F",
-      "rodada": "Oitavas de final",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada": "Rodada 2",
+      "rodada_wsl": "Round 2",
+      "rodada_num": 2,
       "numero": 2,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #5",
-          "pais": null,
+          "nome": "Erin Brooks",
+          "pais": "CAN",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -1364,31 +1108,31 @@
       "estado": "aguardando_call"
     },
     {
-      "id": "114917",
+      "id": "114901",
       "genero": "M",
-      "rodada": "Oitavas de final",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada": "Rodada 2",
+      "rodada_wsl": "Round 2",
+      "rodada_num": 2,
       "numero": 2,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #2",
-          "pais": null,
+          "nome": "Jake Marshall",
+          "pais": "USA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "vencedor da R3H4",
-          "pais": null,
+          "nome": "Alejo Muniz",
+          "pais": "BRA",
           "nota": null,
           "colete": "blue",
           "avancou": false
         }
       ],
       "replay": null,
-      "definida": false,
+      "definida": true,
       "data": "2026-11-24",
       "dia_rotulo": "24/11",
       "horario": null,
@@ -1398,15 +1142,15 @@
     {
       "id": "115089",
       "genero": "F",
-      "rodada": "Oitavas de final",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada": "Rodada 2",
+      "rodada_wsl": "Round 2",
+      "rodada_num": 2,
       "numero": 3,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #3",
-          "pais": null,
+          "nome": "Caitlin Simmers",
+          "pais": "USA",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -1421,120 +1165,24 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-24",
-      "dia_rotulo": "24/11",
+      "data": "2026-11-25",
+      "dia_rotulo": "25/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
     },
     {
-      "id": "114918",
+      "id": "114902",
       "genero": "M",
-      "rodada": "Oitavas de final",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada": "Rodada 2",
+      "rodada_wsl": "Round 2",
+      "rodada_num": 2,
       "numero": 3,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #6",
-          "pais": null,
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "vencedor da R3H1",
-          "pais": null,
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": false,
-      "data": "2026-11-24",
-      "dia_rotulo": "24/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
-    },
-    {
-      "id": "115090",
-      "genero": "F",
-      "rodada": "Oitavas de final",
-      "rodada_wsl": null,
-      "rodada_num": null,
-      "numero": 4,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Event seed #7",
-          "pais": null,
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "vencedor da R1H7",
-          "pais": null,
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": false,
-      "data": "2026-11-24",
-      "dia_rotulo": "24/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
-    },
-    {
-      "id": "114919",
-      "genero": "M",
-      "rodada": "Oitavas de final",
-      "rodada_wsl": null,
-      "rodada_num": null,
-      "numero": 4,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Event seed #3",
-          "pais": null,
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "vencedor da R3H6",
-          "pais": null,
-          "nota": null,
-          "colete": "blue",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": false,
-      "data": "2026-11-24",
-      "dia_rotulo": "24/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
-    },
-    {
-      "id": "115091",
-      "genero": "F",
-      "rodada": "Oitavas de final",
-      "rodada_wsl": null,
-      "rodada_num": null,
-      "numero": 5,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Event seed #1",
-          "pais": null,
+          "nome": "Marco Mignot",
+          "pais": "FRA",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -1556,23 +1204,23 @@
       "estado": "aguardando_call"
     },
     {
-      "id": "114920",
-      "genero": "M",
-      "rodada": "Oitavas de final",
-      "rodada_wsl": null,
-      "rodada_num": null,
-      "numero": 5,
+      "id": "115090",
+      "genero": "F",
+      "rodada": "Rodada 2",
+      "rodada_wsl": "Round 2",
+      "rodada_num": 2,
+      "numero": 4,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #1",
-          "pais": null,
+          "nome": "Luana Silva",
+          "pais": "BRA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "vencedor da R3H3",
+          "nome": "vencedor da R1H7",
           "pais": null,
           "nota": null,
           "colete": "blue",
@@ -1581,8 +1229,104 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-24",
-      "dia_rotulo": "24/11",
+      "data": "2026-11-25",
+      "dia_rotulo": "25/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114903",
+      "genero": "M",
+      "rodada": "Rodada 2",
+      "rodada_wsl": "Round 2",
+      "rodada_num": 2,
+      "numero": 4,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Morgan Cibilic",
+          "pais": "AUS",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R1H2",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-25",
+      "dia_rotulo": "25/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "115091",
+      "genero": "F",
+      "rodada": "Rodada 2",
+      "rodada_wsl": "Round 2",
+      "rodada_num": 2,
+      "numero": 5,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Molly Picklum",
+          "pais": "AUS",
+          "nota": null,
+          "colete": "yellow",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R1H1",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-25",
+      "dia_rotulo": "25/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114904",
+      "genero": "M",
+      "rodada": "Rodada 2",
+      "rodada_wsl": "Round 2",
+      "rodada_num": 2,
+      "numero": 5,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Crosby Colapinto",
+          "pais": "USA",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Mateus Herdy",
+          "pais": "BRA",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": true,
+      "data": "2026-11-25",
+      "dia_rotulo": "25/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1590,15 +1334,15 @@
     {
       "id": "115092",
       "genero": "F",
-      "rodada": "Oitavas de final",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada": "Rodada 2",
+      "rodada_wsl": "Round 2",
+      "rodada_num": 2,
       "numero": 6,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #8",
-          "pais": null,
+          "nome": "Lakey Peterson",
+          "pais": "USA",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -1620,23 +1364,23 @@
       "estado": "aguardando_call"
     },
     {
-      "id": "114921",
+      "id": "114905",
       "genero": "M",
-      "rodada": "Oitavas de final",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada": "Rodada 2",
+      "rodada_wsl": "Round 2",
+      "rodada_num": 2,
       "numero": 6,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #8",
-          "pais": null,
+          "nome": "Filipe Toledo",
+          "pais": "BRA",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "vencedor da R3H5",
+          "nome": "vencedor da R1H3",
           "pais": null,
           "nota": null,
           "colete": "blue",
@@ -1654,15 +1398,15 @@
     {
       "id": "115093",
       "genero": "F",
-      "rodada": "Oitavas de final",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada": "Rodada 2",
+      "rodada_wsl": "Round 2",
+      "rodada_num": 2,
       "numero": 7,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #4",
-          "pais": null,
+          "nome": "Gabriela Bryan",
+          "pais": "HAW",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -1684,23 +1428,23 @@
       "estado": "aguardando_call"
     },
     {
-      "id": "114922",
+      "id": "114906",
       "genero": "M",
-      "rodada": "Oitavas de final",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada": "Rodada 2",
+      "rodada_wsl": "Round 2",
+      "rodada_num": 2,
       "numero": 7,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #4",
-          "pais": null,
+          "nome": "Callum Robson",
+          "pais": "AUS",
           "nota": null,
           "colete": "red",
           "avancou": false
         },
         {
-          "nome": "vencedor da R3H7",
+          "nome": "vencedor da R1H4",
           "pais": null,
           "nota": null,
           "colete": "blue",
@@ -1718,15 +1462,15 @@
     {
       "id": "115094",
       "genero": "F",
-      "rodada": "Oitavas de final",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada": "Rodada 2",
+      "rodada_wsl": "Round 2",
+      "rodada_num": 2,
       "numero": 8,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #6",
-          "pais": null,
+          "nome": "Sawyer Lindblad",
+          "pais": "USA",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -1748,17 +1492,529 @@
       "estado": "aguardando_call"
     },
     {
-      "id": "114923",
+      "id": "114907",
       "genero": "M",
-      "rodada": "Oitavas de final",
-      "rodada_wsl": null,
-      "rodada_num": null,
+      "rodada": "Rodada 2",
+      "rodada_wsl": "Round 2",
+      "rodada_num": 2,
       "numero": 8,
       "status": "aguardando",
       "surfistas": [
         {
-          "nome": "Event seed #5",
+          "nome": "Joao Chianca",
+          "pais": "BRA",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "Ramzi Boukhiam",
+          "pais": "MAR",
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": true,
+      "data": "2026-11-25",
+      "dia_rotulo": "25/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114908",
+      "genero": "M",
+      "rodada": "Rodada 3",
+      "rodada_wsl": "Round 3",
+      "rodada_num": 3,
+      "numero": 1,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Kauli Vaast",
+          "pais": "FRA",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H1",
           "pais": null,
+          "nota": null,
+          "colete": "white",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-25",
+      "dia_rotulo": "25/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114909",
+      "genero": "M",
+      "rodada": "Rodada 3",
+      "rodada_wsl": "Round 3",
+      "rodada_num": 3,
+      "numero": 2,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "George Pittar",
+          "pais": "AUS",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H2",
+          "pais": null,
+          "nota": null,
+          "colete": "white",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-25",
+      "dia_rotulo": "25/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114910",
+      "genero": "M",
+      "rodada": "Rodada 3",
+      "rodada_wsl": "Round 3",
+      "rodada_num": 3,
+      "numero": 3,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Cole Houshmand",
+          "pais": "USA",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H3",
+          "pais": null,
+          "nota": null,
+          "colete": "white",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-25",
+      "dia_rotulo": "25/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114911",
+      "genero": "M",
+      "rodada": "Rodada 3",
+      "rodada_wsl": "Round 3",
+      "rodada_num": 3,
+      "numero": 4,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Connor O'Leary",
+          "pais": "JPN",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H4",
+          "pais": null,
+          "nota": null,
+          "colete": "white",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-25",
+      "dia_rotulo": "25/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114912",
+      "genero": "M",
+      "rodada": "Rodada 3",
+      "rodada_wsl": "Round 3",
+      "rodada_num": 3,
+      "numero": 5,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Jack Robinson",
+          "pais": "AUS",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H5",
+          "pais": null,
+          "nota": null,
+          "colete": "white",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-26",
+      "dia_rotulo": "26/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114913",
+      "genero": "M",
+      "rodada": "Rodada 3",
+      "rodada_wsl": "Round 3",
+      "rodada_num": 3,
+      "numero": 6,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Seth Moniz",
+          "pais": "HAW",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H6",
+          "pais": null,
+          "nota": null,
+          "colete": "white",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-26",
+      "dia_rotulo": "26/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114914",
+      "genero": "M",
+      "rodada": "Rodada 3",
+      "rodada_wsl": "Round 3",
+      "rodada_num": 3,
+      "numero": 7,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Liam O'Brien",
+          "pais": "AUS",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H7",
+          "pais": null,
+          "nota": null,
+          "colete": "white",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-26",
+      "dia_rotulo": "26/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114915",
+      "genero": "M",
+      "rodada": "Rodada 3",
+      "rodada_wsl": "Round 3",
+      "rodada_num": 3,
+      "numero": 8,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Samuel Pupo",
+          "pais": "BRA",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R2H8",
+          "pais": null,
+          "nota": null,
+          "colete": "white",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-26",
+      "dia_rotulo": "26/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114916",
+      "genero": "M",
+      "rodada": "Rodada 4",
+      "rodada_wsl": "Round 4",
+      "rodada_num": 4,
+      "numero": 1,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Ethan Ewing",
+          "pais": "AUS",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R3H2",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-26",
+      "dia_rotulo": "26/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114917",
+      "genero": "M",
+      "rodada": "Rodada 4",
+      "rodada_wsl": "Round 4",
+      "rodada_num": 4,
+      "numero": 2,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Gabriel Medina",
+          "pais": "BRA",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R3H4",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-26",
+      "dia_rotulo": "26/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114918",
+      "genero": "M",
+      "rodada": "Rodada 4",
+      "rodada_wsl": "Round 4",
+      "rodada_num": 4,
+      "numero": 3,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Leonardo Fioravanti",
+          "pais": "ITA",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R3H1",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-26",
+      "dia_rotulo": "26/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114919",
+      "genero": "M",
+      "rodada": "Rodada 4",
+      "rodada_wsl": "Round 4",
+      "rodada_num": 4,
+      "numero": 4,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Italo Ferreira",
+          "pais": "BRA",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R3H6",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-26",
+      "dia_rotulo": "26/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114920",
+      "genero": "M",
+      "rodada": "Rodada 4",
+      "rodada_wsl": "Round 4",
+      "rodada_num": 4,
+      "numero": 5,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Yago Dora",
+          "pais": "BRA",
+          "nota": null,
+          "colete": "yellow",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R3H3",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-26",
+      "dia_rotulo": "26/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114921",
+      "genero": "M",
+      "rodada": "Rodada 4",
+      "rodada_wsl": "Round 4",
+      "rodada_num": 4,
+      "numero": 6,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Kanoa Igarashi",
+          "pais": "JPN",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R3H5",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-26",
+      "dia_rotulo": "26/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114922",
+      "genero": "M",
+      "rodada": "Rodada 4",
+      "rodada_wsl": "Round 4",
+      "rodada_num": 4,
+      "numero": 7,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Griffin Colapinto",
+          "pais": "USA",
+          "nota": null,
+          "colete": "red",
+          "avancou": false
+        },
+        {
+          "nome": "vencedor da R3H7",
+          "pais": null,
+          "nota": null,
+          "colete": "blue",
+          "avancou": false
+        }
+      ],
+      "replay": null,
+      "definida": false,
+      "data": "2026-11-26",
+      "dia_rotulo": "26/11",
+      "horario": null,
+      "quando": "aguardando call",
+      "estado": "aguardando_call"
+    },
+    {
+      "id": "114923",
+      "genero": "M",
+      "rodada": "Rodada 4",
+      "rodada_wsl": "Round 4",
+      "rodada_num": 4,
+      "numero": 8,
+      "status": "aguardando",
+      "surfistas": [
+        {
+          "nome": "Miguel Pupo",
+          "pais": "BRA",
           "nota": null,
           "colete": "red",
           "avancou": false
@@ -1773,8 +2029,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-25",
-      "dia_rotulo": "25/11",
+      "data": "2026-11-26",
+      "dia_rotulo": "26/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1805,8 +2061,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-25",
-      "dia_rotulo": "25/11",
+      "data": "2026-11-26",
+      "dia_rotulo": "26/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1837,8 +2093,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-25",
-      "dia_rotulo": "25/11",
+      "data": "2026-11-26",
+      "dia_rotulo": "26/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1869,8 +2125,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-25",
-      "dia_rotulo": "25/11",
+      "data": "2026-11-27",
+      "dia_rotulo": "27/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1901,8 +2157,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-25",
-      "dia_rotulo": "25/11",
+      "data": "2026-11-26",
+      "dia_rotulo": "26/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1933,8 +2189,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-25",
-      "dia_rotulo": "25/11",
+      "data": "2026-11-27",
+      "dia_rotulo": "27/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1965,8 +2221,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-25",
-      "dia_rotulo": "25/11",
+      "data": "2026-11-27",
+      "dia_rotulo": "27/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -1997,8 +2253,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-25",
-      "dia_rotulo": "25/11",
+      "data": "2026-11-27",
+      "dia_rotulo": "27/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -2029,8 +2285,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-25",
-      "dia_rotulo": "25/11",
+      "data": "2026-11-27",
+      "dia_rotulo": "27/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -2061,8 +2317,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-26",
-      "dia_rotulo": "26/11",
+      "data": "2026-11-27",
+      "dia_rotulo": "27/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -2093,8 +2349,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-25",
-      "dia_rotulo": "25/11",
+      "data": "2026-11-27",
+      "dia_rotulo": "27/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -2125,8 +2381,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-26",
-      "dia_rotulo": "26/11",
+      "data": "2026-11-27",
+      "dia_rotulo": "27/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -2157,8 +2413,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-26",
-      "dia_rotulo": "26/11",
+      "data": "2026-11-27",
+      "dia_rotulo": "27/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -2189,8 +2445,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-26",
-      "dia_rotulo": "26/11",
+      "data": "2026-11-27",
+      "dia_rotulo": "27/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
@@ -2221,264 +2477,8 @@
       ],
       "replay": null,
       "definida": false,
-      "data": "2026-11-26",
-      "dia_rotulo": "26/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
-    },
-    {
-      "id": "114908",
-      "genero": "M",
-      "rodada": "?",
-      "rodada_wsl": null,
-      "rodada_num": null,
-      "numero": 1,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Event seed #11",
-          "pais": null,
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "vencedor da R2H1",
-          "pais": null,
-          "nota": null,
-          "colete": "white",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": false,
-      "data": "2026-11-26",
-      "dia_rotulo": "26/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
-    },
-    {
-      "id": "114909",
-      "genero": "M",
-      "rodada": "?",
-      "rodada_wsl": null,
-      "rodada_num": null,
-      "numero": 2,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Event seed #10",
-          "pais": null,
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "vencedor da R2H2",
-          "pais": null,
-          "nota": null,
-          "colete": "white",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": false,
-      "data": "2026-11-26",
-      "dia_rotulo": "26/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
-    },
-    {
-      "id": "114910",
-      "genero": "M",
-      "rodada": "?",
-      "rodada_wsl": null,
-      "rodada_num": null,
-      "numero": 3,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Event seed #16",
-          "pais": null,
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "vencedor da R2H3",
-          "pais": null,
-          "nota": null,
-          "colete": "white",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": false,
-      "data": "2026-11-26",
-      "dia_rotulo": "26/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
-    },
-    {
-      "id": "114911",
-      "genero": "M",
-      "rodada": "?",
-      "rodada_wsl": null,
-      "rodada_num": null,
-      "numero": 4,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Event seed #15",
-          "pais": null,
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "vencedor da R2H4",
-          "pais": null,
-          "nota": null,
-          "colete": "white",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": false,
-      "data": "2026-11-26",
-      "dia_rotulo": "26/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
-    },
-    {
-      "id": "114912",
-      "genero": "M",
-      "rodada": "?",
-      "rodada_wsl": null,
-      "rodada_num": null,
-      "numero": 5,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Event seed #9",
-          "pais": null,
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "vencedor da R2H5",
-          "pais": null,
-          "nota": null,
-          "colete": "white",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": false,
-      "data": "2026-11-26",
-      "dia_rotulo": "26/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
-    },
-    {
-      "id": "114913",
-      "genero": "M",
-      "rodada": "?",
-      "rodada_wsl": null,
-      "rodada_num": null,
-      "numero": 6,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Event seed #14",
-          "pais": null,
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "vencedor da R2H6",
-          "pais": null,
-          "nota": null,
-          "colete": "white",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": false,
-      "data": "2026-11-26",
-      "dia_rotulo": "26/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
-    },
-    {
-      "id": "114914",
-      "genero": "M",
-      "rodada": "?",
-      "rodada_wsl": null,
-      "rodada_num": null,
-      "numero": 7,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Event seed #13",
-          "pais": null,
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "vencedor da R2H7",
-          "pais": null,
-          "nota": null,
-          "colete": "white",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": false,
-      "data": "2026-11-26",
-      "dia_rotulo": "26/11",
-      "horario": null,
-      "quando": "aguardando call",
-      "estado": "aguardando_call"
-    },
-    {
-      "id": "114915",
-      "genero": "M",
-      "rodada": "?",
-      "rodada_wsl": null,
-      "rodada_num": null,
-      "numero": 8,
-      "status": "aguardando",
-      "surfistas": [
-        {
-          "nome": "Event seed #12",
-          "pais": null,
-          "nota": null,
-          "colete": "red",
-          "avancou": false
-        },
-        {
-          "nome": "vencedor da R2H8",
-          "pais": null,
-          "nota": null,
-          "colete": "white",
-          "avancou": false
-        }
-      ],
-      "replay": null,
-      "definida": false,
-      "data": "2026-11-26",
-      "dia_rotulo": "26/11",
+      "data": "2026-11-27",
+      "dia_rotulo": "27/11",
       "horario": null,
       "quando": "aguardando call",
       "estado": "aguardando_call"
